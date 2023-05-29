@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&display=swap");
+
+.container {
+    font-family: 'Poppins', sans-serif !important;
+    font-weight: 300;
+}
+
+.container .scoreboard header {
+    font-weight: 300;
+    font-size: 1.5rem;
+    text-align: center;
+    margin-top: 10px;
+    color: white;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.scoreboard {
+    background: rgba(0, 0, 0, 0.801);
+    width: 20vh;
+    height: 10vh;
+    border-radius: 10px;
+}
+
+.jobsContainer, .localesContainer {
+    height: 36%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.jobsContainer .job_police {
+    font-size: 1.3rem;
+    color: rgb(255, 255, 255);
+    margin-right: 15px;
+}
+
+.jobsContainer .job_police i {
+    color: rgb(78, 78, 253);
+}
+
+.jobsContainer .job_ems {
+    font-size: 1.2rem;
+    color: rgb(255, 255, 255);
+    margin-right: 15px;
+}
+
+.jobsContainer .job_ems i {
+    color: rgb(253, 78, 78);
+}
+
+.jobsContainer .job_taxi {
+    font-size: 1.2rem;
+    color: rgb(255, 255, 255);
+    margin-right: 15px;
+}
+
+.jobsContainer .job_taxi i {
+    color: rgb(235, 253, 78);
+}
+
+.serverInfo {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 15px;
+}
+
+.serverInfo i {
+    margin-right: 5px;
+}
+
+.activePlayers {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2px;
+}
+
+.userInfo i {
+    margin-right: 5px;
+}
+
+.userInfo {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

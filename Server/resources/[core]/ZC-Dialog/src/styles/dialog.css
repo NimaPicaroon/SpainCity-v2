@@ -1,0 +1,118 @@
+@font-face {
+    font-family: box;
+    src: url('../assets/boxed.65b846fa.ttf');
+}
+
+.logo-wave {
+    position: absolute;
+    left: 18vw;
+    top: -1.5vw;
+    width: 3vw;
+}
+
+.main-div {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 50%;
+    width: 20vw;
+    height: 5vw;
+    background-color: #000000d8;
+    border: 0.1vw solid #ffffff;
+    border-radius: 0.3vw;
+    box-shadow:  0 0 0.25em  rgba(67,71,85,0.27), 0 0.25vw 1vw 0 rgba(0, 89, 255, 0.25);
+}
+
+.span-title {
+    position: absolute;
+    top: 0.5vw;
+    left: 0.5vw;
+    color: white;
+    font-family: box;
+    font-size: 0.7vw;
+}
+
+input[type="text"] {
+    background: none;
+    border: none;
+}
+  
+input[type="text"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+
+.code-intr {
+    position: absolute;
+    width: 95%;
+    height: 15%;
+    top: 45%;
+    font-size: 0.6vw;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    outline: none;
+    color: white;
+    text-align: left;
+    font-family: box;
+}
+
+.accept-button {
+    position: absolute;
+    top: 3.3vw;
+    left: 0.5vw;
+    width: 12vw;
+    height: 1.25vw;
+    background-color: #000000;
+    border-radius: 0.2vw;
+    transition: background-color 200ms linear;
+}
+
+.cancel-button {
+    position: absolute;
+    top: 3.3vw;
+    left: 13vw;
+    width: 6.4vw;
+    height: 1.25vw;
+    background-color: rgb(255, 255, 255);
+    border-radius: 0.2vw;
+    transition: background-color 200ms linear;
+}
+
+.accept-class {
+    position: absolute;
+    font-family: box;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 50%;
+    color: white;
+    -webkit-user-select: none; /* Safari */        
+-moz-user-select: none; /* Firefox */
+-ms-user-select: none; /* IE10+/Edge */
+user-select: none; /* Standard */
+    font-size: 0.7vw;
+}
+
+.cancel-class {
+    position: absolute;
+    font-family: box;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 50%;
+    /* background-color: #111111; */
+    -webkit-user-select: none; /* Safari */        
+-moz-user-select: none; /* Firefox */
+-ms-user-select: none; /* IE10+/Edge */
+user-select: none; /* Standard */
+    font-size: 0.7vw;
+    
+}
+
+.accept-button:hover {
+    transition: background-color 200ms linear;
+    cursor: pointer;
+}
+
+.cancel-button:hover {
+    background-color: rgb(203, 204, 204);
+    transition: background-color 200ms linear;
+    cursor: pointer;
+}

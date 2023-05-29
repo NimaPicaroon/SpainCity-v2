@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="Style.css" type="text/css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="Script.js"></script>
+</head>
+    <body style="overflow: hidden; display: none;">
+    	<div id="dashed-circle-progress" class="ball-carhud" style="position: absolute; width: 80%; right: 15.6%; bottom: 6.5vw;" >
+			<div style="position: absolute; transform: translate(-50%, -50%); right: 50%; ">
+				<svg class="progress-radial" width="6vw" height="6vw" 
+					viewBox="0 0 120 120" shape-rendering="geometricPrecision">
+				<defs>
+					<mask id="circle_mask" x="0" y="0" width="100" height="100" maskUnits="userSpaceOnUse">
+					<circle cx="50" cy="50" r="51" 
+							stroke-width="2" fill="black" opacity="1"/>
+					<circle id="bar" r="50" cx="50" cy="50" fill="transparent" 
+							stroke-dasharray="1" stroke-dashoffset="1000" stroke="white" stroke-width="9"></circle>
+					<circle class="progress-radial-mask-inner" 
+							cx="20" cy="0" r="40" stroke-width="0" fill="black" opacity="1"/>
+					</mask>
+				</defs>
+				<g mask="url(#circle_mask)">
+					<circle class="progress-radial-track" cx="50" cy="50" r="50"  opacity="1" fill="#ffffff"/>
+					<path class="progress-radial-bar" transform="translate(50, 50)" 
+						d="M 0 0" fill="#FBB040">
+					</path>
+				</g>
+				</svg>  
+			</div> 
+
+    	</div>
+		<div class="text">
+			<!-- <span class="sub-text">888</span> -->
+			<span class="main-text">22</span>
+			<span class="kmh-text">KM/H</span>
+			<span class="gears">R</span>
+		</div>
+		<div class="images">
+			<img src="Assets/MotorVerde.png" class="motor">
+			<img src="Assets/GasolinaNaranja.png" class="fuel">
+			<img src="Assets/Cinturon.png" class="seatbelt">
+		</div>
+    </body>
+</html>

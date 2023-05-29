@@ -1,0 +1,32 @@
+{
+    "ballas": {
+        "time": 1669000455,
+        "dock_pistol": 25,
+        "arm_pistol": 10,
+        "canon_pistol": 10
+    },
+    "chinos": {
+        "time": 1669041139,
+        "dock_pistol": 22,
+        "arm_pistol": 10,
+        "canon_pistol": 10
+    },
+    "bloods": {
+        "time": 1669165984,
+        "dock_pistol": 8,
+        "arm_pistol": 4,
+        "canon_pistol": 4
+    },
+    "families": {
+        "time": 1669170306,
+        "dock_pistol": 16,
+        "arm_pistol": 8,
+        "canon_pistol": 8
+    },
+    "mnc": {
+        "time": 1669042922,
+        "dock_pistol": 6,
+        "arm_pistol": 3,
+        "canon_pistol": 3
+    }
+}

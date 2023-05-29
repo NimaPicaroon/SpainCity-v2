@@ -1,0 +1,4430 @@
+{
+    "license:f53c3a7fa7b577d1e8b349d47c1be6ec94a87d5d": {
+        "mins": 41,
+        "hours": 3
+    },
+    "license:feb6d62a5e237d6ac43e1c656bff05ce7ba81a83": {
+        "mins": 58,
+        "hours": 7
+    },
+    "license:24b363c888783788488e08972d1dc61f5d5f7868": {
+        "mins": 37,
+        "hours": 6
+    },
+    "license:549e911c8b65a09a9882338d411f5af1e0973c1b": {
+        "mins": 0,
+        "hours": 33
+    },
+    "license:f80c3cee85271b5ffe05a16a376bd205a438c4ef": {
+        "mins": 58,
+        "hours": 3
+    },
+    "license:8f8215aa607b08c49c9e69cad1a1a4767759a696": {
+        "mins": 19,
+        "hours": 6
+    },
+    "license:31b99ac869e23fb96819a59c5d4f72165104974b": {
+        "mins": 3,
+        "hours": 0
+    },
+    "license:3e59eaec7d3dde9ff0ed6383cd8c019f60718869": {
+        "mins": 9,
+        "hours": 4
+    },
+    "license:c925c03a38a23155b7aeaee4a17d3c164fd98e85": {
+        "mins": 37,
+        "hours": 8
+    },
+    "license:3e69532999d93483a3ad151360d13b63b35975df": {
+        "mins": 4,
+        "hours": 90
+    },
+    "license:eaa968f25872ebf5b8319cb54843581f1215d50a": {
+        "mins": 21,
+        "hours": 24
+    },
+    "license:39cca55ab4055e04f41804e99f33f55c944f5ba7": {
+        "mins": 0,
+        "hours": 10
+    },
+    "license:17c62f39ac9d958e2aca90d17d96c5840024e468": {
+        "mins": 0,
+        "hours": 8
+    },
+    "license:f9a5bec2c0fef673ee54b26bab0f8e2fc2d38016": {
+        "mins": 28,
+        "hours": 5
+    },
+    "license:014fc31e3c5c19a0d30da93340a30585501064d0": {
+        "mins": 20,
+        "hours": 24
+    },
+    "license:3438b0bbc73582d36158c8479db2bfa55eab3cff": {
+        "mins": 35,
+        "hours": 16
+    },
+    "license:efa2b22e4f5c3a2bc94c3818576b99917e95098c": {
+        "mins": 47,
+        "hours": 0
+    },
+    "license:2b142d540ee7137f45eb728246fa3b336562235b": {
+        "mins": 46,
+        "hours": 2
+    },
+    "license:2f2507f4419ad9a2996180d3f97dbd3d3fc469bd": {
+        "mins": 11,
+        "hours": 37
+    },
+    "license:29a13939a4e8806ddda068aab376adeaee8ed04d": {
+        "mins": 35,
+        "hours": 4
+    },
+    "license:09c34e241e545f5b535f92f132af3c2cf0dfe717": {
+        "mins": 0,
+        "hours": 285
+    },
+    "license:d92fd0958d6420e736e2cb7532bd501ad3354a50": {
+        "mins": 0,
+        "hours": 3484
+    },
+    "license:938d1c7e5c0f9b06f34b3e945af73f5bcd1252bd": {
+        "mins": 35,
+        "hours": 52
+    },
+    "license:f33ed087aded3a83e1c7e78da416b1c72d01b1f1": {
+        "mins": 24,
+        "hours": 5
+    },
+    "license:275c0f03ddd8077d311947caadb8de72e4188187": {
+        "mins": 0,
+        "hours": 36
+    },
+    "license:5651dee35420601bc67f422b304c564308bbb0b8": {
+        "mins": 40,
+        "hours": 244
+    },
+    "license:4b141bfa4034dfe535778c3ef82948bf29107a04": {
+        "mins": 44,
+        "hours": 10
+    },
+    "license:ae81c2f8294b5a364b9bb0d82b707529e8ca3d91": {
+        "mins": 48,
+        "hours": 0
+    },
+    "license:6cb9c92f2adba0c2e2000f3ec819ebdc507fe02d": {
+        "mins": 0,
+        "hours": 65
+    },
+    "license:08961e7532a4afe32e1e43378bf04339b582a9fc": {
+        "mins": 21,
+        "hours": 3
+    },
+    "license:192074b94ec4f2e8cba2047081f3b36bebdc376b": {
+        "mins": 25,
+        "hours": 0
+    },
+    "license:1ffe0114d0a2dfe12c9f7f062e49316d9859e8b2": {
+        "mins": 32,
+        "hours": 10
+    },
+    "license:872c5176206fe1997c9ad723310aa735086b540e": {
+        "mins": 25,
+        "hours": 10
+    },
+    "license:cebe8756afb9721cc48efd4e4a74def73f5195ec": {
+        "mins": 26,
+        "hours": 42
+    },
+    "license:47bb55d7fe98485121c7bd46b475d4192689993a": {
+        "mins": 0,
+        "hours": 31
+    },
+    "license:84496ddccb3a08eff13bafd176fbe7e9ac123588": {
+        "mins": 40,
+        "hours": 0
+    },
+    "license:94769003418253314217fc3a41503956a4b46bdf": {
+        "mins": 0,
+        "hours": 2
+    },
+    "license:f3fc0f546936685e4ddd897f99696aa3e776863e": {
+        "mins": 51,
+        "hours": 0
+    },
+    "license:cf70e6a4180f554ec51ee4b86c0c8a994a72a4da": {
+        "mins": 0,
+        "hours": 68
+    },
+    "license:e56915a978d0a274d767f07fa0702405dd5e9e05": {
+        "mins": 55,
+        "hours": 3
+    },
+    "license:ec379120f8e8da699a1ccb364e717e3aaa8ec2c6": {
+        "mins": 4,
+        "hours": 8
+    },
+    "license:c2d1250da2b74096ff8d3d609bc47aa2f0c8bad7": {
+        "mins": 0,
+        "hours": 85
+    },
+    "license:7399add70d8a5a4686a06b1046a858f95b74eaa8": {
+        "mins": 0,
+        "hours": 67
+    },
+    "license:08d04967f5feeb667e4c1caa280f4dee9db5ca4f": {
+        "mins": 1,
+        "hours": 27
+    },
+    "license:66d3a37d6a3143f67b679eac2b95ea83164986a5": {
+        "mins": 0,
+        "hours": 333
+    },
+    "license:421b33e17def3fc2bdd3c41d520b55499432c69b": {
+        "mins": 0,
+        "hours": 3
+    },
+    "license:565a4816ed569ee6fc27fb51d86ce8d6dc737273": {
+        "mins": 38,
+        "hours": 4
+    },
+    "license:ea33094cc6940b8e8b1d489888536a541d4f1106": {
+        "mins": 46,
+        "hours": 4
+    },
+    "license:2d56b5b642d966e36e0e1dc3bdfb81e1814fb42c": {
+        "mins": 17,
+        "hours": 0
+    },
+    "license:458bf612d624e297f3d46cf5a1dea04a2eef0b32": {
+        "mins": 36,
+        "hours": 24
+    },
+    "license:58b498b5f1ca103f0ecd6a3fae9ff4d9460ede14": {
+        "mins": 15,
+        "hours": 6
+    },
+    "license:d2ced4ea220b6897c50e5703e5ed2b6d02de640a": {
+        "mins": 0,
+        "hours": 124
+    },
+    "license:322513e8dd6273aa10dfeaacdfee413627b0c75e": {
+        "mins": 3,
+        "hours": 32
+    },
+    "license:641f6f0887f3b21bb36d90b3ce15c7f945d6f964": {
+        "mins": 50,
+        "hours": 9
+    },
+    "license:d49a0a294a2d43bd309c0a2257c280d5589af86d": {
+        "mins": 0,
+        "hours": 139
+    },
+    "license:d13cb05e2b4b1c3c5d4dfe79900c4630a6417aae": {
+        "mins": 4,
+        "hours": 1
+    },
+    "license:2d6deda7fcd48da6cd70ebad9c079706b2062aab": {
+        "mins": 5,
+        "hours": 1
+    },
+    "license:d07891cbbff77dd58d716966c6cf2361bbcb442c": {
+        "mins": 0,
+        "hours": 167
+    },
+    "license:922d4b38b368f2bd69b9e0163b49df4dd40a832e": {
+        "mins": 39,
+        "hours": 1
+    },
+    "license:4a1c7ee9b72f8eab02cb3a2aa92101ff6a38a5bb": {
+        "mins": 37,
+        "hours": 8
+    },
+    "license:6e8410e0ca0336b918730404135b91ec428b64a3": {
+        "mins": 14,
+        "hours": 16
+    },
+    "license:af78f5e81cf057d0b05dcc5b234ae4bdb87fa3e9": {
+        "mins": 58,
+        "hours": 0
+    },
+    "license:d17bc62126fc96843a9dc21c9c7459fe032b38a3": {
+        "mins": 24,
+        "hours": 3
+    },
+    "license:c35ba8a4cfbde934296ce5622ed4c4ba8f06bf11": {
+        "mins": 54,
+        "hours": 24
+    },
+    "license:6da896327b35c583021cef4f41123262fa649dc7": {
+        "mins": 39,
+        "hours": 2
+    },
+    "license:1a88aa53afdacc8a5986b212cadd02fd1b18ae76": {
+        "mins": 21,
+        "hours": 237
+    },
+    "license:fa7f5d00c55d021f45c66752d5330b56c851a9ef": {
+        "mins": 37,
+        "hours": 11
+    },
+    "license:44aedaeae964e30efe14cb39753643c5f9940c40": {
+        "mins": 56,
+        "hours": 110
+    },
+    "license:4ef9205157601a5306d161a34efc58227298ef6c": {
+        "mins": 30,
+        "hours": 6
+    },
+    "license:34334ead3e2b51dc5a080680a9eb141144454636": {
+        "mins": 10,
+        "hours": 6
+    },
+    "license:3013edb87fd4a3d11f008f1fe7799cff27f25d64": {
+        "mins": 2,
+        "hours": 18
+    },
+    "license:56cbfcbef4fe6b25702209daac8da76fb1047b64": {
+        "mins": 0,
+        "hours": 103
+    },
+    "license:d6c469b9a8476d412322690088954702f30863e6": {
+        "mins": 0,
+        "hours": 10
+    },
+    "license:ba2258f85792a8e6e34d9c829940b8312c88524d": {
+        "mins": 56,
+        "hours": 15
+    },
+    "license:5185c6d20862b684fd8f7869f255f6b661a4b936": {
+        "mins": 52,
+        "hours": 52
+    },
+    "license:01094160257c01e4a280d8f0e6c068f6154fdfd7": {
+        "mins": 53,
+        "hours": 9
+    },
+    "license:ba3d681ce9797c67f3333e0bd4c7bda2b2808a45": {
+        "mins": 15,
+        "hours": 6
+    },
+    "license:9675afe9c292f534943506051f32b8b97c8805ac": {
+        "mins": 34,
+        "hours": 5
+    },
+    "license:2ab814084bdef2965e00f7a9477f8aab81930dd4": {
+        "mins": 30,
+        "hours": 1
+    },
+    "license:f66d47c724f5a5f276f354b5776f686ac7b9d3d3": {
+        "mins": 0,
+        "hours": 118
+    },
+    "license:9ac5d8044709342a770cd09771df78ffa5e67dd3": {
+        "mins": 35,
+        "hours": 735
+    },
+    "license:18afa0f72f6cc4ca36e86c7c4b81238c92b4527c": {
+        "mins": 47,
+        "hours": 13
+    },
+    "license:277a606de5692dff74ac8b026c6fd453a1b4cdf8": {
+        "mins": 21,
+        "hours": 6
+    },
+    "license:1e53d1b108c2dd8be4b521b441f82d362db4b95f": {
+        "mins": 17,
+        "hours": 3
+    },
+    "license:4df03bbb21765737bd8a039a29ef9636f20e13bb": {
+        "mins": 0,
+        "hours": 14
+    },
+    "license:8cde098e6072b9f0ada8283900944f383db4f032": {
+        "mins": 8,
+        "hours": 46
+    },
+    "license:a6c5de1b385b706866bdbabd22191f86181ee9b3": {
+        "mins": 28,
+        "hours": 4
+    },
+    "license:0e7bc27421f69e17ae681c6ac63122b6e46e8ea4": {
+        "mins": 51,
+        "hours": 0
+    },
+    "license:c3f58831440b0d12c62c435ca885f01f9a0226e6": {
+        "mins": 16,
+        "hours": 5
+    },
+    "license:9eb7742a1437c35580d0b2133338f0e30635586d": {
+        "mins": 0,
+        "hours": 58
+    },
+    "license:e84e7cb0a353321aa8bae1b406340e3b82ed0fe6": {
+        "mins": 0,
+        "hours": 11
+    },
+    "license:56a1f9355619cb175fcc6159cd76b382574df12e": {
+        "mins": 15,
+        "hours": 15
+    },
+    "license:46291f51662a28e19d8c0e3853da8778b4ec920d": {
+        "mins": 56,
+        "hours": 9
+    },
+    "license:8561cf00056b016dbd36306187f44388685e6012": {
+        "mins": 28,
+        "hours": 5
+    },
+    "license:f5bf646f37167d5180be17bdf4480503251e0c39": {
+        "mins": 16,
+        "hours": 4
+    },
+    "license:b2b1058af2fa7019bc48a3cdb24e5b3d9d115223": {
+        "mins": 33,
+        "hours": 1
+    },
+    "license:a6eb39b0397b77ce389730e164e5cb3036a500b2": {
+        "mins": 41,
+        "hours": 123
+    },
+    "license:653983749dc0bc006f23466136f23ebe7c93fef4": {
+        "mins": 0,
+        "hours": 6
+    },
+    "license:1489437575d3c5b46f561a1dd14ceb9d0633332d": {
+        "mins": 7,
+        "hours": 10
+    },
+    "license:638989e6865ee99ab93c79fc5cfd6a4693220364": {
+        "mins": 3,
+        "hours": 5
+    },
+    "license:35e04e4c9bf86bbddc3b958f52d0bff5ade4cf54": {
+        "mins": 39,
+        "hours": 4
+    },
+    "license:4ec3824b914f908b9569068546661c2c5f631202": {
+        "mins": 0,
+        "hours": 16
+    },
+    "license:ec9e951d0aa5154c0429468bb0c6e309b442f818": {
+        "mins": 2,
+        "hours": 5
+    },
+    "license:dd2999e09567b012ca5d0056e2da966f4bc79164": {
+        "mins": 3,
+        "hours": 9
+    },
+    "license:fbb40bbb4b3f7eff60376e0aba9b7052c62d2e8e": {
+        "mins": 0,
+        "hours": 71
+    },
+    "license:ba6bfc984c147e531494fd256ab8e5be123e305c": {
+        "mins": 5,
+        "hours": 121
+    },
+    "license:7554e974453f718663d74998187a5f3b094965a6": {
+        "mins": 5,
+        "hours": 0
+    },
+    "license:0d4acb1b1f8aaae0327bbbaf799bca6688441e9e": {
+        "mins": 58,
+        "hours": 7
+    },
+    "license:e5faa414ea0666770817d47aabbeb05f7b5d4425": {
+        "mins": 7,
+        "hours": 15
+    },
+    "license:2d1a4b3b49fef82f721ed9eff2b8f0b6c0fe6bcd": {
+        "mins": 48,
+        "hours": 8
+    },
+    "license:d2b2acc2a01d2589b180e9af3bd51d0449caaab5": {
+        "mins": 17,
+        "hours": 1
+    },
+    "license:e8675cf24c6fc415f55421dbd08493ca84486955": {
+        "mins": 4,
+        "hours": 7
+    },
+    "license:8ca64847e4f7a1b1b6ec7812323c98c53b0ac854": {
+        "mins": 48,
+        "hours": 2
+    },
+    "license:81a567bc7257f849c7ddf10ff557d6ab3f05b677": {
+        "mins": 15,
+        "hours": 29
+    },
+    "license:e9e993496a93243ecd0472a0c7290dde4c74cc30": {
+        "mins": 49,
+        "hours": 1
+    },
+    "license:de3493b1539849047e2972c55690d3274bebda2b": {
+        "mins": 0,
+        "hours": 10
+    },
+    "license:f0636b3d6187040cd1c254ae72f3078ceb7c7027": {
+        "mins": 27,
+        "hours": 11
+    },
+    "license:ae5fcdf111b64883074ce91dfe338a9f8062c594": {
+        "mins": 32,
+        "hours": 16
+    },
+    "license:fb4396c538b00120cc63b8ce41a3dfacd711fe54": {
+        "mins": 0,
+        "hours": 36
+    },
+    "license:14270c3b574bdf533f62e046d14c20865a65a12f": {
+        "mins": 44,
+        "hours": 4
+    },
+    "license:13348e18c025213e189bed44c5a04231a63cf46a": {
+        "mins": 0,
+        "hours": 8
+    },
+    "license:69e4a2da3f96e094bfd30c8b0ea0111f540d7f67": {
+        "mins": 14,
+        "hours": 4
+    },
+    "license:325e959655eb73baae5c517f26a2b7c662a574af": {
+        "mins": 31,
+        "hours": 12
+    },
+    "license:c85d78b06877b7f5e94c1b7c57f27a879905dc06": {
+        "mins": 0,
+        "hours": 34
+    },
+    "license:3877153590738ed375075072a3d818c639392f4c": {
+        "mins": 1,
+        "hours": 4
+    },
+    "license:d40d10c111113c5076486a1f654bf3a1ac27a789": {
+        "mins": 31,
+        "hours": 27
+    },
+    "license:c1c0f4e69d8c4fb66c375b3d3e3c8858b8e025e9": {
+        "mins": 59,
+        "hours": 1
+    },
+    "license:0b3b877ee8d1b108d9d8eae93b0aa0410cf6b31c": {
+        "mins": 17,
+        "hours": 40
+    },
+    "license:6660116e60a83199453372af3b09108f57834610": {
+        "mins": 0,
+        "hours": 38
+    },
+    "license:e8563eca87a7720817cd5a2b7969cf9c6e5bec58": {
+        "mins": 55,
+        "hours": 15
+    },
+    "license:61ac9922d91d66866d2adf8df84da6975be8284b": {
+        "mins": 14,
+        "hours": 8
+    },
+    "license:28523f974fd4e367fc9fac4f7d2a6a2f5649b236": {
+        "mins": 14,
+        "hours": 7
+    },
+    "license:a68b997d5f267f5cf9f6e88153141bf5a99d0357": {
+        "mins": 40,
+        "hours": 58
+    },
+    "license:96d85a9bb01a484eeea69b0d197668173026fd6a": {
+        "mins": 0,
+        "hours": 75
+    },
+    "license:1395dd1e3981cda3dcbdc9c9e10077c3b6d925b1": {
+        "mins": 20,
+        "hours": 6
+    },
+    "license:8c396e35d658c09f564924488032d4b1335b5e44": {
+        "mins": 0,
+        "hours": 11
+    },
+    "license:dd874fa2061a3021a99f3a18ad32609a8f66c431": {
+        "mins": 22,
+        "hours": 5
+    },
+    "license:ff966716bb9b57b13c9c5bbb18bed08c2c8745cb": {
+        "mins": 0,
+        "hours": 83
+    },
+    "license:eae801818f2e3a0bd9cb380a543f1ac2f71def05": {
+        "mins": 36,
+        "hours": 0
+    },
+    "license:44c145346b6fc9e7fec081c8d44c41e1ba4c083d": {
+        "mins": 13,
+        "hours": 0
+    },
+    "license:33f31b44bda8d6a215ea11db91cad73187a529d8": {
+        "mins": 27,
+        "hours": 5
+    },
+    "license:9081d861bc3f453cf8ba462422961357e2a698a2": {
+        "mins": 19,
+        "hours": 73
+    },
+    "license:b9c25770850e04a484b47038a49376dc6c6524e0": {
+        "mins": 3,
+        "hours": 1
+    },
+    "license:f0f7cd11938d498f51a61b326cd413d0b52a1bc6": {
+        "mins": 55,
+        "hours": 10
+    },
+    "license:994c47bfed0fbf7f5225471786b0c9feb74e292a": {
+        "mins": 36,
+        "hours": 3
+    },
+    "license:2328fd8dc5131c13e5790926274b7b979041e6ef": {
+        "mins": 14,
+        "hours": 0
+    },
+    "license:162fabea3ffb85a66915afcde3e94eaaa07598e3": {
+        "mins": 0,
+        "hours": 6
+    },
+    "license:1d7926c2c674115981a7d4ef67921a78d220b821": {
+        "mins": 38,
+        "hours": 5
+    },
+    "license:e3635cdb03bcbb985b441079450921eaddbe343b": {
+        "mins": 24,
+        "hours": 11
+    },
+    "license:616c6f6c81d807039226d2def1b5db71687c7607": {
+        "mins": 32,
+        "hours": 57
+    },
+    "license:c35e9fdb51d78d3ecada652e2ba1ead43ba1520a": {
+        "mins": 25,
+        "hours": 0
+    },
+    "license:f88e12a4034347c85ae00870f6409170cadf68e9": {
+        "mins": 20,
+        "hours": 4
+    },
+    "license:d1998021c7ef9edceb735c5d101643acbb18a694": {
+        "mins": 22,
+        "hours": 2
+    },
+    "license:a83bf0b3aacb53ab5de06337708b8a72af4d291e": {
+        "mins": 24,
+        "hours": 4
+    },
+    "license:375ebeb2e216a2923698b6797860d879cf5aeeb7": {
+        "mins": 15,
+        "hours": 5
+    },
+    "license:5df5c277a6142d3d31f88f13d7849269390e7d30": {
+        "mins": 56,
+        "hours": 95
+    },
+    "license:31d5a8224bd74f4ac04521532234854afa1c9083": {
+        "mins": 0,
+        "hours": 3
+    },
+    "license:e6582e3b0a4c9c2fd7f1c757a8d3c98bff9ea91e": {
+        "mins": 0,
+        "hours": 79
+    },
+    "license:b05a60ae03c9a1a0084ea84fe5f30f00001a08bb": {
+        "mins": 0,
+        "hours": 6
+    },
+    "license:4a75515f7dcc7a54706b91217e044225c69d918f": {
+        "mins": 14,
+        "hours": 2
+    },
+    "license:3a335d654e923bbc8785dcecdc711ee31f7f8078": {
+        "mins": 50,
+        "hours": 32
+    },
+    "license:05a9d0d44737ade9d483cb08eb04941e1f54ad1c": {
+        "mins": 10,
+        "hours": 2
+    },
+    "license:2a819bd9118bcf6c89ab2d94b9266126b502a1cf": {
+        "mins": 38,
+        "hours": 4
+    },
+    "license:66a4c5c4bb4e88e91df2005239bcd0f1ee768318": {
+        "mins": 55,
+        "hours": 10
+    },
+    "license:40eb50f8b90d0051847d2cc0354dd8727ab4f1ab": {
+        "mins": 24,
+        "hours": 0
+    },
+    "license:ee8aa671e7f1104fe25bff030a75b531f8ce6e8f": {
+        "mins": 58,
+        "hours": 2
+    },
+    "license:be65b55dca7d36281f4accf47021b1dbdfc05213": {
+        "mins": 0,
+        "hours": 5
+    },
+    "license:6476d07d9648c13eaa3b592221772c11d39e222b": {
+        "mins": 38,
+        "hours": 2
+    },
+    "license:36b7582795cb684fc3e3f8150e53b7ec086b86f1": {
+        "mins": 1,
+        "hours": 3
+    },
+    "license:b112ccae62a4bfb905dbab05f7a23aa9258def72": {
+        "mins": 44,
+        "hours": 89
+    },
+    "license:a8dbccf33b58b0b5cabe878c2ed23b8ef925e2d4": {
+        "mins": 58,
+        "hours": 3
+    },
+    "license:d341ee98c97f1ccc22b881f5e26fd94e74219393": {
+        "mins": 51,
+        "hours": 2
+    },
+    "license:e7d51a693980a81d47003b39aacbe9e5b36cdf3b": {
+        "mins": 0,
+        "hours": 12
+    },
+    "license:88fbc5de59cc334a784ae64ff63ab1aa99909908": {
+        "mins": 0,
+        "hours": 19
+    },
+    "license:a23e674834e458f734a68f1159e65d75177e17fa": {
+        "mins": 20,
+        "hours": 11
+    },
+    "license:0379dce594d26bf28af9e4fa1adb499203f3c46b": {
+        "mins": 0,
+        "hours": 354
+    },
+    "license:4649f868c56073a8d59275688a63a328581084c7": {
+        "mins": 0,
+        "hours": 3
+    },
+    "license:f8cce325b2748395f563665b9d0601089d8fc730": {
+        "mins": 16,
+        "hours": 1
+    },
+    "license:988c4212f5a2f58cbdd0ec9d8907e5b16130ea1f": {
+        "mins": 51,
+        "hours": 798
+    },
+    "license:d9072aee615330526e2e278999400210eefe79e7": {
+        "mins": 6,
+        "hours": 5
+    },
+    "license:f36e649b20086f8e29ecadf2b51549123dd0d288": {
+        "mins": 29,
+        "hours": 3
+    },
+    "license:ecec395bf097ff97dce6a558b3ae968be084bbd8": {
+        "mins": 59,
+        "hours": 9
+    },
+    "license:059eadeb40088c1e5f6448e9e76b4f6dd1263bf1": {
+        "mins": 0,
+        "hours": 10
+    },
+    "license:6d2f9762875431f7ab01d99110db0b7436c7fef7": {
+        "mins": 48,
+        "hours": 5
+    },
+    "license:e68371a192b11ce889e2540582e3cc96608b6098": {
+        "mins": 0,
+        "hours": 14
+    },
+    "license:04b08f2d04310805b47c86317cba190b3a18c5eb": {
+        "mins": 48,
+        "hours": 10
+    },
+    "license:56ba8ac736eb4bc38779b42292740c00476d7bc0": {
+        "mins": 0,
+        "hours": 16
+    },
+    "license:03c70c16c794ee7ac6aed48f9acf9caed30b1109": {
+        "mins": 0,
+        "hours": 142
+    },
+    "license:c355d20889962b63f7be43cb727902cd66014d33": {
+        "mins": 0,
+        "hours": 5
+    },
+    "license:8c6ba44e4d1c31758b0f8bca64557d35e867def6": {
+        "mins": 0,
+        "hours": 148
+    },
+    "license:6099a0d3558b8b96888eee4605a9d8736d943a47": {
+        "mins": 4,
+        "hours": 1
+    },
+    "license:9108afdb55443e7aea44b8bb057fa251fd212824": {
+        "mins": 28,
+        "hours": 7
+    },
+    "license:0ac6776a33e96776785694b4874b65e4528992d3": {
+        "mins": 38,
+        "hours": 2
+    },
+    "license:51f8831ade1084e224670499bc6aa1b9138c5d4e": {
+        "mins": 27,
+        "hours": 545
+    },
+    "license:4044712c55d647db1022908e2bc47e127c6c0ad6": {
+        "mins": 46,
+        "hours": 1
+    },
+    "license:4b0217a97f472c2141e9c2aaa817291dd6ad7585": {
+        "mins": 6,
+        "hours": 5
+    },
+    "license:3b041bfe7c81bc704515afd141f143bff0364f8e": {
+        "mins": 0,
+        "hours": 21
+    },
+    "license:cf2ba4fe9b1737e00c047a3733f7e6f75610a1c2": {
+        "mins": 34,
+        "hours": 0
+    },
+    "license:467d583cafcc582c5999f1b7c26c94def2fa13bd": {
+        "mins": 52,
+        "hours": 6
+    },
+    "license:6c7445bed444e7f98a6135d5fa37b076e07aabe4": {
+        "mins": 44,
+        "hours": 3
+    },
+    "license:e0abaaffdea73baa34ccc5f14c77c97f4b2a02fb": {
+        "mins": 49,
+        "hours": 2
+    },
+    "license:c2f7b9174ae73d16289b79fde05b4e0db9bc1219": {
+        "mins": 5,
+        "hours": 3
+    },
+    "license:d746048e196717500e3b36f23448b5b7aa3eb820": {
+        "mins": 13,
+        "hours": 0
+    },
+    "license:9687a2cd5389efd20bba2fa21ef20210f63ad949": {
+        "mins": 0,
+        "hours": 4
+    },
+    "license:4ccb629f7d8c1498751a72b17837bd4dffdebf0c": {
+        "mins": 42,
+        "hours": 6
+    },
+    "license:8d9b1caa565cbec45cdc391ad533be2b2b4a6c61": {
+        "mins": 0,
+        "hours": 18
+    },
+    "license:20c03b1f34107a72b7ea22f4aeba20506d0c0ba6": {
+        "mins": 18,
+        "hours": 16
+    },
+    "license:6368ce9929d48c288e78af5577d257d88057e1d6": {
+        "mins": 0,
+        "hours": 125
+    },
+    "license:6bd788ba45385f61bb0cd2264ed7fa45ed3e9cef": {
+        "mins": 55,
+        "hours": 2
+    },
+    "license:f9a0fb56e7d5d9c773cc58270b3cb6797d07f18f": {
+        "mins": 41,
+        "hours": 8
+    },
+    "license:47686076ca21e85ca373be6cd311e6c760996aa3": {
+        "mins": 0,
+        "hours": 19
+    },
+    "license:f86266325f329f7b756b45a740634249ec1ec91c": {
+        "mins": 14,
+        "hours": 1
+    },
+    "license:b98101d8b5d21a7532f0f782b5fa95edeb8b5972": {
+        "mins": 1,
+        "hours": 30
+    },
+    "license:0c313730a08b2f1aff34dbaa17ebaec167b96503": {
+        "mins": 9,
+        "hours": 0
+    },
+    "license:74953d86ced7c77b637e9adedc597829efd3b016": {
+        "mins": 30,
+        "hours": 1
+    },
+    "license:83770d680334168b2fd9d9d6b5b4ae3a3493fbb9": {
+        "mins": 0,
+        "hours": 39
+    },
+    "license:dadf5b0a3b680bd087db25ec9977524e246c2e22": {
+        "mins": 18,
+        "hours": 8
+    },
+    "license:3377a7041fdc19b5ac1cd687577c3488d1c2c3eb": {
+        "mins": 0,
+        "hours": 100
+    },
+    "license:0311b337dd11afc5cc1ec5bc21432c59fd1008c5": {
+        "mins": 10,
+        "hours": 0
+    },
+    "license:c4216393000cc7b530f034f32c979a2b0527e6c7": {
+        "mins": 0,
+        "hours": 122
+    },
+    "license:3387070497d2c2d51f9c7e4efe1edce6fb06a002": {
+        "mins": 38,
+        "hours": 8
+    },
+    "license:4b0f6712ab8196a6bc9ae7cee4bec7a74d5b86fc": {
+        "mins": 0,
+        "hours": 174
+    },
+    "license:d63b1bd62a237c630840101b69b81db4302082c5": {
+        "mins": 37,
+        "hours": 0
+    },
+    "license:d63a9c89f4e45d807668f49d1325633223ff627f": {
+        "mins": 49,
+        "hours": 7
+    },
+    "license:6012b7fbebe4f1cf54720ca6f8b3e9fe2aa0bbd0": {
+        "mins": 40,
+        "hours": 5
+    },
+    "license:c5516bc38e6e577c10e5b0a9087a83564d4c672b": {
+        "mins": 54,
+        "hours": 4
+    },
+    "license:995022fd1d9a44ac78543180494854a007b91d04": {
+        "mins": 40,
+        "hours": 14
+    },
+    "license:29da520859435f48c2dd4717908c97fda1293ead": {
+        "mins": 0,
+        "hours": 101
+    },
+    "license:ff08ba614f2e023a680da10f47f1d80d9e78b6d7": {
+        "mins": 57,
+        "hours": 3
+    },
+    "license:e9739e669d092faeb7262e5dc5e4ab459d676d82": {
+        "mins": 23,
+        "hours": 6
+    },
+    "license:8d8531dd4799e9a4e5beb0c7caa6e294b40ce90e": {
+        "mins": 17,
+        "hours": 4
+    },
+    "license:7efc6f3d06e6ae0792115ee7c2a001a17b3afbf8": {
+        "mins": 0,
+        "hours": 20
+    },
+    "license:fa68960348bee2c7601a03d8145e6751646cea26": {
+        "mins": 0,
+        "hours": 2
+    },
+    "license:7ef64053fab5b0ecae1b803c6bae5423644f3f99": {
+        "mins": 28,
+        "hours": 10
+    },
+    "license:88c167821328a27d134eab266869c294ed62968f": {
+        "mins": 0,
+        "hours": 1
+    },
+    "license:80db89133aef5e0b2af6c466fe9f46d8bcbd4e65": {
+        "mins": 33,
+        "hours": 2
+    },
+    "license:453671285340d03c7445dbe78f46366bfd51f40b": {
+        "mins": 0,
+        "hours": 111
+    },
+    "license:0262f90f76274f6db7185840e6e05e5c74aa4ac7": {
+        "mins": 0,
+        "hours": 1
+    },
+    "license:2c480a24c5eb4ad430b37c953d7564ce485403f2": {
+        "mins": 29,
+        "hours": 2
+    },
+    "license:28d0ac094130cc2f00ca59facfa48e7e6a241028": {
+        "mins": 19,
+        "hours": 124
+    },
+    "license:59420bb9bf5574f5af3cd4f8a40311f95f1b1cd5": {
+        "mins": 1,
+        "hours": 2
+    },
+    "license:8504b9da7f503538411b1aaaacab42a4e7354939": {
+        "mins": 0,
+        "hours": 0
+    },
+    "license:5582dd1aa5087012869d21740b6dc48c656686c8": {
+        "mins": 22,
+        "hours": 7
+    },
+    "license:a5c403c8380c0de1381fd8721ed60454f9812f7b": {
+        "mins": 53,
+        "hours": 5
+    },
+    "license:37e4b2e6ef09883e396bcffaf605382c0cc857f9": {
+        "mins": 3,
+        "hours": 33
+    },
+    "license:81a5829ac750be1682d58353a96a3a60e41d77e7": {
+        "mins": 0,
+        "hours": 927
+    },
+    "license:2bcada4db3f4874e12192efb5ce964d96ab536c5": {
+        "mins": 0,
+        "hours": 343
+    },
+    "license:1e2b23d484f884a53a041a380dbcad55dcdd8dae": {
+        "mins": 13,
+        "hours": 1
+    },
+    "license:2ae4d3ed34a86bb4dafe461b0df3b2c1260e3cfa": {
+        "mins": 0,
+        "hours": 34
+    },
+    "license:f251ba493685717f11e6ea1ea553b2fcbd782988": {
+        "mins": 2,
+        "hours": 190
+    },
+    "license:439e52dbe0d00812102cc64a9c2f25de10deac52": {
+        "mins": 25,
+        "hours": 5
+    },
+    "license:52a35691fd11bea98b51184e9172bfddcf830f33": {
+        "mins": 25,
+        "hours": 2
+    },
+    "license:6026aba84648a55849d6e338474f12e1f0b75187": {
+        "mins": 0,
+        "hours": 7
+    },
+    "license:c0516fb49180e04c0457a5293cd17d4faa71c4de": {
+        "mins": 31,
+        "hours": 7
+    },
+    "license:ee8a3b8228d6b698f1fce947b1908899f497087a": {
+        "mins": 0,
+        "hours": 4
+    },
+    "license:1fe49fd6643b124f98aeb36094ffb61232f5220d": {
+        "mins": 47,
+        "hours": 2
+    },
+    "license:6e49122c8e6bdd96e338afcd14cf150223f3e763": {
+        "mins": 18,
+        "hours": 2
+    },
+    "license:fada7897641db40efc474e6ffb032ca6221e21f7": {
+        "mins": 13,
+        "hours": 4
+    },
+    "license:9018a9f02e542c67d3505b0d288e9f8b47857af2": {
+        "mins": 59,
+        "hours": 27
+    },
+    "license:09358574047e3ae6eff260ba81c9aaa54d5ee526": {
+        "mins": 23,
+        "hours": 45
+    },
+    "license:80a45b0a5e74120c3f1d506d507856f6affd6f3f": {
+        "mins": 13,
+        "hours": 74
+    },
+    "license:3874b82577263df07f013ee7466c51bdc5ad38c4": {
+        "mins": 12,
+        "hours": 23
+    },
+    "license:dec2c9e36d93bc74a2a7727aac631467a2232d1c": {
+        "mins": 27,
+        "hours": 7
+    },
+    "license:a42a4412c383d4d52b375121dd639dfac96bb241": {
+        "mins": 17,
+        "hours": 3
+    },
+    "license:4a61da49b6e2e0d92019576539c7946e8e7327aa": {
+        "mins": 11,
+        "hours": 1
+    },
+    "license:0e1196fc20e23326dbd6c0725feab1fdf60a81c3": {
+        "mins": 48,
+        "hours": 673
+    },
+    "license:578096c3c545e024c48371f56971bdef87867e8d": {
+        "mins": 54,
+        "hours": 3
+    },
+    "license:92b3b4ed33438efe398f44b8d84a43d16b553ef1": {
+        "mins": 10,
+        "hours": 9
+    },
+    "license:6088b2fc35ed683b01d69dfc49420a7e1277abee": {
+        "mins": 33,
+        "hours": 38
+    },
+    "license:6f93b02d5e2825e23bb6ab6bab5fd0c0019ca7d1": {
+        "mins": 39,
+        "hours": 2
+    },
+    "license:4446aa994dd03544eb8ddf2b352c27ab46643427": {
+        "mins": 0,
+        "hours": 8
+    },
+    "license:84bf7f3f91df2b4cd7075900831efefafead92e6": {
+        "mins": 27,
+        "hours": 1
+    },
+    "license:4077b09658fcd98d638780d1b014b2bf1b0ab4c6": {
+        "mins": 32,
+        "hours": 7
+    },
+    "license:32c07afe9737b1d848ca437b5bb3b3cc2846788a": {
+        "mins": 0,
+        "hours": 4
+    },
+    "license:edde435a01b7d8a32322035751142a2ace5c8feb": {
+        "mins": 34,
+        "hours": 40
+    },
+    "license:9b70576973facd49e2ba5a9aea4421cc68cb0c31": {
+        "mins": 6,
+        "hours": 1
+    },
+    "license:4360f35a9933a60b3be9c7c7e1110f4578c184ee": {
+        "mins": 0,
+        "hours": 17
+    },
+    "license:60b3aaee0b3f5ab367015d1439cc94402833120c": {
+        "mins": 59,
+        "hours": 2
+    },
+    "license:1e1ea8c0739bd463b510ad9fe7f5606eeeb8785b": {
+        "mins": 12,
+        "hours": 11
+    },
+    "license:743c95ac90a317c5d612a032bd1b994cd9fb3fd9": {
+        "mins": 16,
+        "hours": 3
+    },
+    "license:a74e99f82df4eeb142c512d8867b8f14a67ce785": {
+        "mins": 11,
+        "hours": 7
+    },
+    "license:063ee8343ed28f523537abff792b98144a58a89f": {
+        "mins": 10,
+        "hours": 483
+    },
+    "license:c55335b123c268bef1df98cbb5fb44c085bc3f58": {
+        "mins": 53,
+        "hours": 9
+    },
+    "license:0db52d699f316d880a97c4207368b464c597c1dd": {
+        "mins": 18,
+        "hours": 7
+    },
+    "license:f5b86f41c926fc0e8709ebc18efb3d11afc2fa1a": {
+        "mins": 21,
+        "hours": 794
+    },
+    "license:b2b0c80f1fea4594ad5c8bb76006c9f0ca1f8683": {
+        "mins": 46,
+        "hours": 27
+    },
+    "license:8e3bac1b5f60217170181c11a6d85376232591b7": {
+        "mins": 0,
+        "hours": 129
+    },
+    "license:4509540e9ece48b70979a2893e2c427a56132983": {
+        "mins": 0,
+        "hours": 6
+    },
+    "license:e66cca01918b1a474efbde68f7a05032c6ee713d": {
+        "mins": 59,
+        "hours": 5
+    },
+    "license:93927ac8f6896070e4e317708fba54f8f4c5754b": {
+        "mins": 35,
+        "hours": 6
+    },
+    "license:53bdd16e123c21234f58391ab031f4f827ab6b38": {
+        "mins": 18,
+        "hours": 26
+    },
+    "license:e7d2f3b5b18b85d9cf2ea92bed9f872e22064941": {
+        "mins": 9,
+        "hours": 14
+    },
+    "license:e82de57eeb65697ebf84613f8a7038395585594c": {
+        "mins": 0,
+        "hours": 32
+    },
+    "license:77d424e62ad92df9eb8be73dd7b684a59a95f928": {
+        "mins": 28,
+        "hours": 5
+    },
+    "license:db99610326ff8f4a988f43758ba1328b47bc7a5e": {
+        "mins": 21,
+        "hours": 1182
+    },
+    "license:e957cc38f022d1a2dfa8d9a56178da0f18a84237": {
+        "mins": 10,
+        "hours": 7
+    },
+    "license:abeea0c3e312778ba6755d9be55be413fbdc01af": {
+        "mins": 17,
+        "hours": 5
+    },
+    "license:1f90e0fe1c367ac82c107f425cb7fcb9defb1440": {
+        "mins": 10,
+        "hours": 1
+    },
+    "license:8736012846daa9fc31ef8fca67895233d0825fb9": {
+        "mins": 45,
+        "hours": 2
+    },
+    "license:e0674e579032069150e9e91c532740ea3c168e45": {
+        "mins": 38,
+        "hours": 0
+    },
+    "license:37b5ee2c9166d980d63f4eb86a5afb502c754881": {
+        "mins": 0,
+        "hours": 11
+    },
+    "license:d6c77542e77244ce11c442a557bc1eb682d74df1": {
+        "mins": 34,
+        "hours": 5
+    },
+    "license:6a18a74ceec2ffb24ce15676aa8ce369cb63c9f5": {
+        "mins": 50,
+        "hours": 1
+    },
+    "license:3878db024280fad16055f2eb27a2b68af19815f0": {
+        "mins": 49,
+        "hours": 1
+    },
+    "license:27b48f5bf924cf48f606cbd826aa34f0264136c4": {
+        "mins": 45,
+        "hours": 3
+    },
+    "license:29d4faba13c5e904c118f698bc8eec997fdb18cf": {
+        "mins": 40,
+        "hours": 22
+    },
+    "license:7fd11b2a88813a6fc1b9ce98404976e01f918ee0": {
+        "mins": 42,
+        "hours": 2
+    },
+    "license:5aad2f65ecd4af580d03432c14681a94759e7b84": {
+        "mins": 0,
+        "hours": 34
+    },
+    "license:089dc190a393a381f07c3509cfd7e6e12f862dc6": {
+        "mins": 10,
+        "hours": 3
+    },
+    "license:41c78312931c48f53d05626ccbaef472b411f678": {
+        "mins": 22,
+        "hours": 6
+    },
+    "license:b292ce5a637e4e0bd78c09a28cf8cf7ab13fdc03": {
+        "mins": 13,
+        "hours": 16
+    },
+    "license:f0a7d328bcedd12dbb20ca8f17c66d2dcc1753be": {
+        "mins": 1,
+        "hours": 2
+    },
+    "license:19700486180f4a2a290949b6d39646db083f87e4": {
+        "mins": 51,
+        "hours": 0
+    },
+    "license:6600bf6be05e456e4f5436c9c9047cc994148554": {
+        "mins": 0,
+        "hours": 4
+    },
+    "license:cd504af8a0357dbf9bf97698cb09dd3acef14a8f": {
+        "mins": 21,
+        "hours": 14
+    },
+    "license:887435ce8a808245c9ccbcd75b96f19f2274ae6b": {
+        "mins": 31,
+        "hours": 1
+    },
+    "license:721083d0194897a6c87c85f63c3d40cf064139ab": {
+        "mins": 0,
+        "hours": 22
+    },
+    "license:4e9e5329b02e72de6cbd8384c4972952e9107dea": {
+        "mins": 25,
+        "hours": 7
+    },
+    "license:55aaa0e868e396042ebc513b16e6ed4c40c36c70": {
+        "mins": 0,
+        "hours": 22
+    },
+    "license:7f46282d6d64909274f77aa9c9321ade6b4076dc": {
+        "mins": 0,
+        "hours": 4
+    },
+    "license:6990e8b1a22a274214a9ab30c4d443ef25e609bb": {
+        "mins": 16,
+        "hours": 4
+    },
+    "license:2346609ec2182af2f0456f22d84e39f64da15a71": {
+        "mins": 16,
+        "hours": 26
+    },
+    "license:69b545e29811ada9ff627e5b3b458d4c99f26901": {
+        "mins": 55,
+        "hours": 17
+    },
+    "license:e153ec6d58b1ed5885d196808d61159a483cdc1b": {
+        "mins": 11,
+        "hours": 3
+    },
+    "license:bc97a2ef4449f33b4f4cbea16f269def5c8f1dc3": {
+        "mins": 10,
+        "hours": 2
+    },
+    "license:d38e32caab1ff27d87df5fee052f103c1a8c1e9e": {
+        "mins": 55,
+        "hours": 2
+    },
+    "license:5319e1236f1ab1a9056f2dd57a57f599bb4df27e": {
+        "mins": 5,
+        "hours": 4
+    },
+    "license:557a0c3c98611ef4d332462afaae38256f9022ee": {
+        "mins": 0,
+        "hours": 6
+    },
+    "license:5321cd4477478b9dcccccbe37ebd404a29038add": {
+        "mins": 0,
+        "hours": 63
+    },
+    "license:a5205823a807725d8a2936ec9da2219ea7073e47": {
+        "mins": 57,
+        "hours": 10
+    },
+    "license:b19434733eaccd36c91edc7cc9bed42a757c2b2d": {
+        "mins": 50,
+        "hours": 1
+    },
+    "license:e3841797d539f0f0aec86bb9ee11e951e4119ba0": {
+        "mins": 36,
+        "hours": 169
+    },
+    "license:121baa620c80d91313045a678fa0f45662b561ab": {
+        "mins": 0,
+        "hours": 154
+    },
+    "license:fd26224242ee3f6991f209e60fd1be6cf0004144": {
+        "mins": 32,
+        "hours": 4
+    },
+    "license:e8d644bcc2a1d254458c9d7508c59cdcb8aa90ad": {
+        "mins": 17,
+        "hours": 1
+    },
+    "license:edfbecec3e07e716d344b36bb5ba31360c18e7b3": {
+        "mins": 34,
+        "hours": 1
+    },
+    "license:302a953c2228c1b9ed083c0c0f6acf1589e19e01": {
+        "mins": 0,
+        "hours": 215
+    },
+    "license:caf56352c0681e8cbd442b27d4548ad391f5b5e8": {
+        "mins": 0,
+        "hours": 52
+    },
+    "license:1b7e4a29facf3c0432b53fe266a49b96f775cee4": {
+        "mins": 47,
+        "hours": 1
+    },
+    "license:00a7f48214476643af7c5b5f2839af787511b9bb": {
+        "mins": 0,
+        "hours": 12
+    },
+    "license:c1a8a886324bfbf8c2b68586ec01b63defa57079": {
+        "mins": 0,
+        "hours": 193
+    },
+    "license:779f52eb0f7d51ebea20d25b7977501d39dc7e3b": {
+        "mins": 32,
+        "hours": 171
+    },
+    "license:bb2c111e76013da31a126da500fcf8c16514eac4": {
+        "mins": 11,
+        "hours": 0
+    },
+    "license:a038343bdbecbe32cbeacc62771e67f9272e174c": {
+        "mins": 25,
+        "hours": 8
+    },
+    "license:5feb5bab970554adf4e666555f0a4f046a4a218e": {
+        "mins": 3,
+        "hours": 3
+    },
+    "license:e5dd3264ac155669b318a50d33cf28cc3e987c39": {
+        "mins": 57,
+        "hours": 13
+    },
+    "license:d73c72fa57fcc2207c994a3a03e69c6bbe672803": {
+        "mins": 40,
+        "hours": 109
+    },
+    "license:5ccf8fe3e5ae43300f5336e2caed6eb06f1f16cd": {
+        "mins": 0,
+        "hours": 60
+    },
+    "license:703f46ded2bf364ddc176c890afdf4b3fe6921a8": {
+        "mins": 0,
+        "hours": 18
+    },
+    "license:adf62791ac2f167e73175b699326ca63303acd46": {
+        "mins": 10,
+        "hours": 5
+    },
+    "license:fbfd5aa62d7178b7082ed143d87365bb262aecad": {
+        "mins": 6,
+        "hours": 5
+    },
+    "license:607e47d62aff2b4bbedfec5fcf44e0a5f9e6754d": {
+        "mins": 43,
+        "hours": 19
+    },
+    "license:8f985e610441f4327a2dd244b9f6fb7676655e06": {
+        "mins": 5,
+        "hours": 15
+    },
+    "license:080381a19488dab74f39e515ba60c9867a9763ed": {
+        "mins": 33,
+        "hours": 0
+    },
+    "license:b77ba6a60efb8bfde366ffcdd9affbc83fe4b8ab": {
+        "mins": 47,
+        "hours": 2
+    },
+    "license:c79430085a1f7612322cbf5a8b509c64bed2ae95": {
+        "mins": 0,
+        "hours": 60
+    },
+    "license:96f56925ad18d0fe3179763dae246869bb2656da": {
+        "mins": 0,
+        "hours": 11
+    },
+    "license:281922e8bc9a2cbefd29a6536b8b8b8e105825cb": {
+        "mins": 0,
+        "hours": 16
+    },
+    "license:63d5483219fecbbfe0d1a4b74f8eea3ec79dcaab": {
+        "mins": 56,
+        "hours": 6
+    },
+    "license:7e7496639ad509d4a48e5a1a031f03b8dcb4ba5c": {
+        "mins": 30,
+        "hours": 4
+    },
+    "license:9111adac8c2ff1b768e3ba8aab302a3f3cf7ab26": {
+        "mins": 0,
+        "hours": 1
+    },
+    "license:3b4c54d176b55fe029b5f982a89344ec764c4abf": {
+        "mins": 10,
+        "hours": 14
+    },
+    "license:88a51b0bf397ac17ea8219ffec2b6762b0c41a1b": {
+        "mins": 3,
+        "hours": 225
+    },
+    "license:9f11176a4b11849e3b509501ff1852072713f190": {
+        "mins": 36,
+        "hours": 2
+    },
+    "license:2a8bb88018b5761433724c582a3e1eae2f21e4bf": {
+        "mins": 59,
+        "hours": 3
+    },
+    "license:986e0caace18d3af82c89e8e2e9fc7901ab4cc32": {
+        "mins": 42,
+        "hours": 3
+    },
+    "license:50f559f719914203b65d58ae02d418bc54cf4467": {
+        "mins": 9,
+        "hours": 115
+    },
+    "license:8827ebc697bab17272996e3b5adf96b9e156e9ae": {
+        "mins": 0,
+        "hours": 158
+    },
+    "license:84db76919ca139357fdc6b693155fb5de67d59e4": {
+        "mins": 52,
+        "hours": 1
+    },
+    "license:8dd67290083518d11173190425837fc2d3099973": {
+        "mins": 34,
+        "hours": 4
+    },
+    "license:0523b04925140e3ce065c9ffc4ae7f12438b314c": {
+        "mins": 33,
+        "hours": 3
+    },
+    "license:e6492c4699d0320b90d6a0947a41e7380f3ff0ba": {
+        "mins": 0,
+        "hours": 430
+    },
+    "license:a04827c418bf663471976bd49891d6354516d6c3": {
+        "mins": 0,
+        "hours": 95
+    },
+    "license:c9cec62c3035b0db71b940962d5b19063ec9e2cc": {
+        "mins": 49,
+        "hours": 13
+    },
+    "license:b9f8f599ebf73e9b2f0530ccce93a8424e0c98d5": {
+        "mins": 0,
+        "hours": 10
+    },
+    "license:548da4010aaf9cd335560853bd5856cf0ee744a5": {
+        "mins": 22,
+        "hours": 4
+    },
+    "license:cf2e841fe07b2dabb1b2a7955b811305aa58e61d": {
+        "mins": 19,
+        "hours": 0
+    },
+    "license:ed41b87fcb55d24fc56b1e138843046c21a4b856": {
+        "mins": 3,
+        "hours": 3
+    },
+    "license:913b5b9a4af0ccdcd29d765e2cfda079faac76fe": {
+        "mins": 39,
+        "hours": 0
+    },
+    "license:cdc3b52f3c2e2fe5a11ac0f44b01b2ab6881a78d": {
+        "mins": 57,
+        "hours": 7
+    },
+    "license:7e0e8a9d3a30c942fee4db394a36b44d132d96ca": {
+        "mins": 30,
+        "hours": 29
+    },
+    "license:a9e097af8679fcc1bfb620dec0e51cec9552c9e8": {
+        "mins": 0,
+        "hours": 2
+    },
+    "license:d9dcc042bc31398fc681a5cca9c6e2c72189713d": {
+        "mins": 16,
+        "hours": 2
+    },
+    "license:1dd63b258977130cf54b78a4edf5ac9d6990a1f8": {
+        "mins": 3,
+        "hours": 4
+    },
+    "license:7972ec0324624ad3d729f6d0b7c6715545611d9b": {
+        "mins": 0,
+        "hours": 5
+    },
+    "license:76a15c4d6cfc7a8d7a32d6c4ae253072c6d87575": {
+        "mins": 0,
+        "hours": 101
+    },
+    "license:a89e66d6a506b1dacd29f0f003f2f6941ef692ce": {
+        "mins": 5,
+        "hours": 3
+    },
+    "license:118ac0a243a9090fe17cf112bdddff53b67970c8": {
+        "mins": 39,
+        "hours": 48
+    },
+    "license:27b7c7b98e02caabc3a742940dd2d7ce5f21a6d2": {
+        "mins": 0,
+        "hours": 10
+    },
+    "license:8c7315a514c75b398e2ea79cf780427cc57bfe1a": {
+        "mins": 47,
+        "hours": 34
+    },
+    "license:0cf755a7f23d8a14470ec1ae9f20a62c74540651": {
+        "mins": 13,
+        "hours": 9
+    },
+    "license:0fd2b56d5fe053dec9c2c7de48832f222c9d8ecc": {
+        "mins": 11,
+        "hours": 7
+    },
+    "license:f941a62e0ac2880b3aaeb83bcce49a1fdd42f7d7": {
+        "mins": 16,
+        "hours": 16
+    },
+    "license:3f5caae8c77b0edd269cf60c460f4a692518033b": {
+        "mins": 42,
+        "hours": 1
+    },
+    "license:8ed7153957feb8da79c1cd10a1015ea92c7b36d2": {
+        "mins": 39,
+        "hours": 1
+    },
+    "license:ab985e79dbf78bf4e1c072fb99642b4f98275f14": {
+        "mins": 35,
+        "hours": 12
+    },
+    "license:a111a8fb7a4062ae6478f2adbb34b39ba38ba075": {
+        "mins": 24,
+        "hours": 49
+    },
+    "license:c43dbfd335175c59d1b1e0d636967c1781b3048a": {
+        "mins": 0,
+        "hours": 2
+    },
+    "license:aa7459bbb6de1a28fd0b2ffa6dd4472867ae85f6": {
+        "mins": 1,
+        "hours": 1
+    },
+    "license:04ec0bf72bcef2b8e7ef91205290febe7a8c8acb": {
+        "mins": 35,
+        "hours": 32
+    },
+    "license:692b072f2ce7879bf60500c5bcc28af6b491e073": {
+        "mins": 0,
+        "hours": 25
+    },
+    "license:35e8094bbb65cc08dfed21d398a8bf1347b96197": {
+        "mins": 0,
+        "hours": 31
+    },
+    "license:65ae68ff6be333182e2611dae46190afc47ba043": {
+        "mins": 9,
+        "hours": 7
+    },
+    "license:3814cf28f72fd62c53440f825923ff7a851ddf1e": {
+        "mins": 24,
+        "hours": 4
+    },
+    "license:9ebfd9c4e7f52675acb3235063b122b351dbe098": {
+        "mins": 28,
+        "hours": 5
+    },
+    "license:b60f699eb8b6d94da4d7442b70b3fe2c020d8010": {
+        "mins": 0,
+        "hours": 433
+    },
+    "license:7244cf0852f80c335473d272e83236828f51d536": {
+        "mins": 32,
+        "hours": 4
+    },
+    "license:ed574b49ccf1c52aba44da5fa0f1b90b6940bfff": {
+        "mins": 0,
+        "hours": 14
+    },
+    "license:41aa26c947b2607f003459ca90ec13510ca6b3eb": {
+        "mins": 18,
+        "hours": 8
+    },
+    "license:eab7e0bb7b32e7b2baf4f65c674006e21d79959a": {
+        "mins": 36,
+        "hours": 4
+    },
+    "license:96cddb777dca847933b78052cbab7c3b5471772f": {
+        "mins": 35,
+        "hours": 8
+    },
+    "license:9add13752f0b05b27b86ff2166672850e71d7a24": {
+        "mins": 22,
+        "hours": 1
+    },
+    "license:cf6757588ade225a7ef923400ed387b2edfb135f": {
+        "mins": 0,
+        "hours": 1
+    },
+    "license:3ff02e20c73f38dfa6e87ff2eefe242d805261e7": {
+        "mins": 1,
+        "hours": 9
+    },
+    "license:fda259f5bd6a1f758be9387b51a5fabfc27cf78a": {
+        "mins": 57,
+        "hours": 1
+    },
+    "license:5ece8c471d3245672fc9cf0f5cd0b2f4102cc2c2": {
+        "mins": 52,
+        "hours": 0
+    },
+    "license:a546bc1f8138ae5fe9427f7e1d7d638f71002394": {
+        "mins": 28,
+        "hours": 6
+    },
+    "license:b2b10b7541e8881628ab15ce4b5fe4d83c35b0ae": {
+        "mins": 46,
+        "hours": 92
+    },
+    "license:d636b0b306b5b38d410c89e4c2abfa4769f8efbb": {
+        "mins": 35,
+        "hours": 10
+    },
+    "license:08eb5d717fad52f9f2145f1ecabd2630327464b8": {
+        "mins": 2,
+        "hours": 124
+    },
+    "license:c558e5744eb2ebc5f266773491e67e5ccd4eeb9b": {
+        "mins": 43,
+        "hours": 29
+    },
+    "license:66c77d4cd119903a42ecd2967585c0fb967268c6": {
+        "mins": 9,
+        "hours": 7
+    },
+    "license:71a6aeb6e1d745971139c36d6896f24fcfbf5a62": {
+        "mins": 44,
+        "hours": 4
+    },
+    "license:2058be83c746b5ed13e97794209bff0c7ff16052": {
+        "mins": 57,
+        "hours": 7
+    },
+    "license:5ee9756f50673910ac9111bed83bc424f2829c72": {
+        "mins": 0,
+        "hours": 48
+    },
+    "license:8b0c3f94fa29764424a0c48af7098823bbc6aa68": {
+        "mins": 0,
+        "hours": 12
+    },
+    "license:00dd6d49aed11a669923c9280ac82cd89d8d3a7d": {
+        "mins": 12,
+        "hours": 2
+    },
+    "license:e9b69894e616176418b19bdc07ab75ef979b1f2c": {
+        "mins": 0,
+        "hours": 11
+    },
+    "license:c43b89b8ebceb1e4e8b2b1779bd4520b01991e2c": {
+        "mins": 0,
+        "hours": 9
+    },
+    "license:b72ba91635931a8095f0fd8b88288f019e13ba66": {
+        "mins": 31,
+        "hours": 1
+    },
+    "license:6b5d408d746b83bdc52dfcfdceeee1e6fa5ed0b8": {
+        "mins": 27,
+        "hours": 3
+    },
+    "license:7a5efa93ab8a53879bd9699bbc0681ed9b4a1ebd": {
+        "mins": 0,
+        "hours": 24
+    },
+    "license:c1a12571f92eb4f35265abd3e1ebaa005604e2dc": {
+        "mins": 31,
+        "hours": 2
+    },
+    "license:2b5bd253eb6aa10f5cf0fcfb148617fb52e8b346": {
+        "mins": 29,
+        "hours": 10
+    },
+    "license:40ab6aabbca75b153fb1f0465c12956efd8380e2": {
+        "mins": 47,
+        "hours": 1
+    },
+    "license:8758f19f6a4310078c984f147a0d66646aab374a": {
+        "mins": 48,
+        "hours": 2
+    },
+    "license:27a4b281ea4ea87a6a9347110be78bf29e945d5e": {
+        "mins": 30,
+        "hours": 4
+    },
+    "license:191e50caf259af0185022c40a3838ec316a814e3": {
+        "mins": 14,
+        "hours": 0
+    },
+    "license:0b53ddc307ec50b4b3b62643690b57c786456464": {
+        "mins": 45,
+        "hours": 7
+    },
+    "license:edca96c08065f20695e757b3f3cdd29326d64fa1": {
+        "mins": 23,
+        "hours": 251
+    },
+    "license:7fd76f643c4ef08bad99b36eea1d4020bdddbd1b": {
+        "mins": 42,
+        "hours": 23
+    },
+    "license:2d81535048d69680a725b4d1116f3882f1dceb59": {
+        "mins": 52,
+        "hours": 2
+    },
+    "license:0b665582bb049256c6e03c220213a889683b330f": {
+        "mins": 16,
+        "hours": 0
+    },
+    "license:e8c36439f61117a211e80dc2f7e7645cc8cb8b5f": {
+        "mins": 53,
+        "hours": 12
+    },
+    "license:12b3991f47b1df925a5f2d7e0bf4ea3c76281dba": {
+        "mins": 59,
+        "hours": 3
+    },
+    "license:d0505475441836f9a9344c2c668ae463ac7be473": {
+        "mins": 0,
+        "hours": 6
+    },
+    "license:00d3feec2925eef2fa396e93781d670787fa18f6": {
+        "mins": 44,
+        "hours": 3
+    },
+    "license:a90cec6d753c63ce5c7c0a7fe86adcd93e53a04e": {
+        "mins": 32,
+        "hours": 7
+    },
+    "license:75d5206d7520dc29e5e93ab949e930f7256d4a8e": {
+        "mins": 15,
+        "hours": 5
+    },
+    "license:e9e2168be42e448f3f5001ac1c5e77189d69b8eb": {
+        "mins": 6,
+        "hours": 14
+    },
+    "license:8153926c9149f8f5baef8719fb16987812dd4d8b": {
+        "mins": 10,
+        "hours": 3
+    },
+    "license:4ad9f6fe9e0b1c8037d2131f61461cbd36dd832c": {
+        "mins": 19,
+        "hours": 0
+    },
+    "license:a3e88edd8a3f89c2c32a6c84dbfe10bcd44763a7": {
+        "mins": 53,
+        "hours": 5
+    },
+    "license:1845ecf2f3fa23e53eb7b32fc6f16a92a6e0f76c": {
+        "mins": 38,
+        "hours": 22
+    },
+    "license:8177aec9f96be0d72cc3a5c717dc2cb7e8b8cdde": {
+        "mins": 34,
+        "hours": 4
+    },
+    "license:953ac5866ad26fe58402af31e6fa9acd41a473aa": {
+        "mins": 30,
+        "hours": 10
+    },
+    "license:1524eab3cda4928fea8c46af3881cb0c55ff7446": {
+        "mins": 0,
+        "hours": 795
+    },
+    "license:f758347be4eb5ab5337662e9c07961cf454e72bc": {
+        "mins": 55,
+        "hours": 1
+    },
+    "license:79f6dc753e41a645b7b5b05445c25da0b8f921a9": {
+        "mins": 0,
+        "hours": 3254
+    },
+    "license:c0a3e5763c9c18de69cbb54c9326db977666f950": {
+        "mins": 45,
+        "hours": 3
+    },
+    "license:9348636c3f411f7d24abfa7b52ae91910000085d": {
+        "mins": 47,
+        "hours": 644
+    },
+    "license:39fb9134163b6bc00684d1bcc0a7f22b82ce44cb": {
+        "mins": 6,
+        "hours": 4
+    },
+    "license:1b90d43d6ad6197ea6b3dad699c95285523b5bcd": {
+        "mins": 28,
+        "hours": 21
+    },
+    "license:b623401b60662fa095d205c6d88222702b765df5": {
+        "mins": 33,
+        "hours": 2
+    },
+    "license:e51991af71795bb75cb14c986d307edb475ca69f": {
+        "mins": 12,
+        "hours": 28
+    },
+    "license:7df5ef7fe1cd8bdf5fe389eef2c82749f93bfd74": {
+        "mins": 12,
+        "hours": 4
+    },
+    "license:c88ead5250a5b3b14f3af7d1e6d0421f2ad48b49": {
+        "mins": 8,
+        "hours": 6
+    },
+    "license:7be063adff44c4df50fd1fb43b325531b083c301": {
+        "mins": 58,
+        "hours": 5
+    },
+    "license:83a6b00b303a921000d51547537f78125d443dac": {
+        "mins": 30,
+        "hours": 2
+    },
+    "license:f6c63ea29bf54c3f564d54a4d273a2cedfea3635": {
+        "mins": 28,
+        "hours": 2
+    },
+    "license:7de7737585e13cf42af94c347225baf8a33105c8": {
+        "mins": 23,
+        "hours": 4
+    },
+    "license:cb97987cf27604f99d61a3a29faadaff90aa4aea": {
+        "mins": 7,
+        "hours": 9
+    },
+    "license:eb01236b9ab96a8e56fc3c1357fc0a0ac2500329": {
+        "mins": 44,
+        "hours": 14
+    },
+    "license:cb1c3095fd04524c120b2d01cf6f6c09faf6dc71": {
+        "mins": 0,
+        "hours": 312
+    },
+    "license:1dfd35b9eb3399ccdf605059bb9e585a7fcd0d0d": {
+        "mins": 43,
+        "hours": 6
+    },
+    "license:f2c1d0a8f6d024380bef5c7b3cb5d2bc98480ced": {
+        "mins": 7,
+        "hours": 25
+    },
+    "license:1a37f9d2b47ae1596835faffe970139fbd21bf6f": {
+        "mins": 0,
+        "hours": 324
+    },
+    "license:c701e1696481639358a124b441ecbb56c0e35baf": {
+        "mins": 0,
+        "hours": 195
+    },
+    "license:fc642af2a8fd963fba4bb5450276402cef97923a": {
+        "mins": 37,
+        "hours": 4
+    },
+    "license:f5db4d71e7f0c3a4863fc7fdb8c369754cdc7257": {
+        "mins": 32,
+        "hours": 3
+    },
+    "license:7dd98034cc9726ad4874cd12be8e3a77aaf95391": {
+        "mins": 42,
+        "hours": 3
+    },
+    "license:3b70cc29c8e2e9e650bfdff3b4bba287109f65ff": {
+        "mins": 17,
+        "hours": 12
+    },
+    "license:e7dc5e386f38f1d11a2619663f09b13e3fc387e5": {
+        "mins": 0,
+        "hours": 184
+    },
+    "license:6c217152c643d19d4d7592c7f660e0b7dd08989d": {
+        "mins": 43,
+        "hours": 3
+    },
+    "license:6675a1566e6ee026e88afafbc06a30ce45fe8199": {
+        "mins": 28,
+        "hours": 7
+    },
+    "license:8fba0bae67d844edf19ef300e43d30b4d3c55543": {
+        "mins": 59,
+        "hours": 8
+    },
+    "license:e0f52215d2c9001d96b12d23061694885e4e00ee": {
+        "mins": 11,
+        "hours": 1
+    },
+    "license:7bbf5605a2b99c71998f23813bc9b7a42efd2d11": {
+        "mins": 20,
+        "hours": 4
+    },
+    "license:a55156e4e8dc8bfdb5c0ea9e6d3dc263a31cb1df": {
+        "mins": 0,
+        "hours": 273
+    },
+    "license:ba3d4db4541a0487894b1f2617b1dc4b73206c3e": {
+        "mins": 27,
+        "hours": 1
+    },
+    "license:ee7de392e2352dc400cbe3c989c6d0a5e3103549": {
+        "mins": 21,
+        "hours": 8
+    },
+    "license:7f15a25ec6e3ef93e0cf5b26c80270edc1ab9c0e": {
+        "mins": 46,
+        "hours": 1
+    },
+    "license:58fb88ee3cc7e43e94c27d1969dabdc90ef517d8": {
+        "mins": 0,
+        "hours": 41
+    },
+    "license:12a5372d1bf9ecf6c2a0740878327070ab2bb838": {
+        "mins": 45,
+        "hours": 2
+    },
+    "license:5d666249af99b59f77121dd9e9c9ac28d636aeac": {
+        "mins": 0,
+        "hours": 1125
+    },
+    "license:b46ef6350051789b5daf74ebd4e959682dad2725": {
+        "mins": 9,
+        "hours": 4
+    },
+    "license:548c8b7e8ed8283ebd4883b2b6db53790ee81e23": {
+        "mins": 0,
+        "hours": 3
+    },
+    "license:310c0e4f33633fdb4ac01420ef4c1012218b5c44": {
+        "mins": 44,
+        "hours": 3
+    },
+    "license:b24bbdbc3cb4a05da1106f8caeeb0373f06334d1": {
+        "mins": 14,
+        "hours": 1
+    },
+    "license:b2ec4b05a64ab204191582100977c784c20a8d0e": {
+        "mins": 28,
+        "hours": 8
+    },
+    "license:f08b8b86c6b1617e07044dff31a19d1d36566eb8": {
+        "mins": 13,
+        "hours": 6
+    },
+    "license:019d8bfce7f551b102301ae12ea4f379091d75ef": {
+        "mins": 21,
+        "hours": 9
+    },
+    "license:fc418daf5bfd3355361f9ea33d31436f1ec5e1dd": {
+        "mins": 0,
+        "hours": 14
+    },
+    "license:2edbe7dd019f8608b272d6d85b1e6eee3b26fe54": {
+        "mins": 23,
+        "hours": 3
+    },
+    "license:ddb5aab7e759efc08d0f1436ec4da4b0aee3baa8": {
+        "mins": 0,
+        "hours": 131
+    },
+    "license:62c774d5ab63ae06b9938f893dc0f35e5211e014": {
+        "mins": 55,
+        "hours": 16
+    },
+    "license:a53996ef1886cce644782ba6d48f17f4d278528d": {
+        "mins": 25,
+        "hours": 8
+    },
+    "license:661c15897a5f71ced903e4e98ff86875d9707400": {
+        "mins": 0,
+        "hours": 70
+    },
+    "license:16bb6828b963d5b5ab659fbc88190bab509b5187": {
+        "mins": 42,
+        "hours": 153
+    },
+    "license:f77d03da696a5e462e8b6e5e034f2a329812ce22": {
+        "mins": 33,
+        "hours": 2
+    },
+    "license:e86f74b5fecc7cbf137502fee873455f01175ac6": {
+        "mins": 56,
+        "hours": 0
+    },
+    "license:c6d0fb003a0c4e8604e375026d180fb3df3bd060": {
+        "mins": 46,
+        "hours": 9
+    },
+    "license:590d66463e97b674dbb68989d69152b296aba2be": {
+        "mins": 55,
+        "hours": 16
+    },
+    "license:2f5954f500251577c6f14d46688dfd615aaf78c5": {
+        "mins": 20,
+        "hours": 5
+    },
+    "license:fbf4378b28c51c8830ba0984987785d030827d51": {
+        "mins": 0,
+        "hours": 11
+    },
+    "license:a2f5de87feced87b2deb150a62edd0263c132ed7": {
+        "mins": 28,
+        "hours": 6
+    },
+    "license:35fd8c67682047a72d5eebc290067069d623ef39": {
+        "mins": 0,
+        "hours": 154
+    },
+    "license:4af859c220596ea4f324b10f54432613aabb2f0b": {
+        "mins": 54,
+        "hours": 10
+    },
+    "license:bb543a02085d92730187bba1593ecb7267e4abd9": {
+        "mins": 54,
+        "hours": 2
+    },
+    "license:9cfde6ace0bf33bf55068a7df5a08c15c7df181a": {
+        "mins": 26,
+        "hours": 4
+    },
+    "license:59ce90297abdda3453da3fa5fbab805010534c96": {
+        "mins": 0,
+        "hours": 4
+    },
+    "license:b109f8f11b797e319e76c7e79ff0c25b4a00e63c": {
+        "mins": 31,
+        "hours": 3
+    },
+    "license:93e38e231564656405c614d64cbdc262f1df9f2e": {
+        "mins": 59,
+        "hours": 6
+    },
+    "license:3e303e28ad6b2c2a750383b162820c8919919699": {
+        "mins": 0,
+        "hours": 22
+    },
+    "license:293e9b1a4f45ee435e2d570ecbc4b5bc165e95f3": {
+        "mins": 0,
+        "hours": 21
+    },
+    "license:6b8409a91f0a3876d8fc6f6d95a81f5e9020a399": {
+        "mins": 53,
+        "hours": 5
+    },
+    "license:d1336500c3f2c0fa6030893cb5455ac1948ae702": {
+        "mins": 0,
+        "hours": 252
+    },
+    "license:f5b9f2ec67c591eca9bedad05d117bcbbd811917": {
+        "mins": 21,
+        "hours": 121
+    },
+    "license:f90cad225680f91b4839863ac7496c93a723d1fb": {
+        "mins": 57,
+        "hours": 5
+    },
+    "license:b170642f6ff2e477d22f7e94761cc5e0c6917d38": {
+        "mins": 45,
+        "hours": 2
+    },
+    "license:b53704f766102e92675cfffb89e5a49b0233d605": {
+        "mins": 1,
+        "hours": 1
+    },
+    "license:910dee447fbc54025cf7a840435594684c5f92fc": {
+        "mins": 0,
+        "hours": 24
+    },
+    "license:7a060e1d4775f9deb54f5ca10de35c3247c9a22b": {
+        "mins": 24,
+        "hours": 1
+    },
+    "license:95244a0727e1c598ef2b2ad0e626a694962cecb0": {
+        "mins": 22,
+        "hours": 7
+    },
+    "license:6c23689a76dae926a81bc5739127456de076cf22": {
+        "mins": 16,
+        "hours": 2
+    },
+    "license:b46998d24e8f82df3bc78398c735e5ff525ffc04": {
+        "mins": 51,
+        "hours": 20
+    },
+    "license:400fe3f58a0ac34031e35e2aab48896468d24047": {
+        "mins": 0,
+        "hours": 18
+    },
+    "license:ff6e409f01a87ae09e643bdc4ef3420547b6093a": {
+        "mins": 52,
+        "hours": 3
+    },
+    "license:d3cfab25a7a3fc1d70e5d67f05ac111ee26a817d": {
+        "mins": 17,
+        "hours": 11
+    },
+    "license:8ffb4350444c47978129c8e1ffd8fb590e3b4380": {
+        "mins": 0,
+        "hours": 46
+    },
+    "license:0d03eee9f4b68fe1421c0f05f95aa96e045037f0": {
+        "mins": 59,
+        "hours": 2
+    },
+    "license:fd418d0e7061fac6a1f513b4b3707657b2ea7047": {
+        "mins": 46,
+        "hours": 3
+    },
+    "license:eb9df78fa8125ba17c68471021076600f1845ede": {
+        "mins": 0,
+        "hours": 3
+    },
+    "license:d28c4e76c1ae633ce497ae023aa3c96d645b6e29": {
+        "mins": 52,
+        "hours": 7
+    },
+    "license:d7d36048677bd2545466770bdb2538b95b8494f3": {
+        "mins": 0,
+        "hours": 52
+    },
+    "license:598ccc1e38ee41db1853298e40c53e4da8afbf80": {
+        "mins": 38,
+        "hours": 0
+    },
+    "license:c3e8cd74cb12490c2864d900aab1a604e9910fa9": {
+        "mins": 38,
+        "hours": 5
+    },
+    "license:fbf34b79eced1b5e79c37b0955a9e8a3e48b10e0": {
+        "mins": 50,
+        "hours": 91
+    },
+    "license:fbcc2a2e1701d225568d7d49c428920d215f31b5": {
+        "mins": 22,
+        "hours": 33
+    },
+    "license:c268aefeb0e6484bd2afcf8a2c4e86bc64ec8793": {
+        "mins": 25,
+        "hours": 3
+    },
+    "license:ff1e10abe71ce9d1909cf233a85a88379a001b0b": {
+        "mins": 8,
+        "hours": 10
+    },
+    "license:107a6c673484aad90868a04c0e702a8bcf4699a6": {
+        "mins": 43,
+        "hours": 6
+    },
+    "license:7c02a893566aba19109951f049e19dcf1438df29": {
+        "mins": 0,
+        "hours": 3
+    },
+    "license:2dd7ddaf1335427a9e6127bc4c0791a5a084d4f7": {
+        "mins": 0,
+        "hours": 4
+    },
+    "license:82786e435b7342f9f4f8fda8ae48fdc3f8c6b4b8": {
+        "mins": 47,
+        "hours": 21
+    },
+    "license:21422902489def887f8e54d0fcba698a6500b226": {
+        "mins": 47,
+        "hours": 13
+    },
+    "license:27f821045e0821acba84577355aa3873e8abb97c": {
+        "mins": 54,
+        "hours": 3
+    },
+    "license:1abe89b3e0d5f04ec7dd9d6d8144031582603a08": {
+        "mins": 13,
+        "hours": 25
+    },
+    "license:1715fefdfb20beb342395d138d4df8f04b1b2566": {
+        "mins": 47,
+        "hours": 0
+    },
+    "license:6188fbe244deb52410e8f600745e5c6fc4c76baa": {
+        "mins": 6,
+        "hours": 3
+    },
+    "license:0438670bb054d50041a629e0c6ef8c5cce5e7587": {
+        "mins": 0,
+        "hours": 86
+    },
+    "license:39cf8e1546f22c1b8960f32a7b6fde86d8f1fa55": {
+        "mins": 57,
+        "hours": 12
+    },
+    "license:bb8279253f434eed0a2bbc114eda2fa6ce3e7a84": {
+        "mins": 14,
+        "hours": 6
+    },
+    "license:d7b81a5005bfe0b06b2655d22dd1b6501b9bab0f": {
+        "mins": 55,
+        "hours": 4
+    },
+    "license:dda58b9b34f98a48b29c48cc6764a2eb5a86cb6c": {
+        "mins": 59,
+        "hours": 5
+    },
+    "license:56870733c32f7316233582b2166ea892520a590d": {
+        "mins": 1,
+        "hours": 1
+    },
+    "license:7d354b2eaeab3a3168940bdc497e0bf9c69b4935": {
+        "mins": 57,
+        "hours": 10
+    },
+    "license:7444fa1257ce9096907bb0c8d162aea16dca7886": {
+        "mins": 33,
+        "hours": 40
+    },
+    "license:612547579cd646d0027294937c0f8f45a2599fa4": {
+        "mins": 40,
+        "hours": 3
+    },
+    "license:edb8b505f476d878cf72a6285453691ba0b94721": {
+        "mins": 1,
+        "hours": 4
+    },
+    "license:3606946c8f8a42be30dea621b293ad4073149ef6": {
+        "mins": 0,
+        "hours": 9
+    },
+    "license:777cf68c0c34e87ac01a9f76ecd2824726eeffbd": {
+        "mins": 29,
+        "hours": 3
+    },
+    "license:4d00004e49db6aa6af898fc2d23874196378e45d": {
+        "mins": 28,
+        "hours": 7
+    },
+    "license:8125c7b2fe426309e2ae90bdc191e86ee5148cbe": {
+        "mins": 44,
+        "hours": 3
+    },
+    "license:718b23a6e980c4b7982b48be73c77f8dd7cb8329": {
+        "mins": 0,
+        "hours": 0
+    },
+    "license:e2f7df5b022053c0d438e76fe6b765d662e04626": {
+        "mins": 15,
+        "hours": 0
+    },
+    "license:0710ac4d1fb1cfcaeb4b7d9257953e0afcfaefdf": {
+        "mins": 0,
+        "hours": 9
+    },
+    "license:2a162eeaa53df348a705cc9a4b08d0038e7cfc8d": {
+        "mins": 20,
+        "hours": 4
+    },
+    "license:75e144ece0eff0555e284147d17e5b039e5814e4": {
+        "mins": 40,
+        "hours": 23
+    },
+    "license:3cd9ea1fd11b34514caac4bdc3e8c2fce393106f": {
+        "mins": 15,
+        "hours": 4
+    },
+    "license:ad5de404a1485fad78de7f12aceabe1c238836e7": {
+        "mins": 38,
+        "hours": 4
+    },
+    "license:e7b956a5f84d150e1b983eb86206dd30b5e8f28d": {
+        "mins": 19,
+        "hours": 4
+    },
+    "license:b0cbd8cc101793c595044b04af058e351aa151e8": {
+        "mins": 31,
+        "hours": 14
+    },
+    "license:7157c8ee3a3ad7dd473d86c9af73b382991d0021": {
+        "mins": 20,
+        "hours": 5
+    },
+    "license:c0b9cabaecbc17707a64bd866e1bcb33732078fc": {
+        "mins": 42,
+        "hours": 2
+    },
+    "license:39e0900b88b04c81cecd197ffe38d42127d71050": {
+        "mins": 0,
+        "hours": 9
+    },
+    "license:b8ea5c6bc2c74d745bd6464ae667ba3452ead55e": {
+        "mins": 0,
+        "hours": 393
+    },
+    "license:9f87fbbe817443617ee8cc60e029360e3eeb53c9": {
+        "mins": 14,
+        "hours": 3702
+    },
+    "license:6f4b236c59368c49a270fa3d0e2d32d2ffd466fa": {
+        "mins": 18,
+        "hours": 11
+    },
+    "license:e221050ac43b0ade92a155f35fc1b87d2be587c2": {
+        "mins": 18,
+        "hours": 3
+    },
+    "license:69866731ddcc064cea825f93c9b6586e526852d9": {
+        "mins": 0,
+        "hours": 5
+    },
+    "license:e4a75ac6e789c491606a7e913fed9b01dc3e3f47": {
+        "mins": 16,
+        "hours": 3
+    },
+    "license:49596d10668a0c3b41fd217a226e07a2ab50cdb7": {
+        "mins": 44,
+        "hours": 23
+    },
+    "license:acc3d749d49cd66316edc723cd544a147a5dacac": {
+        "mins": 31,
+        "hours": 1
+    },
+    "license:838c71da431552464557d3042ec86fd98eac8da2": {
+        "mins": 0,
+        "hours": 125
+    },
+    "license:8eb72ef254c22836f6bbb338b62bb2a89a146770": {
+        "mins": 11,
+        "hours": 4
+    },
+    "license:1cd7efd07dc78668c16f8f441f56079444006506": {
+        "mins": 0,
+        "hours": 103
+    },
+    "license:71d622b291e9a862d232d490adbea784ed3fd05a": {
+        "mins": 35,
+        "hours": 2
+    },
+    "license:e49616bdeb5b68733074083297d41f49c6b4326d": {
+        "mins": 16,
+        "hours": 4
+    },
+    "license:a6d08f70eac0edaa601f5819e9d99feb379c297a": {
+        "mins": 0,
+        "hours": 17
+    },
+    "license:9bb9af0163f7ab1b5bbc5362a24796170ef5724f": {
+        "mins": 0,
+        "hours": 191
+    },
+    "license:8114c482a6a149be0064148903bf65f78419bc4f": {
+        "mins": 0,
+        "hours": 17
+    },
+    "license:017c022bae126f41d9b6a2fe1b2c660922b8260e": {
+        "mins": 0,
+        "hours": 3
+    },
+    "license:c368998e510b6695d7571effadbad2b6c433f056": {
+        "mins": 0,
+        "hours": 79
+    },
+    "license:7e1b033ef7aaf5c4ee15a7d76094b33b049334ed": {
+        "mins": 0,
+        "hours": 365
+    },
+    "license:d798a5c9051da2376eff05acc03cb7244e694f2b": {
+        "mins": 9,
+        "hours": 7
+    },
+    "license:b90145369aecb07ee27e120971d6fbc80fb0d045": {
+        "mins": 0,
+        "hours": 10
+    },
+    "license:8aa6cd41d7bfe03393a250374e70a527848dcb34": {
+        "mins": 11,
+        "hours": 2
+    },
+    "license:e12543a7bb3e4e2e89f2d3b0b4844dcc7390fb67": {
+        "mins": 29,
+        "hours": 0
+    },
+    "license:d4362bcf5963c9328d191ebf698ebf14f48b399b": {
+        "mins": 28,
+        "hours": 4
+    },
+    "license:6f784bd6d8b5120c54f877c05160c922ec573bb7": {
+        "mins": 9,
+        "hours": 143
+    },
+    "license:31aa66407f7df37a9be3aa45af8962e0af348915": {
+        "mins": 1,
+        "hours": 68
+    },
+    "license:04780c0332ae256baf2522608689c22d67591e21": {
+        "mins": 6,
+        "hours": 129
+    },
+    "license:75663adffb6c60f24c7a8e2ba285a36acc6a73f4": {
+        "mins": 16,
+        "hours": 11
+    },
+    "license:8f05f3dbb9404faf8391354b0fcd8240f0bf1a34": {
+        "mins": 0,
+        "hours": 3
+    },
+    "license:7bac68351ee42c3b812251fa2fc2d357ecba1ffa": {
+        "mins": 59,
+        "hours": 4
+    },
+    "license:a948114774af52f173a026f8f2789b2ee434be83": {
+        "mins": 52,
+        "hours": 9
+    },
+    "license:7e9c812dd59321249a5ed962365b1e12a88911fb": {
+        "mins": 36,
+        "hours": 78
+    },
+    "license:5f1e9dedcf8f54f86107cfca1c597450b19058bf": {
+        "mins": 54,
+        "hours": 5
+    },
+    "license:cae0ac693804c19f1a78078c66bd5b3d98e74063": {
+        "mins": 0,
+        "hours": 9
+    },
+    "license:84382206c32476952c482c8c8f457f5e4d438b25": {
+        "mins": 5,
+        "hours": 2
+    },
+    "license:594e3281458ffee47c6b8608d55f555b68b211ce": {
+        "mins": 32,
+        "hours": 10
+    },
+    "license:6368d3b3b98c59b9b917bd5c53c74a8bd4791f8d": {
+        "mins": 9,
+        "hours": 0
+    },
+    "license:bc9c5f94fb73cbcc9da82b1bc44d9678a05f0434": {
+        "mins": 21,
+        "hours": 7
+    },
+    "license:75769eb6d0f01f69b810bc7b62aafa938631be0b": {
+        "mins": 31,
+        "hours": 3
+    },
+    "license:e424762df2c1fc7b69e07297f903e6f15b970257": {
+        "mins": 6,
+        "hours": 42
+    },
+    "license:c4ecba8e1e0867779f705ca3168444bc92ca6049": {
+        "mins": 19,
+        "hours": 5
+    },
+    "license:852ee26d610e39a83312a9a6e4f028416ebfe13f": {
+        "mins": 52,
+        "hours": 5
+    },
+    "license:1ba069207e4bf9553b21ed070ff8965970df56e9": {
+        "mins": 2,
+        "hours": 36
+    },
+    "license:c95dab8516cc2fdef383c6b8409b410fc9f5d4e4": {
+        "mins": 34,
+        "hours": 3
+    },
+    "license:07870a54f973dd5d7ed4d38ff69d0552e9e69b9f": {
+        "mins": 52,
+        "hours": 0
+    },
+    "license:e65dd389f6304b1271d13704450c7dc4376d12ef": {
+        "mins": 29,
+        "hours": 0
+    },
+    "license:394321ce6abd4131f27c6a0e6e409ac2ddf7527d": {
+        "mins": 20,
+        "hours": 142
+    },
+    "license:7f9f64e38113581254af394a7d8b1644b8810f1b": {
+        "mins": 0,
+        "hours": 1
+    },
+    "license:f466f0ec032a0ac5d8f911412505e52b4425fefa": {
+        "mins": 52,
+        "hours": 2
+    },
+    "license:83f6f04ab249b553d1e8284510c24656c44e5b50": {
+        "mins": 0,
+        "hours": 8299
+    },
+    "license:65c702d5f931f2e700b304fb8e18c20a4cedf0fe": {
+        "mins": 22,
+        "hours": 2
+    },
+    "license:7dd0cab5b4b8bf97824726a42828de1a10867fc0": {
+        "mins": 15,
+        "hours": 1
+    },
+    "license:e68ff344397c03927df9bd1179a1ef909b41704b": {
+        "mins": 0,
+        "hours": 17
+    },
+    "license:c53a44333c212582d4b39ccb3f30770eabc0a6f2": {
+        "mins": 18,
+        "hours": 40
+    },
+    "license:f161ce6f00cf602f8eab430fb8857a34453b8a14": {
+        "mins": 56,
+        "hours": 13
+    },
+    "license:61ce356224b7a8554e6516bf6db78cdaf0d612cd": {
+        "mins": 34,
+        "hours": 0
+    },
+    "license:bf544f8b2be85b66573412dfafcb1127ecb9d665": {
+        "mins": 0,
+        "hours": 54
+    },
+    "license:04dce272525a639f7891d362c065ffe25a71ce20": {
+        "mins": 49,
+        "hours": 10
+    },
+    "license:2eccb3fdadaf2604ad5baba559b881f8c2daa14d": {
+        "mins": 48,
+        "hours": 4
+    },
+    "license:6dca5a190c80614af56b9a2cab08f94f6606e917": {
+        "mins": 52,
+        "hours": 8
+    },
+    "license:dc3da86e3839c9580adf641376e1120443322f84": {
+        "mins": 0,
+        "hours": 139
+    },
+    "license:062fa60c1d525c86f65664ed9316dc9d766d9ccc": {
+        "mins": 48,
+        "hours": 12
+    },
+    "license:26c245d4f250bf9e906c9c59713f3819be8cef1e": {
+        "mins": 49,
+        "hours": 0
+    },
+    "license:11274dd9280d37b7efbbb50f6ff10b887108edf5": {
+        "mins": 16,
+        "hours": 1
+    },
+    "license:44f030a0087b2055e42a94120b229e081e3aea74": {
+        "mins": 24,
+        "hours": 4
+    },
+    "license:5926f3c5b86d3bc7820494a09515c1ab996f77f3": {
+        "mins": 0,
+        "hours": 44
+    },
+    "license:ce454ab54f54aea92378baa9fe86570aa0b5f20f": {
+        "mins": 0,
+        "hours": 7
+    },
+    "license:076b1cdf01b853e8a19f2ea792feb23e04976152": {
+        "mins": 0,
+        "hours": 32
+    },
+    "license:ae93cca9e526e0ef174ff6f475361b0bf9f4ed36": {
+        "mins": 5,
+        "hours": 4
+    },
+    "license:d15d68545e18491f5228aba5dd4686ec8f6323ea": {
+        "mins": 0,
+        "hours": 96
+    },
+    "license:4b17a776aa3e18dc2e2f7453ffcb67bb35bbecbb": {
+        "mins": 0,
+        "hours": 134
+    },
+    "license:47b84235e3a4cc8c33678e0cd557c896f70947ae": {
+        "mins": 37,
+        "hours": 4
+    },
+    "license:1e16c13ae3ac5009946f166fd1756ed49424b73c": {
+        "mins": 13,
+        "hours": 1
+    },
+    "license:0cb58f7b3df61cdf57d6f6633e639fbddc883e55": {
+        "mins": 19,
+        "hours": 10
+    },
+    "license:bb797c4173c839fbae84f755c2fb2cdc378876f1": {
+        "mins": 0,
+        "hours": 89
+    },
+    "license:88336a66ba82bcec726f16475f4b539c7645c6ac": {
+        "mins": 28,
+        "hours": 6
+    },
+    "license:88e9fa6b081a124b6ecff8919c87712c3a030f0c": {
+        "mins": 46,
+        "hours": 15
+    },
+    "license:c0d680ea89378f8099414ebbfaa41605c7dde9ac": {
+        "mins": 0,
+        "hours": 104
+    },
+    "license:51093cbd224dada9073eb691570f69fdbf262923": {
+        "mins": 48,
+        "hours": 68
+    },
+    "license:d6e0b7b279f44429a78d60eb1e349e5b6e4b444c": {
+        "mins": 16,
+        "hours": 7
+    },
+    "license:8346cd6105435e159d335bb3407a0869fe8e010c": {
+        "mins": 0,
+        "hours": 45
+    },
+    "license:d1a5c0898565b683a3d24d4fd5f0d4e493d737c2": {
+        "mins": 24,
+        "hours": 1
+    },
+    "license:d9e6c9a5b57c968e2a103f1b9b9ff8718e156e69": {
+        "mins": 1,
+        "hours": 3
+    },
+    "license:695bad41622abaabe57bb52cabcd8f01db93190a": {
+        "mins": 49,
+        "hours": 10
+    },
+    "license:8ab24d6d1fd268197cf38f68d2bdb4caaa91287c": {
+        "mins": 20,
+        "hours": 12
+    },
+    "license:4ce53625b3ad20301ec1fe19543274a647f79c1a": {
+        "mins": 0,
+        "hours": 1589
+    },
+    "license:7ade3a66e93803741bb414110637b66944b271dc": {
+        "mins": 59,
+        "hours": 0
+    },
+    "license:a3ac84ceba8aca1d027fb6c0c9dc65e1029b768f": {
+        "mins": 32,
+        "hours": 24
+    },
+    "license:993ae99c0b27a699a51b62ed4ab440da16cb101b": {
+        "mins": 4,
+        "hours": 5
+    },
+    "license:c7b86e951e8758f222b520693f76913ec6c30dbf": {
+        "mins": 32,
+        "hours": 5
+    },
+    "license:1db40a46860f1a79827af0e7f8b838dcb1fa5b3d": {
+        "mins": 8,
+        "hours": 144
+    },
+    "license:1e1e7e9f2e2e4b6cf9d48f9de73a90c4b9182f14": {
+        "mins": 26,
+        "hours": 9
+    },
+    "license:d5007fba656fe120b0f542be8d53a7b986f52f83": {
+        "mins": 37,
+        "hours": 3
+    },
+    "license:3b3676c918e3686e73b050d257260ed3fe5068e9": {
+        "mins": 29,
+        "hours": 2
+    },
+    "license:5e5a7dc80c4ea520c4ba6f8e7a78964f97fef82b": {
+        "mins": 35,
+        "hours": 3
+    },
+    "license:cf4ae677cc21a66ef5d210d995d5c059eb3037bf": {
+        "mins": 0,
+        "hours": 529
+    },
+    "license:d6442bd7b6168e1872a3cc5340cf32d62b946101": {
+        "mins": 5,
+        "hours": 1
+    },
+    "license:38dbde36a1a87e73cfac63549a50044cb94fe2b3": {
+        "mins": 57,
+        "hours": 4
+    },
+    "license:173941696db69b005e5581acfd52e5a248b180d3": {
+        "mins": 50,
+        "hours": 2
+    },
+    "license:447ad524ffe9c1bea14b736282fe1b3a974cfc8c": {
+        "mins": 18,
+        "hours": 7
+    },
+    "license:edd0e92c6e071b76ec684c374e53b2ac18554aa3": {
+        "mins": 9,
+        "hours": 1
+    },
+    "license:3c66f1a714b39f69d1414829d9166b2b788f3533": {
+        "mins": 13,
+        "hours": 12
+    },
+    "license:577fa627e34282b9ade96b14635aa55652cd6b9b": {
+        "mins": 8,
+        "hours": 2
+    },
+    "license:d4c42dea8aa33dc4a03304530c625a94b760344e": {
+        "mins": 0,
+        "hours": 4
+    },
+    "license:d8395bb6b22fb0acb3a4da33df0198b1c8324394": {
+        "mins": 55,
+        "hours": 11
+    },
+    "license:bd83f79ea565d7e1a9be0806154d3e11afdbaa8b": {
+        "mins": 35,
+        "hours": 1
+    },
+    "license:cd5390096576a9ee2dbe2cb809640454b83300b7": {
+        "mins": 57,
+        "hours": 3
+    },
+    "license:519b1722a73f4ac1ccb745b67cec75d9006c5e33": {
+        "mins": 0,
+        "hours": 100
+    },
+    "license:4fceeacd575189cf2f9f6b3a4fb8b86498316221": {
+        "mins": 53,
+        "hours": 5
+    },
+    "license:d34002d9f8f2ae9994ce25dd38f2b44c3d863f7d": {
+        "mins": 39,
+        "hours": 2
+    },
+    "license:c16d5e99ae130b67c5e1ef53fa229927fff0bb78": {
+        "mins": 36,
+        "hours": 1
+    },
+    "license:2c763c8c7247f19e7ba0029d26e7c13229be763f": {
+        "mins": 14,
+        "hours": 15
+    },
+    "license:973d1c934e41ef0f2eb3674002e1bdcdc1289b1e": {
+        "mins": 0,
+        "hours": 250
+    },
+    "license:398d95615b4995703904a515c05d0dad33769af9": {
+        "mins": 26,
+        "hours": 11
+    },
+    "license:794f523d77388f19a7c08a8bb6bd9e6b2f0d1453": {
+        "mins": 33,
+        "hours": 1
+    },
+    "license:5c0238f553dba89815dc5be4444fd966c105a142": {
+        "mins": 6,
+        "hours": 2
+    },
+    "license:6193bb8b3410dd40fec055f03b32df49727db1c3": {
+        "mins": 37,
+        "hours": 2
+    },
+    "license:25b6dc0c949ac672b769e26f0d8672d6baa595b5": {
+        "mins": 57,
+        "hours": 2
+    },
+    "license:f6f8e5c64990d9303de8dfd408ed427b027e88d1": {
+        "mins": 0,
+        "hours": 10
+    },
+    "license:f6d12928e6ad618a6065e8db8fc29a2d74885bac": {
+        "mins": 24,
+        "hours": 2157
+    },
+    "license:31328fef69068e2ce7d93208a8fec6ae834672f8": {
+        "mins": 10,
+        "hours": 3
+    },
+    "license:4e20269abdae98e3b4754eeafa470f7289911b8e": {
+        "mins": 6,
+        "hours": 23
+    },
+    "license:8f358a25167886c35b8ed8dc4fe889a17a6e6049": {
+        "mins": 0,
+        "hours": 21
+    },
+    "license:2dac0719c9cddc88b7d02751edb60406211793e0": {
+        "mins": 13,
+        "hours": 2
+    },
+    "license:e14bdca6d46f886aeefe46185f05d7cc13d19479": {
+        "mins": 29,
+        "hours": 5
+    },
+    "license:16a06eeaffe18a2f985bd97488a47af895c97c33": {
+        "mins": 46,
+        "hours": 5
+    },
+    "license:6ee8f738bb17e97cb6b0a5d37dced79293dd3a6a": {
+        "mins": 57,
+        "hours": 1
+    },
+    "license:456682878dfe260ecfc11dfe03286dacbcd4428f": {
+        "mins": 57,
+        "hours": 2
+    },
+    "license:9fdfaf01047d4c35daed22eb035b7cd41941a596": {
+        "mins": 2,
+        "hours": 4
+    },
+    "license:53b73d2e00bfd88cdd074b68a821dfe705016aa3": {
+        "mins": 1,
+        "hours": 25
+    },
+    "license:4fc06987b6777e66692b6ba5ed4e61c728039651": {
+        "mins": 20,
+        "hours": 10
+    },
+    "license:72003561476413b573bd07a83355256233fb3aa1": {
+        "mins": 0,
+        "hours": 4
+    },
+    "license:692e0ee5547bccb071feeb165e823bb722768909": {
+        "mins": 0,
+        "hours": 136
+    },
+    "license:823bd08db7e9d0e5aa84433a0ca06c41fedb0a3d": {
+        "mins": 7,
+        "hours": 1
+    },
+    "license:1cefa2dba1f55ffb035a7acdeb4dc95627031346": {
+        "mins": 0,
+        "hours": 889
+    },
+    "license:a866f384402328d59577fba8097e90d420e53643": {
+        "mins": 11,
+        "hours": 28
+    },
+    "license:42ac75c76abf5ad4eb9b5cf2c119258d9a6515b6": {
+        "mins": 52,
+        "hours": 7
+    },
+    "license:d2a675b6ef40edb33946794d78e8baf2aef20bac": {
+        "mins": 54,
+        "hours": 1
+    },
+    "license:200ae4d35be7dbda7dc8b4804a491c728a70310b": {
+        "mins": 0,
+        "hours": 233
+    },
+    "license:d328f3e03b7e5080b3d4c9092fec5670187e12e9": {
+        "mins": 16,
+        "hours": 2
+    },
+    "license:6068b8e345bf19249550b4a57e110ab286d938c7": {
+        "mins": 30,
+        "hours": 2
+    },
+    "license:d57f7efb3f1c83f1c1e9eed3ce9421e7f3d929d5": {
+        "mins": 38,
+        "hours": 1
+    },
+    "license:2da32efcd26d5bdbc12f62fe4553a4c8fbcc673c": {
+        "mins": 0,
+        "hours": 79
+    },
+    "license:ecca7f7a4539963408d3b786407adc55ecbfa522": {
+        "mins": 0,
+        "hours": 8
+    },
+    "license:882da0d4a42a00825c5818a096be38a520f5641d": {
+        "mins": 57,
+        "hours": 4
+    },
+    "license:a526098c12a5f6376d61bb65cf9857db001fac0f": {
+        "mins": 3,
+        "hours": 0
+    },
+    "license:2fa2d8b517af85ae8bc35d6f73ee5ad50d3af1ad": {
+        "mins": 3,
+        "hours": 1
+    },
+    "license:d4b80a6852731d69e3bbda4d92e15d58cb9d9987": {
+        "mins": 0,
+        "hours": 219
+    },
+    "license:38b4f9cf9cb96f4e3955eef8fedcf2d3cb088301": {
+        "mins": 48,
+        "hours": 4
+    },
+    "license:ac9f2d90df8ab5e574c30988d28d9d373aeff89b": {
+        "mins": 4,
+        "hours": 23
+    },
+    "license:c3edb5588deb99d0585698d77339a7981a60460a": {
+        "mins": 39,
+        "hours": 2
+    },
+    "license:b54f28cd44ec6e576424d775c6f9dbbcc62a0c43": {
+        "mins": 0,
+        "hours": 8
+    },
+    "license:cca35744449fcd355e51017ef392b03928fc3107": {
+        "mins": 44,
+        "hours": 5
+    },
+    "license:fca4d5404b9ada03acfaa9fd1894dc0fe151a8af": {
+        "mins": 0,
+        "hours": 146
+    },
+    "license:d4c2073b4662c261e057f2188ec8a25faa8f877d": {
+        "mins": 24,
+        "hours": 0
+    },
+    "license:97cb850196d36d0fa7e7b3cf235a96ba4d8cc5cb": {
+        "mins": 30,
+        "hours": 4
+    },
+    "license:5f039f9f1fbda44ee16c9a1a597630fe8a5b6106": {
+        "mins": 20,
+        "hours": 8
+    },
+    "license:b875db0b30063c81fa0eb2dc9bbee84f6fc4755e": {
+        "mins": 0,
+        "hours": 8
+    },
+    "license:8a394159b14a51fe013c9ee35b9cba198154dc0b": {
+        "mins": 21,
+        "hours": 3
+    },
+    "license:0cf4ca588223efad243ca1324c9020e600296cbd": {
+        "mins": 46,
+        "hours": 2
+    },
+    "license:0ba40db75bf6daa5a749d5accb8326fd09e94826": {
+        "mins": 9,
+        "hours": 4
+    },
+    "license:570adab21c406078b5002d00a7f2df45ee5f075a": {
+        "mins": 7,
+        "hours": 2
+    },
+    "license:90b9e69adfc0e4db9cb34a68998dc6361a3db3bf": {
+        "mins": 38,
+        "hours": 0
+    },
+    "license:cbfdf71698c7354fbf6965cc5111b10349bdff60": {
+        "mins": 57,
+        "hours": 1
+    },
+    "license:777ba4a614970238e099e8c450a6fe645508b2f8": {
+        "mins": 5,
+        "hours": 11
+    },
+    "license:ef09309ce903a94a7b899debee2989954eea66e2": {
+        "mins": 48,
+        "hours": 2
+    },
+    "license:b2f8f1bbb266e8b6e2f6ce16fc5866e5de87c52a": {
+        "mins": 0,
+        "hours": 2
+    },
+    "license:181fc72fa94a1404debc901b401c54a9b432da31": {
+        "mins": 18,
+        "hours": 2
+    },
+    "license:1a5a8cdebc07e4fb14610c9c19ba87faac226dc4": {
+        "mins": 18,
+        "hours": 1
+    },
+    "license:85030661196202736af8ecfb15068b298d0a868a": {
+        "mins": 10,
+        "hours": 5
+    },
+    "license:3a8ff953d3df937695de1793c558590ac1acb2b1": {
+        "mins": 18,
+        "hours": 25
+    },
+    "license:428f6b3bd094c6d2e8468cbab2941f05da08e776": {
+        "mins": 42,
+        "hours": 3
+    },
+    "license:2c309eb82e98baecdec3742159748ac1b42b19ca": {
+        "mins": 0,
+        "hours": 17
+    },
+    "license:c93a55074cb5126e3c6ef0c46b95bf602a8c104b": {
+        "mins": 18,
+        "hours": 8
+    },
+    "license:f2b01ef377ada3def21723db4154f5157b23394b": {
+        "mins": 31,
+        "hours": 1
+    },
+    "license:19f25eddbec1f77475dba2f7ac25a436ff7e903e": {
+        "mins": 57,
+        "hours": 31
+    },
+    "license:341f62f3dabd6490674d509f3f745aad77960274": {
+        "mins": 0,
+        "hours": 12
+    },
+    "license:8dbd77485ec00bcabfec2989d00b93b0255b2ba8": {
+        "mins": 0,
+        "hours": 67
+    },
+    "license:a0576251cd248519138bb957b1c63865d265f5c0": {
+        "mins": 5,
+        "hours": 3
+    },
+    "license:99afe140f303baa932c6fe2ddefa4643abead429": {
+        "mins": 22,
+        "hours": 2
+    },
+    "license:4295471db183b307c736b4f288d0506c1224415c": {
+        "mins": 50,
+        "hours": 13
+    },
+    "license:94a4f44021a278d8d4a4407242e6980e76613076": {
+        "mins": 36,
+        "hours": 1
+    },
+    "license:2e58cb85c158e744bc218c735c172247e835c4d6": {
+        "mins": 40,
+        "hours": 6
+    },
+    "license:3c2b863896b117c82c1ad924b3190d13640631a7": {
+        "mins": 49,
+        "hours": 9
+    },
+    "license:8a6f255c92f6b3573497914dad14df6b8c08643c": {
+        "mins": 7,
+        "hours": 0
+    },
+    "license:b140ecac2dc9f39fdd62bcee954834446e0e71ee": {
+        "mins": 39,
+        "hours": 0
+    },
+    "license:cbabd2068af3a2f532e07e0c3a5a10a15ee00b72": {
+        "mins": 55,
+        "hours": 2
+    },
+    "license:623db133a6a7aef6d8e45c2644465541604e7b4d": {
+        "mins": 32,
+        "hours": 260
+    },
+    "license:5de92497c49bef5daf912f659bc546fe61ca405a": {
+        "mins": 37,
+        "hours": 19
+    },
+    "license:ebd349c04bac36805c6000ff0578c461b9fde28c": {
+        "mins": 0,
+        "hours": 999
+    },
+    "license:ebac136bfdedf4387a8f8914fbe590d0cbd1c98d": {
+        "mins": 24,
+        "hours": 7
+    },
+    "license:d533d0b82bf5c8495c5b4e1c3cba3a40e0adc0ef": {
+        "mins": 0,
+        "hours": 12
+    },
+    "license:6228b67a65059f4988cc89ded5af691713c5d8bb": {
+        "mins": 52,
+        "hours": 6
+    },
+    "license:d7a1eb009de488b3790031556411ced2bc080733": {
+        "mins": 44,
+        "hours": 2
+    },
+    "license:1a0941d658f0171a32b449a72884011af5f94370": {
+        "mins": 53,
+        "hours": 6
+    },
+    "license:ea58d0eac138733ca0ee9028833c56af2e37f48a": {
+        "mins": 48,
+        "hours": 13
+    },
+    "license:7926abbc47bfc7fea21145133a89e994cd7d5c3d": {
+        "mins": 43,
+        "hours": 0
+    },
+    "license:bd9a1d9c52039e8bd544dfea27cd9638d4bdc836": {
+        "mins": 4,
+        "hours": 9
+    },
+    "license:c8b856337fa40de25238b0e999fd44001535f8ee": {
+        "mins": 55,
+        "hours": 4
+    },
+    "license:9964a25da6d6072de73f6e27c82fee49673dce1b": {
+        "mins": 6,
+        "hours": 0
+    },
+    "license:28079bbdc17e61a17384bef7b1485ce972b8af57": {
+        "mins": 24,
+        "hours": 9
+    },
+    "license:4b3eca4d53ba143275eea51b49a35a97c2e54da5": {
+        "mins": 59,
+        "hours": 1
+    },
+    "license:f71807d5c35372b5c21ce88715e0d3edad62868a": {
+        "mins": 10,
+        "hours": 1
+    },
+    "license:2ad453a7898907d734a16cc0f845dc2cf87b2275": {
+        "mins": 51,
+        "hours": 4
+    },
+    "license:dc5bcef3ad8773828c5e587b0b9c66870efc8b96": {
+        "mins": 32,
+        "hours": 0
+    },
+    "license:95381a7d70b25db2dc830827e42c67f26dbfdbeb": {
+        "mins": 58,
+        "hours": 6
+    },
+    "license:d62569a96545777374944a71d02c81c97a828077": {
+        "mins": 0,
+        "hours": 9
+    },
+    "license:1f193429d7bcc76563d72baf2fdf5f96ba38fffd": {
+        "mins": 53,
+        "hours": 1
+    },
+    "license:d99e7f7155677e05adc5a4ab72dcb9e7176f85b7": {
+        "mins": 38,
+        "hours": 1
+    },
+    "license:0e5680671395087f69bed13dbf4b409b047cacc5": {
+        "mins": 47,
+        "hours": 3
+    },
+    "license:97d76df0b147f21d2516947fb1972c04adcaea32": {
+        "mins": 55,
+        "hours": 20
+    },
+    "license:ce07746e03a3430bd3725e57ac55a768b5d342d2": {
+        "mins": 30,
+        "hours": 15
+    },
+    "license:4fb4a6c91c480eeb497a81bec9b9952b3245522a": {
+        "mins": 38,
+        "hours": 7
+    },
+    "license:0ae796653190fdd65b1858c786fc7e741bcaa48a": {
+        "mins": 0,
+        "hours": 68
+    },
+    "license:ca0cf676b1fd9cf6504acecb100dbf677235a2d3": {
+        "mins": 0,
+        "hours": 298
+    },
+    "license:3ccabc8d575891c5e09d0be475c51510fe1d531b": {
+        "mins": 0,
+        "hours": 7
+    },
+    "license:820f447e7e9220fd585dfb306d115d1c68dda3eb": {
+        "mins": 29,
+        "hours": 1
+    },
+    "license:341de7b33c69c006ca1b4cbe67b0a7ab74335d00": {
+        "mins": 51,
+        "hours": 9
+    },
+    "license:e410a448f829e493af1bd847a184f66e49c40858": {
+        "mins": 26,
+        "hours": 4
+    },
+    "license:bbd3389c007210bca91f48b7ae5452aa8ffe8cf3": {
+        "mins": 30,
+        "hours": 35
+    },
+    "license:86c259060f9ef6b8e6dbb0ba05d7d90127669687": {
+        "mins": 14,
+        "hours": 3
+    },
+    "license:76516ffa8352e839a2f7df762f75ae28c2f234e5": {
+        "mins": 0,
+        "hours": 235
+    },
+    "license:906296c742e130347f8c27a9bec2b7e5574de670": {
+        "mins": 58,
+        "hours": 4
+    },
+    "license:f32b15e5f1386e5686fcda5b725e33e3b28f7db8": {
+        "mins": 53,
+        "hours": 9
+    },
+    "license:f102e386f7d345be163b4582be0d984c9baa5ed4": {
+        "mins": 44,
+        "hours": 8
+    },
+    "license:cbfa065c3a18433e7adcf9d152c8ee993d23083b": {
+        "mins": 21,
+        "hours": 29
+    },
+    "license:961e5be8590aabd1c252add451509c37d3d90521": {
+        "mins": 32,
+        "hours": 1
+    },
+    "license:eff033bb8a0be4d6a12f865606ddc117c2cffd53": {
+        "mins": 4,
+        "hours": 2
+    },
+    "license:cde44fa905ac9b53d9c3317a54b7de2f9e409ceb": {
+        "mins": 52,
+        "hours": 1
+    },
+    "license:732231d39a4b4ee8a74a5119521a592aba9e820a": {
+        "mins": 27,
+        "hours": 4
+    },
+    "license:c98712130d6389caa70cfb2effb5bc1e6a089460": {
+        "mins": 1,
+        "hours": 49
+    },
+    "license:30d369bba75881bcc66bcb305883a6724ea6bae6": {
+        "mins": 0,
+        "hours": 104
+    },
+    "license:485e665360ee4111628177835bc7a47b5696728d": {
+        "mins": 10,
+        "hours": 3
+    },
+    "license:d03bec4e613a89a94969beb99a80f965f90ac16a": {
+        "mins": 0,
+        "hours": 42
+    },
+    "license:ab5dd307982d210628e2dea919686931afcfc6e1": {
+        "mins": 0,
+        "hours": 18
+    },
+    "license:7827064807153574edcd0487710ff5aea1e55dcb": {
+        "mins": 3,
+        "hours": 3
+    },
+    "license:fcd1f18fefb0ca4cd2dadefff92bbd20b53da2ab": {
+        "mins": 14,
+        "hours": 7
+    },
+    "license:2296ba96b6086ce58d91c84d6ef78e12e1e205e0": {
+        "mins": 29,
+        "hours": 0
+    },
+    "license:58b77c33323d841ea2eab97ee1a063a3cfda1950": {
+        "mins": 19,
+        "hours": 2486
+    },
+    "license:01d227d6999ff9d7d11e4491b1ce0c5ce6cf182c": {
+        "mins": 51,
+        "hours": 8
+    },
+    "license:141526b2b7a007cb3972d754d6d703eea1ed7504": {
+        "mins": 6,
+        "hours": 3
+    },
+    "license:5898b76858b169f06d04f9de6d646ac6944d8138": {
+        "mins": 34,
+        "hours": 70
+    },
+    "license:417b06d980d52edccefdbf4b2c53032fbb2ccd50": {
+        "mins": 0,
+        "hours": 16
+    },
+    "license:a5f5e48bb2878f51a4dd0475fa46354bafd6d723": {
+        "mins": 7,
+        "hours": 24
+    },
+    "license:785b118d8b9424c77966cb2bfce7b9fe3d45ba73": {
+        "mins": 42,
+        "hours": 5
+    },
+    "license:bed19bf7471da05fd925aa92a1664ba18896b946": {
+        "mins": 10,
+        "hours": 1
+    },
+    "license:ea2a82bdb1cfe8ed687cde782d789b3fef02d687": {
+        "mins": 0,
+        "hours": 376
+    },
+    "license:d59adc9c2247c4e63cae979bb123615586fdbc27": {
+        "mins": 13,
+        "hours": 14
+    },
+    "license:99593ea5575f7eb056d8cc44d5d3ef4fda426ccf": {
+        "mins": 0,
+        "hours": 1
+    },
+    "license:26daa7c7d2ec3d41297fd06c9a77c5d253f50237": {
+        "mins": 37,
+        "hours": 10
+    },
+    "license:1ba5e294beb9368ca118d7ab1319479a92d57a1b": {
+        "mins": 31,
+        "hours": 887
+    },
+    "license:0583274f86090c0daac3d2296fc95a7987666c59": {
+        "mins": 41,
+        "hours": 28
+    },
+    "license:14f32773519859d9c5b9b83eec6b0eb87ef1b529": {
+        "mins": 58,
+        "hours": 45
+    },
+    "license:e496654e1536860b128c67545fa1dcfc71055f47": {
+        "mins": 41,
+        "hours": 6
+    },
+    "license:34442ccfc83ce407d4ccdfc215308d4a0f233f54": {
+        "mins": 24,
+        "hours": 0
+    },
+    "license:f5b5d8d83c31eb732245f06da8231bbc1a45a3ed": {
+        "mins": 0,
+        "hours": 109
+    },
+    "license:416cccef8bb266685d0821dff3edbdba2444102d": {
+        "mins": 0,
+        "hours": 754
+    },
+    "license:5093291fa2e3a2699cd39213c7a5389d3565ab77": {
+        "mins": 47,
+        "hours": 0
+    },
+    "license:edbdc137015959a5865c15ffb93db7ff0f1ba5fa": {
+        "mins": 56,
+        "hours": 31
+    },
+    "license:b759652af099eae7b9ecdd5db631713c5bfec57c": {
+        "mins": 24,
+        "hours": 9
+    },
+    "license:a90cc7966334fe4235f8f8405ceb7f734d7a7681": {
+        "mins": 57,
+        "hours": 3
+    },
+    "license:a4713b547da44211207070a745c8b8b1509c2461": {
+        "mins": 41,
+        "hours": 4
+    },
+    "license:2965a4f4f26889e0f6d75ec16ba2607e1cd0ddcf": {
+        "mins": 0,
+        "hours": 31
+    },
+    "license:18c43a8c19f8d907f394dee1b6c8b3d7c01e9ed2": {
+        "mins": 0,
+        "hours": 19
+    },
+    "license:60122e09c541318e0afe55f2b5b39b5507dd3714": {
+        "mins": 55,
+        "hours": 18
+    },
+    "license:4690205bbafb3fce60d6644a895be9d71d2d3688": {
+        "mins": 0,
+        "hours": 12
+    },
+    "license:701d37618f696824c66d0b2410b8ccac3819cf9d": {
+        "mins": 0,
+        "hours": 13
+    },
+    "license:5938bd4797d718abaeb4eefc3fa16e2e04c5c582": {
+        "mins": 2,
+        "hours": 4
+    },
+    "license:231023ee6fb74f4bb718e96f366498f4839c11cc": {
+        "mins": 53,
+        "hours": 5
+    },
+    "license:b9b23516ed6720e66d57c5af7b6779031353f1d5": {
+        "mins": 10,
+        "hours": 3
+    },
+    "license:3f64a1be284e049bbe8d49c9ea878f8fc29c8f6d": {
+        "mins": 58,
+        "hours": 2
+    },
+    "license:d5da2a8680216fd2a02e993cd110dd602d626dff": {
+        "mins": 1,
+        "hours": 5
+    },
+    "license:4f67153ea673a6162333f859a550bf7c182c1014": {
+        "mins": 12,
+        "hours": 3
+    },
+    "license:c127f090a3e7594c59b0f0d44b34d326d5866a58": {
+        "mins": 19,
+        "hours": 1
+    },
+    "license:ea068c2132638049533895baa77b341217f6e9b7": {
+        "mins": 58,
+        "hours": 3
+    },
+    "license:034e3ee89ccd937d43de51e0ed4c96ee5cc243c0": {
+        "mins": 28,
+        "hours": 10
+    },
+    "license:39a3722285af821e6076c562c83280a0fd8d315d": {
+        "mins": 46,
+        "hours": 0
+    },
+    "license:a0df86a975b42540d30dddd8983246388c5190a5": {
+        "mins": 0,
+        "hours": 16
+    },
+    "license:ad0ba879162acfd2bd792af3b41e471b5a059da4": {
+        "mins": 53,
+        "hours": 6
+    },
+    "license:0df361465a2b83fae782943430255946b6146fd6": {
+        "mins": 37,
+        "hours": 10
+    },
+    "license:5352860a4ff31b1c9dac16366fab5eafeb3ca9d8": {
+        "mins": 45,
+        "hours": 29
+    },
+    "license:e772b8db750936bc9a056746a39b62df134fa300": {
+        "mins": 0,
+        "hours": 1
+    },
+    "license:527d4da834e8b45d35a2570f1f303b5fc90a6cff": {
+        "mins": 5,
+        "hours": 9
+    },
+    "license:a77cfd75b91eef457eec5d0d3686cccf993ce818": {
+        "mins": 9,
+        "hours": 10
+    },
+    "license:b3b9de9255ff4770517f98f65c242e048cf3417d": {
+        "mins": 0,
+        "hours": 558
+    },
+    "license:ace51a74975c06654df39c025401bbecfdc449b3": {
+        "mins": 11,
+        "hours": 4
+    },
+    "license:ee728907dfd62591c3a943151f4bb6a71f226c0c": {
+        "mins": 48,
+        "hours": 2
+    },
+    "license:7505cf2a63e38b23c1d5bb31dcf7995c4c46bb30": {
+        "mins": 18,
+        "hours": 4
+    },
+    "license:79f8ebdf61f0cc24c0557724f3386d168d0f1dd2": {
+        "mins": 0,
+        "hours": 8
+    },
+    "license:9749a78817c34873aa5b8edd40865b3eb5b73822": {
+        "mins": 1,
+        "hours": 2
+    },
+    "license:8c070122df14988ce1d4df08a0e5ef478277b9d4": {
+        "mins": 12,
+        "hours": 5
+    },
+    "license:030646698dc8b45d3ed873859e342add0c12d32e": {
+        "mins": 0,
+        "hours": 2
+    },
+    "license:fe5b467c0b741f342e8ae5c732b3b94adab988a6": {
+        "mins": 31,
+        "hours": 3
+    },
+    "license:f816928dc92016fd50f6dcf9dc10468d639153e7": {
+        "mins": 0,
+        "hours": 1
+    },
+    "license:e9c8decf0e2fbb620fa856e1327f0b71759f6e82": {
+        "mins": 0,
+        "hours": 11
+    },
+    "license:3cae9c440e6d333236371dac88a6aeff3de3f126": {
+        "mins": 15,
+        "hours": 6
+    },
+    "license:af9cdc03c5006f9f3aad0faebd25bdc2d549a63a": {
+        "mins": 46,
+        "hours": 41
+    },
+    "license:23ad9158fd7f758f2ad1924b529c95200d7ad329": {
+        "mins": 0,
+        "hours": 14
+    },
+    "license:1643efab3cffebd06e5f96a38b33bfe3b2c51159": {
+        "mins": 41,
+        "hours": 3
+    },
+    "license:05d6161154753fb2578fae9461c9e432d3101738": {
+        "mins": 17,
+        "hours": 16
+    },
+    "license:346520d5df820f2005a3db6a4ed04f5ff0b3f472": {
+        "mins": 18,
+        "hours": 10
+    },
+    "license:c6b57cb9ca64c595850fd2c22112b4a8eb3de835": {
+        "mins": 24,
+        "hours": 0
+    },
+    "license:880037ac3a38174e202298498b6ab63c91643695": {
+        "mins": 0,
+        "hours": 19
+    },
+    "license:66ad22c997a6e51982f4072dbd86d91648c63db5": {
+        "mins": 23,
+        "hours": 5
+    },
+    "license:e1be3c19ec9d87a4bbb97b317520dae6b333b79d": {
+        "mins": 0,
+        "hours": 436
+    },
+    "license:50e08a48950f33fb14a6b9be79c2a709c7240fa6": {
+        "mins": 0,
+        "hours": 262
+    },
+    "license:0ecbe58469db6eb9397915de1951c7c07d56420b": {
+        "mins": 14,
+        "hours": 1
+    },
+    "license:2f81e689328291be5c11a51549d72efdde313af9": {
+        "mins": 0,
+        "hours": 7
+    },
+    "license:0142e9628127548481977f7df706db5fd61c31a5": {
+        "mins": 15,
+        "hours": 5
+    },
+    "license:467f118517b94b438afac1887611c0adba3337ee": {
+        "mins": 52,
+        "hours": 6
+    },
+    "license:59f3a5fe7c24c5c4687ec3f8417af013f98468cc": {
+        "mins": 51,
+        "hours": 1
+    },
+    "license:3e52d9dce19d8c57c65610bf1767868f7039c22a": {
+        "mins": 5,
+        "hours": 3
+    },
+    "license:53b7cb1c6e0522bb12725a691bc462597b29148e": {
+        "mins": 17,
+        "hours": 5
+    },
+    "license:6c463ccd4a280901de2e26c3c0ef07e75b8dfc3c": {
+        "mins": 10,
+        "hours": 3
+    },
+    "license:c41271a1366a5a3484b70709901dbad4cf385bd9": {
+        "mins": 33,
+        "hours": 1
+    },
+    "license:95fb48c650fecdc054cafd271c4e998761dac042": {
+        "mins": 0,
+        "hours": 19
+    },
+    "license:d8950a8925269590116920c702110f856a3e2aae": {
+        "mins": 50,
+        "hours": 8
+    },
+    "license:b14ebfd6dc7ba0b99ca261a93ac55bba21cc285b": {
+        "mins": 0,
+        "hours": 150
+    },
+    "license:a5794af623aaf35dceb4c70592521d11df7136a0": {
+        "mins": 42,
+        "hours": 4
+    },
+    "license:320c0c6626823e7f10fa594d0a14deb89f57e13a": {
+        "mins": 0,
+        "hours": 289
+    },
+    "license:7131c0e1d655dd964545374cbbf75b38d2b77e90": {
+        "mins": 17,
+        "hours": 16
+    },
+    "license:38f62b797a6f8e63f6e3d55e4d9916aae6c145bf": {
+        "mins": 54,
+        "hours": 2
+    },
+    "license:25b8ccc08a098a7811740f0f2ac284ea8d48d517": {
+        "mins": 59,
+        "hours": 10
+    },
+    "license:726bc8f81f91d259b4b7417ce9899bd2d172b237": {
+        "mins": 44,
+        "hours": 3
+    },
+    "license:2aa892c1b06538cd24656587c972afd269e3fabb": {
+        "mins": 59,
+        "hours": 3
+    },
+    "license:4fd88b7d1eaeda3ec395a8ef640106d6d50babe6": {
+        "mins": 10,
+        "hours": 7
+    },
+    "license:9bd283710c53b28d415b4206d32fb45cc571b41a": {
+        "mins": 0,
+        "hours": 12
+    },
+    "license:1772477959d43c0d3a9cfff9dadcd00c32963ac8": {
+        "mins": 33,
+        "hours": 0
+    },
+    "license:9aa81fa929d18f1eebd44812c5d48c55ea6dadec": {
+        "mins": 0,
+        "hours": 63
+    },
+    "license:5f87bad48140a1d49c0bb3f67cb8c26102e5a5c9": {
+        "mins": 3,
+        "hours": 3
+    },
+    "license:3d7c9bf2c77e9643917ac249d31d49281ed0a0a4": {
+        "mins": 0,
+        "hours": 277
+    },
+    "license:5cf72780f1fb6cd6077eaab5f0df3de1e79b4a22": {
+        "mins": 12,
+        "hours": 4
+    },
+    "license:66eb5a1de3e74e1314fae4fd62d3868b42c08081": {
+        "mins": 4,
+        "hours": 8
+    },
+    "license:36e2f39f06cbbe61b8edf3af7f90ecc76ab67ae5": {
+        "mins": 2,
+        "hours": 7
+    },
+    "license:0ca880cfe104d7d85ac005f68b0c418d5ee1ca7a": {
+        "mins": 36,
+        "hours": 54
+    },
+    "license:4cadcaaaf5e52473b6f86d9474020b224b89c091": {
+        "mins": 42,
+        "hours": 360
+    },
+    "license:d4d5f1b4d86175b546ef01874b77a9413f10e5f6": {
+        "mins": 35,
+        "hours": 4
+    },
+    "license:f35e72e74144efeadb43f81040ac80227fce8098": {
+        "mins": 0,
+        "hours": 14
+    },
+    "license:64b91fa708b18d4a42f590608f500aff0a96266b": {
+        "mins": 26,
+        "hours": 4
+    },
+    "license:ea6ac9bc0458f39d3ce4546deb626277d448d3a0": {
+        "mins": 9,
+        "hours": 0
+    },
+    "license:50b6191f3ffa963855e276c3a96d18cc6151c88e": {
+        "mins": 15,
+        "hours": 6
+    },
+    "license:567e822ff699eb56364b74e630940ec5e67c4656": {
+        "mins": 0,
+        "hours": 21
+    },
+    "license:da87a83001865ce7c281d085df1d78f7d744761f": {
+        "mins": 0,
+        "hours": 18
+    },
+    "license:ea5927d433fa872166cb201aeead4eda775f31bf": {
+        "mins": 51,
+        "hours": 5
+    },
+    "license:2b60c86ded7e5771a3d1175c83ead05455d36307": {
+        "mins": 0,
+        "hours": 117
+    },
+    "license:b79221876ce146b694bb60ce79a6d3e6271a9717": {
+        "mins": 51,
+        "hours": 6
+    },
+    "license:85f1091a31d4fd53c8a7add1463be1c7952f52fa": {
+        "mins": 23,
+        "hours": 158
+    },
+    "license:40fe8ae991348e00efba63870f9dc59fda97d270": {
+        "mins": 0,
+        "hours": 138
+    },
+    "license:8e87116220a6f1c2527ae0ff9c4b82885b5112e8": {
+        "mins": 0,
+        "hours": 178
+    },
+    "license:597b0324f51e156e02794b481e516fb9656d56c5": {
+        "mins": 5,
+        "hours": 90
+    },
+    "license:acba7c2a25b4797fe6ac67e76128683bd7b81131": {
+        "mins": 36,
+        "hours": 6
+    },
+    "license:1e15078807d6866eec81c8e371808cad1ca3d63c": {
+        "mins": 38,
+        "hours": 12
+    },
+    "license:7bca07f19548d652982c09b5986d35285e55367b": {
+        "mins": 5,
+        "hours": 19
+    },
+    "license:d74127e523f006544011bfe532d2b6c901d96536": {
+        "mins": 7,
+        "hours": 1
+    },
+    "license:4d7e540f0b0dffb76892cd4e54376990a00bc134": {
+        "mins": 0,
+        "hours": 283
+    },
+    "license:2e332ea45ec6ac2c834f70b6cca93a526abd45fb": {
+        "mins": 48,
+        "hours": 9
+    },
+    "license:6d3eb6b046a0badadbaa149fd1a4a854806939dd": {
+        "mins": 17,
+        "hours": 3
+    },
+    "license:583c201907942d43709458ae4061f4cb79e5d195": {
+        "mins": 2,
+        "hours": 18
+    },
+    "license:b31f8a8f45a1501c7d8a65daaeaa0068f00f6015": {
+        "mins": 0,
+        "hours": 13
+    },
+    "license:8a326f9f1fb8dad3d86ebb5970244bbe7324015c": {
+        "mins": 10,
+        "hours": 3
+    },
+    "license:ffdcddcc2e34bd65232edc37ceab422f021e985e": {
+        "mins": 42,
+        "hours": 26
+    },
+    "license:bc24813fada4091fe9eb22515559e56e71a86499": {
+        "mins": 44,
+        "hours": 1
+    },
+    "license:9460a8588559f9b197d16ef299e2846f33dc33dc": {
+        "mins": 0,
+        "hours": 28
+    },
+    "license:b485962ab6b14d2617d3ed61318195ff3f71796e": {
+        "mins": 37,
+        "hours": 0
+    },
+    "license:f894a95f75cab0b3d7ef1695c1d27680a6c57654": {
+        "mins": 29,
+        "hours": 5
+    },
+    "license:d8468eedba49ee58f8f180740d489066663585bf": {
+        "mins": 32,
+        "hours": 3
+    },
+    "license:bcc555fb57aca21aebfcc56c5fa9c5c68d4fef63": {
+        "mins": 32,
+        "hours": 1
+    },
+    "license:46c902a0e7e88c8bac35f893d04858492c4ab2bd": {
+        "mins": 0,
+        "hours": 127
+    },
+    "license:332aa7628f1ce6f847957ccfb1f484a37a406993": {
+        "mins": 14,
+        "hours": 5
+    },
+    "license:4742ab32bd7fc310b29a59bf1675236dd7a707c2": {
+        "mins": 0,
+        "hours": 228
+    },
+    "license:f26421cc2ae3ca1aed7b5064f9d9e34216052783": {
+        "mins": 0,
+        "hours": 3
+    },
+    "license:0264b04747ba8c799b9acde8d27ac19b46796bb7": {
+        "mins": 33,
+        "hours": 10
+    },
+    "license:5234ea4d04dc795ad53ca02197cc2f58636619b6": {
+        "mins": 46,
+        "hours": 7
+    },
+    "license:caa252bbd1af75395e7773886a559e51d1cce87c": {
+        "mins": 34,
+        "hours": 11
+    },
+    "license:f83a5f6eeeeb1b02305109e3bfd4c37604b47c5d": {
+        "mins": 0,
+        "hours": 15
+    },
+    "license:d390c4b2a65986b9c7d8ff3eb9f1f7828c4acabd": {
+        "mins": 20,
+        "hours": 6
+    },
+    "license:0a028acc5ad7a71f643111fb8307a18157766c09": {
+        "mins": 43,
+        "hours": 9
+    },
+    "license:89d577865a3dbf1d944d0247d8970eca87736e9f": {
+        "mins": 48,
+        "hours": 8
+    },
+    "license:76cf9c3d25fc8282628168a849a3bdda3f8827f1": {
+        "mins": 0,
+        "hours": 0
+    },
+    "license:205937ff89e5321c6c0cb0b96f3075ee28972ba1": {
+        "mins": 8,
+        "hours": 3
+    },
+    "license:e06e050aa42570c6e93bbbba7e9ddbee9eac77f4": {
+        "mins": 29,
+        "hours": 4
+    },
+    "license:12905379b76caf251622b940a860a8984f21b2f6": {
+        "mins": 41,
+        "hours": 1
+    },
+    "license:e184abbc82b3a6fd62f68a61f9c0ee37dac4c428": {
+        "mins": 0,
+        "hours": 40
+    },
+    "license:a041fd468a60551bcfc6a43dcddea1bfb65f7835": {
+        "mins": 22,
+        "hours": 9
+    },
+    "license:d462bdf6216bf1daf45109bc0ad470cb5cbb898a": {
+        "mins": 40,
+        "hours": 2
+    },
+    "license:6549063f177fc66026abcccb333f8e3e77d07eb7": {
+        "mins": 14,
+        "hours": 7
+    },
+    "license:1abbcaf8891b972b6bf23046cd8fcb0d783493ef": {
+        "mins": 0,
+        "hours": 26
+    },
+    "license:cbab79b64ab79ef88256a23065a17c6720cb4a6f": {
+        "mins": 11,
+        "hours": 2
+    },
+    "license:737bd6455fa0e7cd630d2757d964ca80f9f1fbe2": {
+        "mins": 0,
+        "hours": 7
+    },
+    "license:42c812e6544a080fb8b616a1ec45fd7e40c1749b": {
+        "mins": 38,
+        "hours": 0
+    },
+    "license:28fd08e35d357267675600ad64d74fed32fed606": {
+        "mins": 42,
+        "hours": 4
+    },
+    "license:f289a50fdcb7d0e335505e9ec7711bf772f19bea": {
+        "mins": 9,
+        "hours": 2
+    },
+    "license:e9de0d0499073b307adeec548ba1cfb7161fe74a": {
+        "mins": 52,
+        "hours": 1
+    },
+    "license:8c1b3f89baa81ff7e28977021b0016092d046518": {
+        "mins": 3,
+        "hours": 87
+    },
+    "license:60cb4c6eaf039064e41b97b443ad050a1ba1f27e": {
+        "mins": 55,
+        "hours": 114
+    },
+    "license:783402b6378af82f256cfc843521ae35475ec0cf": {
+        "mins": 26,
+        "hours": 8
+    },
+    "license:6ee6a210eae2960606def1934b4f1336b3d97b93": {
+        "mins": 4,
+        "hours": 90
+    },
+    "license:b0142abd0789bf47cf1bb311d71ba2d05928c4a2": {
+        "mins": 12,
+        "hours": 2
+    },
+    "license:d5ff7bf52c22fc733e7b86fe2ca827204bd359a2": {
+        "mins": 4,
+        "hours": 0
+    },
+    "license:db5655e35d1c222a546bf94503821501da5e7f51": {
+        "mins": 2,
+        "hours": 23
+    },
+    "license:487a8d47c3824001d68d2060d2faab7d3ec35e35": {
+        "mins": 37,
+        "hours": 394
+    },
+    "license:702e6027708046de9717c2f5ec2eaf463cf15ddd": {
+        "mins": 29,
+        "hours": 4
+    },
+    "license:4a6bd5bb67cb8382d8efdd56749fa23cd32717f7": {
+        "mins": 33,
+        "hours": 68
+    },
+    "license:d1cc2a934b4db791be1d61e3defcac0d00c5ee44": {
+        "mins": 5,
+        "hours": 8
+    },
+    "license:2d768f7f2233b3f5e862d55c0bf29b9cc63342e3": {
+        "mins": 10,
+        "hours": 9
+    },
+    "license:a69de227ed7db0bb047d9e2e5891ba6bf73cbdc0": {
+        "mins": 43,
+        "hours": 5
+    },
+    "license:e9efdc997b14a965b5a14356743343785cd8a7af": {
+        "mins": 30,
+        "hours": 12
+    },
+    "license:fee40bb69d0ac2971436e1c145cdb75e5ba7934a": {
+        "mins": 18,
+        "hours": 3
+    },
+    "license:f071b588c62d253b420dffa7c2071c63c08bad21": {
+        "mins": 54,
+        "hours": 1
+    },
+    "license:c787c37a3c03d5fb80257a51f090fbf03682dd8d": {
+        "mins": 0,
+        "hours": 123
+    },
+    "license:c2b73e4f0f435cc9a05d2b2d3286a7d5994d8b18": {
+        "mins": 0,
+        "hours": 15
+    },
+    "license:aab0306abd71e97f5911b706d1835ea0b1e2de6f": {
+        "mins": 14,
+        "hours": 18
+    },
+    "license:b33693927aa9383f7c9616c2942508bdcd4df025": {
+        "mins": 23,
+        "hours": 0
+    },
+    "license:50d715c132ab0642c88309721230a516a8480a22": {
+        "mins": 1,
+        "hours": 1
+    },
+    "license:0e93a37081579bbb08bdd759506c1eec50240fb2": {
+        "mins": 0,
+        "hours": 140
+    },
+    "license:764ebf6243d6691a8ed0014c2cc7815201571c5b": {
+        "mins": 46,
+        "hours": 3
+    },
+    "license:9621e48222beb8fc314e6f6dc7f64cf8720a8f61": {
+        "mins": 49,
+        "hours": 3
+    },
+    "license:87beddf7bd47e8358516b38757937d21c2e8679d": {
+        "mins": 0,
+        "hours": 13
+    },
+    "license:dba4250a17141136bfde15cf10fd388b22e33b79": {
+        "mins": 50,
+        "hours": 0
+    },
+    "license:38a6156d4cf18f96f80bbd5209b57b1571811de4": {
+        "mins": 2,
+        "hours": 122
+    },
+    "license:de07b784270e0c1fd4a5b332ea7661c8931e2e57": {
+        "mins": 0,
+        "hours": 9
+    },
+    "license:3ca7c4797a35af1d04ea4858bf8e63367e05b7af": {
+        "mins": 0,
+        "hours": 41
+    },
+    "license:ef94103d719de784642b2c4b0230ed90754cacb2": {
+        "mins": 27,
+        "hours": 0
+    },
+    "license:4c3efefdd6ebdbee128d5a1f4d4bd01cfbc2eb9a": {
+        "mins": 43,
+        "hours": 25
+    },
+    "license:23a75da7f503bd31bbd2bf247ed6c0c941295843": {
+        "mins": 48,
+        "hours": 8
+    },
+    "license:08cda69ee41d16d3e7fa81c4c349c0a303161243": {
+        "mins": 0,
+        "hours": 238
+    },
+    "license:734ac9da719251f0b4a3e6c511cec4fdb21f568a": {
+        "mins": 0,
+        "hours": 80
+    },
+    "license:fd219d9a03964036088809964833d72b682a4c72": {
+        "mins": 49,
+        "hours": 0
+    },
+    "license:f503d3b321e0da3dcf55107a8ecd1160453cc95b": {
+        "mins": 0,
+        "hours": 300
+    },
+    "license:46791480ac94ebdae74ec4a992cda13c73cb69ed": {
+        "mins": 12,
+        "hours": 13
+    },
+    "license:8e631da6ff034d7fe2ada39e0786f30987aa54b0": {
+        "mins": 0,
+        "hours": 171
+    },
+    "license:6070e8c7016bf99cd775485c8397306d062d4a25": {
+        "mins": 42,
+        "hours": 31
+    },
+    "license:592ca3cf9306f9d30008c923db4081ba54def8f4": {
+        "mins": 34,
+        "hours": 3
+    },
+    "license:17d010c31a8fab09b90ccc4022df75b7b3606bb3": {
+        "mins": 31,
+        "hours": 21
+    },
+    "license:6641d29908b5166ba833ca54e406d46597759834": {
+        "mins": 15,
+        "hours": 0
+    },
+    "license:08fbe2a796c3e6fbbd1063f12c3f9049b4ae881b": {
+        "mins": 39,
+        "hours": 4
+    },
+    "license:aa36c210023a6e0c0bd0643c00724c17e072b84a": {
+        "mins": 53,
+        "hours": 137
+    },
+    "license:3017eaf029d7fd4f893e625645241cf4321db2e8": {
+        "mins": 0,
+        "hours": 106
+    },
+    "license:e91b2c4d4a119cdb588cb1142d8d881b43000f14": {
+        "mins": 35,
+        "hours": 14
+    },
+    "license:d80955f9f5650aaf241b073165c44f198d6d1903": {
+        "mins": 48,
+        "hours": 836
+    },
+    "license:22315847eda6f4eb18a1a24ecdb8830c23b77758": {
+        "mins": 0,
+        "hours": 1
+    },
+    "license:b2321d14b39487d207b93cea612449de257e6895": {
+        "mins": 39,
+        "hours": 44
+    },
+    "license:13a1594a19cf2682e3813b14f508058b6ff21623": {
+        "mins": 35,
+        "hours": 0
+    },
+    "license:1b08360dc74bc5fb3650cfc50f37db1a707460ec": {
+        "mins": 0,
+        "hours": 2
+    },
+    "license:3309b5af52dddee0a6b46a2b8a4cf1d8056af3e0": {
+        "mins": 0,
+        "hours": 187
+    },
+    "license:c6be16cc5bb967a05499127d4da1d3b622b88ec7": {
+        "mins": 40,
+        "hours": 0
+    },
+    "license:3841f3bbce6d598ca8ad50fd6bbc7e14d29e340a": {
+        "mins": 56,
+        "hours": 4
+    },
+    "license:cb5298a98e62450a594a12024c129e5355a05f9f": {
+        "mins": 32,
+        "hours": 13
+    },
+    "license:8bfc4f286db82da3902820120b087fa540fd6e53": {
+        "mins": 28,
+        "hours": 5
+    },
+    "license:7d04ee408526b42498480b4e7888283a6470d1b4": {
+        "mins": 0,
+        "hours": 5
+    },
+    "license:1cf656ddfdca19b60d0bb93407cf6d1b18953481": {
+        "mins": 43,
+        "hours": 1
+    },
+    "license:7f9e881f64ac6a0fb127d089bbb994c6983275f3": {
+        "mins": 41,
+        "hours": 8
+    },
+    "license:7880d2af0f50a60aa2540b8ed4822c7739277b28": {
+        "mins": 46,
+        "hours": 5
+    },
+    "license:4e9d1ce70d91148e667329dc0fd9c21b3d934dcc": {
+        "mins": 0,
+        "hours": 22
+    },
+    "license:8313f922c9e20c08372520abeb85da474c75f8c1": {
+        "mins": 32,
+        "hours": 1
+    },
+    "license:31fe5834209f0ece84a272f0b1bf4170e1b2e14d": {
+        "mins": 59,
+        "hours": 17
+    },
+    "license:0d0c9e91fa47109a65f4b78f226b7988ea038069": {
+        "mins": 15,
+        "hours": 7
+    },
+    "license:7cedb42fa41db48860c254db5dc50241a3843eaa": {
+        "mins": 33,
+        "hours": 142
+    },
+    "license:bcf39ea180e60214665b8677bc0aaa4c5adb28b0": {
+        "mins": 53,
+        "hours": 3
+    },
+    "license:baa01e12993f123f9b8f609031184d7f4b83119f": {
+        "mins": 0,
+        "hours": 11
+    },
+    "license:1f28307cad773e7add2f5e5918b70fe9e9b724b8": {
+        "mins": 0,
+        "hours": 42
+    },
+    "license:0c868f5d42836728a3330094bc2e2474ed7ddd5c": {
+        "mins": 50,
+        "hours": 0
+    },
+    "license:4fc5d49be0e1557f488db4e28025a89a6a55d4fb": {
+        "mins": 0,
+        "hours": 17
+    },
+    "license:28c6aa89c8a697d1d1626b23f649ea8d795a6712": {
+        "mins": 59,
+        "hours": 7
+    },
+    "license:f96408f42e62a0f69ccc545fedea6237444d79f7": {
+        "mins": 0,
+        "hours": 4
+    },
+    "license:8107b303998f7c843791621e771a5f8e67313d5d": {
+        "mins": 48,
+        "hours": 1
+    },
+    "license:d00bfd6d17a05c709a09d5adbe9e8d30a55c1e3a": {
+        "mins": 0,
+        "hours": 9
+    },
+    "license:bb1f98f25b0552091536e9832b44a5afb4509658": {
+        "mins": 57,
+        "hours": 2
+    },
+    "license:5426720da8fd05b52a290b21c6587c5ddca9aab2": {
+        "mins": 0,
+        "hours": 5
+    },
+    "license:d3d5a19d4570785e07b563678eb174509b79ffb3": {
+        "mins": 30,
+        "hours": 6
+    },
+    "license:c285442ff316ac4189064b258726e6ad82a228be": {
+        "mins": 9,
+        "hours": 55
+    },
+    "license:e97c7a38dbdd3303cfd4c006b40a411599faa805": {
+        "mins": 41,
+        "hours": 46
+    },
+    "license:99ff726f68cf39d961d5c87385bdc9cd01f448f8": {
+        "mins": 0,
+        "hours": 83
+    },
+    "license:83e58bff681925830a8d0cb24683434878710a60": {
+        "mins": 0,
+        "hours": 9
+    },
+    "license:6ebc0ccb19dae389868259818be63168b470ce62": {
+        "mins": 0,
+        "hours": 43
+    },
+    "license:07bd9d624e037381895ab1b7a4c28d34b8b57d1b": {
+        "mins": 17,
+        "hours": 0
+    },
+    "license:801552df7fd1feac5a11cb70b4a267083c9bec5f": {
+        "mins": 26,
+        "hours": 4
+    },
+    "license:33c23c25a79459ed5c9e20c9ad9a0ec50d91376c": {
+        "mins": 56,
+        "hours": 52
+    },
+    "license:856986a2de1215fec02fdf34cc567e6317dd5bd0": {
+        "mins": 0,
+        "hours": 11
+    },
+    "license:2bab133eda161b6e57f3e0cc89f71d7d8a6777ef": {
+        "mins": 0,
+        "hours": 13
+    },
+    "license:f6cbdbd5a90a8c458b5fd2b0b0e35dac62a8d0c9": {
+        "mins": 30,
+        "hours": 3
+    },
+    "license:a3d6d04bf86b7ee314761ab2df8911953873837b": {
+        "mins": 12,
+        "hours": 5
+    },
+    "license:bbd0e206c6923f54b6d80b9ed737def35c19a943": {
+        "mins": 40,
+        "hours": 1
+    },
+    "license:d5fcefc8d2937cd38743ea83dba46d664a34e5cc": {
+        "mins": 49,
+        "hours": 8
+    },
+    "license:5234a51e6d1c35e483e556466797414767d4b4da": {
+        "mins": 39,
+        "hours": 201
+    },
+    "license:f021ca291e2951f1a6e7de68122aa016d7a70470": {
+        "mins": 56,
+        "hours": 37
+    },
+    "license:2590df6f143db6954e25cf0945d9b801252815a0": {
+        "mins": 13,
+        "hours": 60
+    },
+    "license:2f29c960901bb6fc09ec328b6ab105b97ca8f3d5": {
+        "mins": 0,
+        "hours": 195
+    },
+    "license:7eadd30cc103b601624cf8c61fb59b0881518dce": {
+        "mins": 0,
+        "hours": 948
+    },
+    "license:c95e6ef8d476f89e221be0f6764b6ac86295f50a": {
+        "mins": 49,
+        "hours": 11
+    },
+    "license:eef4c4f27d527bf43d6e06d97baab145be86147e": {
+        "mins": 0,
+        "hours": 140
+    },
+    "license:fd2127034174f5613f49cb9c9fa4f5fafddb55df": {
+        "mins": 29,
+        "hours": 4
+    },
+    "license:0f23cef54b076100f2005d189b8811c68d06d87e": {
+        "mins": 48,
+        "hours": 135
+    },
+    "license:30499e2bf24d1530e4d7c6170e305f675af1c0b0": {
+        "mins": 46,
+        "hours": 3
+    },
+    "license:04691606710662d03f6bec958fc077a1d1788c16": {
+        "mins": 48,
+        "hours": 75
+    },
+    "license:1e08538e2ea416df4f63802c8d1b596ea2f20881": {
+        "mins": 51,
+        "hours": 2
+    },
+    "license:8b34242e6d4dd4c33d10b96d5ade7cf53986aff2": {
+        "mins": 59,
+        "hours": 2
+    },
+    "license:6bdfe5602acc54d7664431a2a271cf956033d006": {
+        "mins": 33,
+        "hours": 1
+    },
+    "license:579fddb8e8756789492f0bc9a54802a23122e691": {
+        "mins": 49,
+        "hours": 5
+    },
+    "license:a83fdee19fdd068cd0393173aebcaa5f74e3e0c7": {
+        "mins": 5,
+        "hours": 2
+    },
+    "license:98df90a6316961f20e1c06646338da8e7597d2f3": {
+        "mins": 22,
+        "hours": 8
+    },
+    "license:fc6627ff1b1f210a156092a9d56e4a62a4be0ec8": {
+        "mins": 52,
+        "hours": 9
+    },
+    "license:b34f5beafdbcd34f23e6a1beaff8f30383be8f1d": {
+        "mins": 40,
+        "hours": 6
+    },
+    "license:f91aeb784ebecd892f2b1e2ce4795e422dc22921": {
+        "mins": 19,
+        "hours": 56
+    },
+    "license:db922634621fbe087e9caa77fecb9a30df9319c3": {
+        "mins": 5,
+        "hours": 13
+    },
+    "license:ba9c64e8ccecb144bd4aebbba6acc8e4977883e5": {
+        "mins": 39,
+        "hours": 5
+    },
+    "license:a01737f2f45b8da5e8196d58b84894772759e1bb": {
+        "mins": 46,
+        "hours": 27
+    },
+    "license:22677ff0b0ff4c60d4f2c3eea8e9e8682d2b3083": {
+        "mins": 26,
+        "hours": 9
+    },
+    "license:b4df189808e00a56e2cca048165af65cf3acc785": {
+        "mins": 2,
+        "hours": 0
+    },
+    "license:61aea5cbbb985d97b31be10fb7ce18d590d6e4cb": {
+        "mins": 0,
+        "hours": 6
+    },
+    "license:2408316de554f2a372d622032a63de4fea47321f": {
+        "mins": 35,
+        "hours": 0
+    },
+    "license:3f9e04a187807ba450bcce1b21ecefc2847ab4e2": {
+        "mins": 1,
+        "hours": 6
+    },
+    "license:49f90fa628b793d89e48c2f51057a05c7d9eed22": {
+        "mins": 5,
+        "hours": 0
+    },
+    "license:55265ad574cc01bc228100dc8664e0d7c7735ffd": {
+        "mins": 9,
+        "hours": 1
+    },
+    "license:d8d5b83ee3a9a62e909d2b2f05ae85a3f56cd1ba": {
+        "mins": 0,
+        "hours": 12
+    },
+    "license:5018ab62d60906cc2f1d9130552dd6223752a282": {
+        "mins": 0,
+        "hours": 4
+    },
+    "license:1e6b8d19fae925b4225388e188f3aa1c31fe1a40": {
+        "mins": 59,
+        "hours": 1
+    },
+    "license:739e81a1b44ceb15a11ce6511878b1029512a91f": {
+        "mins": 0,
+        "hours": 22
+    },
+    "license:da6bf25b9b7fad3afeded34dff5fd5904a065e19": {
+        "mins": 18,
+        "hours": 413
+    },
+    "license:1d949790ab86034cffa0047cb87c105df25b57c4": {
+        "mins": 37,
+        "hours": 1
+    },
+    "license:2225d4df6899b733eab9a4715fb8a5ad3fb1de31": {
+        "mins": 45,
+        "hours": 0
+    }
+}

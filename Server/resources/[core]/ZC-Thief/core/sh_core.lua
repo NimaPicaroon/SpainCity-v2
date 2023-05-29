@@ -1,0 +1,1 @@
+Core = exports.ZCore:get()

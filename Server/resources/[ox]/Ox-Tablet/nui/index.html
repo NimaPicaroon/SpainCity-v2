@@ -1,0 +1,2948 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    
+        <!-- CSS -->
+        <link rel="stylesheet" media="screen" href="./css.css">
+
+        <!-- Fuente -->
+        <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300;400&family=Oswald:wght@200;400;500&display=swap" rel="stylesheet">
+
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+
+        <!-- Pagina principal -->
+        <div class="main_page">
+
+            <!-- Elemento tablet completo -->
+            <div class="tablet_panel" id="tablet_panel">
+
+                <!-- Titulo de la tablet -->
+                <div class="tablet_name">SpainCity tablet</div>
+
+
+                <!-- Pantalla de la tablet -->
+                <div class="tablet_screen">
+
+                    <!-- Contenido de la pantalla -->
+                    <div class="tablet_screen_content">
+
+                        <!-- Lateral izquierdo del panel -->
+                        <div class="left_screen_panel">
+
+                            <!-- Logo Real Life -->
+                            <div class="real_life_logo">
+                                <!-- <img src="./img/RealLife_Logo_BlueWhite.png"> -->
+                                <img src="./img/OwLife_BlancoNegro.png">
+                            </div>
+
+                            <!-- Nombre usuario -->
+                            <div class="username_label">¡Bienvenido <span id="current_user_name_tablet">MrLuxisTV</span>!</div>
+
+                            <!-- Menu de opciones -->
+                            <ul class="tablet_options_menu" id="tablet_options_menu">
+                                <li id="ficha_personal_button" class="selected">Ficha Personal</li>
+                                <li id="normativa_button">Normativas</li>
+                                <li id="ems_button">EMS</li>
+                                <li id="sapd_button">CNP</li>
+                                <div class="sapd_submenu" id="sapd_submenu">
+                                    <li id="vehiculos_button">Vehículos</li>
+                                    <li id="byc_button">Busca y captura</li>
+                                </div>
+                                <li id="admin_button">Administración</li>
+                                <div class="admin_submenu" id="admin_submenu">
+                                    <li id="admin_items_button">Items</li>
+                                </div>
+                                <li id="jobs_button">Trabajos</li>
+
+                            </ul>
+                            <!-- Fin de menu de opciones -->
+
+                        </div>
+                        <!-- Fin de lateral izquierdo del panel -->
+
+
+                        <!-- Lateral derecho del panel -->
+                        <div class="right_screen_panel" id="right_screen_panel">
+
+                            <!-- Página de información personal del usuario actual -->
+                            <div class="personal_information_page opened" id="current_user_information_page">
+
+                                <!-- Apartado superior de informacion personal del usuario actual -->
+                                <div class="user_info_container">
+
+                                    <!-- Titulo -->
+                                    <div class="tittle">
+                                        Información Personal
+                                    </div>
+
+                                    <!-- Contenedor para la foto + boton de modifciar en SAPD -->
+                                    <div class="user_photo_container">
+                                        <div class="user_photo_frame">
+                                            <div class="user_photo_content">
+                                                <img src="./img/usuario_prueba.jpg" id="current_user_photo"> 
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- Fin de contenedor para foto -->
+
+                                    <!-- Contenedor para datos del usuario -->
+                                    <div class="user_data_panel">
+
+                                        <!-- Nombre -->
+                                        <div class="data_element">
+                                            <div class="data_name">Nombre completo</div>
+                                            <div class="data_value" id="current_user_name">Luis Santana</div>
+                                        </div>
+
+                                        <!-- ID -->
+                                        <div class="data_element">
+                                            <div class="data_name">ID</div>
+                                            <div class="data_value id" id="current_user_id">72FT27C</div>
+                                        </div>
+
+                                        <!-- Género -->
+                                        <div class="data_element">
+                                            <div class="data_name">Género</div>
+                                            <div class="data_value" id="current_user_genre">Hombre</div>
+                                        </div>
+
+                                        <!-- Número de teléfono -->
+                                        <div class="data_element">
+                                            <div class="data_name">Número de teléfono</div>
+                                            <div class="data_value" id="current_user_phone">5846326</div>
+                                        </div>
+
+                                        <!-- Fecha de nacimiento -->
+                                        <div class="data_element">
+                                            <div class="data_name">Fecha de nacimiento</div>
+                                            <div class="data_value" id="current_user_date_birth">30/06/1998</div>
+                                        </div>
+
+                                        <!-- Multas -->
+                                        <div class="data_element">
+                                            <div class="data_name">Multas</div>
+                                            <div class="data_value" id="current_user_penalties">$0</div>
+                                        </div>
+
+                                        <!-- Seguro médico con tarjeta de aviso, para SAPD y Usuario actual -->
+                                        <div class="data_element">
+                                            <div class="data_name">Seguro médico</div>
+                                            <div class="data_value health_label hasInsurance" id="current_user_life_insurance">Seguro disponible</div>
+                                            <!-- <div class="data_value health_label hasNotInsurance" id="current_user_life_insurance">Seguro no disponible</div> -->
+                                        </div>
+
+                                    </div>
+                                    <!-- Fin de contenedor para datos del usuario -->
+
+                                </div>
+                                <!-- Fin de apartado superior de informacion personal -->
+
+                                <!-- Apartado de tablas de datos del usuario actual -->
+                                <div class="tables_container">
+
+                                    <!-- Panel de botones de seleccion de tabla -->
+                                    <div class="tables_selector" id="current_user_tables_selector">
+                                        <div class="selector selected" id="current_user_properties_button">Propiedades</div>
+                                        <div class="selector" id="current_user_vehicles_button">Vehículos</div>
+                                        <div class="selector" id="current_user_crimes_history_button">Historial de delitos</div>
+                                        <div class="selector" id="current_user_penalties_button">Multas y Facturas</div>
+                                    </div>
+                                    <!-- Fin de panel de botones de seleccion de tabla -->
+
+                                    <!-- Panel de tablas -->
+                                    <div class="tables_panel" id="current_user_tables_panel">
+
+                                        <!-- Tabla de propiedades del usuario actual-->
+                                        <ul class="table opened" id="current_user_properties_table">
+                                            <li>
+                                                <span>Nº</span>
+                                                <span>Reforma</span>
+                                                <span>Estado de la puerta</span>
+                                            </li>
+                                            <li>
+                                                <span>Chalet</span>
+                                                <span>Grove Street, nº 53</span>
+                                                <span>Forzada</span>
+                                            </li>
+                                        </ul>
+                                        <!-- Fin de tabla de propiedades del usuario actual-->
+
+
+                                        <!-- Tabla de vehículos del usuario actual-->
+                                        <ul class="table" id="current_user_vehicles_table">
+                                            <li>
+                                                <span>Matrícula</span>
+                                                <span>Modelo</span>
+                                                <span>Color</span>
+                                                <span>Gasolina restante</span>
+                                                <span>Garaje actual</span>
+                                            </li>
+                                            <li>
+                                                <span>GC2435</span>
+                                                <span>Coquette 221</span>
+                                                <span>Verde</span>
+                                                <span>67%</span>
+                                                <span>Grove Street garage</span>
+                                            </li>
+                                        </ul>
+                                        <!-- Fin de tabla de vehículos del usuario actual-->
+
+
+                                        <!-- Tabla de licencias del usuario actual-->
+                                        <ul class="table" id="current_user_licenses_table">
+                                            <li>
+                                                <span>Nombre de licencia</span>
+                                            </li>
+                                            <li>
+                                                <span>Carnet de conducir</span>
+                                            </li>
+                                        </ul>
+                                        <!-- Fin de tabla de licencias del usuario actual-->
+
+
+                                        <!-- Tabla de historial de delitos del usuario actual-->
+                                        <ul class="table" id="current_user_crimes_history_table">
+                                            <li>
+                                                <span>Descripción de la infracción</span>
+                                                <span>Oficial asignado</span>
+                                                <span>Fecha de registro</span>
+                                                <span>Sanción</span>
+                                            </li>
+                                        </ul>
+                                        <!-- Fin de tabla de historial de delitos del usuario actual-->
+
+
+                                        <!-- Tabla de historial médico del usuario actual-->
+                                        <ul class="table" id="current_user_medical_history_table">
+                                            <li>
+                                                <span>Descripción de la consulta</span>
+                                                <span>Doctor asignado</span>
+                                                <span>Fecha de consulta</span>
+                                                <span>Tratamiento</span>
+                                            </li>
+                                            <li>
+                                                <span>Atropello leve con rotura de pierna</span>
+                                                <span>Doctor avililla</span>
+                                                <span>11/10/2021</span>
+                                                <span>Férula y antibióticos durante una semana</span>
+                                            </li>
+                                        </ul>
+                                        <!-- Fin de tabla de historial médico del usuario actual-->
+
+
+                                        <!-- Tabla de multas del usuario actual-->
+                                        <ul class="table" id="current_user_penalties_table">
+                                            <li>
+                                                <span>Definición</span>
+                                                <span>Coste de la sanción</span>
+                                                <span>Emisor</span>
+                                                <span>Fecha de emisión</span>
+                                                <span>Estado</span>
+                                                <span>Acciones</span>
+                                            </li>
+                                            <li>
+                                                <span>Multa de aparcamiento</span>
+                                                <span>$350.5</span>
+                                                <span>Agente Artzalez</span>
+                                                <span>15/11/2021</span>
+                                                <span class="status_label pending">
+                                                    <div class="text">Pediente</div>
+                                                </span>
+                                                <span class="action_buttons_container">
+                                                    <div class="action_button payment">
+                                                        <img src="./img/payment_logo.png">
+                                                        <span class="action_label">Pagar multa</span>
+                                                    </div>
+                                                    
+                                                </span>
+                                            </li>
+                                            <li>
+                                                <span>Multa de aparcamiento</span>
+                                                <span>$350.5</span>
+                                                <span>Doctor Avililla</span>
+                                                <span>21/11/2021</span>
+                                                <span class="status_label pending">
+                                                    <div class="text">Pendiente</div>
+                                                </span>
+                                                <span class="action_buttons_container">
+                                                    <div class="action_button payment">
+                                                        <img src="./img/payment_logo.png">
+                                                        <span class="action_label">Pagar multa</span>
+                                                    </div>
+                                                    
+                                                </span>
+                                            </li>
+                                        </ul>
+                                        <!-- Fin de tabla de multas del usuario actual-->
+
+                                    </div>
+                                    <!-- Fin de panel de tablas -->
+
+
+                                </div>
+                                <!-- Fin de apartado de tablas de datos del usuario actual -->
+
+
+
+                                
+                            </div>
+                            <!-- Fin de página de información personal del usuario actual -->
+
+
+                            <!-- Página de normativa -->
+                            <div class="normativa_page" id="normativa_page">
+
+                                <!-- Selector de normativas -->
+                                <div class="normatives_selector" id="normatives_selector">
+                                    <div class="selector selected" id="normativa_general_button">N. General</div>
+                                    <div class="selector" id="normativa_especifica_button">N. Específica</div>
+                                    <div class="selector" id="normativa_bandas_button">N. Bandas</div>
+                                    <div class="selector" id="normativa_comercio_button">N. Comercio</div>
+                                    <div class="selector" id="normativa_streaming_button">N. Streaming</div>
+                                </div>
+                                <!-- Fin de selector de normativas -->
+
+
+
+                                <!-- Documento de la normativa general -->
+                                <div class="normativa_document opened" id="normativa_general_document">
+
+                                    <!-- Páginas simuladas con divs -->
+                                    <div class="page">
+                                        <div class="header">
+                                            <span class="tittle">NORMATIVA GENERAL</span>
+                                            <img src="./img/RealLife-Logo_full.png">
+                                        </div>
+
+                                        <div class="paragraph">
+                                            <span class="tittle"><u>CONCEPTOS BÁSICOS DE ROL</u></span>
+                                            <span class="tittle">1. INTERPRETACIÓN DEL PERSONAJE</span>
+                                            <p>Siempre deberemos actuar acorde a nuestro personaje.</p>
+                                            <p>Por ejemplo, si tu personaje tiene cualquier tipo de acento deberás rolear
+                                                siempre ese acento, igual que si un personaje tiene algún tipo de
+                                                trastorno. Debemos tener en cuenta que si somos civiles debemos
+                                                comportarnos como tal y no asumir un rol de banda.</p>
+                                        </div>
+
+                                        <div class="paragraph">
+                                            <span class="tittle">2. VALORACIÓN DE NUESTRA VIDA</span>
+                                            <p>Se entiende dentro del punto 1 de esta normativa que la interpretación
+                                                del personaje va de facto y de la mano con la valoración de la vida del
+                                                mismo. Recordemos que queremos roles que vayan dentro del espíritu
+                                                del propio servidor.</p>
+                                        </div>
+
+                                        <div class="paragraph">
+                                            <span class="tittle">3. In Character (IC)</span>
+                                            <p>Todo aquello que ocurre con nuestro personaje o en el entorno de la
+                                                ciudad donde está queda dentro del servidor del juego.</p>
+                                        </div>
+
+                                        <div class="paragraph">
+                                            <span class="tittle">4. Out Of Character (OOC)</span>
+                                            <p>Todas las acciones que ocurren, se hablan o realizan de forma ajena a
+                                                nuestro personaje fuera del juego.</p>
+                                        </div>
+
+                                        <div class="footer">
+                                            <hr>
+                                            <span><span class="page_number">1|</span>Página</span>
+                                        </div>
+                                    </div>
+
+                                    <div class="page">
+                                        <div class="header">
+                                            <span class="tittle">NORMATIVA GENERAL</span>
+                                            <img src="./img/RealLife-Logo_full.png">
+                                        </div>
+
+                                        <div class="paragraph">
+                                            <span class="tittle">5. MetaGaming (MG)</span>
+                                            <p>Está prohibido utilizar cualquier tipo de información obtenida fuera del
+                                                servidor dentro del juego, sea de forma intencionada o accidental, para
+                                                obtener un beneficio.</p>
+                                        </div>
+
+                                        <div class="paragraph">
+                                            <span class="tittle">6. Rol de Entorno (RDE)</span>
+                                            <p>Es una herramienta para contextualizar el rol que estamos realizando
+                                                dentro del servidor con respecto al lugar y la cantidad de gente que
+                                                habría en esa zona en una ciudad real, y adaptar nuestra actuación
+                                                acorde a ello. También sirve para generar rol a otros usuarios y aumentar
+                                                la diversión de todos.</p>
+                                        </div>
+
+                                        <div class="paragraph">
+                                            <span class="tittle">7. PlayerKill (PK)</span>
+                                            <p>Se considera PK cuando tu personaje es noqueado y luego te reanima un
+                                                médico o reapareces en el hospital. Debes simular una pérdida de
+                                                memoria cuando reapareces en el hospital (No recordarás qué o quién te
+                                                ha noqueado, ni el por qué).</p>
+                                        </div>
+
+                                        <div class="paragraph">
+                                            <span class="tittle">8. RevengeKill (RK)</span>
+                                            <p>Este acto se realiza cuando un jugador hace caso omiso al rol de pérdida
+                                                de memoria y toma represalias contra su asesino. También se aplica tras
+                                                un CK.</p>
+                                        </div>
+
+                                        <div class="footer">
+                                            <hr>
+                                            <span><span class="page_number">2|</span>Página</span>
+                                        </div>
+                                    </div>
+
+                                    <div class="page">
+                                        <div class="header">
+                                            <span class="tittle">NORMATIVA GENERAL</span>
+                                            <img src="./img/RealLife-Logo_full.png">
+                                        </div>
+
+                                        <div class="paragraph">
+                                            <span class="tittle">9. CharacterKill (CK)</span>
+                                            <p>Se considera CK la muerte total de tu personaje, con lo que conlleva la
+                                                pérdida de bienes y propiedades materiales, amistades de la ciudad, etc.</p>
+                                        </div>
+
+                                        <div class="paragraph">
+                                            <span class="tittle">10. DeathMatch (DM)</span>
+                                            <p>Acción de jugadores que se dedican a matar al resto sin motivos previos
+                                                o aparentes.</p>
+                                        </div>
+
+                                        <div class="paragraph">
+                                            <span class="tittle">11. VEHÍCULO DeathMatch (VDM)</span>
+                                            <p>Se trata de matar a otro jugador intencionadamente usando un vehículo
+                                                como arma. Cabe destacar que golpear desde un vehículo a otro jugador
+                                                ya sea con un arma o una patada sin un rol previo se considera VDM.</p>
+                                        </div>
+
+                                        <div class="paragraph">
+                                            <span class="tittle">12. PowerGaming (PG)</span>
+                                            <p>Se considera como la posibilidad de hacer cosas que en la vida real no
+                                                podrías realizar porque no tienen sentido ni lógica o por el simple hecho
+                                                de que serían imposibles de realizar, pero que se pueden realizar en el
+                                                servidor por ser un juego. Puntos a destacar, que no únicos, son:</p>
+                                            <p class="padding-left">- No se puede reconocer a los jugadores por la voz si van
+                                                enmascarados (Es decir, si tienen más del 50% de su rostro
+                                                oculto).</p>
+                                            <p class="padding-left">- No podrás conducir un vehículo con el 50% de las ruedas
+                                                pinchadas.</p>
+                                        </div>
+
+                                        <div class="footer">
+                                            <hr>
+                                            <span><span class="page_number">3|</span>Página</span>
+                                        </div>
+                                    </div>
+
+                                    <div class="page">
+                                        <div class="header">
+                                            <span class="tittle">NORMATIVA GENERAL</span>
+                                            <img src="./img/RealLife-Logo_full.png">
+                                        </div>
+
+                                        <div class="paragraph">
+                                            <span class="tittle">13. EVASIÓN DE ROL</span>
+                                            <p>La evasión de rol ocurre cuando evitamos un rol con un jugador de forma
+                                                intencionada. Si sufrimos de problemas de conexión o por fuerza mayor,
+                                                debemos avisar por Discord a los implicados. Una vez podamos recuperar
+                                                nuestra actividad normal deberemos continuar con el rol en el punto que
+                                                lo hemos dejado.</p>
+                                        </div>
+
+                                        <div class="paragraph">
+                                            <span class="tittle">14. ROL DE ENTORNO</span>
+                                            <p>La ciudad dentro del juego simula la vida real, es decir que habrá
+                                                ciudadanos y/o cámaras de vigilancia viendo todo lo que hacemos en
+                                                sitios públicos.</p>
+                                        </div>
+
+                                        <div class="paragraph">
+                                            <span class="tittle">15. ROBO DE COCHES POLICIALES Y AMBULANCIAS</span>
+                                            <p>En ningún caso se puede robar ninguno de estos vehículos a no ser que no
+                                                tengas opción a escapar si estás en una persecución, por lo que podrás
+                                                usarlo como medio de escape. Hay que tener en cuenta que estos
+                                                vehículos tienen localizadores (Se deberá mandar /v simulando el GPS
+                                                cada 1 minuto).</p>
+                                        </div>
+
+                                        <div class="footer">
+                                            <hr>
+                                            <span><span class="page_number">4|</span>Página</span>
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <!-- Fin de documento de la normativa general -->
+
+
+                                <!-- Documento de la normativa específica -->
+                                <div class="normativa_document" id="normativa_especifica_document">
+                                                                        
+                                    <div class="page">
+                                        <div class="header">
+                                            <span class="tittle">NORMATIVA ESPECÍFICA</span>
+                                            <img src="./img/RealLife-Logo_full.png">
+                                        </div>
+
+                                        <div class="paragraph">
+                                            <span class="tittle">1. USO DE ARMAS Y VEHÍCULOS</span>
+                                            <p>Todos los ocupantes del vehículo, menos el piloto, podrán disparar si el
+                                                vehículo está en movimiento. En el caso de que el vehículo se encuentre
+                                                parado tanto el piloto como los otros ocupantes podrán disparar. No se
+                                                podrá disparar a matar desde dentro de los vehículos. Siempre que se
+                                                quiera iniciar un rol agresivo, te debes bajar del vehículo.</p>
+                                        </div>
+
+                                        <div class="paragraph">
+                                            <span class="tittle">2. CORRUPCIÓN EN LA POLICÍA</span>
+                                            <p>No está permitida la corrupción en la policía ya que es un rol
+                                                exclusivamente dedicado para la administración.</p>
+                                        </div>
+
+                                        <div class="paragraph">
+                                            <span class="tittle">3. ROLES SENSIBLES</span>
+                                            <p>Quedan prohibidos por normativa los roles de violación en el servidor. Los
+                                                roles que puedan afectar a otro jugador de forma permanente como
+                                                amputaciones de algún miembro de su cuerpo tendrán que ser discutidos
+                                                y aceptados por ambas partes implicadas.</p>
+                                        </div>
+
+                                        <div class="paragraph">
+                                            <span class="tittle">4. BUGS</span>
+                                            <p>Cualquier uso de un bug en el servidor bien para evitar un rol como para
+                                                escapar u obtener un beneficio no está permitido. Vender drogas bajo un
+                                                puente o dentro de un túnel para que el GPS te mande a otro sitio se
+                                                considera aprovecharse de un BUG.</p>
+                                        </div>
+
+                                        <div class="footer">
+                                            <hr>
+                                            <span><span class="page_number">1|</span>Página</span>
+                                        </div>
+                                    </div>
+                                                                        
+                                    <div class="page">
+                                        <div class="header">
+                                            <span class="tittle">NORMATIVA ESPECÍFICA</span>
+                                            <img src="./img/RealLife-Logo_full.png">
+                                        </div>
+
+                                        <div class="paragraph">
+                                            <span class="tittle">5. ROBOS</span>
+                                            <p>No puedes iniciar un nuevo robo sin haber previamente terminado un rol
+                                                de robo anterior.</p>
+                                        </div>
+
+                                        <div class="paragraph">
+                                            <span class="tittle">5.1 ROBO A UN CIVIL</span>
+                                            <p>Para realizar este robo se necesitará algún arma de filo cortante
+                                                (cuchillo). No se limita el robo a civiles, pero conlleva sanción si se hace
+                                                abuso de ello. Se permite robar todo el inventario, excepto bebida y
+                                                comida. Bajo ningún concepto se le podrá robar si tiene abiertos los
+                                                menús de tienda de ropa, tatuajes, peluquería, ATM, en el concesionario o
+                                                similares. Además, en caso de secuestro, sólo se podrá tener retenidos a
+                                                los rehenes por un máximo de 30 minutos.</p>
+                                        </div>
+
+                                        <div class="paragraph">
+                                            <span class="tittle">5.2 ROBO A UN EMS</span>
+                                            <p>No se le podrá robar a un EMS de servicio.</p>
+                                        </div>
+
+                                        <div class="paragraph">
+                                            <span class="tittle">5.3 ROBO A UN POLICÍA</span>
+                                            <p>Deberás realizar el robo con armas de filo cortante o armas de fuego. Se
+                                                puede robar todo el inventario, menos bebida, comida y las armas
+                                                reglamentarias (Pistola, Táser, Porra). Las armas sí se podrán robar en
+                                                caso de que este se encuentre fuera de servicio.</p>
+                                        </div>
+
+                                        <div class="footer">
+                                            <hr>
+                                            <span><span class="page_number">2|</span>Página</span>
+                                        </div>
+                                    </div>
+                                                                        
+                                    <div class="page">
+                                        <div class="header">
+                                            <span class="tittle">NORMATIVA ESPECÍFICA</span>
+                                            <img src="./img/RealLife-Logo_full.png">
+                                        </div>
+
+                                        <div class="paragraph">
+                                            <span class="tittle">5.4 ROBO DE VEHÍCULOS DE IMPORTACIÓN</span>
+                                            <p>Se podrá robar un vehículo de importación participando un máximo de 2
+                                                personas. Se evitará el tránsito de puentes o similares a fin de evitar
+                                                BUGS de GPS. Están permitidos los bloqueos.</p>
+                                        </div>
+
+                                        <div class="paragraph">
+                                            <span class="tittle">5.4.1 ROBO DE VEHÍCULOS PARA ACTOS DELICTIVOS</span>
+                                            <p class="padding-left">• Sólo se podrán cualquier tipo de vehículos parar robar, hacer
+                                                bloqueos, secuestros.</p>
+                                            <p class="padding-left">• Una vez realizado el acto con el vehículo, se deberá abandonar.</p>
+                                        </div>
+
+                                        <div class="paragraph">
+                                            <span class="tittle">5.5 ROBO MENOR</span>
+                                            <p>Se considera robo menor a cualquier badulaque, licorería, peluquería,
+                                                tienda de ropa, joyería y tienda electrónica. Para los robos de
+                                                badulaques, licorerías, peluquerías y tiendas de ropa, se necesitará un
+                                                arma de filo cortante (cuchillo). Para los robos de joyerías y tiendas de
+                                                electrónica se necesitará un arma de fuego corta (Pistola) y, en caso
+                                                específico de la tienda de electrónica, necesitarás además una termita.</p>
+                                            <p>El máximo de participantes para realizar los robos de badulaques,
+                                                licorerías, peluquerías y tiendas de ropa será de máximo 2 en cuanto a
+                                                atracadores.</p>
+                                            <p>El máximo para el caso de joyerías es de 3 personas que podrán estar
+                                                dentro y fuera de la misma. Se podrá disponer de un máximo de 2
+                                                rehenes por atracador.</p>
+                                            <p>En los coches de importación se pueden realizar bloqueos.</p>
+                                        </div>
+
+                                        <div class="footer">
+                                            <hr>
+                                            <span><span class="page_number">3|</span>Página</span>
+                                        </div>
+                                    </div>
+                                                                        
+                                    <div class="page">
+                                        <div class="header">
+                                            <span class="tittle">NORMATIVA ESPECÍFICA</span>
+                                            <img src="./img/RealLife-Logo_full.png">
+                                        </div>
+
+                                        <div class="paragraph">
+                                            <span class="tittle">5.5.1 LIMITACIONES DE ROBO MENOR PARA CIVILES</span>
+                                            <p>El máximo de badulaques a realizar es de 1 badulaque cada 2 días.</p>
+                                        </div>
+
+                                        <div class="paragraph">
+                                            <span class="tittle">5.6 ROBO MAYOR</span>
+                                            <p>Se considera robo mayor a cualquier sucursal de banco, banco federal,
+                                                ammu-nation, yate e Industrias Humane.</p>
+                                            <p>Para realizar este tipo de robos se necesita un arma de fuego (mínimo
+                                                SMG). Se necesitará rehenes para todos los robos mayores excepto para
+                                                el robo de yate.</p>
+                                            <p>Para realizar el robo de la sucursal del banco y ammu-nation tendrá un
+                                                máximo de 5 rehenes.</p>
+                                            <p>Para realizar robos a la sucursal de banco federal e Industrias Humane se
+                                                tendrá un máximo de 8 rehenes.</p>
+                                            <p>Se permiten bloqueos para cualquier robo mayor excepto Fleeca y yates.
+                                                Se permite ayuda de gente externa en todos los robos excepto el yate.</p>
+                                        </div>
+
+                                        <div class="paragraph">
+                                            <span class="tittle">5.6.1 LIMITACIONES DE ROBO MAYOR PARA CIVILES</span>
+                                            <p>No se permite que ningún civil realice este tipo de robos.</p>
+                                        </div>
+
+                                        <div class="paragraph">
+                                            <span class="tittle">6. ROBOS A TRABAJOS LEGALES</span>
+                                            <p>Para realizar este tipo de robos se necesitará algún arma de filo cortante
+                                                (cuchillo). Se permite robar todo el inventario excepto comida, bebida y
+                                                aquellos artículos que sean específicos de la facción (botiquines, kits de
+                                                reparación, vendas, suspensiones, ruedas, etc). Queda totalmente</p>
+                                        </div>
+
+                                        <div class="footer">
+                                            <hr>
+                                            <span><span class="page_number">4|</span>Página</span>
+                                        </div>
+                                    </div>
+                                                                        
+                                    <div class="page">
+                                        <div class="header">
+                                            <span class="tittle">NORMATIVA ESPECÍFICA</span>
+                                            <img src="./img/RealLife-Logo_full.png">
+                                        </div>
+
+                                        <div class="paragraph">
+                                            <p>prohibido robarles mientras estén en su área de trabajo legal (Mecánico,
+                                                parking del mecánico, hospitales, comisarias, etc).</p>
+                                        </div>
+
+                                        <div class="paragraph">
+                                            <span class="tittle">7. ROLES AGRESIVOS</span>
+                                            <p>Para civiles el máximo de participantes en roles agresivos es de 2
+                                                personas.</p>
+                                        </div>
+
+                                        <div class="paragraph">
+                                            <span class="tittle">8. SECUESTROS</span>
+                                            <p>Se podrá secuestrar sin importar la cantidad de policías en servicio.</p>
+                                        </div>
+
+                                        <div class="paragraph">
+                                            <span class="tittle">8.1 SECUESTROS A CIVILES</span>
+                                            <p>Se podrá secuestrar a cualquier civil siempre y cuando no se encuentre
+                                                en su puesto de trabajo.</p>
+                                        </div>
+
+                                        <div class="paragraph">
+                                            <span class="tittle">8.2 SECUESTROS A POLICÍA</span>
+                                            <p>Se podrá secuestrar a un policía de servicio siempre y cuando se tenga
+                                                un rol previo, un motivo de peso o sea la última opción.</p>
+                                        </div>
+
+                                        <div class="paragraph">
+                                            <span class="tittle">8.3 SECUESTROS A EMS</span>
+                                            <p>Se podrá secuestrar a un EMS de servicio siempre y cuando se tenga un
+                                                rol previo, un motivo de peso o sea la última opción.</p>
+                                        </div>
+
+                                        <div class="footer">
+                                            <hr>
+                                            <span><span class="page_number">5|</span>Página</span>
+                                        </div>
+                                    </div>
+                                                                        
+                                    <div class="page">
+                                        <div class="header">
+                                            <span class="tittle">NORMATIVA ESPECÍFICA</span>
+                                            <img src="./img/RealLife-Logo_full.png">
+                                        </div>
+
+                                        <div class="paragraph">
+                                            <span class="tittle">9. REHENES</span>
+                                            <p>En ningún caso puedes usar como rehén a un amigo ni tampoco a alguien
+                                                relacionado con tu organización criminal, sea miembro de esta o
+                                                asociado a la misma como informante o camello. Si un rehén colabora no
+                                                se le puede matar excepto que se rompan las negociaciones. Si usamos
+                                                un rehén para un robo no se le podrá robar si colabora. Sólo se podrá
+                                                mantener retenido a un rehén por un máximo de 30 minutos.</p>
+                                        </div>
+
+                                        <div class="paragraph">
+                                            <span class="tittle">10. CORRUPCIÓN EN LA POLICÍA</span>
+                                            <p>No está permitida la corrupción en la policía ya que es un rol
+                                                exclusivamente dedicado para la administración.</p>
+                                        </div>
+
+                                        <div class="paragraph">
+                                            <span class="tittle">11. LLAMADAS FALSAS</span>
+                                            <p>No se podrá hacer llamadas falsas a los servicios de policía, EMS, taxistas
+                                                o mecánicos.</p>
+                                        </div>
+
+                                        <div class="paragraph">
+                                            <span class="tittle">12. VEHÍCULOS AÉREOS</span>
+                                            <p>- Se necesita una licencia para poder usarlos.</p>
+                                            <p>- Sólo podrás pilotarlo por un máximo de 30 minutos y para repostarlo
+                                                deberás estar en tierra como mínimo 5 minutos.</p>
+                                            <p>- Se aplica la normativa de disparar desde dentro de vehículos excepto si
+                                                este recibe fuego directo, entonces todos los pasajeros, excepto el piloto,
+                                                podrán abrir fuego.</p>
+                                            <p>- Para volar a baja altura será necesario enviar el Rol de Entorno
+                                                correspondiente.</p>
+                                        </div>
+
+                                        <div class="footer">
+                                            <hr>
+                                            <span><span class="page_number">6|</span>Página</span>
+                                        </div>
+                                    </div>
+                                                                        
+                                    <div class="page">
+                                        <div class="header">
+                                            <span class="tittle">NORMATIVA ESPECÍFICA</span>
+                                            <img src="./img/RealLife-Logo_full.png">
+                                        </div>
+
+                                        <div class="paragraph">
+                                            <p>- Solo podrás aterrizar en zona habilitadas como helipuertos o pistas de
+                                                aterrizaje. De ser un aterrizaje forzoso se deberá evitar las zonas
+                                                pobladas y enviar el correspondiente Rol de Entorno.</p>
+                                        </div>
+
+                                        <div class="paragraph">
+                                            <span class="tittle">13. EVENTOS ORGANIZADOS</span>
+                                            <p>Cuando una fiesta o evento sea organizado por un establecimiento o bien
+                                                por la administración y avisado previamente por Discord, no se podrá
+                                                cometer ningún acto ilegal tales como secuestros o robos. Evitaremos en
+                                                la medida de lo posible cualquier tipo de reyerta que empañe la
+                                                realización de dicho evento.</p>
+                                        </div>
+
+                                        <div class="paragraph">
+                                            <span class="tittle">14. ACTOS DELICTIVOS EN REINICIOS</span>
+                                            <p>No se podrá realizar ningún tipo de actividad ilegal 15 minutos antes y
+                                                después de cada reinicio del servidor. Si se trata de un reinicio
+                                                improvisado, esto no será aplicable.</p>
+                                        </div>
+
+                                        <div class="paragraph">
+                                            <span class="tittle">15. FARMEO ABUSIVO SIN INTERPRETACIÓN</span>
+                                            <p>Se considera abusivo cualquier tipo de farmeo sin sentido cuya
+                                                interpretación no sea la correcta y conlleva sanción.</p>
+                                            <p>Ejemplos:</p>
+                                            <p class="padding-left">- Trabajos NPC</p>
+                                            <p class="padding-left">- Trabajos legales</p>
+                                            <p class="padding-left">- Farmeo de venta de droga</p>
+                                            <p class="padding-left">- Farmeo de robos</p>
+                                        </div>
+
+                                        <div class="footer">
+                                            <hr>
+                                            <span><span class="page_number">7|</span>Página</span>
+                                        </div>
+                                    </div>
+                                                                        
+                                    <div class="page">
+                                        <div class="header">
+                                            <span class="tittle">NORMATIVA ESPECÍFICA</span>
+                                            <img src="./img/RealLife-Logo_full.png">
+                                        </div>
+
+                                        <div class="paragraph">
+                                            <span class="tittle">16. CHIPS LOCALIZADORES</span>
+                                            <p>Sólo la policía podrá rolear que lleva estos en la ropa y en los vehículos.</p>
+                                        </div>
+
+                                        <div class="paragraph">
+                                            <span class="tittle">17. USO DE CASCOS PARA ACTOS ILÍCITOS</span>
+                                            <p>Está prohibido el uso de cascos de ningún tipo que soporten más de un
+                                                disparo a la cabeza en un rol agresivo.</p>
+                                        </div>
+
+                                        <div class="paragraph">
+                                            <span class="tittle">18. ZONAS CALIENTES</span>
+                                            <p>Las zonas calientes son todas las zonas en las que se puede hacer
+                                                recolecta y procesado de drogas. No se podrá mandar ningún rol de
+                                                entorno de ningún tipo ni a la EMS, ni a la policía, ni a los mecánicos a no
+                                                ser que el rol se extienda a la ciudad o carretera, dónde si se deberá
+                                                mandar el respectivo entorno. En los territorios de organizaciones
+                                                criminales habrá entorno favorable para el miembro de la organización y
+                                                se considera zona caliente. Todo lo que ocurra dentro de la zona
+                                                dominada por una organización queda bajo la responsabilidad de la
+                                                misma, pudiendo no mandar los entornos correspondientes. En cualquier
+                                                caso, si un civil (no NPC) viera un acto ilegal sin ser conocedor de que
+                                                dicha zona es una zona de influencia de banda, este si podrá mandar su
+                                                entorno correspondiente.</p>
+                                            <p><i>Aclaración: El RDE favorable no exime la entrada de personas al barrio ni
+                                                de actos delictivos en este, ya que igual que en otros sitios se deberá
+                                                mandar entorno al hacer un acto ilícito. El RDE favorable lo forjarán los
+                                                vecinos del barrio de manera IC.</i></p>
+                                        </div>
+
+                                        <div class="footer">
+                                            <hr>
+                                            <span><span class="page_number">8|</span>Página</span>
+                                        </div>
+                                    </div>
+                                                                        
+                                    <div class="page">
+                                        <div class="header">
+                                            <span class="tittle">NORMATIVA ESPECÍFICA</span>
+                                            <img src="./img/RealLife-Logo_full.png">
+                                        </div>
+
+                                        <div class="paragraph">
+                                            <span class="tittle">20. SANCIONES</span>
+                                            <p>El incumplimiento de la normativa conllevará a diferentes sanciones.
+                                                Pueden ir desde las faltas de respeto a otro usuario, utilización de
+                                                información externa para perjudicar al servidor o actitudes tóxicas que
+                                                puedan manchar la imagen del mismo.</p>
+                                            <p>Las sanciones serán aplicadas de la siguiente manera:</p>
+                                            <p class="padding-left">• Sanciones leves: Cuando un usuario cometa tres faltas leves se
+                                                procederá a poner un Strike. (3 sanciones = 1 Strike)</p>
+                                            <p class="padding-left">• Sanciones graves: Cuando un usuario cometa 3 faltas graves se
+                                                pondrán sanciones temporales de veto de entrada al servidor.
+                                                (sanción grave = 1 Strike)</p>
+                                            <p>A continuación, se señalan las sanciones temporales:</p>
+                                            <p class="padding-left">- 3 strikes: 3 días de ban</p>
+                                            <p class="padding-left">- 4 strikes: 7 días de ban</p>
+                                            <p class="padding-left">- 5 strikes: Expulsión permanente</p>
+                                            <p>Las sanciones se aplican en función del criterio de la administración y
+                                                tipificadas anteriormente en las normativas internas del servidor. Cuando
+                                                un jugador acumule hasta 3 expulsiones temporales se considerará como
+                                                jugador no grato y por lo tanto no podrá acceder nunca más al servidor.</p>
+                                            <p>Las sanciones se aplican a través del canal de SANCIONES en el canal de
+                                                Discord correspondiente donde se señala el motivo, la duración y si
+                                                procede o no apelación. Dicho lo cual, si una sanción conlleva apelación
+                                                es porque consideramos que puede tener una explicación por parte del
+                                                infractor y quedar sencillamente en una advertencia verbal. En caso de
+                                                no ser apelable es porque la administración considera que no hay</p>
+                                        </div>
+
+                                        <div class="footer">
+                                            <hr>
+                                            <span><span class="page_number">9|</span>Página</span>
+                                        </div>
+                                    </div>
+                                                                        
+                                    <div class="page">
+                                        <div class="header">
+                                            <span class="tittle">NORMATIVA ESPECÍFICA</span>
+                                            <img src="./img/RealLife-Logo_full.png">
+                                        </div>
+
+                                        <div class="paragraph">
+                                            <p>justificación de ningún tipo para apelar dicha sanción debido a las
+                                                pruebas gráficas recibidas por la persona que reporta.</p>
+                                            <p>Cualquier tipo de exploit, cheat o programa externo no permitido por la
+                                                administración conllevará la expulsión inmediata e irrevocable.</p>
+                                        </div>
+
+                                        <div class="paragraph">
+                                            <span class="tittle">21. POLÍTICA INTERNA</span>
+                                            <p class="padding-left">• <u>Edad mínima</u>: OwLife RP es un servidor por invitación y la edad
+                                                mínima de juego es de 18 años. Si la administración descubre que
+                                                un jugador no cumple este requisito, será expulsado de manera
+                                                temporal hasta que lo cumpla. Podrá haber excepciones
+                                                previamente aprobadas por la administración.</p>
+                                            <p class="padding-left">• <u>Retirada de whitelist</u>: Se retirará la whitelist cuando un jugador
+                                                lleve sin entrar más de 60 días al servidor. De ser así, podrá
+                                                realizar de nuevo un proceso de whitelist para obtener de nuevo
+                                                acceso. Tendrá que enviar de nuevo la historia del personaje con el
+                                                que entrará.</p>
+                                        </div>
+
+                                        <div class="paragraph">
+                                            <span class="tittle">22. REPORTES</span>
+                                            <p>Para realizar un reporte de manera correcta debes seguir los siguientes
+                                                pasos:</p>
+                                            <p class="padding-left">• Abrir un ticket de reportes en el Discord de OwLife RP.</p>
+                                            <p class="padding-left">• Presentar pruebas gráficas de lo que reportas (sin pruebas no
+                                                prosperará dicho reporte).</p>
+                                            <p class="padding-left">• ID de Discord de la persona a reportar (sin la ID no podemos
+                                                reportar).</p>
+                                            <p class="padding-left">• Mensaje claro y conciso y motivos por los que quieres reportar.</p>
+                                        </div>
+
+                                        <div class="footer">
+                                            <hr>
+                                            <span><span class="page_number">10|</span>Página</span>
+                                        </div>
+                                    </div>
+                                                                        
+                                    <div class="page">
+                                        <div class="header">
+                                            <span class="tittle">NORMATIVA ESPECÍFICA</span>
+                                            <img src="./img/RealLife-Logo_full.png">
+                                        </div>
+
+                                        <div class="paragraph">
+                                            <p>Una vez presentado el reporte, un administrador valorará con el resto del
+                                                equipo en caso y de ser pertinente el reporte, se comunicará por ese
+                                                mismo ticket y se hará pública la sanción en el canal de sanciones.</p>
+                                        </div>
+
+                                        <div class="footer">
+                                            <hr>
+                                            <span><span class="page_number">11|</span>Página</span>
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <!-- Fin de documento de la normativa específica -->
+
+                                
+                                <!-- Documento de la normativa de bandas -->
+                                <div class="normativa_document" id="normativa_bandas_document">
+                                    
+                                    <div class="page">
+                                        <div class="header">
+                                            <span class="tittle">NORMATIVA BANDAS</span>
+                                            <img src="./img/RealLife-Logo_full.png">
+                                        </div>
+
+                                        <div class="paragraph">
+                                            <span class="tittle">1. INICIAR UN PROYECTO</span>
+                                            <p class="margin_bottom">Para iniciar una postulación la banda tendrá que tener como mínimo 5
+                                                integrantes. Las bandas están formadas por un límite de 12 miembros
+                                                oficiales, permitiendo 3 outsiders dentro de ella.</p>
+                                            <p><u>Requisitos para postulación de banda</u>:</p>
+                                            <p class="margin_bottom">En el Discord de Real Life publicaremos un formulario con varias
+                                                preguntas que solicitamos para la postulación. Pedimos los nombres de
+                                                los miembros de la banda, los rangos dentro de esta, la zona de influencia
+                                                que quieran tener, su historia, los vehículos que quieran tener y la
+                                                insignia o color identificativo.</p>
+                                            <p>La administración podrá valorar la disolución de una banda en el caso de
+                                                que la interpretación de ella no se esté llevando correctamente.</p>
+                                            <p>Para disolver una banda, se tendrá que llevar a cabo el CK del líder y de
+                                                la mano derecha, pero los demás integrantes podrán seguir con su
+                                                personaje fuera de la banda. Si se decide entrar a una banda, el jefe y la
+                                                mano derecha tendrán en todo momento permiso para hacer CK con
+                                                motivo de peso. Si se decide abandonar una banda, quedará a criterio del
+                                                líder o mano derecha, hacer CK o no.</p>
+                                            <p>Prohibido streamear los puntos de drogas para evitar MG.</p>
+                                        </div>
+
+                                        <div class="paragraph">
+                                            <span class="tittle">2. ROBOS</span>
+                                            <p>No puedes iniciar un nuevo robo sin haber previamente terminado un rol
+                                                de robo anterior.</p>
+                                        </div>
+
+                                        <div class="footer">
+                                            <hr>
+                                            <span><span class="page_number">1|</span>Página</span>
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="page">
+                                        <div class="header">
+                                            <span class="tittle">NORMATIVA BANDAS</span>
+                                            <img src="./img/RealLife-Logo_full.png">
+                                        </div>
+
+                                        <div class="paragraph">
+                                            <span class="tittle">2.1 ROBOS MENORES</span>
+                                            <p>Se considera robo menor a cualquier badulaque, licorería, peluquería,
+                                                tienda de ropa, joyería y tienda electrónica. Para los robos de
+                                                badulaques, licorerías, peluquerías y tiendas de ropa, se necesitará un
+                                                arma de filo cortante (cuchillo). Para los robos de joyerías y tiendas de
+                                                electrónica se necesitará un arma de fuego corta (Pistola) y, en caso
+                                                específico de la tienda de electrónica, necesitarás además una termita.</p>
+                                            <p>El máximo de participantes para realizar los robos de badulaques,
+                                                licorerías, peluquerías y tiendas de ropa será de máximo 2 en cuanto a
+                                                atracadores.</p>
+                                            <p>El máximo para el caso de joyerías es de 3 personas que podrán estar
+                                                dentro y fuera de la misma. Se podrá disponer de un máximo de 2
+                                                rehenes por atracador.</p>
+                                            <p>En los coches de importación se pueden realizar bloqueos.</p>
+                                        </div>
+
+                                        <div class="paragraph">
+                                            <span class="tittle">2.1.1 LIMITACIONES DE ROBO MENOR PARA PROYECTO DE BANDA</span>
+                                            <p>El máximo de badulaques a realizar es de 2 badulaques por día.</p>
+                                            <p>El máximo de joyerías a realizar es de una cada 2 días.</p>
+                                        </div>
+
+                                        <div class="paragraph">
+                                            <span class="tittle">2.1.2 LIMITACIONES DE ROBO MENOR PARA BANDAS OFICIALES</span>
+                                            <p>• El máximo de badulaques a realizar es de 5 por día.</p>
+                                            <p>• El máximo de joyerías a realizar es 1 por día.</p>
+                                        </div>
+
+                                        <div class="footer">
+                                            <hr>
+                                            <span><span class="page_number">2|</span>Página</span>
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="page">
+                                        <div class="header">
+                                            <span class="tittle">NORMATIVA BANDAS</span>
+                                            <img src="./img/RealLife-Logo_full.png">
+                                        </div>
+
+                                        <div class="paragraph">
+                                            <span class="tittle">2.2 ROBOS MAYORES</span>
+                                            <p>Se considera robo mayor a cualquier sucursal de banco, banco federal,
+                                                ammu-nation yate e Industrias Humane.</p>
+                                            <p>Para realizar este tipo de robos se necesita un arma de fuego (mínimo
+                                                SMG). Se necesitará rehenes para todos los robos mayores excepto para
+                                                el robo de yate.</p>
+                                            <p>Para realizar robos a la sucursal de banco federal e Industrias Humane se
+                                                tendrá un máximo de 8 rehenes.</p>
+                                            <p>Se permiten bloqueos para cualquier robo mayor excepto Fleeca y yates.
+                                                Se permite ayuda de gente externa en todos los robos excepto el yate.</p>
+                                        </div>
+
+                                        <div class="paragraph">
+                                            <span class="tittle">2.2.1 LIMITACIONES DE ROBO MAYOR PARA PROYECTOS DE BANDA</span>
+                                            <p>Sólo podrán realizar robos ammu-nation. Los demás robos mayores está
+                                                totalmente prohibido llevarlos a cabo.</p>
+                                            <p>El robo del ammu-nation se podrá realizar cada 1 semana con estas
+                                                especificaciones:</p>
+                                            <p class="padding-left">• Obligatoriamente deberá haber como máximo 2 pistolas.</p>
+                                            <p class="padding-left">• No están permitidas las armas de filo.</p>
+                                            <p class="padding-left">• Un máximo de 4 participantes, ya sea dentro y fuera.</p>
+                                        </div>
+
+                                        <div class="paragraph">
+                                            <span class="tittle">2.2.2 LIMITACIONES DE ROBO MAYOR PARA BANDAS OFICIALES</span>
+                                            <p>Se podrá realizar cualquier tipo de robo mayor siendo máximo 1 cada 4
+                                                días con las siguientes especificaciones:</p>
+                                        </div>
+
+                                        <div class="footer">
+                                            <hr>
+                                            <span><span class="page_number">3|</span>Página</span>
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="page">
+                                        <div class="header">
+                                            <span class="tittle">NORMATIVA BANDAS</span>
+                                            <img src="./img/RealLife-Logo_full.png">
+                                        </div>
+
+                                        <div class="paragraph">
+                                            <p class="padding-left">• Ammu-nation: Un máximo de 4 participantes, ya sea dentro o
+                                                fuera. Únicamente se podrán usar armas de fuego de corto
+                                                alcance (pistolas).</p>
+                                            <p class="padding-left">• Flecca: Un máximo de 5 participantes, ya sea dentro y fuera.
+                                                Se podrán usar armas cortas (pistolas) y máximo 1 SMG.</p>
+                                            <p class="padding-left">• Yate: Un máximo de 5 participantes, estando todos
+                                                exclusivamente dentro. Únicamente se podrán usar armas
+                                                cortas (pistolas).</p>
+                                            <p class="padding-left">• Banco Federal: Un máximo de 8 participantes, ya sea dentro o
+                                                fuera. Sin limitación de armamento.</p>
+                                            <p class="padding-left">• Industrias Humane: Pueden acudir los miembros oficiales de
+                                                la banda. No pueden ir outsiders. Pueden estar dentro y fuera.
+                                                Sin limitación de armamento.</p>
+                                        </div>
+
+                                        <div class="paragraph">
+                                            <span class="tittle">2.3 ROBOS DE VEHÍCULOS DE IMPORTACIÓN</span>
+                                            <p>Se podrá robar un coche de importación cuando participen máximo 2
+                                                personas. Se evitará el tránsito en túneles, puentes o similar. Están
+                                                permitidos los bloqueos.</p>
+                                        </div>
+
+                                        <div class="paragraph">
+                                            <span class="tittle">3. SECUESTROS</span>
+                                            <p>Se podrá secuestrar sin importar la cantidad de policías en servicio.</p>
+                                        </div>
+
+                                        <div class="paragraph">
+                                            <span class="tittle">3.1 SECUESTRO A CIVILES</span>
+                                            <p>Se podrá secuestrar a un civil siempre y cuando no esté en su puesto de
+                                                trabajo.</p>
+                                        </div>
+
+                                        <div class="footer">
+                                            <hr>
+                                            <span><span class="page_number">4|</span>Página</span>
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="page">
+                                        <div class="header">
+                                            <span class="tittle">NORMATIVA BANDAS</span>
+                                            <img src="./img/RealLife-Logo_full.png">
+                                        </div>
+
+                                        <div class="paragraph">
+                                            <span class="tittle">3.2 SECUESTROS A POLICÍA</span>
+                                            <p>Se podrá secuestrar a un policía de servicio siempre y cuando se tenga
+                                                un rol previo, un motivo de peso o sea la última opción.</p>
+                                        </div>
+
+                                        <div class="paragraph">
+                                            <span class="tittle">3.3 SECUESTROS A EMS</span>
+                                            <p>Se podrá secuestrar a un EMS de servicio siempre y cuando se tenga un
+                                                rol previo, un motivo de peso o sea la última opción.</p>
+                                        </div>
+
+                                        <div class="paragraph">
+                                            <span class="tittle">4. DRIVE BY</span>
+                                            <p>Se entiende por “drive by” a hacer una pasada de varios vehículos para
+                                                intimidación o control de zonas.</p>
+                                            <p>Se podrá realizar “Drive by” con las siguientes características:</p>
+                                            <p class="padding-left">• Máximo de 6 participantes en el “Drive by”.</p>
+                                            <p class="padding-left">• Los conductores no pueden disparar. Solo lo podrán hacer los
+                                                pasajeros del lateral más cercano al objetivo de disparo.</p>
+                                            <p class="padding-left">• Los disparos tienen que ser a estructuras o vehículos. Nunca se
+                                                podrá disparar a matar o herir.</p>
+                                            <p class="padding-left">• La velocidad máxima será de 50km/h.</p>
+                                        </div>
+
+                                        <div class="paragraph">
+                                            <span class="tittle">5. ROLES AGRESIVOS</span>
+                                            <p>• Para proyectos de banda, el máximo de participantes en un rol
+                                                agresivo será de 5 personas.</p>
+                                            <p>• Para bandas, el máximo de participantes en un rol agresivo será de 5
+                                                personas.</p>
+                                            <p><i>Quedan exentos los tiroteos y guerras entre bandas, donde no hay
+                                                límites.</i></p>
+                                        </div>
+
+                                        <div class="footer">
+                                            <hr>
+                                            <span><span class="page_number">5|</span>Página</span>
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="page">
+                                        <div class="header">
+                                            <span class="tittle">NORMATIVA BANDAS</span>
+                                            <img src="./img/RealLife-Logo_full.png">
+                                        </div>
+
+                                        <div class="paragraph">
+                                            <span class="tittle">6. EXTORSIONES</span>
+                                            <p>Están totalmente prohibidas las extorsiones a cualquier negocio con el
+                                                fin de sacar algún beneficio. Se podrán hacer estos roles siempre que
+                                                tengamos un motivo real (IC) y de peso contra los dueños o el negocio en
+                                                sí.</p>
+                                        </div>
+
+                                        <div class="paragraph">
+                                            <span class="tittle">7. AJUSTE DE CUENTAS</span>
+                                            <p>Consta de una represalia contra una persona u organización. En el caso
+                                                de que se quiera realizar un ajuste de cuentas a un civil, se tendrá que
+                                                hacer sobre el mismo e implicado en ese rol. Pero, en caso de querer
+                                                realizar un ajuste de cuentas a un miembro de una banda, se podrá
+                                                realizar a cualquier persona dentro de esta. Se tendrá que realizar con un
+                                                motivo de peso. Al realizar este tipo de rol se tendrá que dejar claro el
+                                                por qué del ajuste de cuentas.</p>
+                                        </div>
+
+                                        <div class="paragraph">
+                                            <span class="tittle">8. ALIANZAS ENTRE BARRIOS</span>
+                                            <p>No están permitidas las alianzas en actos ilícitos o con fines lucrativos
+                                                para ambas partes. Esto no implica que se pueda tener un pacto de no
+                                                agresión temporal.</p>
+                                        </div>
+
+                                        <div class="paragraph">
+                                            <p><i>** Todos los puntos no estipulados en esta normativa quedan sujetos a
+                                                las mismas condiciones que los dispuestos en la Normativa Específica.</i></p>
+                                        </div>
+
+                                        <div class="footer">
+                                            <hr>
+                                            <span><span class="page_number">6|</span>Página</span>
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <!-- Fin de documento de la normativa de bandas -->
+
+
+                                <!-- Documento de la normativa de comercio -->
+                                <div class="normativa_document" id="normativa_comercio_document">
+                                                                        
+                                    <div class="page">
+                                        <div class="header">
+                                            <span class="tittle">NORMATIVA COMERCIO</span>
+                                            <img src="./img/RealLife-Logo_full.png">
+                                        </div>
+
+                                        <div class="paragraph">
+                                            <span class="tittle">1. REQUISITOS PARA LA POSTULACIÓN</span>
+                                            <p>Para postular a un negocio tendrás que tener unos requisitos:</p>
+                                            <p class="padding-left">- Deberás de rellenar un formulario con varias preguntas que
+                                                pedimos para entregar dicho negocio.</p>
+                                            <p class="padding-left">- Debemos saber si perteneces a alguna a alguna banda o no. En el
+                                                caso de que sea afirmativo, deberemos saber a qué banda
+                                                perteneces.</p>
+                                            <p class="padding-left">- Conocer vuestro nombre de negocio.</p>
+                                            <p class="padding-left">- Conocer el nombre del dueño, tanto OOC como IC.</p>
+                                            <p class="padding-left">- Conocer brevemente un resumen sobre la historia del dueño del
+                                                negocio.</p>
+                                            <p class="padding-left">- Saber en qué zona está ubicado dicho negocio.</p>
+                                            <p class="padding-left">- Conocer la historia del negocio en relación a la del personaje IC.</p>
+                                            <p class="padding-left">- Saber el funcionamiento del negocio.</p>
+                                            <p class="padding-left">- Rangos que forman el negocio, y en qué va a consistir cada uno de
+                                                ellos.</p>
+                                            <p class="padding-left">- Objetivos que se tiene pensado llegar a corto y largo plazo.</p>
+                                            <p class="padding-left">- Saber la normativa OOC e IC.</p>
+                                            <p class="padding-left">- Cómo se dará a conocer sobre este negocio.</p>
+                                            <p class="padding-left">- Horarios de apertura del negocio.</p>
+                                        </div>
+
+                                        <div class="paragraph">
+                                            <span class="tittle">2. NORMATIVA DE COMERCIO</span>
+                                            <p class="padding-left">1. El mal uso de las herramientas será sancionado con su respectiva
+                                                sanción, pudiendo incluir el cierre del negocio.</p>
+                                            <p class="padding-left">2. El abuso del Job también será sancionado con su respectiva
+                                                sanción. Si eres mecánico no puedes abusar del Job, TAMPOCO
+                                                podrás utilizarlo fuera del servicio.</p>
+                                        </div>
+
+                                        <div class="footer">
+                                            <hr>
+                                            <span><span class="page_number">1|</span>Página</span>
+                                        </div>
+                                    </div>
+                                                                        
+                                    <div class="page">
+                                        <div class="header">
+                                            <span class="tittle">NORMATIVA COMERCIO</span>
+                                            <img src="./img/RealLife-Logo_full.png">
+                                        </div>
+
+                                        <div class="paragraph">
+                                            <p class="padding-left">3. Tras ser el negocio aceptado estará en periodo de pruebas. En caso
+                                                de que el negocio no cumpla con los requisitos durante estas dos
+                                                semanas, los encargados de comercios podrán tomar la decisión de
+                                                cerrar dicho negocio</p>
+                                            <p class="padding-left">Para saber si finalmente está aceptado el negocio, lo sabréis IC por
+                                                una inspección de trabajo.</p>
+                                            <p class="padding-left">4. Si un negocio se encuentra inactivo durante 7 días sin avisar de
+                                                ello a los, dichos soportes podrán retirar el comercio de la tutela
+                                                del actual dueño, quedando libre de nuevo el negocio para postular
+                                                (los empleados tendrán prioridad para su adquisición en caso de
+                                                querer obtener el negocio).</p>
+                                        </div>
+
+                                        <div class="footer">
+                                            <hr>
+                                            <span><span class="page_number">2|</span>Página</span>
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <!-- Fin de documento de la normativa de comercio -->
+
+
+                                <!-- Documento de la normativa de streaming -->
+                                <div class="normativa_document" id="normativa_streaming_document">
+                                        
+                                    <div class="page">
+                                        <div class="header">
+                                            <span class="tittle">NORMATIVA STREAMING</span>
+                                            <img src="./img/RealLife-Logo_full.png">
+                                        </div>
+
+                                        <div class="paragraph">
+                                            <span class="tittle">1. ¿QUÉ ES SER CREADOR DE CONTENIDO EN REAL LIFE?</span>
+                                            <p>Ser creador de contenido en la comunidad de Real Life te da la opción de
+                                                poder realizar retransmisiones/grabaciones de tus momentos preferidos.
+                                                Este permiso es otorgado a través de la rama de Stream Mods bajo su
+                                                propio criterio y siempre habiendo cumplido todos los requisitos.</p>
+                                            <p>Requisitos para la obtención del permiso:</p>
+                                            <p class="padding-left">- Tener la whitelist aprobada en Real Life RP.</p>
+                                            <p class="padding-left">- No tener en tu ficha un historial de faltas graves.</p>
+                                        </div>
+
+                                        <div class="paragraph">
+                                            <span class="tittle">2. ¿DE QUÉ MANERA PUEDO CONSEGUIR EL PERMISO DE CREADOR DE CONTENIDO?</span>
+                                            <p>Todo el proceso será efectuado a través de un formulario el cual
+                                                rellenarás para poder pedir el permiso en cuestión. En el momento que se
+                                                tengan las deliberaciones de los postulados se efectuará un anuncio
+                                                comunicando los aptos y no aptos.</p>
+                                        </div>
+
+                                        <div class="paragraph">
+                                            <span class="tittle">3. NORMATIVA DEL PERMISO</span>
+                                            <p class="paddin-left">- Todo creador de contenido deberá de recalcar en su título de
+                                                stream el nombre de Real Life RP +18.</p>
+                                            <p class="paddin-left">- El creador de contenido es responsable de todo lo que ocurra
+                                                dentro de su chat, por lo cual cualquier actitud tóxica de la que no
+                                                se haga cargo podrá ser sancionada.</p>
+                                            <p class="paddin-left">- El usuario que realice la retransmisión deberá obligatoriamente
+                                                mantener activados los clips para tener opción a obtener pruebas
+                                                de cualquier reporte que pueda ocasionarse en el futuro.</p>
+                                        </div>
+
+                                        <div class="footer">
+                                            <hr>
+                                            <span><span class="page_number">1|</span>Página</span>
+                                        </div>
+                                    </div>
+                                        
+                                    <div class="page">
+                                        <div class="header">
+                                            <span class="tittle">NORMATIVA STREAMING</span>
+                                            <img src="./img/RealLife-Logo_full.png">
+                                        </div>
+
+                                        <div class="paragraph">
+                                            <p class="padding-left">- Cualquier actitud tóxica a esta o cualquier otra comunidad será
+                                                duramente sancionada.</p>
+                                            <p class="padding-left">- El creador de contenido deberá siempre estar disponible de cara a
+                                                la administración por si fuera necesario solicitar la interrupción
+                                                del streaming o realizarle toques de atención al mismo.</p>
+                                            <p class="padding-left">- El creador de contenido acepta que la administración se guarde el
+                                                derecho de retirar el permiso de retransmisión/grabación en
+                                                cualquier momento, sin previo aviso, bajo motivos previamente
+                                                considerados.</p>
+                                        </div>
+
+                                        <div class="footer">
+                                            <hr>
+                                            <span><span class="page_number">2|</span>Página</span>
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <!-- Fin de documento de la normativa de streaming -->
+                                
+
+
+                            </div>
+                            <!-- Fin de página de normativa -->
+
+
+                            <!-- Pagina de SAPD -->
+                            <div class="SAPD_page" id="SAPD_page">
+
+                                <!-- Panel de busqueda de usuarios -->
+                                <div class="user_searcher_panel opened" id="user_searcher_panel">
+                                    <div class="players_searcher_input">
+                                        <input type="text" class='players_search_bar' id="players_search_bar" required>
+                                        <span class="placeholder">Buscar ciudadano</span>
+                                    </div>
+
+                                    <!-- Contenedor de la tabla de búsquedas -->
+                                    <div class="searched_results_table_container">
+                                        <!-- Tabla de resultados de búsqueda de usuarios -->
+                                        <ul class="table" id="searched_users_table">
+                                            <li>
+                                                <span>Foto</span>
+                                                <span>Nombre Completo</span>
+                                                <span>Multas</span>
+                                                <span>Género</span>
+                                                <!-- <span>ID</span> -->
+                                                <span>Teléfono</span>
+                                                <span>Acciones</span>
+                                            </li>
+
+                                            <!-- Ejemplo de elemento buscado: 
+                                                <li>
+                                                <span class="searched_user_img">
+
+                                                    <div class="user_photo_frame">
+                                                        <div class="user_photo_content">
+                                                            <img src="./img/usuario_prueba.jpg"> 
+                                                        </div>
+                                                    </div>
+
+                                                </span>
+                                                <span>Luis Santana</span>
+                                                <span>$534,21</span>
+                                                <span>Masculino</span>
+                                                <span>75GTH4</span>
+                                                <span>6854298</span>
+                                                <span class="action_buttons_container">
+                                                    <div class="action_button open_template">
+                                                        <img src="./img/document-logo.png">
+                                                        <span class="action_label">Abrir ficha</span>
+                                                    </div>
+                                                </span>
+                                            </li> -->
+                                        </ul>
+                                        <!-- Fin de tabla de resultados de búsqueda de usuarios -->
+                                    
+                                    </div>
+                                    <!-- Fin de contenedor de la tabla de búsquedas -->
+
+                                </div>
+                                <!-- Panel de busqueda de usuarios -->
+
+                                <!-- Página de información de USUARIOS BUSCADOS -->
+                                <div class="personal_information_page" id="searched_user_information_panel">
+                                    <div class="close_button" id="close_searched_user_information_button">
+                                        Cerrar ficha
+                                    </div>
+
+                                    <!-- Apartado superior de informacion personal del usuario buscado -->
+                                    <div class="user_info_container">
+
+                                        <!-- Titulo -->
+                                        <div class="tittle">
+                                            Ficha policial de Ciudadano
+                                        </div>
+
+                                        <!-- Contenedor para la foto + boton de modifciar en SAPD -->
+                                        <div class="user_photo_container">
+                                            <div class="user_photo_frame">
+                                                <div class="user_photo_content">
+                                                    <img src="./img/usuario_prueba.jpg" id="searched_user_photo"> 
+                                                </div>
+                                            </div>
+
+                                            <!-- <div class="searched_user_change_photo_button" id="searched_user_change_photo_button">
+                                                Cambiar imagen de usuario
+                                            </div> -->
+                                        </div>
+                                        <!-- Fin de contenedor para foto -->
+
+                                        <!-- Contenedor para datos del usuario -->
+                                        <div class="user_data_panel">
+
+                                            <!-- Nombre -->
+                                            <div class="data_element">
+                                                <div class="data_name">Nombre completo</div>
+                                                <div class="data_value" id="searched_user_name">Luis Santana</div>
+                                            </div>
+
+                                            <!-- ID -->
+                                            <div class="data_element">
+                                                <div class="data_name">ID</div>
+                                                <div class="data_value id" id="searched_user_id">72FT27C</div>
+                                            </div>
+
+                                            <!-- Género -->
+                                            <div class="data_element">
+                                                <div class="data_name">Género</div>
+                                                <div class="data_value" id="searched_user_genre">Hombre</div>
+                                            </div>
+
+                                            <!-- Número de teléfono -->
+                                            <div class="data_element">
+                                                <div class="data_name">Número de teléfono</div>
+                                                <div class="data_value" id="searched_user_phone">5846326</div>
+                                            </div>
+
+                                            <!-- Fecha de nacimiento -->
+                                            <div class="data_element">
+                                                <div class="data_name">Fecha de nacimiento</div>
+                                                <div class="data_value" id="searched_user_date_birth">30/06/1998</div>
+                                            </div>
+
+                                            <!-- Multas -->
+                                            <div class="data_element">
+                                                <div class="data_name">Multas</div>
+                                                <div class="data_value" id="searched_user_penalties">$33.453,12</div>
+                                            </div>
+
+                                            <!-- Seguro médico con tarjeta de aviso, para SAPD y EMS -->
+                                            <div class="data_element">
+                                                <div class="data_name">Seguro médico</div>
+                                                <div class="data_value health_label hasInsurance" id="searched_user_life_insurance">Seguro disponible</div>
+                                                <!-- <div class="data_value health_label hasNotInsurance" id="searched_user_life_insurance">Seguro no disponible</div> -->
+                                            </div>
+
+                                            <!-- Selector de accciones para los usuarios buscados -->
+                                            <div class="searched_user_options_container">
+                                                <!-- Boton para marcar al usuario como peligroso -->
+                                                <div class="searched_user_option_button" id="searched_user_option_dangerous">
+                                                    Marcar como sujeto peligroso
+                                                </div>
+
+                                                <!-- Boton para marcar al usuario como busca y captura -->
+                                                <div class="searched_user_option_button" id="searched_user_option_search_seizure">
+                                                    Poner en busca y captura
+                                                </div>
+
+                                                <!-- Label de sujeto peligroso -->
+                                                <div class="searched_user_option_label" id="searched_user_label_dangerous">
+                                                    Sujeto peligro
+                                                </div>
+
+                                                <!-- Label de sujeto en busca y captura -->
+                                                <div class="searched_user_option_label" id="searched_user_label_search_seizure">
+                                                    En busca y captura
+                                                </div>
+                                            </div>
+                                            <!-- Fin de selector de accciones para los usuarios buscados -->
+
+                                        </div>
+                                        <!-- Fin de contenedor para datos del usuario -->
+                                        
+                                    </div>
+                                    <!-- Fin de apartado superior de informacion personal del usuario buscado -->
+                                    
+                                    <!-- Apartado de tablas de datos del usuario buscado -->
+                                    <div class="tables_container">
+                                        
+                                        <!-- Panel de botones de seleccion de tabla -->
+                                        <div class="tables_selector" id="searched_user_tables_selector">
+                                            <div class="selector selected" id="searched_user_properties_button">Propiedades</div>
+                                            <div class="selector" id="searched_user_vehicles_button">Vehículos</div>
+                                            <div class="selector" id="searched_user_crimes_history_button">Historial de delitos</div>
+                                            <div class="selector" id="searched_user_penalties_button">Multas y Facturas</div>
+                                            <div class="selector" id="searched_user_notes_button">Notas policiales</div>
+                                        </div>
+                                        <!-- Fin de panel de botones de seleccion de tabla -->
+
+
+                                        <div class="add_elements_buttons_container" id="searched_user_add_elements_buttons">
+
+                                            <!-- Boton de añadir notas policiales -->
+                                            <div class="add_table_element_button" id="add_sapd_notes_button">
+                                                Añadir nueva nota
+                                            </div>
+                                            <!-- Fin de boton de añadir notas policiales -->
+
+                                            <!-- Boton de añadir sanciones -->
+                                            <div class="add_table_element_button" id="add_sapd_crimes_button">
+                                                Añadir nuevo delito
+                                            </div>
+                                            <!-- Fin de boton de añadir sanciones -->
+
+                                        </div>
+
+                                        <!-- Panel de las tablas -->
+                                        <div class="tables_panel" id="searched_user_tables_panel">
+
+                                            <!-- Tabla de propiedades del usuario buscado -->
+                                            <ul class="table opened" id="searched_user_properties_table">
+                                                <li>
+                                                    <span>Tipo</span>
+                                                    <span>Ubicación</span>
+                                                </li>
+                                                <li>
+                                                    <span>Chalet</span>
+                                                    <span>Grove Street, nº 53</span>
+                                                </li>
+                                            </ul>
+                                            <!-- Fin de tabla de propiedades del usuario buscado -->
+
+                                            <!-- Tabla de vehículos del usuario buscado -->
+                                            <ul class="table" id="searched_user_vehicles_table">
+                                                <li>
+                                                    <span>Matrícula</span>
+                                                    <span>Modelo</span>
+                                                    <span>Color</span>
+                                                </li>
+                                                <li>
+                                                    <span>GC2435</span>
+                                                    <span>Coquette 221</span>
+                                                    <span>Verde</span>
+                                                </li>
+                                            </ul>
+                                            <!-- Fin de tabla de vehículos del usuario buscado -->
+                                            
+                                            <!-- Tabla de licencias del usuario buscado -->
+                                            <ul class="table" id="searched_user_licenses_table">
+                                                <li>
+                                                    <span>Nombre de licencia</span>
+                                                    <span>Acciones</span>
+                                                </li>
+                                                <li>
+                                                    <span>Carnet de conducir</span>
+                                                    <span class="action_buttons_container">
+                                                        <div class="action_button delete_licence">
+                                                            <img src="./img/drop_licence.png">
+                                                            <span class="action_label">Eliminar licencia</span>
+                                                        </div>
+                                                        
+                                                    </span>
+                                                </li>
+                                            </ul>
+                                            <!-- Fin de tabla de licencias del usuario buscado -->
+                                            
+                                            <!-- Tabla de historial de delitos del usuario buscado -->
+                                            <ul class="table" id="searched_user_crimes_history_table">
+                                                <li>
+                                                    <span>Descripción de la infracción</span>
+                                                    <span>Oficial asignado</span>
+                                                    <span>Fecha de registro</span>
+                                                    <span>Sanción</span>
+                                                </li>
+                                            </ul>
+                                            <!-- Fin de tabla de historial de delitos del usuario buscado -->
+                                            
+                                            <!-- Tabla de historial médico del usuario buscado -->
+                                            <ul class="table" id="searched_user_medical_history_table">
+                                                <li>
+                                                    <span>Descripción de la consulta</span>
+                                                    <span>Doctor asignado</span>
+                                                    <span>Fecha de consulta</span>
+                                                    <span>Tratamiento</span>
+                                                </li>
+                                                <li>
+                                                    <span>Atropello leve con rotura de pierna</span>
+                                                    <span>Doctor avililla</span>
+                                                    <span>11/10/2021</span>
+                                                    <span>Férula y antibióticos durante una semana</span>
+                                                </li>
+                                            </ul>
+                                            <!-- Fin de tabla de historial médico del usuario buscado -->
+
+
+                                            <!-- Tabla de multas del usuario buscado -->
+                                            <ul class="table" id="searched_user_penalties_table">
+                                                <li>
+                                                    <span>Definición</span>
+                                                    <span>Coste de la sanción</span>
+                                                    <span>Emisor</span>
+                                                    <span>Fecha de emisión</span>
+                                                    <span>Estado</span>
+                                                    <span>Acciones</span>
+                                                </li>
+                                                <!-- <li>
+                                                    <span>Multa de aparcamiento</span>
+                                                    <span>$350.5</span>
+                                                    <span>Agente Artzalez</span>
+                                                    <span>15/11/2021</span>
+                                                    <span class="status_label paid">
+                                                        <div class="text">Pagado</div>
+                                                    </span>
+                                                    <span class="action_buttons_container">
+                                                        <div class="action_button delete_penalty">
+                                                            <img src="./img/drop_penalties.png">
+                                                            <span class="action_label">Retirar multa</span>
+                                                        </div>
+                                                        
+                                                    </span>
+                                                </li>
+                                                <li>
+                                                    <span>Multa de aparcamiento</span>
+                                                    <span>$350.5</span>
+                                                    <span>Doctor Avililla</span>
+                                                    <span>21/11/2021</span>
+                                                    <span class="status_label pending">
+                                                        <div class="text">Pendiente</div>
+                                                    </span>
+                                                    <span class="action_buttons_container">
+                                                        <div class="action_button delete_penalty">
+                                                            <img src="./img/drop_penalties.png">
+                                                            <span class="action_label">Retirar multa</span>
+                                                        </div>
+                                                    </span>
+                                                </li> -->
+                                            </ul>
+                                            <!-- Fin de tabla de multas del usuario buscado -->
+
+
+                                            <!-- Tabla de notas policiales del usuario buscado -->
+                                            <ul class="table" id="searched_user_notes_table">
+                                                <li>
+                                                    <span>Información de la nota</span>
+                                                    <span>Acciones</span>
+                                                </li>
+                                                
+                                            </ul>
+                                            <!-- Fin de tabla de notas policiales del usuario buscado -->                                             
+                                            
+                                            
+                                        </div>
+                                        <!-- Fin de panel de las tablas -->
+
+                                    </div>
+                                    <!-- Fin de apartado de tablas de datos del usuario buscado -->
+                                    
+                                    
+                                </div>
+                                <!-- Fin de página de información de USUARIOS BUSCADOS -->
+
+                            </div>
+                            <!-- Pagina de SAPD -->
+
+
+                            <!-- Submenú SAPD: Buscador de vehiculos -->
+                            <div class="vehicles_searcher_page" id="vehicles_searcher_page">
+                                <!-- Buscador de vehiculos -->
+                                <div class="players_searcher_input">
+                                    <input type="text" class='players_search_bar' id="vehicles_search_bar" required>
+                                    <span class="placeholder">Buscar vehículo</span>
+                                </div>
+
+                                <!-- Contenedor de la tabla de búsquedas -->
+                                <div class="searched_results_table_container">
+                                    <!-- Tabla de resultados de búsqueda de VEHICULOS -->
+                                    <ul class="table" id="searched_vehicles_table">
+                                        <li>
+                                            <span>Matrícula</span>
+                                            <span>Modelo</span>
+                                            <span>Color</span>
+                                            <span>Dueño</span>
+                                            <span>Acciones</span>
+                                        </li>
+
+                                        <!-- Ejemplo de elemento no buscado:
+                                        <li>
+                                            <span>GTF5646HC</span>
+                                            <span>Coquette</span>
+                                            <span>ROJO</span>
+                                            <span>Pedrito</span>
+                                            <span data-steam="" class="action_buttons_container">
+                                                <div class="action_button open_template">
+                                                    <img src="./img/document-logo.png">
+                                                    <span class="action_label">Abrir ficha del dueño</span>
+                                                </div>
+                                            </span>
+                                        </li>  -->
+
+                                    </ul>
+                                    <!-- Fin de tabla de resultados de búsqueda de VEHICULOS -->
+                                
+                                </div>
+                                <!-- Fin de contenedor de la tabla de búsquedas -->
+
+                            </div>
+                            <!-- Fin de submenú SAPD: Buscador de vehiculos -->
+
+
+                            <!-- Submenú SAPD: Busca y captura -->
+                            <div class="search_seizure_page" id="search_seizure_page">
+
+                                <div class="tittle">Ciudadanos en Busca y Captura</div>
+
+                                <!-- Contenedor de la tabla de búsquedas -->
+                                <div class="searched_results_table_container">
+                                    <!-- Tabla de resultados de búsqueda de usuarios -->
+                                    <ul class="table" id="search_seizure_users_table">
+                                        <li>
+                                            <span>Foto</span>
+                                            <span>Nombre Completo</span>
+                                            <span>Multas</span>
+                                            <span>Género</span>
+                                            <span>ID</span>
+                                            <span>Teléfono</span>
+                                            <span>Acciones</span>
+                                        </li>
+
+                                        <!-- <li>
+                                            <span class="searched_user_img">
+
+                                                <div class="user_photo_frame">
+                                                    <div class="user_photo_content">
+                                                        <img src="./img/usuario_prueba.jpg"> 
+                                                    </div>
+                                                </div>
+
+                                            </span>
+                                            <span>Luis Santana</span>
+                                            <span>$534,21</span>
+                                            <span>Masculino</span>
+                                            <span>75GTH4</span>
+                                            <span>6854298</span>
+                                            <span class="action_buttons_container">
+                                                <div class="action_button open_template">
+                                                    <img src="./img/document-logo.png">
+                                                    <span class="action_label">Abrir ficha</span>
+                                                </div>
+                                                <div class="action_button search_out">
+                                                    <img src="./img/Search_out.png">
+                                                    <span class="action_label">Quitar de busca y captura</span>
+                                                </div>
+                                            </span>
+                                        </li> -->
+                                    </ul>
+                                    <!-- Fin de tabla de resultados de búsqueda de usuarios -->
+                                
+                                </div>
+                                <!-- Fin de contenedor de la tabla de búsquedas -->
+
+                                
+
+                            </div>
+                            <!-- Fin de submenú SAPD: Busca y captura -->
+
+
+                            <!-- Submenú SAPD: Delitos en curso -->
+                            <div class="crimes_in_progress_page" id="crimes_in_progress_page">
+
+                                <div class="tittle">Delitos actualmente en curso</div>
+
+                                <div class="searched_results_table_container">
+                                    <div class="table" id="crimes_in_progress_table">
+                                        <li>
+                                            <span>ID</span>
+                                            <span>Nombre</span>
+                                            <span>Robo</span>
+                                            <span>Fecha y hora</span>
+                                            <span>Estado</span>
+                                            <span>Acciones</span>
+                                        </li>
+
+                                        <li>
+                                            <span>1000</span>
+                                            <span>MANOLO EL CHARCUTERO</span>
+                                            <span>Un robo random jajaja equisde</span>
+                                            <span>10/10/2022 16:30</span>
+                                            <span class="status_label pending">
+                                                <div class="text">Pendiente</div>
+                                            </span>
+                                            <span class="action_buttons_container">
+                                                <div class="action_button attend_crime">
+                                                    <img src="./img/attend_crime.png">
+                                                    <span class="action_label">Atender delito</span>
+                                                </div>
+                                                <div class="action_button delete_crime">
+                                                    <img src="./img/close_crime_check.png">
+                                                    <span class="action_label">Cerrar caso</span>
+                                                </div>
+                                            </span>
+                                        </li>
+
+                                        <li>
+                                            <span>543</span>
+                                            <span>Tu madre la cervecera</span>
+                                            <span>Un robo random jajaja equisde</span>
+                                            <span>21/03/2022 18:18</span>
+                                            <span class="status_label inProgress">
+                                                <div class="text">En progreso</div>
+                                            </span>
+                                            <span class="action_buttons_container">
+                                                <div class="action_button unattend_crime">
+                                                    <img src="./img/unattend_crime.png">
+                                                    <span class="action_label">Dejar de atender</span>
+                                                </div>
+                                                <div class="action_button delete_crime">
+                                                    <img src="./img/close_crime_check.png">
+                                                    <span class="action_label">Cerrar caso</span>
+                                                </div>
+                                            </span>
+                                        </li>
+
+                                    </div>
+                                </div>
+
+
+                            </div>
+                            <!-- Fin de submenú SAPD: Delitos en curso -->
+
+
+                            <!-- Página de EMS rgb(150, 49, 18) -->
+                            <div class="EMS_page" id="EMS_page">
+                            
+                                <!-- Panel de busqueda de usuarios POR EMS -->
+                                <div class="user_searcher_panel opened" id="ems_user_searcher_panel">
+
+                                    <!-- Buscador para EMS -->
+                                    <div class="players_searcher_input">
+                                        <input type="text" class='players_search_bar' id="ems_players_search_bar" required>
+                                        <span class="placeholder">Buscar ciudadano</span>
+                                    </div>
+
+                                    <!-- Contenedor de la tabla de búsquedas -->
+                                    <div class="searched_results_table_container">
+                                        <!-- Tabla de resultados de búsqueda de usuarios -->
+                                        <ul class="table" id="ems_searched_users_table">
+                                            <li>
+                                                <span>Foto</span>
+                                                <span>Nombre Completo</span>
+                                                <span>Multas</span>
+                                                <span>Género</span>
+                                                <span>ID</span>
+                                                <span>Teléfono</span>
+                                                <span>Acciones</span>
+                                            </li>
+
+                                            <!-- Ejemplo de elemento buscado: 
+                                                <li>
+                                                <span class="searched_user_img">
+
+                                                    <div class="user_photo_frame">
+                                                        <div class="user_photo_content">
+                                                            <img src="./img/usuario_prueba.jpg"> 
+                                                        </div>
+                                                    </div>
+
+                                                </span>
+                                                <span>Luis Santana</span>
+                                                <span>$534,21</span>
+                                                <span>Masculino</span>
+                                                <span>75GTH4</span>
+                                                <span>6854298</span>
+                                                <span class="action_buttons_container">
+                                                    <div class="action_button open_template">
+                                                        <img src="./img/document-logo.png">
+                                                        <span class="action_label">Abrir ficha</span>
+                                                    </div>
+                                                </span>
+                                            </li> -->
+                                        </ul>
+                                        <!-- Fin de tabla de resultados de búsqueda de usuarios -->
+                                    
+                                    </div>
+                                    <!-- Fin de contenedor de la tabla de búsquedas -->
+
+                                    
+                                </div>
+                                <!-- Panel de busqueda de usuarios POR EMS -->
+
+
+                                <!-- Página de información de USUARIOS BUSCADOS POR EMS -->
+                                <div class="personal_information_page" id="ems_searched_user_information_panel">
+                                    <div class="close_button" id="ems_close_searched_user_information_button">
+                                        Cerrar ficha
+                                    </div>
+
+                                    <!-- Apartado superior de informacion personal del usuario buscado POR EMS -->
+                                    <div class="user_info_container">
+
+                                        <!-- Titulo -->
+                                        <div class="tittle">
+                                            Ficha médica de Ciudadano
+                                        </div>
+
+
+                                        <!-- Contenedor para la foto -->
+                                        <div class="user_photo_container">
+                                            <div class="user_photo_frame">
+                                                <div class="user_photo_content">
+                                                    <img src="./img/usuario_prueba.jpg" id="ems_searched_user_photo"> 
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- Fin de contenedor para foto -->
+
+
+                                        <!-- Contenedor para datos del usuario -->
+                                        <div class="user_data_panel">
+
+                                            <!-- Nombre -->
+                                            <div class="data_element">
+                                                <div class="data_name">Nombre completo</div>
+                                                <div class="data_value" id="ems_searched_user_name">Luis Santana</div>
+                                            </div>
+
+                                            <!-- ID -->
+                                            <div class="data_element">
+                                                <div class="data_name">ID</div>
+                                                <div class="data_value id" id="ems_searched_user_id">72FT27C</div>
+                                            </div>
+
+                                            <!-- Género -->
+                                            <div class="data_element">
+                                                <div class="data_name">Género</div>
+                                                <div class="data_value" id="ems_searched_user_genre">Hombre</div>
+                                            </div>
+
+                                            <!-- Número de teléfono -->
+                                            <div class="data_element">
+                                                <div class="data_name">Número de teléfono</div>
+                                                <div class="data_value" id="ems_searched_user_phone">5846326</div>
+                                            </div>
+
+                                            <!-- Fecha de nacimiento -->
+                                            <div class="data_element">
+                                                <div class="data_name">Fecha de nacimiento</div>
+                                                <div class="data_value" id="ems_searched_user_date_birth">30/06/1998</div>
+                                            </div>
+
+                                            <!-- Multas -->
+                                            <div class="data_element">
+                                                <div class="data_name">Multas</div>
+                                                <div class="data_value" id="ems_searched_user_penalties">$33.453,12</div>
+                                            </div>
+
+                                            <!-- Seguro médico con selector, solo para informacion personal -->
+                                            <div class="data_element">
+                                                <div class="data_name">Seguro médico</div>
+                                                <div class="data_value health_selector" id="ems_searched_user_life_insurance">
+    
+                                                    <!-- Selectores radio ocultos -->
+                                                    <input type="radio" name="seguro" id="ems_searched_user_hasSeguro">
+                                                    <input type="radio" name="seguro" id="ems_searched_user_hasNotSeguro">
+    
+                                                    <!-- Label de cada radio mostrado -->
+                                                    <label for="ems_searched_user_hasSeguro" class="ems_searched_user_hasSeguro_label">
+                                                        <div class="puntero"></div>
+                                                        <span>Si</span>
+                                                    </label>
+                                                    <label for="ems_searched_user_hasNotSeguro" class="ems_searched_user_hasNotSeguro_label">
+                                                        <div class="puntero"></div>
+                                                        <span>No</span>
+                                                    </label>
+                                                </div>
+                                            </div>
+
+
+                                            <!-- TODO AQUI VA EL INSIRANCE CON SELECTOR -->
+
+                                            <hr> <!-- Separador de datos normales y boton para datos médicos -->
+
+                                            <div class="ems_open_health_data_popup" id="ems_open_health_data_popup">Abrir datos médicos</div>
+                                            
+                                            
+
+                                        </div>
+                                        <!-- Fin de contenedor para datos del usuario -->
+
+
+
+
+                                    </div>
+                                    <!-- Apartado superior de informacion personal del usuario buscado POR EMS -->
+
+
+                                    <!-- Apartado de tablas de datos del usuario buscado POR EMS -->
+                                    <div class="tables_container">
+
+                                        <!-- Panel de botones de seleccion de tabla -->
+                                        <div class="tables_selector" id="searched_user_tables_selector">
+                                            <div class="selector selected" id="searched_user_medical_history_button">Historial médico</div>
+                                        </div>
+                                        <!-- Fin de panel de botones de seleccion de tabla -->
+
+                                        <!-- Panel del boton para añadir nuevas consultas medicas -->
+                                        <div class="add_elements_buttons_container">
+
+                                            <div class="add_table_element_button opened" id="emd_add_new_medical_consultation_button">
+                                                Añadir nueva consulta médica
+                                            </div>
+
+                                        </div>
+                                        <!-- Fin del panel del boton para añadir nuevas consultas medicas -->
+
+
+                                        <!-- Panel de las tablas -->
+                                        <div class="tables_panel">
+
+                                            <!-- Tabla de historial médico del usuario buscado -->
+                                            <ul class="table opened" id="ems_searched_user_medical_history_table">
+                                                <li>
+                                                    <span>Descripción de la consulta</span>
+                                                    <span>Doctor asignado</span>
+                                                    <span>Fecha de consulta</span>
+                                                    <span>Tratamiento</span>
+                                                    <span>Acciones</span>
+                                                </li>
+                                               
+                                            </ul>
+                                            <!-- Fin de tabla de historial médico del usuario buscado -->
+
+
+                                        </div>
+                                        <!-- Fin de panel de las tablas -->
+
+
+                                    </div>
+                                    <!-- Fin de apartado de tablas de datos del usuario buscado POR EMS -->
+                                    
+                                    
+                                    
+                                    
+                                    
+                                </div>
+                                <!-- Fin de página de información de USUARIOS BUSCADOS POR EMS -->
+
+
+
+
+                                
+                            </div>
+                            <!-- Fin de página de EMS -->  
+                            
+                            <!-- Página de Administración rgb(196, 158, 24) -->
+                            <div class="admin_page" id="admin_page">
+                                
+                                
+                                <!-- Panel de busqueda de usuarios -->
+                                <div class="user_searcher_panel opened" id="admin_user_searcher_panel">
+
+                                    <div class="players_searcher_input">
+                                        <input type="text" class='players_search_bar' id="admin_players_search_bar" required>
+                                        <span class="placeholder">Buscar ciudadano (ID o nombre)</span>
+                                    </div>
+
+                                    <!-- Contenedor de la tabla de búsquedas -->
+                                    <div class="searched_results_table_container">
+                                        <!-- Tabla de resultados de búsqueda de usuarios -->
+                                        <ul class="table" id="admin_searched_users_table">
+                                            <li>
+                                                <span>Foto</span>
+                                                <span>Nombre Completo</span>
+                                                <span>Discord</span>
+                                                <span>ID</span>
+                                                <span>Acciones</span>
+                                            </li>
+
+                                            <!-- Ejemplo de usuario buscado
+                                            <li>
+                                                <span class="searched_user_img">
+                                                    <div class="user_photo_frame">
+                                                        <div class="user_photo_content">
+                                                            <img src="./img/usuario_prueba.jpg"> 
+                                                        </div>
+                                                    </div>
+                                                </span>
+                                                <span>PACO EL CHOCOLATERO</span>
+                                                <span>TuMadreLaGorda#4321</span>
+                                                <span>N324FN4W5TGFFH</span>
+                                                <span class="action_buttons_container">
+                                                    <div class="action_button open_template">
+                                                        <img src="./img/document-logo.png">
+                                                        <span class="action_label">Abrir ficha</span>
+                                                    </div>
+                                                </span>
+                                            </li> -->
+        
+                                        </ul>
+                                        <!-- Fin de tabla de resultados de búsqueda de usuarios -->
+                
+                                    </div>
+                                    <!-- Fin de contenedor de la tabla de búsquedas -->
+
+                                </div>
+                                <!-- Fin de panel de busqueda de usuarios -->
+
+                                
+                                <!-- Página de información de USUARIOS BUSCADOS -->
+                                <div class="personal_information_page" id="admin_searched_user_information_panel">
+                                    <div class="close_button" id="admin_close_searched_user_information_button">
+                                        Cerrar ficha
+                                    </div>
+
+                                    <!-- Apartado superior de informacion personal del usuario buscado -->
+                                    <div class="user_info_container">
+
+                                        <!-- Titulo -->
+                                        <div class="tittle">
+                                            Información de Jugador
+                                        </div>
+
+                                        <!-- Contenedor para la foto + boton de modifciar en SAPD -->
+                                        <div class="user_photo_container">
+                                            <div class="user_photo_frame">
+                                                <div class="user_photo_content">
+                                                    <img src="./img/usuario_prueba.jpg" id="admin_searched_user_photo"> 
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- Fin de contenedor para foto -->
+
+
+                                        <!-- Contenedor para datos del usuario -->
+                                        <div class="user_data_panel">
+
+                                            <!-- Nombre -->
+                                            <div class="data_element">
+                                                <div class="data_name">Nombre completo</div>
+                                                <div class="data_value" id="admin_searched_user_name">Luis Santana</div>
+                                            </div>
+
+                                            <!-- ID -->
+                                            <div class="data_element">
+                                                <div class="data_name">ID</div>
+                                                <div class="data_value id" id="admin_searched_user_id">72FT27C</div>
+                                            </div>
+
+                                            <!-- Género -->
+                                            <div class="data_element">
+                                                <div class="data_name">Género</div>
+                                                <div class="data_value" id="admin_searched_user_genre">Hombre</div>
+                                            </div>
+
+                                            <!-- Número de teléfono -->
+                                            <div class="data_element">
+                                                <div class="data_name">Número de teléfono</div>
+                                                <div class="data_value" id="admin_searched_user_phone">5846326</div>
+                                            </div>
+
+                                            <!-- Fecha de nacimiento -->
+                                            <div class="data_element">
+                                                <div class="data_name">Fecha de nacimiento</div>
+                                                <div class="data_value" id="admin_searched_user_date_birth">30/06/1998</div>
+                                            </div>
+                                                                                        
+                                            
+                                            <hr> <!-- Separador de datos normales y boton para datos médicos -->
+
+                                            <div class="admin_open_user_data_changer_popup" id="admin_open_user_data_changer_popup">Modificar información</div>
+                                            
+                                        </div>
+                                        <!-- Fin de contenedor para datos del usuario -->
+
+                                        
+                                        
+        
+                                    </div>
+                                    <!-- Apartado superior de informacion personal del usuario buscado -->
+
+
+                                    <!-- Apartado de tablas de datos del usuario buscado -->
+                                    <div class="tables_container">
+
+                                        <!-- Panel de botones de seleccion de tabla -->
+                                        <div class="tables_selector" id="admin_searched_user_tables_selector">
+                                            <div class="selector selected" id="admin_searched_user_properties_button">Propiedades</div>
+                                            <div class="selector" id="admin_searched_user_vehicles_button">Vehículos</div>
+                                            <div class="selector" id="admin_searched_user_crimes_history_button">Historial de delitos</div>
+                                            <div class="selector" id="admin_searched_user_medical_history_button">Historial médico</div>
+                                            <div class="selector" id="admin_searched_user_notes_button">Notas Administración</div>
+                                        </div>
+                                        <!-- Fin de panel de botones de seleccion de tabla -->
+
+
+                                        <div class="add_elements_buttons_container" id="admin_searched_user_add_elements_buttons">
+
+                                            <!-- Boton de añadir notas de Administración -->
+                                            <div class="add_table_element_button" id="add_admin_notes_button">
+                                                Añadir nueva nota
+                                            </div>
+                                            <!-- Fin de boton de añadir notas de Administración -->
+
+                                        </div>
+
+
+                                        <!-- Panel de las tablas -->
+                                        <div class="tables_panel" id="admin_searched_user_tables_panel">
+
+                                            <!-- Tabla de propiedades del usuario buscado -->
+                                            <ul class="table opened" id="admin_searched_user_properties_table">
+                                                <li>
+                                                    <span>Tipo</span>
+                                                    <span>Ubicación</span>
+                                                    <span>Acciones</span>
+                                                </li>
+
+                                                <!-- Ejemplo de propiedad -->
+                                                <li>
+                                                    <span>Chalet</span>
+                                                    <span>Grove Street, nº 53</span>
+                                                    <span class="action_buttons_container">
+                                                        <div class="action_button delete_property">
+                                                            <img src="./img/drop_property.png">
+                                                            <span class="action_label">Eliminar propiedad</span>
+                                                        </div>
+                                                    </span>
+                                                </li>
+
+                                            </ul>
+                                            <!-- Fin de tabla de propiedades del usuario buscado -->
+
+                                            
+                                            <!-- Tabla de vehículos del usuario buscado -->
+                                            <ul class="table" id="admin_searched_user_vehicles_table">
+                                                <li>
+                                                    <span>Matrícula</span>
+                                                    <span>Modelo</span>
+                                                    <span>Color</span>
+                                                    <span>Acciones</span>
+                                                </li>
+
+                                                <!-- Ejemplo de evehiculo -->
+                                                <li>
+                                                    <span>GC2435</span>
+                                                    <span>Coquette 221</span>
+                                                    <span><span class='color'>16, 157, 80</span></span>
+                                                    <span class="action_buttons_container">
+                                                        <div class="action_button delete_vehicle">
+                                                            <img src="./img/drop_car.png">
+                                                            <span class="action_label">Eliminar vehículo</span>
+                                                        </div>
+                                                    </span>
+                                                </li>
+
+                                            </ul>
+                                            <!-- Fin de tabla de vehículos del usuario buscado -->
+
+                                            
+                                            <!-- Tabla de historial de delitos del usuario buscado -->
+                                            <ul class="table" id="admin_searched_user_crimes_history_table">
+                                                <li>
+                                                    <span>Descripción de la infracción</span>
+                                                    <span>Oficial asignado</span>
+                                                    <span>Fecha de registro</span>
+                                                    <span>Sanción</span>
+                                                    <span>Acciones</span>
+                                                </li>
+
+                                                <!-- Ejemplo de delito -->
+                                                <li>
+                                                    <span>Esto es una sancion de ejemplo para revisar tamaño y forma de la tabla respecto de su contenido</span>
+                                                    <span>Oficial Artzalez</span>
+                                                    <span>12/02/2021</span>
+                                                    <span>No se ni como se ven escritas las sanciones xD</span>
+                                                    <span class="action_buttons_container">
+                                                        <div class="action_button delete_penalty">
+                                                            <img src="./img/drop_penalties.png">
+                                                            <span class="action_label">Eliminar sanción</span>
+                                                        </div>
+                                                    </span>
+
+                                                </li>
+
+                                            </ul>
+                                            <!-- Fin de tabla de historial de delitos del usuario buscado -->
+
+                                            <!-- Tabla de historial médico del usuario buscado -->
+                                            <ul class="table" id="admin_searched_user_medical_history_table">
+                                                <li>
+                                                    <span>Descripción de la consulta</span>
+                                                    <span>Doctor asignado</span>
+                                                    <span>Fecha de consulta</span>
+                                                    <span>Tratamiento</span>
+                                                    <span>Acciones</span>
+                                                </li>
+
+                                                <!-- Ejemplo de consulta médica -->
+                                                <li>
+                                                    <span>Atropello leve con rotura de pierna</span>
+                                                    <span>Doctor avililla</span>
+                                                    <span>11/10/2021</span>
+                                                    <span>Férula y antibióticos durante una semana</span>
+                                                    <span class="action_buttons_container">
+                                                        <div class="action_button delete_medical_consultation">
+                                                            <img src="./img/drop_penalties.png">
+                                                            <span class="action_label">Eliminar consulta</span>
+                                                        </div>
+                                                    </span>
+                                                </li>
+
+                                            </ul>
+                                            <!-- Fin de tabla de historial médico del usuario buscado -->
+                                            
+
+                                            <!-- Tabla de notas policiales del usuario buscado -->
+                                            <ul class="table" id="admin_searched_user_notes_table">
+                                                <li>
+                                                    <span>Información de la nota</span>
+                                                    <span>Acciones</span>
+                                                </li>
+
+                                                <!-- Ejemplo de nota -->
+                                                <li>
+                                                    <span>Esto es una nota to wapa</span>
+                                                    <span class="action_buttons_container">
+                                                        <div class="action_button delete_note">
+                                                            <img src="./img/delete_note.png">
+                                                            <span class="action_label">Eliminar nota</span>
+                                                        </div>
+                                                    </span>
+                                                </li>
+                                                
+                                            </ul>
+                                            <!-- Fin de tabla de notas policiales del usuario buscado -->                                             
+                                            
+
+
+
+
+                                            
+                                        </div>
+                                        <!-- Fin de panel de las tablas -->
+
+                                        
+
+                                        
+                                        
+                                        
+                                        
+                                    </div>
+                                    <!-- Fin de apartado de tablas de datos del usuario buscado -->
+
+
+                                </div>   
+                                <!-- Fin de página de información de USUARIOS BUSCADOS -->
+
+                                
+                            </div>
+                            <!-- Fin de página de EMS -->
+                            
+                            
+                            <!-- Submenú Administración: Items -->
+                            <div class="admin_items_page" id="admin_items_page">
+                                
+                                <!-- Panel de busqueda de objetos -->
+                                <div class="items_searcher_panel opened" id="admin_items_searcher_panel">
+
+                                    <!-- Buscador para Administración -->
+                                    <div class="items_searcher_input">
+                                        <input type="text" class='items_search_bar' id="admin_items_search_bar" required>
+                                        <span class="placeholder">Buscar objeto</span>
+                                    </div>
+
+
+                                    <!-- Contenedor de la tabla de búsquedas -->
+                                    <div class="searched_results_table_container">
+                                        <!-- Tabla de items -->
+                                        <ul class="table" id="admin_searched_items_table">
+                                            <li>
+                                                <span>Foto</span>
+                                                <span>Nombre</span>
+                                                <span>Item ID</span>
+                                                <span>Cantidad</span>
+                                                <span>Acciones</span>
+                                            </li>
+
+                                            <!-- Ejemplo de elemento buscado:
+                                            <li>
+                                                <span class="searched_user_img">
+                                                    <div class="user_photo_frame">
+                                                        <div class="user_photo_content">
+                                                            <img src="./img/usuario_prueba.jpg"> 
+                                                        </div>
+                                                    </div>
+                                                </span>
+                                                <span>Platano</span>
+                                                <span>75GTH4</span>
+                                                <span>
+                                                    <div class="item_amount_selector_container">
+                                                        <div class="item_amount_selector_button item_amount_decrease">-</div>
+                                                        <input class="item_amount_number" type="number" name="" value="1">
+                                                        <div class="item_amount_selector_button item_amount_increase">+</div>
+                                                    </div>
+                                                </span>
+                                                <span class="action_buttons_container">
+                                                    <div class="action_button generate_item">
+                                                        <img src="./img/document-logo.png">
+                                                        <span class="action_label">Generar item</span>
+                                                    </div>
+                                                </span>
+                                            </li>  -->
+
+                                        </ul>
+                                        <!-- Fin de tabla de items -->
+                                    
+                                    </div>
+                                    <!-- Fin de contenedor de la tabla de búsquedas -->
+
+
+                                                                        
+
+                                </div>
+                                <!-- Fin de panel de busqueda de objetos -->
+                            </div>
+                            <!-- Fin de submenú Administración: Items -->
+
+
+                            <!-- Página de trabajos rgb(16, 116, 61) -->
+                            <div class="jobs_page" id="jobs_page">
+                                
+                                <!-- Panel de busqueda de trabajos -->
+                                <div class="jobs_searcher_panel opened" id="jobs_searcher_panel">
+                                    
+                                    <!-- Buscador para Trabajos -->
+                                    <div class="jobs_searcher_input">
+                                        <input type="text" class='jobs_search_bar' id="jobs_search_bar" required>
+                                        <span class="placeholder">Buscar trabajo (nombre o ID)</span>
+                                    </div>
+
+                                                                        
+                                    <!-- Contenedor de la tabla de búsquedas -->
+                                    <div class="searched_results_table_container">
+
+                                    <!-- Tabla de trabajos -->
+                                    <ul class="table" id="searched_jobs_table">
+                                        <li>
+                                            <span>ID</span>
+                                            <span>Nombre</span>
+                                            <span>Rangos</span>
+                                            <span>Acciones</span>
+                                        </li>
+
+                                        <!-- Ejemplo de trabajo -->
+                                        <li>
+                                            <span>cafecorretti</span>
+                                            <span>Cafe Corretti</span>
+                                            <span class="ranges_list">
+                                                <span class="range_button selected" data-id="0">Empleado</span>
+                                                <span class="range_button" data-id="1">Gerente</span>
+                                                <span class="range_button" data-id="2">Dueño</span>
+                                            </span>
+                                            <span class="action_buttons_container">
+                                                <div class="action_button assign_job">
+                                                    <img src="./img/new_job.png">
+                                                    <span class="action_label">Asignar trabajo</span>
+                                                </div>
+                                            </span>
+                                        </li>
+
+                                        <!-- Ejemplo de trabajo -->
+                                        <li>
+                                            <span>casino</span>
+                                            <span>Casino</span>
+                                            <span class="ranges_list">
+                                                <span class="range_button selected" data-id="0">Empleado</span>
+                                                <span class="range_button" data-id="1">Seguridad</span>
+                                                <span class="range_button" data-id="2">Jefe de sala</span>
+                                                <span class="range_button" data-id="3">Jefe de seguridad</span>
+                                                <span class="range_button" data-id="4">Gerente</span>
+                                                <span class="range_button" data-id="5">Dueño</span>
+                                            </span>
+                                            <span class="action_buttons_container">
+                                                <div class="action_button assign_job">
+                                                    <img src="./img/new_job.png">
+                                                    <span class="action_label">Asignar trabajo</span>
+                                                </div>
+                                            </span>
+                                        </li>
+
+                                        <!-- Ejemplo de trabajo -->
+                                        <li>
+                                            <span>id Trabajo</span>
+                                            <span>nombre Trabajo</span>
+                                            <span class="ranges_list">
+                                                <span class="range_button selected" data-id="0">Empleado</span>
+                                                <span class="range_button" data-id="1">Gerente</span>
+                                                <span class="range_button" data-id="2">Dueño</span>
+                                            </span>
+                                            <span class="action_buttons_container">
+                                                <div class="action_button assign_job">
+                                                    <img src="./img/new_job.png">
+                                                    <span class="action_label">Asignar trabajo</span>
+                                                </div>
+                                            </span>
+                                        </li>
+
+
+                                    </ul>
+                                    <!-- Fin de tabla de trabajos -->
+
+
+                                    </div>
+                                    <!-- Fin de contenedor de la tabla de búsquedas -->
+
+
+
+                                </div>
+                                <!-- Fin de panel de busqueda de trabajos -->
+
+
+
+                            </div>
+                            <!-- Fin de página de trabajos -->
+
+   
+                        </div>
+                        <!-- Fin de lateral derecho del panel -->
+
+
+
+                        <!-- Panel de pantalla completa para los popups -->
+                        <div class="popups_panel" id="popups_panel">
+
+                            <!-- Popup para añadir sanciones/multas -->
+                            <div class="popup_container" id="add_penalty_popup">
+                                
+                                <div class="popup_content">
+
+                                    <!-- Descripcion del delito -->
+                                    <label for="crime_definition_textarea">Descripción del delito</label>
+                                    <textarea id="crime_definition_textarea"></textarea>
+    
+                                    <!-- Selector de multas -->
+                                    <label for="penalties_selector">Seleccionar multas</label>
+
+                                    <input type="text" class="penalties_selector_searcher" id="penalties_selector_searcher" placeholder="Buscar multa">
+                                    
+                                    <div class="penalties_selector_container">
+                                        <select id="penalties_selector" size="3">
+                                        </select>
+                                        <div class="add_penalty_button" id="add_penalty_button">+</div>
+                                    </div>
+    
+                                    <!-- Panel de multas seleccionadas -->
+                                    <div class="tables_panel">
+                                        <ul class="table opened" id="added_penalties_table">
+                                            <li>
+                                                <span>Definicion</span>
+                                                <span>Coste</span>
+                                                <span></span>
+                                            </li>
+                                        </ul>
+                                    </div>
+
+                                    <!-- Sanción final -->
+                                    <label for="penalty_definition_textarea">Sanción aplicada</label>
+                                    <div class="penalty_definition_container">
+                                        <textarea id="penalty_definition_textarea"></textarea>
+                                        <div class="final_penalty_price_container">
+                                            <div class="tittle">Coste total</div>
+                                            <div class="final_price" id="new_crime_final_price">0€</div>
+                                        </div>
+                                    </div>
+
+                                    <!-- Botones de cancelar y registrar sancion -->
+                                    <div class="popup_buttons_container">
+                                        <div class="button cancel_penalty" id="cancel_penalty_button">
+                                            Cancelar
+                                        </div>
+
+                                        <div class="button add_penalty" id="register_penalty_button">
+                                            Registrar sanción
+                                        </div>
+                                    </div>
+                                    
+                                </div>
+                                
+                            </div>
+                            <!-- Fin de popup para añadir sanciones/multas -->
+
+
+                            <!-- Popup para añadir/modificar nuevas notas -->
+                            <div class="popup_container" id="add_sapd_note_popup">
+                                <div class="popup_content">
+
+                                    <!-- Descripcion de la nota -->
+                                    <label for="new_sapd_note_textarea">Descripción de la nota</label>
+                                    <textarea id="new_sapd_note_textarea"></textarea>
+                                    
+                                    <!-- Botones de cancelar y registrar sancion -->
+                                    <div class="popup_buttons_container">
+                                        <div class="button cancel_sapd_note" id="cancel_sapd_note_button">
+                                            Cancelar
+                                        </div>
+
+                                        <div class="button add_sapd_note" id="register_sapd_note_button">
+                                            Registrar nota
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <!-- Popup para añadir/modificar nuevas notas -->
+
+                            
+                            <!-- Popup para añadir/modificar nuevas notas -->
+                            <div class="popup_container" id="ems_user_health_data_popup">
+                                
+                                <div class="popup_content">
+
+                                    <!-- Grupo sanguineo -->
+                                    <div class="blood_type_container">
+                                        <label for="ems_searched_user_blood_type">Grupo sanguíneo:</label>
+                                        <textarea id="ems_searched_user_blood_type" maxlength="3"></textarea>
+                                    </div>
+
+
+                                    <!-- Enfermedades -->
+                                    <label for="ems_searched_user_diseases">Enfermedades:</label>
+                                    <textarea id="ems_searched_user_diseases"></textarea>
+                                    
+
+                                    <!-- Trastornos mentales -->
+                                    <label for="ems_searched_user_mental_disorders">Trastornos mentales conocidos:</label>
+                                    <textarea id="ems_searched_user_mental_disorders"></textarea>
+                                    
+                                    
+                                    <!-- Operaciones realizadas -->
+                                    <label for="ems_searched_user_surgeries_done">Operaciones realizadas:</label>
+                                    <textarea id="ems_searched_user_surgeries_done"></textarea>
+                                    
+
+                                    <!-- Problemas de vision -->
+                                    <label for="ems_searched_user_vision_problems">Problemas de visión:</label>
+                                    <textarea id="ems_searched_user_vision_problems"></textarea>
+
+
+                                    <!-- Problemas de psicomotricidad -->
+                                    <label for="ems_searched_user_psychomotor_disorders">Trastornos psicomotrices:</label>
+                                    <textarea id="ems_searched_user_psychomotor_disorders"></textarea>
+
+                                    <!-- Botones de cancelar y registrar sancion -->
+                                    <div class="popup_buttons_container">
+                                        <div class="button cancel_sapd_note" id="close_user_health_popup_button">
+                                            Volver atrás
+                                        </div>
+
+                                        <div class="button add_sapd_note" id="register_user_health_popup_button">
+                                            Registrar cambios
+                                        </div>
+                                    </div>
+
+
+
+                                </div>
+
+
+                                
+                            </div>
+                            <!-- Popup para añadir/modificar nuevas notas -->
+
+
+                            <!-- Popup para añadir/modificar nuevas notas -->
+                            <div class="popup_container" id="ems_user_medical_consultation_popup">
+                                
+                                <div class="popup_content">
+
+                                    <!-- Doctor asignado -->
+                                    <div class="assigned_doctor_container">
+                                        <label for="ems_medical_consultation_assigned_doctor">Doctor asignado:</label>
+                                        <textarea id="ems_medical_consultation_assigned_doctor" maxlength="50"></textarea>
+                                    </div>
+
+
+
+                                    <!-- Descripción -->
+                                    <label for="ems_medical_consultation_description">Descripción:</label>
+                                    <textarea id="ems_medical_consultation_description"></textarea>
+
+                                    
+
+                                    <!-- Tratamiento -->
+                                    <label for="ems_medical_consultation_treatment">Tratamiento:</label>
+                                    <textarea id="ems_medical_consultation_treatment"></textarea>
+                                    
+                                    
+                                    <!-- Doctores que operaron -->
+                                    <label for="ems_medical_consultation_surgery_doctors">Doctores que operaron:</label>
+                                    <textarea id="ems_medical_consultation_surgery_doctors"></textarea>
+                                    
+
+                                    <!-- Heridas y lesiones -->
+                                    <label for="ems_medical_consultation_wounds">Heridas y lesiones:</label>
+                                    <textarea id="ems_medical_consultation_wounds"></textarea>
+
+
+                                    <!-- Observaciones -->
+                                    <label for="ems_medical_consultation_observations">Observaciones finales:</label>
+                                    <div class="bill_definition_container">
+                                        <textarea id="ems_medical_consultation_observations"></textarea>
+                                        <div class="final_bill_price_container">
+                                            <div class="tittle">Coste total</div>
+                                            <div class="final_price" id="new_medical_consult_final_price">0€</div>
+                                        </div>
+                                    </div>
+
+
+                                    <!-- Selector de facturas -->
+                                    <label for="bills_selector">Seleccionar facturas</label>
+                                    <div class="bills_selector_container">
+                                        <select id="bills_selector" size="3">
+                                        </select>
+                                        <div class="add_bill_button" id="add_bill_button">+</div>
+                                    </div>
+    
+                                    <!-- Panel de facturas seleccionadas -->
+                                    <div class="tables_panel">
+                                        <ul class="table opened" id="added_bills_table">
+                                            <li>
+                                                <span>Definicion</span>
+                                                <span>Coste</span>
+                                                <span></span>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    
+
+                                    <!-- Botones de cancelar y registrar sancion -->
+                                    <div class="popup_buttons_container">
+                                        <div class="button cancel_sapd_note" id="ems_cancel_new_medical_consultation_button">
+                                            Volver atrás
+                                        </div>
+
+                                        <div class="button add_sapd_note" id="ems_register_new_medical_consultation_button">
+                                            Registrar cambios
+                                        </div>
+                                    </div>
+
+
+
+                                </div>
+
+
+                                
+                            </div>
+                            <!-- Popup para añadir/modificar nuevas notas -->
+
+
+                            <!-- Popup para modificar datos de usuario para Administracion -->
+                            <div class="popup_container" id="admin_change_user_data_popup">
+
+                                <div class="popup_content">
+
+                                    <label for="user_name_change">Nombre</label>
+                                    <input type="text" id="user_name_change">
+                                    
+                                    <label for="user_birth_date_change">Fecha de nacimiento</label>
+                                    <input type="date" id="user_birth_date_change">
+
+                                    <label for="user_gender_change">Seleccionar género</label>                                    
+                                    <select id="user_gender_change" size="2">
+                                        <option value="male">Masculino</option>
+                                        <option value="female">Femenino</option>
+                                    </select>
+
+
+                                    <div class="popup_buttons_container">
+                                        <div class="button cancel_penalty" id="cancel_data_change_button">
+                                            Cancelar
+                                        </div>
+
+                                        <div class="button add_penalty" id="register_data_change_button">
+                                            Cambiar datos
+                                        </div>
+                                    </div>
+
+                                    
+                                </div>
+                                
+                                
+                            </div>
+                            <!-- Fin de popup para modificar datos de usuario para Administracion -->
+
+
+                            <!-- Popup para añadir/modificar nuevas notas para Administración -->
+                            <div class="popup_container" id="add_admin_note_popup">
+                                <div class="popup_content">
+
+                                    <!-- Descripcion de la nota -->
+                                    <label for="new_admin_note_textarea">Descripción de la nota</label>
+                                    <textarea id="new_admin_note_textarea"></textarea>
+                                    
+                                    <!-- Botones de cancelar y registrar sancion -->
+                                    <div class="popup_buttons_container">
+                                        <div class="button cancel_admin_note" id="cancel_admin_note_button">
+                                            Cancelar
+                                        </div>
+
+                                        <div class="button add_admin_note" id="register_admin_note_button">
+                                            Registrar nota
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <!-- Fin de popup para añadir/modificar nuevas notas para Administración -->
+                            
+
+                            <!-- Popup para añadir/modificar asignar nuevos trabajos -->
+                            <div class="popup_container" id="assign_new_job_popup">
+                                <div class="popup_content">
+
+                                    <div class="tittle">Asignar nuevo trabajo</div>
+
+                                    <!-- ID del trabajo -->
+                                    <label for="new_job_id_input">ID del trabajo</label>
+                                    <input type="text" id="new_job_id_input" disabled>
+
+                                    <!-- Nombre del trabajo -->
+                                    <label for="new_job_name_input">Nombre del trabajo</label>
+                                    <input type="text" id="new_job_name_input" disabled>
+
+                                    <!-- Rango seleccionado del trabajo -->
+                                    <label for="new_job_range_input">Rango selecciondo</label>
+                                    <input type="text" id="new_job_range_input" data-id="" disabled>
+
+                                    <hr>
+
+                                    <!-- ID del jugador a asignar -->
+                                    <label for="new_job_user_id_input">ID del ciudadano a asignar</label>
+                                    <input type="text" id="new_job_user_id_input">
+                                    
+                                    <!-- Botones de cancelar y registrar sancion -->
+                                    <div class="popup_buttons_container">
+                                        <div class="button cancel_assign_job" id="cancel_assign_job_button">
+                                            Cancelar
+                                        </div>
+
+                                        <div class="button add_assign_job" id="register_assign_job_button">
+                                            Asignar trabajo
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <!-- Fin de popup para asignar nuevos trabajos -->
+
+
+
+                        </div>
+                        <!-- Panel de pantalla completa para los popups -->
+
+
+
+
+                        <!-- Tarjeta de notificaciones -->
+                        <div class="tarjeta_notificaciones_container">
+                            <div class="notificaction_icon_container">
+                                <img src="" class="notification_icon" id="notification_icon">
+                            </div>
+                            <div class="notification_text_container" id="notification_text_container">
+                               <span class="text" id="text"></span>
+                            </div>
+                        </div>
+                        <!-- Fin de tarjeta de notificaciones -->
+                                                
+                    </div>
+                    <!-- Fin de contenido de la pantalla -->
+
+                </div>
+                <!-- Fin de pantalla de tablet -->
+
+
+                <!-- Boton de apagado de la tablet -->
+                <div class="tablet_button" id="tablet_button">
+                    <img src="./img/on_off_button.svg">
+                </div>
+                <!-- Fin de boton de apagado de la tablet -->
+                
+            </div>
+            <!-- Fin de elemento tablet completo -->
+            
+        </div>
+        <!-- Fin de pagina principal -->
+        
+    </body>
+
+    <!-- JavaScript -->
+    <!-- <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script> -->
+    <script src="nui://game/ui/jquery.js" type="text/javascript"></script>
+    <script type="text/javascript" src="./js.js"></script>   
+</html>

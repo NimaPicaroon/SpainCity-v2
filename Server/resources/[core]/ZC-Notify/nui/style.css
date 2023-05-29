@@ -1,0 +1,147 @@
+@font-face {
+    font-family: 'Fuente';
+    src: url('./BoxedRound.ttf');
+}
+
+:root {
+    --fontSizeMessage: .7vw;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.container {
+    display: block;
+    position: absolute;
+    left: 1.5vw;
+    width: 13%;
+    height: 50%;
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.mapOff {
+    position: absolute;
+    bottom: 2vw;
+}
+
+.mapOn {
+    position: absolute;
+    bottom: 12vw;
+}
+
+.notify {
+    position: relative;
+    padding: .6vw;
+    margin-top: 1vw;
+    max-width: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: .5vw;
+    box-shadow: 0 0 .5vw black;
+    animation: fadeIn 1s ease 0s 1 normal forwards;
+}
+
+.notify h1 {
+    margin: 0;
+    padding: 0;
+    font-family: 'Fuente', sans-serif;
+    font-size: .8vw;
+    font-size: var(--fontSizeMessage);
+    font-weight: 800;
+    color: white;
+    text-shadow: 0 0 1vw black;
+    padding-left: .2vw;
+    text-align: left;
+}
+
+.notify__count {
+    position: absolute;
+    top: -.5vw;
+    left: -.5vw;
+    background: black;
+    width: 1.2vw;
+    height: 1.2vw;
+    border-radius: 50vw;
+    color: white;
+}
+
+.notify__count h1 {
+    position: absolute;
+    top: .55vw;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: .7vw;
+    margin: 0;
+    padding: 0;
+}
+
+.notify__type {
+    position: absolute;
+    top: -.5vw;
+    right: -.5vw;
+    margin-top: 0;
+    padding: .1vw .5vw;
+    width: fit-content;
+    background-color: #F25353;
+    border-radius: .3vw;
+}
+
+.notify__type h1 {
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-family: 'Fuente';
+    font-size: .7vw;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+.bar {
+    position: relative;
+    margin-top: .2vw;
+    top: .4vw;
+    width: 100%;
+    height: .1vw;
+    background-color: white;
+    border-radius: 1vw;
+    transition: .3s;
+}
+
+#error {
+    background-color: #F25353;
+}
+
+#verify {
+    background-color: #167d0b;
+}
+
+#warn {
+    background-color: #cc9b07;
+}
+
+@keyframes fadeIn {
+	0% {
+		opacity: 0;
+		transform: translateX(50px);
+	}
+
+	100% {
+		opacity: 1;
+		transform: translateX(0);
+	}
+}
+
+@keyframes fadeOut {
+	0% {
+		opacity: 1;
+		transform: translateX(0);
+	}
+
+	100% {
+		opacity: 0;
+		transform: translateX(50px);
+	}
+}

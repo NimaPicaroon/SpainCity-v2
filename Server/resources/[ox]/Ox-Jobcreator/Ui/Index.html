@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./Css/Style.css">
+        <link rel="stylesheet" href="./Css/Creatorpage.css">
+        <link rel="stylesheet" href="./Css/Edit.css">
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"
+        integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
+        <script
+        src="https://code.jquery.com/ui/1.13.0/jquery-ui.min.js"
+        integrity="sha256-hlKLmzaRlE8SCJC1Kw8zoUbU8BxA+8kR3gseuKfMjxA="
+        crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/notify/0.4.2/notify.min.js"></script>
+        <script src="./Js/Main.js"></script>
+        <script src="./Js/Edit.js"></script>
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+        </style>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+        <link href="https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Two+Tone|Material+Icons+Round|Material+Icons+Sharp" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+        <title>Job Creator V2 UI</title>
+    </head>
+    <body style="background-color: transparent;">
+        <div class="main-wrapper" style="display: none;">
+            
+            <div class="lateral-line"></div>
+            <div class="superior-line"></div>
+            <div class="superior-div">
+                <img class="logo" src="./Assets/logo2.png"> <span class="text codedby">Creador de <strong>Trabajos/Negocios</strong></span>
+            </div>
+            <div class="left-bar-flex">
+                <span class="material-icons icon myTooltip" id="home" style="font-size: 1.6vw; user-select: none;" data-bs-toggle="tooltip" data-bs-placement="left" title="Inicio">home</span>
+                <span class="material-icons icon myTooltip" id="add" style="font-size: 1.6vw; user-select: none;" data-bs-toggle="tooltip" data-bs-placement="left" title="Crear">add</span>
+                <span class="material-icons icon myTooltip" id="edit" style="font-size: 1.6vw; user-select: none;" data-bs-toggle="tooltip" data-bs-placement="left" title="Editar">edit</span>
+            </div>
+            <div class="right-wrapper">
+                <div class="data-wrapper" id="home-wrapper">
+                    <div class="box-left">
+                        <div class="doyouwant lefty">
+                            <span class="text doyoutitle">Crear Trabajo/Negocio</span>
+                        </div>
+                        <span class="text doinfo">Pulsa el botón de abajo para poder crear un trabajo/negocio para el servidor.</span>
+                        <div class="button createjob" id="add"><span class="text buttext">Crear</span></div>
+                    </div>
+                    <div class="box-right">
+                        <div class="doyouwant lefty">
+                            <span class="text doyoutitle">Editar Trabajo/Negocio</span>
+                        </div>
+                        <span class="text doinfo">Pulsa el botón de abajo para poder editar un trabajo/negocio del servidor.</span>
+                        <div class="button editjob" id="edit"><span class="text buttext">Editar</span></div>
+                    </div>
+                </div>
+
+                <div class="creator-wrapper" id="add-wrapper" style="display: none;">
+                    <div class="aspects">
+                        <div class="aspect">
+                            <span class="text titleaspect" style="font-size: .8vw;">Info</span>
+                            <input class="input placemiddle jobname" placeholder="Nombre"></input>
+                            <input class="input placemiddle joblabel" placeholder="Label"></input>
+                            <div class="placemiddle blippart" id="blippart">
+                           
+                            </div>
+                            <div class="button placemiddle addblip"><span class="text" style="font-size: .7vw;">Agregar Blip</span></div>
+                        </div>
+
+                        <div class="aspect">
+                            <span class="text titleaspect" style="font-size: .8vw;">Puntos</span>
+                            <div class="button placemiddle addrank" id="addmarker"><span class="text" style="font-size: .7vw;">Add marker</span></div>
+                            <div class="placemiddle rankpart" id="markerpart">
+                               
+                            </div>
+                        </div>
+                        <div class="aspect">
+                            <span class="text titleaspect" style="font-size: .8vw;">Rangos</span>
+                            <div class="button placemiddle addrank" id="rankbutton"><span class="text" style="font-size: .7vw;">Add rank</span></div>
+                            <div class="placemiddle rankpart" id="rankpart">
+                                
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="button cancel-button"><span class="text confirmjob">Resetear</span></div><div class="button confirm-button"><span class="text confirmjob">Crear</span></div>
+                </div>
+
+                <div id="edit-wrapper" class="edit-wrapper" style="display: none;"></div>
+            </div>
+        </div>
+        <script src="https://cdn.5point.dev/assets/js/bootstrap.min.js"></script>
+        <script>
+            const myTooltipEl = document.querySelectorAll('.myTooltip');
+        
+            myTooltipEl.forEach(myTool => {
+                const tooltip = bootstrap.Tooltip.getOrCreateInstance(myTool)
+        
+                myTool.addEventListener('hidden.bs.tooltip', () => {
+          
+                })
+        
+                tooltip.hide()
+            })
+        </script>
+    </body>
+</html>
+

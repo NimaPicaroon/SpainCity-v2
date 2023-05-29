@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Style.css" type="text/css">
+    <script src="Script.js"></script>
+    <title>ZC-Menu</title>
+</head>
+    <body>
+        <div class="main-wrapper" style="display:none;">
+            <img class="image" src="Assets/wave.png">
+            <span class="menu-title">Estadísticas</span>
+
+            <div style="top:3vw; left:3vw; position: absolute; width:7vw;">
+                <span style="text-align:center;" id="stamina" class="stat-name">Resistencia: </span>
+                <div class="progress">
+                    <div id="stamina-bar"></div>
+                </div>
+            </div>
+            <div style="top:3vw; left:12vw; position: absolute; width:7vw;">
+                <span style="text-align:center;" id="strength" class="stat-name">Fuerza: </span>
+                <div class="progress">
+                    <div id="strength-bar"></div>
+                </div>
+            </div>
+            <div style="top:7vw; left:12vw; position: absolute; width:7vw;">
+                <span style="text-align:center;" id="stress" class="stat-name">Estrés: </span>
+                <div class="progress">
+                    <div id="stress-bar"></div>
+                </div>
+            </div>
+            <div style="top:7vw; left:3vw; position: absolute; width:7vw;">
+                <span style="text-align:center;" id="diving" class="stat-name">Buceo: </span>
+                <div class="progress">
+                    <div id="diving-bar"></div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

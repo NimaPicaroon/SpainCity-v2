@@ -1,0 +1,1 @@
+W = exports.ZCore:get()

@@ -1,0 +1,109 @@
+@font-face {
+    font-family: font;
+    src: url('Assets/BOXEDROUND.TTF');
+}
+
+body{
+    overflow:hidden;
+    user-select: none;
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    -o-user-select: none;
+}
+
+.dispatch {
+    display: none;
+    position: absolute;
+    right: 1vw;
+    bottom: 22vw;
+    width: 13vw;
+    height: auto;
+    min-height: 2vw;
+    border-radius: .3vw;
+    background-color: rgba(0, 0, 0, 0.762);
+    box-shadow: 0vw 0vw .15vw .1vw rgba(0, 0, 0, 0.762);
+}
+
+.image {
+    position: absolute;
+    width: 1.5vw;
+    transform: translate(-50%, -50%); 
+    top: 10%;
+    right: -1.3vw;
+}
+
+.newAlert {
+    animation: color_change 2s forwards;
+}
+
+@keyframes color_change {
+    0% {
+        background-color: red;
+        box-shadow: 0vw 0vw .1vw .05vw red;
+    }
+    50% {
+        background-color: rgba(26, 11, 228, 0.651);
+        box-shadow: 0vw 0vw .1vw .05vw rgba(26, 11, 228, 0.651);
+    }
+    100% {
+        background-color: red;
+        box-shadow: 0vw 0vw .1vw .05vw red;
+    }
+}
+
+.settings {
+    display: none;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 7.4vw;
+    height: 7.4vw;
+    border-radius: .3vw;
+    background-color: rgba(0, 0, 0, 0.623);
+    box-shadow: 0vw 0vw .15vw .1vw rgba(0, 0, 0, 0.762);
+}
+
+.button-4 {
+    appearance: none;
+    background-color: white;
+    margin: 0.5vw;
+    border: 1px solid rgba(27, 31, 35, 0.15);
+    border-radius: 6px;
+    box-shadow: rgba(27, 31, 35, 0.04) 0 1px 0, rgba(255, 255, 255, 0.25) 0 1px 0 inset;
+    box-sizing: border-box;
+    color: #24292E;
+    cursor: pointer;
+    display: block;
+    font-family: -apple-system, system-ui, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    list-style: none;
+    padding: 6px 16px;
+    position: relative;
+    transition: background-color 0.2s cubic-bezier(0.3, 0, 0.5, 1);
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    white-space: nowrap;
+    word-wrap: keep-all;
+}
+
+.button-4:hover {
+    background-color: #F3F4F6;
+    text-decoration: none;
+    transition-duration: 0.1s;
+}
+
+.button-4:focus {
+    outline: 1px transparent;
+}
+  
+.button-4:before {
+    display: none;
+}
+  
+.button-4:-webkit-details-marker {
+    display: none;
+}

@@ -1,0 +1,66 @@
+@font-face {
+    font-family: textboxed;
+    src: url('Assets/BOXEDROUND.TTF');
+}
+
+body {
+    overflow: hidden;
+}
+
+.interaction-wrapper {
+    position: absolute;
+    width: 5vw;
+    height: 5vw;
+}
+
+.letter {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    width: 1.8vw;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 50%;
+    height: 1.8vw;
+    border-radius: .25vw;
+}
+
+.other-fill {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(to left, rgba(250, 128, 114, 0) 50%, rgb(12, 184, 252) 50%) right;
+    background-size: 200%;
+    transition: 0.6s ease-out;
+    width: 2.2vw;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 50%;
+    height: 2.2vw;
+    border-radius: .45vw;
+}
+
+.other-fill.press {
+    background-position: left;
+}
+
+.text-main {
+    font-family: textboxed;
+    font-weight: bold;
+    font-size: .95vw;
+}
+
+.text-low {
+    position: absolute;
+    font-family: textboxed;
+    font-weight: bold;
+    font-size: .7vw;
+    color: white;
+    left: 0vw;
+    width: 5vw;
+    text-align: center;
+    top: 4vw;
+}

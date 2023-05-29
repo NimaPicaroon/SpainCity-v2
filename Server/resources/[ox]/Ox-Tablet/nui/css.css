@@ -1,0 +1,2677 @@
+/* CSS base, para pantallas 16:9 (1920x1080, 1280x620, etc)*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    user-select: none;
+ 
+    background-color: rgb(0, 0, 0, 0);
+
+    font-family: 'Oswald', sans-serif;
+    color: rgb(230, 230, 230); /* Mismo color para los iconos */
+    font-weight: 500;
+}
+
+.color {
+    display: inline-block;
+    height: 1.5vh;
+    width: 2.5vh;
+    border-radius: .25vh;
+}
+
+/* Pantalla principal */
+.main_page {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+/* Estructura base de la tablet */
+.main_page > .tablet_panel {
+    width: 95vw;
+    height: 95vh;
+    background-color:rgb(16, 16, 16);
+
+    border-radius: 2.5vh;
+    overflow: hidden;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    transition: transform ease-out .3s;
+    transform: translateY(120%); /*  DESCOMENTAR */
+}
+
+.tablet_panel > .tablet_name {
+    width: fit-content;
+    height: 3%;
+    margin: .85% 0 .15% 0;
+    font-family: Samsung_font;
+    font-size: 1.5vh;
+
+}
+
+
+.tablet_panel > .tablet_screen {
+    width: 97%;
+    height: 90%;
+    border: .2vh solid rgb(170, 170, 170);
+
+    background-color: rgb(0, 0, 0);
+    border-radius: 1.5vh;
+
+    overflow: hidden;
+}
+
+.tablet_panel > .tablet_button {
+    width: 6%;
+    height: 4%;
+    margin: 1% 0;
+
+    background-color: rgb(224, 133, 12);
+    border-radius: 1.5vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+
+    transition: all ease-out .1s;
+}
+
+.tablet_panel > .tablet_button:hover {
+    transform: scale(1.08);
+    background-color: rgb(226, 137, 19);
+}
+
+.tablet_panel > .tablet_button:active {
+    transform: scale(1.04);
+}
+
+.tablet_button > img {
+    height: 80%;
+}
+
+
+
+
+/* Pantalla de la tablet */
+.tablet_screen > .tablet_screen_content {
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    
+
+    background-color: rgb(16, 16, 16);
+
+    position: relative;
+
+    opacity: 0; /* DECOMENTAR */
+}
+
+/* Panel de opciones izquierdo */
+.tablet_screen_content > .left_screen_panel {
+    width: 20%;
+    height: 100%;
+    background-color: rgb(19, 19, 18);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.left_screen_panel > .real_life_logo {
+    width: 100%;
+    height: 18vh;
+    padding: 4.5vh;
+}
+
+.real_life_logo > img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+
+
+.left_screen_panel > .username_label {
+    font-size: 2vh;
+}
+
+
+.left_screen_panel > .tablet_options_menu {
+    width: 100%;
+    margin-top: 2.5vh;
+    font-size: 1.5vh;
+}
+
+.tablet_options_menu li {
+    padding: 1.1vh 0 1.1vh 7.5%;
+    list-style-type: none;
+
+    transition: all ease-out .1s;
+}
+
+
+.tablet_options_menu li.selected {
+    background-color: rgb(19, 68, 141);
+    pointer-events: none !important;
+}
+
+.tablet_options_menu li:not(.selected):hover {
+    background-color: rgb(19, 68, 141);
+    cursor: pointer;
+}
+
+.tablet_options_menu li.selected#ems_button {
+    background-color: rgb(153, 13, 13);
+}
+
+.tablet_options_menu li#ems_button:not(.selected):hover {
+    background-color: rgb(153, 13, 13);
+}
+
+.tablet_options_menu li.selected#admin_button,
+.tablet_options_menu li.selected#admin_items_button {
+    background-color: rgb(196, 158, 24);
+}
+
+.tablet_options_menu li#admin_button:not(.selected):hover,
+.tablet_options_menu li#admin_items_button:not(.selected):hover {
+    background-color: rgb(196, 158, 24);
+}
+
+.tablet_options_menu > .sapd_submenu,
+.tablet_options_menu > .admin_submenu {
+    width: 100%;
+    height: 0;
+    font-weight: lighter;
+
+    transition: height linear; /* El timing dependerá de la cantidad de elementos*/
+
+    overflow: hidden;
+}
+
+.sapd_submenu > li,
+.admin_submenu > li {
+    padding-left: 15%;
+
+    /* Esto es para la animacion de mostrado*/
+    width: 200%;
+    transform: translateX(-50%);
+    transition: all linear .2s;
+    opacity: 0;
+}
+
+
+
+
+
+
+
+
+
+/* Panel derecho */
+.tablet_screen_content > .right_screen_panel {
+    width: 80%;
+    height: 100%;
+    background-color: rgb(34, 34, 34);
+
+    overflow: auto;
+}
+
+/* Diseño del scrollbar */
+.tablet_screen_content > .right_screen_panel::-webkit-scrollbar,
+.popup_container > textarea::-webkit-scrollbar,
+.penalties_selector_container > select::-webkit-scrollbar,
+.bills_selector_container > select::-webkit-scrollbar,
+.popup_content textarea::-webkit-scrollbar {
+    width: .8vw;
+}
+
+.tablet_screen_content > .right_screen_panel::-webkit-scrollbar-track,
+.popup_container > textarea::-webkit-scrollbar-track,
+.penalties_selector_container > select::-webkit-scrollbar-track,
+.bills_selector_container > select::-webkit-scrollbar-track,
+.popup_content textarea::-webkit-scrollbar-track {
+    background: #a5a5a5;
+    border-radius: .5vh;
+}
+
+.tablet_screen_content > .right_screen_panel::-webkit-scrollbar-thumb,
+.popup_container > textarea::-webkit-scrollbar-thumb,
+.penalties_selector_container > select::-webkit-scrollbar-thumb,
+.bills_selector_container > select::-webkit-scrollbar-thumb,
+.popup_content textarea::-webkit-scrollbar-thumb {
+    background-color: rgb(85, 85, 85);
+    border-radius: .5vh;
+}
+
+.tablet_screen_content > .right_screen_panel::-webkit-scrollbar-thumb:hover,
+.popup_container > textarea::-webkit-scrollbar-thumb:hover,
+.penalties_selector_container > select::-webkit-scrollbar-thumb:hover,
+.bills_selector_container > select::-webkit-scrollbar-thumb:hover,
+.popup_content textarea::-webkit-scrollbar-thumb:hover {
+    background-color: rgb(19, 68, 141);
+}
+
+
+
+
+/* Paginas del panel derecho */
+.right_screen_panel > .personal_information_page.opened,
+.right_screen_panel > .normativa_page.opened,
+.right_screen_panel > .SAPD_page.opened,
+.right_screen_panel > .EMS_page.opened,
+.right_screen_panel > .vehicles_searcher_page.opened,
+.right_screen_panel > .search_seizure_page.opened,
+.right_screen_panel > .admin_page.opened,
+.right_screen_panel > .admin_items_page.opened,
+.right_screen_panel > .jobs_page.opened,
+.right_screen_panel > .crimes_in_progress_page.opened {
+    display: flex;
+}
+
+.SAPD_page > .personal_information_page, /* El de SAPD */
+.EMS_page > .personal_information_page, /* El de EMS */
+.admin_page > .personal_information_page, /* El de Aministracion */
+.right_screen_panel > .personal_information_page {
+    width: 100%;
+    min-height: 100%;
+    padding: 3.5vh 2vw;
+
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+
+.personal_information_page > .user_info_container {
+    width: 100%;
+    background-color: rgb(17, 57, 117);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    border-radius: 1.5vh;
+    overflow: hidden;
+
+}
+
+.user_info_container > .tittle {
+    width: 100%;
+    font-size: 2.75vh;
+    height: 2em;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.user_info_container > .user_photo_container {
+    width: 30%;
+    min-height: 2vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
+}
+
+
+
+
+.user_info_container > .user_data_panel {
+    width: 70%;
+
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-wrap: wrap;    
+    margin: 2vh 0;
+    gap: 1vh;
+}
+
+.user_data_panel > .data_element {
+    width: calc(50% - .5vh);
+
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-wrap: nowrap;
+}
+
+.data_element > .data_name {
+    width: 50%;
+    font-size: 1.75vh;
+    padding: .5vh;
+    padding-left: 1.5vh;
+    border-radius: .75vh;
+    text-transform: uppercase;
+    background-color: rgb(0, 0, 0, .5);
+}
+
+.data_element > .data_value {
+    width: 50%;
+    padding-left: 1.5vh;
+    font-size: 1.6vh;
+}
+
+.data_element > .data_value.id {
+    width: fit-content;
+    margin-left: 1.5vh;
+    padding: .5vh;
+    border-radius: .75vh;
+    color: black;
+    background-color: rgb(167, 167, 167);
+}
+
+/* Aviso de seguro de vida para SAPD y EMS */
+.data_element > .data_value.health_label {
+    width: fit-content;
+    margin-left: 1.5vh;
+    padding: .5vh;
+    border-radius: .75vh;
+}
+
+.data_element > .data_value.health_label.hasInsurance {
+    background-color: rgb(36, 148, 21);
+}
+
+.data_element > .data_value.health_label.hasNotInsurance {
+    background-color: rgb(172, 116, 13);
+}
+
+
+/* Health selector para current user */
+.data_element > .data_value.health_selector {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+
+}
+
+.data_value.health_selector > input[type="radio"] {
+    display: none;
+}
+
+.data_value.health_selector > label {
+    cursor: pointer;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 1vh;
+    padding: .5vh 1.25vh;
+    border-radius: 1.75vh;
+
+    transition: all ease-out .3s;
+}
+
+.data_value.health_selector > label > .puntero {
+    height: 1.5vh;
+    width: 1.5vh;
+    margin-right: .75vh;
+
+    border-radius: 50%;
+    border: 0 solid rgb(224, 224, 224);
+    background-color: rgb(224, 224, 224);
+
+    transition: all ease-out .3s;
+}
+
+.data_value.health_selector > #ems_searched_user_hasSeguro:checked ~ .ems_searched_user_hasSeguro_label,
+.data_value.health_selector > #ems_searched_user_hasNotSeguro:checked ~ .ems_searched_user_hasNotSeguro_label {
+    background-color: rgb(207, 207, 207);
+    color: rgb(49, 49, 49);
+}
+
+
+.data_value.health_selector > #ems_searched_user_hasSeguro:checked ~ .ems_searched_user_hasSeguro_label > .puntero,
+.data_value.health_selector > #ems_searched_user_hasNotSeguro:checked ~ .ems_searched_user_hasNotSeguro_label > .puntero {
+    height: 1.6vh;
+    width: 1.6vh;
+    margin-right: .75vh;
+
+    border-radius: 50%;
+
+    background-color: rgb(224, 224, 224);
+    border: .45vh solid rgb(105, 105, 105);
+}
+
+
+
+
+
+/* Aparatados de listas */
+.personal_information_page > .tables_container {
+    width: 100%;
+    margin-top: 3vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    position: relative; /*  Para corregir el tema de los overflow de las tarjetas con boton*/
+}
+
+.tables_container > .tables_selector,
+.normativa_page > .normatives_selector {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2vh;
+
+}
+
+.tables_selector > .selector,
+.normatives_selector > .selector {
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    width: fit-content;
+    padding: 1.5vh 2vh;
+    font-size: 1.75vh;
+}
+
+.tables_selector > .selector:not(.selected),
+.normatives_selector > .selector:not(.selected) {
+    cursor: pointer;
+}
+
+.tables_selector > .selector::before,
+.normatives_selector > .selector::before {
+    content: '';
+    position: absolute;
+    width: calc(100%);
+    transform: scaleX(1);
+    height: .5vh;
+    bottom: 1%;
+    left: 0;
+    background-color: white;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+}
+
+.tables_selector > .selector:not(.selected)::before,
+.normatives_selector > .selector:not(.selected)::before {
+    transform: scaleX(0);
+
+}
+
+.tables_selector > .selector:not(.selected):hover::before,
+.normatives_selector > .selector:not(.selected):hover::before {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+
+
+.tables_container > .tables_panel,
+.popup_content > .tables_panel {
+    width: 100%;
+    height: fit-content;
+    margin-top: 2.5vh;
+
+    overflow: auto;
+    border-radius: 1.5vh;
+}
+
+
+/* Inicializacion de las listas (estilos generales) */
+.tables_panel  > .table {
+    width: 100%;
+    height: fit-content; /* Cambiar a fit content */
+    display: none;
+    flex-direction: column;
+
+    
+
+}
+
+.tables_panel  > .table.opened {
+    display: flex;
+}
+
+.table > li {
+    list-style: none;
+    width: 100%;
+    min-height: 5vh;
+    display: flex;
+    align-items: center;
+    
+    background-color: rgb(12, 12, 12);
+    color: rgb(212, 212, 212);
+    border-bottom: .1vh solid rgb(212, 212, 212);
+    padding: 0 2vh;
+    
+    font-family: 'Roboto';
+    font-size: 1.75vh;
+    flex-shrink: 0;
+}
+
+.table > li:first-child {
+    background-color: rgb(212, 212, 212);
+    color: rgb(12, 12, 12);
+}
+
+.table > li:last-child {
+    border-bottom: none;
+}
+
+.table > li.list_names {
+    font-size: 2.5vh;
+    letter-spacing: .01vw;
+}
+
+.table > li > span {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow-x: hidden;
+}
+
+
+
+/* Tamaños de las celdas por cada tabla de los datos del USUARIO ACTUAL */
+    /* Tabla de propiedades */
+    .table#current_user_properties_table > li > span {
+        width: calc(100% / 3);
+    }
+
+    /* Tabla de propiedades */
+    .table#current_user_vehicles_table > li > span:first-child,
+    .table#current_user_vehicles_table > li > span:nth-child(3) {
+        width: 15%;
+    }
+
+    .table#current_user_vehicles_table > li > span:nth-child(2),
+    .table#current_user_vehicles_table > li > span:nth-child(4) {
+        width: 20%;
+    }
+
+    .table#current_user_vehicles_table > li > span:last-child {
+        width: 30%;
+    }
+
+    /* Tabla de licencias */
+    .table#current_user_licenses_table > li > span {
+        width: 100%;
+    }
+
+    /* Tabla de historial de delitos */
+    .table#current_user_crimes_history_table > li > span:first-child {
+        width: 40%;
+    }
+
+    .table#current_user_crimes_history_table > li > span:not(:first-child) {
+        width: 17.5%;
+    }
+
+    .table#current_user_crimes_history_table > li > span:last-child {
+        width: 25%;
+    }
+
+    /* Tabla de historial medico */
+    .table#current_user_medical_history_table > li > span:first-child,
+    .table#current_user_medical_history_table > li > span:last-child {
+        width: 35%;
+    }
+
+    .table#current_user_medical_history_table > li > span:nth-child(2),
+    .table#current_user_medical_history_table > li > span:nth-child(3) {
+        width: 15%;
+    }
+
+    /* Tabla de multas */
+    .table#current_user_penalties_table > li > span:first-child {
+        width: 30%;
+    }
+
+    .table#current_user_penalties_table > li > span:not(:first-child) {
+        width: 15%;
+    }
+
+    .table#current_user_penalties_table > li > span:last-child {
+        width: 10%;
+    }
+
+
+
+/* Estilos de columnas especificas */
+.table > li > span.status_label > .text {
+    padding: .35vh 1.5vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 1vh;
+}
+
+.table > li > span.status_label.paid > .text,
+.table > li > span.status_label.inProgress > .text {
+    background-color: rgb(14, 184, 42);
+    color: rgb(12, 12, 12);
+}
+
+.table > li > span.status_label.pending > .text {
+    background-color: rgb(194, 144, 8);
+    color: rgb(12, 12, 12);
+}
+
+.table > li > span.status_label.inSearch > .text {
+    background-color: rgb(204, 26, 26);
+    color: rgb(12, 12, 12);
+}
+
+.table > li > span.status_label.notInSearch > .text {
+    background-color: rgb(33, 201, 61);
+    color: rgb(12, 12, 12);
+}
+
+
+
+
+/* Botones de accion de las tablas */
+.table .action_buttons_container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: .5vh;
+
+    overflow: hidden; /* Para corregir leve overflow en el boton al presionarlo con solo una linea de rangos en jobs*/
+}
+
+.action_buttons_container > .action_button {
+    height: 4vh;
+    width: 4vh;
+    border-radius: .5vh;
+    border: .15vh solid black;
+    cursor: pointer;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+
+    transition: all ease-out .15s;
+}
+
+.action_buttons_container > .action_button > img {
+    width: 100%;
+    height: 100%;
+    padding: 10%;
+    object-fit: contain;
+    object-position: center;
+    
+    transition: all ease-out .15s;
+}
+
+.action_buttons_container > .action_button:active > img {
+    transform: scale(1.09);
+    pointer-events: none;
+}
+
+.action_buttons_container > .action_button > .action_label {
+    position: absolute;
+    display: block;
+    margin-top: 8.75vh;
+    background-color: rgb(212, 212, 212);
+    color: rgb(12, 12, 12);
+    padding: .35vh;
+    border-radius: .5vh;
+    font-size: 1.5vh;
+    
+    visibility: hidden;
+}
+
+.action_buttons_container > .action_button > .action_label:after {
+    content: '';
+    position: absolute;
+    border: 1.1vh solid rgb(212, 212, 212);
+    border-left-color: transparent;
+    border-top-color: transparent;
+    border-right-color: transparent;
+    top: -2vh;
+    left: calc(50% - 1.1vh);
+    pointer-events: none;
+}
+
+.action_buttons_container > .action_button:hover > .action_label {
+    visibility: inherit;
+}
+
+
+.action_buttons_container > .action_button.disabled {
+    pointer-events: none;
+    filter: grayscale(100%);
+}
+
+.action_buttons_container > .action_button.disabled > .action_label {
+    display: none;
+}
+
+
+
+/* Colores de cada boton */
+.action_buttons_container > .action_button.payment,
+.action_buttons_container > .action_button.generate_item,
+.action_buttons_container > .action_button.delete_crime {
+    background-color: rgb(14, 184, 42);
+}
+
+.action_buttons_container > .action_button.payment:hover,
+.action_buttons_container > .action_button.generate_item:hover,
+.action_buttons_container > .action_button.delete_crime:hover {
+    background-color: rgb(36, 211, 66);
+}
+
+
+.action_buttons_container > .action_button.open_template,
+.action_buttons_container > .action_button.modify_note {
+    background-color: rgb(192, 161, 20);
+}
+
+.action_buttons_container > .action_button.open_template:hover,
+.action_buttons_container > .action_button.modify_note:hover {
+    background-color: rgb(224, 189, 32);
+}
+
+.action_buttons_container > .action_button.search_in,
+.action_buttons_container > .action_button.delete_penalty,
+.action_buttons_container > .action_button.delete_note,
+.action_buttons_container > .action_button.delete_licence,
+.action_buttons_container > .action_button.delete_property,
+.action_buttons_container > .action_button.delete_vehicle,
+.action_buttons_container > .action_button.delete_medical_consultation,
+.action_buttons_container > .action_button.unattend_crime  {
+    background-color: rgb(204, 26, 26);
+}
+
+.action_buttons_container > .action_button.search_in:hover,
+.action_buttons_container > .action_button.delete_penalty:hover,
+.action_buttons_container > .action_button.delete_note:hover,
+.action_buttons_container > .action_button.delete_licence:hover,
+.action_buttons_container > .action_button.delete_property:hover,
+.action_buttons_container > .action_button.delete_vehicle:hover,
+.action_buttons_container > .action_button.delete_medical_consultation:hover,
+.action_buttons_container > .action_button.unattend_crime:hover {
+    background-color: rgb(224, 45, 45);
+}
+
+.action_buttons_container > .action_button.search_out,
+.action_buttons_container > .action_button.show_medical_consultation {
+    background-color: rgb(33, 201, 61);
+}
+
+.action_buttons_container > .action_button.search_out:hover,
+.action_buttons_container > .action_button.show_medical_consultation:hover {
+    background-color: rgb(57, 219, 84);
+}
+
+.action_buttons_container > .action_button.attend_crime {
+    background-color: rgb(7, 70, 243);
+}
+
+.action_buttons_container > .action_button.attend_crime:hover {
+    background-color: rgb(24, 82, 241);
+}
+
+.action_buttons_container > .action_button.assign_job {
+    background-color: rgb(16, 116, 61);
+}
+
+.action_buttons_container > .action_button.assign_job:hover {
+    background-color: rgb(24, 150, 80);
+}
+
+
+
+/* Pantalla de la normativa */
+.right_screen_panel > .normativa_page {
+    width: 100%;
+    min-height: 100%;
+    padding: 3.5vh 0;
+
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 5vh;
+
+    padding: 5vh 10%;
+
+}
+
+.normativa_page > .normativa_document {
+    width: 72.5%;
+    height: fit-content;
+
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 2vh;
+}
+
+
+.normativa_document > .page {
+    width: 100%;
+    min-height: 105vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    color: #000;
+    background: url("./img/RealLife-Logo_full_low_opacity.png"), #fff;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+}
+
+.page > .header {
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.page > .header > .tittle {
+    font-size: 3vh;
+}
+
+.page > .header > img {
+    height: 75%;
+    position: absolute;
+    right: 5%;
+}
+
+.page > .footer {
+    width: 75%;
+    height: 10vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    position: relative;
+    padding-top: 1vh;
+
+    margin-top: auto;
+}
+
+.page > .footer > hr {
+    width: 100%;
+    margin-bottom: .5vh;
+}
+
+.page > .footer > span {
+    margin-left: auto;
+    letter-spacing: .45vh;
+    font-weight: 400;
+
+    font-size: 1.5vh;
+    color: rgb(131, 131, 131);
+}
+
+.page > .footer > span > .page_number {
+    /* font-weight: bold; */
+    color: black;
+}
+
+
+.page > .paragraph {
+    width: 75%;
+    margin-bottom: 3vh;
+}
+
+.paragraph > span.tittle {
+    display: block;
+    color: rgb(17, 57, 117);
+    font-size: 2.5vh;
+    margin-bottom: 1vh;
+}
+
+.paragraph > p {
+    font-size: 2vh;
+    margin-bottom: .8vh;
+}
+
+.paragraph > p:last-child {
+    margin-bottom: 0;
+}
+
+.paragraph > p.padding-left {
+    padding-left: 2vh;
+}
+
+.paragraph > p.padding-left-double {
+    padding-left: 4vh;
+}
+
+.paragraph > p.margin_bottom {  
+    margin-bottom: 3vh;
+}
+
+
+
+
+/* Página del SAPD (con doble contenido: Lista de busqueda, informacion de usuario bucado) */
+.right_screen_panel > .SAPD_page,
+.right_screen_panel > .EMS_page,
+.right_screen_panel > .admin_page,
+.right_screen_panel > .jobs_page,
+.right_screen_panel > .admin_items_page {
+    width: 100%;
+    min-height: 100%;
+    /* padding: 3.5vh 2vw; */
+
+    display: none;
+    position: relative; /* Para corregir los overflow de las tarjetas de los action button */
+}
+
+
+/* Panel de busquedas de jugadores */
+.SAPD_page > .user_searcher_panel.opened,
+.SAPD_page > .personal_information_page.opened,
+.EMS_page > .user_searcher_panel.opened,
+.EMS_page > .personal_information_page.opened,
+.normativa_page > .normativa_document.opened,
+.admin_page > .personal_information_page.opened,
+.admin_page > .user_searcher_panel.opened,
+.admin_items_page > .items_searcher_panel.opened,
+.jobs_page > .jobs_searcher_panel.opened {
+    display: flex;
+}
+
+
+.SAPD_page > .user_searcher_panel,
+.EMS_page > .user_searcher_panel,
+.admin_page > .user_searcher_panel,
+.admin_items_page > .items_searcher_panel,
+.jobs_page > .jobs_searcher_panel {
+    width: 100%;
+    /* height: fit-content; */
+    padding: 3.5vh 2vw;
+
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+
+/* Input dinámico de búsqueda */
+.vehicles_searcher_page > .players_searcher_input,
+.user_searcher_panel > .players_searcher_input,
+.items_searcher_panel > .items_searcher_input,
+.jobs_searcher_panel > .jobs_searcher_input {
+    width: 30%;
+    height: 7vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    position: relative;
+
+    
+    color: white;
+    border-bottom: .75vh solid rgb(17, 57, 117);
+
+    padding: 0 1vh;
+}
+
+.players_searcher_input > input:focus ~ .placeholder,
+.players_searcher_input > input,
+.items_searcher_input > input:focus ~ .placeholder,
+.items_searcher_input > input:not(:focus):valid ~ .placeholder,
+.jobs_searcher_input > input:focus ~ .placeholder,
+.jobs_searcher_input > input:not(:focus):valid ~ .placeholder {
+    top: .1vh;
+    font-size: 1.75vh;
+    color: rgb(150, 150, 150);
+}
+
+.players_searcher_input > input,
+.items_searcher_input > input,
+.jobs_searcher_input > input {
+    width: 100%;
+    height: 100%;
+    color: white;
+    font-size: 2.5vh;
+    padding-top: 6%;
+    background-color: transparent;
+    border: none ;
+    outline: none;
+    font-family: 'Oswald';
+}
+
+
+.players_searcher_input > .placeholder,
+.items_searcher_input > .placeholder,
+.jobs_searcher_input > .placeholder {
+    position: absolute;
+    pointer-events: none;
+
+    font-size: 2.5vh;
+    top: calc(50% - 2vh);
+
+    transition: 0.2s ease-out all;
+}
+
+
+/* Tabla de resultados de busqueda tanto para usuarios como vehiculos */
+.searched_results_table_container {
+    width: 95%;
+    height: fit-content;
+    margin-top: 5vh;
+
+    overflow: auto;
+    border-radius: 1.5vh;
+
+}
+
+.searched_results_table_container  > .table {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+}
+
+.searched_results_table_container  > .table > li:first-child {
+    height: 5.5vh;
+}
+
+.searched_results_table_container  > .table > li:not(:first-child) {
+    height: 6.5vh;
+}
+
+
+/* Tamaño de campos de tabla de USUARIOS buscados y en busca y captura */
+.table#searched_users_table > li > span:first-child,
+.table#ems_searched_users_table > li > span:first-child,
+.table#search_seizure_users_table > li > span:first-child {
+    width: 6%;
+}
+
+.table#searched_users_table > li > span:nth-child(2),
+.table#ems_searched_users_table > li > span:nth-child(2),
+.table#search_seizure_users_table > li > span:nth-child(2) {
+    width: 28%;
+}
+
+.table#searched_users_table > li > span:nth-child(3),
+.table#searched_users_table > li > span:nth-child(4),
+.table#searched_users_table > li > span:nth-child(5),
+.table#searched_users_table > li > span:nth-child(6),
+.table#ems_searched_users_table > li > span:nth-child(3),
+.table#ems_searched_users_table > li > span:nth-child(4),
+.table#ems_searched_users_table > li > span:nth-child(5),
+.table#ems_searched_users_table > li > span:nth-child(6),
+.table#search_seizure_users_table > li > span:nth-child(3),
+.table#search_seizure_users_table > li > span:nth-child(4),
+.table#search_seizure_users_table > li > span:nth-child(5),
+.table#search_seizure_users_table > li > span:nth-child(6) {
+    width: 12%;
+}
+
+.table#searched_users_table > li > span:last-child,
+.table#ems_searched_users_table > li > span:last-child,
+.table#search_seizure_users_table > li > span:last-child {
+    width: 18%;
+}
+
+
+
+.table#crimes_in_progress_table > li > span:nth-child(1){
+    width: 7%;
+}
+
+.table#crimes_in_progress_table > li > span:nth-child(2) {
+    width: 22%;
+    text-align: center;
+}
+
+.table#crimes_in_progress_table > li > span:nth-child(3){
+    width: 28%; 
+}
+
+.table#crimes_in_progress_table > li > span:nth-child(4),
+.table#crimes_in_progress_table > li > span:nth-child(5) {
+    width: 15%;
+    text-align: center;
+}
+
+.table#crimes_in_progress_table > li > span:nth-child(6){
+    width: 13%;
+}
+
+
+
+
+
+
+/* Correccion de foto */
+.searched_user_img > .user_photo_frame {
+    width: 72.5%;
+}
+
+.searched_user_img > .user_photo_frame > .user_photo_content {
+    border-width: .1vh;
+}
+
+/* Correccion de action button*/
+.searched_results_table_container .action_button {
+    height: 4.5vh;
+    width: 4.5vh;
+}
+
+.searched_results_table_container .action_button > .action_label {
+    margin-top: 9.25vh;
+}
+
+
+
+/* Panel de información personal del USUARIO BUSCADO */
+/* .SAPD_page > .personal_information_page {} --> Cumple los mismos rquisitos que el personal_information_page original */
+
+#searched_user_information_panel > .close_button,
+#ems_searched_user_information_panel > .close_button,
+#admin_searched_user_information_panel > .close_button {
+    background-color: rgb(153, 13, 13);
+    padding: 1vh 1vh;
+    border-radius: .5vh;
+    margin-left: auto;
+    margin-bottom: 3vh;
+    font-size: 1.5vh;
+
+    transition: all ease-out .15s;
+}
+
+#searched_user_information_panel > .close_button:hover,
+#ems_searched_user_information_panel > .close_button:hover,
+#admin_searched_user_information_panel > .close_button:hover {
+    background-color: rgb(180, 17, 17);
+    cursor: pointer;
+}
+
+#searched_user_information_panel > .close_button:active,
+#ems_searched_user_information_panel > .close_button:active,
+#admin_searched_user_information_panel > .close_button:active {
+    transform: scale(.98);
+}
+
+
+
+
+
+
+/* Submenu de SAPD: Buscador de vehiculos */
+.right_screen_panel > .vehicles_searcher_page {
+    width: 100%;
+    min-height: 100%;
+    padding: 3.5vh 2vw;
+
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    
+    position: relative; /* Para corregir los overflow de las tarjetas de los action button */
+}
+
+/* Tamaño de campos de tabla de VEHÍCULOS buscados */
+.table#searched_vehicles_table > li > span:first-child {
+    width: 15%;
+}
+
+.table#searched_vehicles_table > li > span:nth-child(2) {
+    width: 30%;
+}
+
+.table#searched_vehicles_table > li > span:nth-child(3),
+.table#searched_vehicles_table > li > span:nth-child(5) {
+    width: 15%;
+}
+
+.table#searched_vehicles_table > li > span:nth-child(4) {
+    width: 25%;
+}
+
+
+
+
+
+/* Submenu SAPD: Panel de Busca y captura */
+.right_screen_panel > .search_seizure_page,
+.right_screen_panel > .crimes_in_progress_page {
+    width: 100%;
+    min-height: 100%;
+    padding: 3.5vh 2vw;
+
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+
+    position: relative; /* Para corregir los overflow de las tarjetas de los action button */
+}
+
+.search_seizure_page > .tittle,
+.crimes_in_progress_page > .tittle {
+    height: 7vh;
+
+    display: flex;
+    align-items: center;
+
+    justify-content: center;
+    text-align: center;
+
+    font-size: 2.5vh;
+    padding: 0 3vh;
+
+    border-bottom: .75vh solid rgb(17, 57, 117);
+}
+
+
+
+
+
+
+
+
+
+/* Elementos nuevos del SAPD */
+#searched_user_information_panel .user_photo_frame {
+    width: 65%;
+}
+
+
+.user_photo_container > .searched_user_change_photo_button {
+    background-color: rgb(175, 29, 29);
+    width: 60%;
+    padding: 1vh 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1.5vh 0 2vh 0;
+    font-size: 1.75vh;
+
+    border-radius: .75vh;
+
+    transition: all ease-out .2s;
+}
+
+.user_photo_container > .searched_user_change_photo_button:hover {
+    background-color: rgb(192, 34, 34);
+    cursor: pointer;
+}
+
+.user_photo_container > .searched_user_change_photo_button:active {
+    transform: scale(.98);
+}
+
+
+.user_data_panel > .searched_user_options_container {
+    width: 98%;
+    border-radius: .75vh;
+    margin-top: 2vh;
+    padding: 2vh;
+    background-color: rgb(0, 0, 0, .5);
+
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    gap: 1vh;
+}
+
+
+.searched_user_options_container > .searched_user_option_button {
+    width: calc(50% - .5vh);
+    padding: 1vh 0;
+    font-size: 2.25vh;
+    border-radius: .75vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    transition: all ease-out .2s;
+}
+
+.searched_user_options_container > .searched_user_option_button.dangerous_in,
+.searched_user_options_container > .searched_user_option_button.search_seizure_in {
+    background-color: rgb(175, 29, 29);
+}
+
+.searched_user_options_container > .searched_user_option_button.dangerous_in:hover,
+.searched_user_options_container > .searched_user_option_button.search_seizure_in:hover {
+    background-color: rgb(192, 34, 34);
+    cursor: pointer;
+}
+
+.searched_user_options_container > .searched_user_option_button.dangerous_out,
+.searched_user_options_container > .searched_user_option_button.search_seizure_out {
+    background-color: rgb(180, 125, 4);
+}
+
+.searched_user_options_container > .searched_user_option_button.dangerous_out:hover,
+.searched_user_options_container > .searched_user_option_button.search_seizure_out:hover {
+    background-color: rgb(201, 143, 17);
+    cursor: pointer;
+}
+
+
+.searched_user_options_container > .searched_user_option_button.dangerous_in:active,
+.searched_user_options_container > .searched_user_option_button.search_seizure_in:active,
+.searched_user_options_container > .searched_user_option_button.dangerous_out:active,
+.searched_user_options_container > .searched_user_option_button.search_seizure_out:active {
+    transform: scale(.98);
+}
+
+
+
+.searched_user_options_container > .searched_user_option_label {
+    font-size: 3vh;
+    margin: auto;
+    width: calc(50% - .5vh);
+    
+
+    display: none;
+    align-items: center;
+    justify-content: center;
+}
+
+.searched_user_options_container > .searched_user_option_label#searched_user_label_dangerous.opened {
+    color: rgb(221, 42, 42);
+    display: flex;
+}
+
+.searched_user_options_container > .searched_user_option_label#searched_user_label_search_seizure.opened {
+    color: rgb(223, 148, 35);
+    display: flex;
+}
+
+
+
+
+
+/* Tamaños de las celdas por cada tabla de los datos del USUARIO BUCADO */
+    /* Tabla de propiedades */
+    .table#searched_user_properties_table > li > span {
+        width: calc(100% / 2);
+    }
+
+    /* Tabla de vehiculos */
+    .table#searched_user_vehicles_table > li > span {
+        width: calc(100% / 3);
+    }
+
+    /* Tabla de licencias */
+    .table#searched_user_licenses_table > li > span:first-child {
+        width: 80%;
+    }
+
+    .table#searched_user_licenses_table > li > span:nth-child(2) {
+        width: 20%;
+    }
+
+    /* Tabla de historial de delitos */
+    .table#searched_user_crimes_history_table > li > span:first-child {
+        width: 40%;
+    }
+
+    .table#searched_user_crimes_history_table > li > span:not(:first-child) {
+        width: 17.5%;
+    }
+
+    .table#searched_user_crimes_history_table > li > span:last-child {
+        width: 25%;
+    }
+
+    /* Tabla de historial medico */
+    .table#searched_user_medical_history_table > li > span:first-child,
+    .table#searched_user_medical_history_table > li > span:last-child {
+        width: 35%;
+    }
+
+    .table#searched_user_medical_history_table > li > span:nth-child(2),
+    .table#searched_user_medical_history_table > li > span:nth-child(3) {
+        width: 15%;
+    }
+
+    /* Tabla de multas */
+    .table#searched_user_penalties_table > li > span:first-child {
+        width: 30%;
+    }
+
+    .table#searched_user_penalties_table > li > span:not(:first-child) {
+        width: 15%;
+    }
+
+    .table#searched_user_penalties_table > li > span:last-child {
+        width: 10%;
+    }
+
+    /* Tabla de notas */
+    .table#searched_user_notes_table > li > span:first-child {
+        width: 80%;
+    }
+
+    .table#searched_user_notes_table > li > span:nth-child(2) {
+        width: 20%;
+    }
+/* Fin de tamaños de tablas */
+
+
+/* Botones para añadir elementos a las tablasS */
+.add_elements_buttons_container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.add_elements_buttons_container > .add_table_element_button {
+    background-color: rgb(175, 29, 29);
+    width: 30%;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    padding: 1vh 0;
+    font-size: 2vh;
+
+    border-radius: .75vh;
+    margin-top: 2vh;
+
+    transition: all ease-out .2s;
+}
+
+.add_elements_buttons_container > .add_table_element_button.opened {
+    display: flex;
+}
+
+.add_elements_buttons_container > .add_table_element_button:hover {
+    background-color: rgb(192, 34, 34);
+    cursor: pointer;
+}
+
+.add_elements_buttons_container > .add_table_element_button:active {
+    transform: scale(.98);
+}
+
+
+
+
+
+
+/* Panel de popups para los elementos modales */
+.tablet_screen_content > .popups_panel {
+    width: 100%;
+    height: 100%;
+
+    display: none;
+    align-items: center;
+    justify-content: center;
+
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.6);
+
+    transition: opacity ease-out .3s;
+    opacity: 0;
+}
+
+.tablet_screen_content > .popups_panel.opened {
+    display: flex;
+}
+
+
+.popups_panel > .popup_container {
+    width: 45%;
+    max-height: 90%;
+    border-radius: 1.5vh;
+    display: none;
+
+    padding: 2vh 5vh;
+
+    background-color: rgb(34, 34, 34);
+
+    overflow: auto;
+
+    transition: transform ease-out .3s, opacity ease-out .3s;
+    transform: scale(0);
+    opacity: 0;
+}
+
+.popups_panel > .popup_container.opened {
+    display: initial;
+}
+
+.popup_container::-webkit-scrollbar {
+    display: none;
+}
+
+
+.popup_container > .popup_content {
+    width: 100%;
+    min-height: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 1vh;
+}
+
+.popup_content > .tittle {
+    font-size: 2.5vh;
+    margin-bottom: .5vh;
+}
+
+.popup_content label {
+    font-size: 2vh;
+}
+
+.popup_content textarea {
+    width: 100%;
+    height: 10vh;
+    resize: none;
+    border-radius: .75vh;
+
+    font-family: Oswald;
+    font-size: 1.8vh;
+    padding: 1vh;
+
+    margin-bottom: 1vh;
+    background-color: rgb(212, 212, 212);
+}
+
+.popup_content textarea:focus,
+.penalties_selector_container > select:focus,
+.bills_selector_container > select:focus,
+.popup_content > .penalties_selector_searcher:focus {
+    outline: .5vh solid rgb(17, 57, 117);
+}
+
+
+.popup_content > .penalties_selector_searcher {
+    background-color: rgb(212, 212, 212);
+    width: calc(90% - 1vh);
+    margin-right: auto;
+    border-radius: .75vh;
+
+    font-size: 1.75vh;
+    font-family: Oswald;
+
+    padding: .65vh 1.25vh;
+}
+
+.popup_content > .penalties_selector_searcher::placeholder {
+    color: rgb(12, 12, 12);
+}
+
+
+
+.popup_content > .penalties_selector_container,
+.popup_content > .bills_selector_container {
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2vh;
+}
+
+.penalties_selector_container > select,
+.bills_selector_container > select,
+#admin_change_user_data_popup select {
+    width: calc(90% - 1vh);
+    border-radius: .75vh;
+
+    font-size: 1.75vh;
+    font-family: Oswald;
+
+    -moz-appearance:none;
+    -webkit-appearance:none;
+    appearance:none;
+
+    overflow: auto;
+    overflow-x: hidden;
+
+    background-color: rgb(212, 212, 212);
+
+    height: 11.9vh;
+}
+
+.penalties_selector_container > select > option,
+.bills_selector_container > select > option,
+#admin_change_user_data_popup select > option {
+    padding: .65vh 1.25vh;
+    max-width: 100%;
+}
+
+.penalties_selector_container > select > option:hover,
+.bills_selector_container > select > option:hover,
+#admin_change_user_data_popup select > option:hover {
+    background-color: rgb(150, 150, 150);
+}
+
+.penalties_selector_container > select > option:checked,
+.bills_selector_container > select > option:checked,
+#admin_change_user_data_popup select > option:checked {
+    background-color: rgb(122, 122, 122);
+}
+
+
+
+
+.penalties_selector_container > .add_penalty_button,
+.bills_selector_container > .add_bill_button {
+    width: calc(10% - 1vh);
+    height: 5vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(204, 26, 26);
+    transition: all ease-out .2s;
+    border-radius: .75vh;
+
+    font-size: 4vh;
+}
+
+.penalties_selector_container > .add_penalty_button:hover,
+.bills_selector_container > .add_bill_button:hover {
+    background-color: rgb(224, 45, 45);
+    cursor: pointer;
+}
+
+
+
+/* Tabla de las multas recien añadidas */
+.penalties_selector_container > .add_penalty_button:active,
+.bills_selector_container > .add_bill_button:active {
+    transform: scale(.95);
+}
+
+
+.popup_content > .tables_panel {
+    margin: 1vh 0;
+    height: 15vh;
+
+    background-color: rgb(12, 12, 12);
+}
+
+
+
+
+.popup_content > .tables_panel::-webkit-scrollbar {
+    display: none;
+}
+
+.table#added_penalties_table > li > span:first-child,
+.table#added_bills_table > li > span:first-child {
+    width: 70%;
+}
+ 
+
+.table#added_penalties_table > li > span:nth-child(2),
+.table#added_bills_table > li > span:nth-child(2) {
+    width: 20%;
+}
+
+.table#added_penalties_table > li > span:nth-child(3),
+.table#added_bills_table > li > span:nth-child(3) {
+    width: 10%;
+}
+
+/* .table#added_penalties_table > li > span:last-child, */
+.table#added_bills_table > li > span:last-child {
+    display: none;
+}
+
+.popup_content .delete_added_penalty_button,
+.popup_content .delete_added_bill_button {
+    width: 3.25vh;
+    height: 3.25vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-size: 2vh;
+
+    background-color: rgb(204, 26, 26);
+    border-radius: .75vh;
+
+    transition: all ease-out .2s;
+}
+
+.popup_content .delete_added_penalty_button:hover,
+.popup_content .delete_added_bill_button:hover {
+    background-color: rgb(224, 45, 45);
+    cursor: pointer;
+}
+
+
+
+/* Tabla de las multas recien añadidas */
+.popup_content .delete_added_penalty_button:active,
+.popup_content .delete_added_bill_button:active {
+    transform: scale(.95);
+}
+
+
+/* Definicion de la sancion */
+.popup_content > .penalty_definition_container,
+.popup_content > .bill_definition_container {
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2vh;
+}
+
+.penalty_definition_container > textarea {
+    width: calc(80% - 1vh);
+    margin-bottom: 0;
+    height: 8vh;
+}
+
+.bill_definition_container > textarea {
+    width: calc(80% - 1vh);
+    margin-bottom: 0;
+    height: 15vh;
+}
+
+.penalty_definition_container > .final_penalty_price_container,
+.bill_definition_container > .final_bill_price_container {
+    width: calc(20% - 1vh);
+    height: 8vh;
+    border-radius: .75vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    overflow: hidden;
+
+    background-color: rgb(12, 12, 12);
+}
+
+
+.final_penalty_price_container > *,
+.final_bill_price_container > * {
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.final_penalty_price_container > .tittle,
+.final_bill_price_container > .tittle {
+    height: 40%;
+    background-color: rgb(212, 212, 212);
+    color: rgb(12, 12, 12);
+    font-size: 1.5vh;
+}
+
+.final_penalty_price_container > .final_price,
+.final_bill_price_container > .final_price {
+    height: 60%;
+    background-color: rgb(12, 12, 12);
+    color: rgb(212, 212, 212);
+    font-size: 2vh;
+
+    transition: all ease-out .2s;
+}
+
+.final_penalty_price_container > .final_price:hover {
+    background-color: rgb(17, 57, 117);
+    cursor: pointer;
+}
+
+.final_bill_price_container > .final_price:hover {
+    background-color: rgb(150, 49, 18);
+    cursor: pointer;
+}
+
+
+/* Botones del popup */
+.popup_content > .popup_buttons_container {
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3vh;
+
+    margin-top: 1.5vh;
+}
+
+
+.popup_buttons_container > .button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-size: 2vh;
+    color: rgb(12, 12, 12);
+    padding: 1vh;
+    border-radius: .75vh;
+
+    background-color: rgb(161, 161, 161);
+
+    transition: all ease-out .2s;
+}
+
+
+.popup_buttons_container > .button.cancel_penalty,
+.popup_buttons_container > .button.cancel_sapd_note,
+.popup_buttons_container > .button.cancel_admin_note,
+.popup_buttons_container > .button.cancel_assign_job {
+    background-color: rgb(204, 26, 26);
+}
+
+.popup_buttons_container > .button.cancel_penalty:hover,
+.popup_buttons_container > .button.cancel_sapd_note:hover,
+.popup_buttons_container > .button.cancel_admin_note:hover,
+.popup_buttons_container > .button.cancel_assign_job:hover {
+    background-color: rgb(224, 45, 45);
+    cursor: pointer;
+}
+
+.popup_buttons_container > .button.add_penalty,
+.popup_buttons_container > .button.add_sapd_note,
+.popup_buttons_container > .button.add_admin_note,
+.popup_buttons_container > .button.add_assign_job {
+    background-color: rgb(33, 201, 61);
+}
+
+.popup_buttons_container > .button.add_penalty:hover,
+.popup_buttons_container > .button.add_sapd_note:hover,
+.popup_buttons_container > .button.add_admin_note:hover,
+.popup_buttons_container > .button.add_assign_job:hover {
+    background-color: rgb(57, 219, 84);
+    cursor: pointer;
+}
+
+.popup_buttons_container > .button:active {
+    transform: scale(.95);
+}
+
+
+/* Correcciones para el popup de añadir/modificar nota */
+.popups_panel > .popup_container#add_sapd_note_popup {
+    width: 45%;
+    height: 40%;
+}
+
+.popup_container#add_sapd_note_popup textarea {
+    height: 15vh;
+}
+
+ 
+
+/* Tarjeta de notificaciones */
+.tarjeta_notificaciones_container {
+    background-color: rgb(212, 212, 212);
+    height: 5vh;
+    width: fit-content; /* BORRAR, adaptar a img */
+    margin-top: 5vh;
+    border-radius: .5vh;
+    overflow: hidden;
+    box-shadow: 0 0 .5vh .1vh rgb(212, 212, 212);
+    opacity: 0;
+
+    display: none; /* De esta forma activamos luego la animacion */
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+
+    animation: 6s linear 0s 1 panelAnimation;
+    animation-fill-mode: forwards;
+
+    position: absolute;
+    top: 3vh;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+
+
+.tarjeta_notificaciones_container > .notificaction_icon_container {
+    display: block;
+    height: 5vh;
+    width: 5vh;
+    padding: 1vh;
+
+}
+
+.notificaction_icon_container > .notification_icon  {
+    object-position: center;
+    object-fit: contain;
+    display: block;
+    width: 100%;
+    height: 100%;
+
+    opacity: 0;
+
+    animation: 6s linear 0s 1 iconAnimation;
+    animation-fill-mode: forwards;
+}
+
+.tarjeta_notificaciones_container > .notification_text_container {
+    display: flex;
+    height: 100%;
+    width: 0;
+    transition: width ease-out .5s;
+}
+
+
+.notification_text_container > .text {
+    display: block;
+    white-space: nowrap;
+    height: 100%;
+    width: fit-content;
+    padding: 0 2vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-size: 1.6vh;
+    text-transform: uppercase;
+
+    color: rgb(12, 12, 12);
+}
+
+
+
+
+/* Correcciones de colores para menu EMS */
+.user_searcher_panel#ems_user_searcher_panel > .players_searcher_input {
+    border-color: rgb(153, 13, 13);
+}
+
+.personal_information_page#ems_searched_user_information_panel > .user_info_container {
+    background-color: rgb(153, 13, 13);
+}
+
+/* Panel de informacion sanitaria de usuario buscado por EMS */
+.user_data_panel > hr {
+    height: .5vh;
+    width: 90%;
+    margin: 2vh auto;
+    border: none;
+    border-radius: 1vh;
+
+    background-color: rgba(0, 0, 0, .75);
+}
+
+
+#ems_searched_user_information_panel .user_data_panel > .ems_open_health_data_popup,
+#admin_searched_user_information_panel .user_data_panel > .admin_open_user_data_changer_popup {
+    padding: 1vh 4vh;
+    margin: auto;
+    border-radius: 1vh;
+
+    font-size: 2.5vh;
+
+    background-color: rgb(11, 177, 33);
+    
+    transition: all ease-out .2s;
+}
+
+#ems_searched_user_information_panel .user_data_panel > .ems_open_health_data_popup:hover,
+#admin_searched_user_information_panel .user_data_panel > .admin_open_user_data_changer_popup:hover {
+    background-color: rgb(15, 196, 39);
+    cursor: pointer;
+}
+
+#ems_searched_user_information_panel .user_data_panel > .ems_open_health_data_popup:active,
+#admin_searched_user_information_panel .user_data_panel > .admin_open_user_data_changer_popup:active {
+    transform: scale(.97);
+}
+
+
+#ems_searched_user_information_panel .user_photo_frame {
+    width: 65%;
+}
+
+
+#ems_user_health_data_popup .blood_type_container,
+#ems_user_medical_consultation_popup .assigned_doctor_container {
+    width: 100%;
+    flex-wrap: nowrap;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2vh;
+
+}
+
+#ems_user_health_data_popup textarea,
+#ems_user_medical_consultation_popup textarea {
+    height: 15vh;
+}
+
+
+.blood_type_container > textarea {
+    width: 8vh;
+    height: 5vh !important;
+
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.assigned_doctor_container > textarea {
+    width: 45vh;
+    height: 5vh !important;
+}
+
+.assigned_doctor_container > label {
+    text-align: center;
+}
+
+
+/* Tabla de historial medico */
+.table#ems_searched_user_medical_history_table > li > span:first-child,
+.table#ems_searched_user_medical_history_table > li > span:nth-child(4) {
+    width: 28%;
+}
+
+
+.table#ems_searched_user_medical_history_table > li > span:nth-child(2),
+.table#ems_searched_user_medical_history_table > li > span:nth-child(3) {
+    width: 15%;
+}
+
+.table#ems_searched_user_medical_history_table > li > span:last-child {
+    width: 14%;
+}
+
+
+
+
+
+
+
+
+/* Correcciones y elementos de Administracion */
+/* Correcciones de colores del buscador */
+.user_searcher_panel#admin_user_searcher_panel > .players_searcher_input {
+    border-color: rgb(196, 158, 24);
+}
+
+.personal_information_page#admin_searched_user_information_panel > .user_info_container {
+    background-color: rgb(130, 130, 130);
+}
+
+
+/* Correcion de la tabla de búsqueda */
+.table#admin_searched_users_table > li > span:first-child {
+    width: 10%;
+}
+
+.table#admin_searched_users_table > li > span:nth-child(2),
+.table#admin_searched_users_table > li > span:nth-child(3),
+.table#admin_searched_users_table > li > span:nth-child(4) {
+    width: 25%;
+}
+
+.table#admin_searched_users_table > li > span:last-child {
+    width: 15%;
+}
+
+#admin_searched_users_table .user_photo_frame {
+    width: 46%;
+}
+
+
+/* Correcciones de colores del panel de usuario buscado */
+#admin_searched_user_information_panel .user_data_panel > .data_element > .data_value.id  {
+    background-color: rgb(196, 158, 24);
+
+}
+
+#admin_searched_user_information_panel .user_data_panel > .admin_open_user_data_changer_popup {
+    background-color: rgb(196, 158, 24);
+    color: rgb(12, 12, 12);
+    
+}
+
+#admin_searched_user_information_panel .user_data_panel > .admin_open_user_data_changer_popup:hover {
+    background-color: rgb(223, 181, 32);
+}
+
+
+
+#admin_change_user_data_popup input,
+#assign_new_job_popup input {
+    background-color: rgb(212, 212, 212);
+    width: 50%;
+    border-radius: .75vh;
+
+    font-size: 1.75vh;
+    font-family: Oswald;
+
+    padding: .65vh 1.25vh;
+
+    text-align: center;
+    margin-bottom: 1vh;
+}
+
+#admin_change_user_data_popup input:focus,
+#admin_change_user_data_popup select:focus {
+    outline: .5vh solid rgb(196, 158, 24);
+}
+
+#admin_change_user_data_popup input[type = date] {
+    padding-left: 10%;
+}
+
+#admin_change_user_data_popup select {
+    width: 50%;
+
+    height: 7.95vh;
+    margin-bottom: 1vh;
+}
+
+#admin_change_user_data_popup select > option {
+    text-align: center;
+}
+
+#admin_change_user_data_popup select > option:checked {
+    background-color: rgb(196, 158, 24);
+}
+
+
+
+/* Tamaños de las tablas de informacion de usuario buscado por Administracion */
+.table#admin_searched_user_properties_table > li > span {
+    width: 40%;
+}
+
+.table#admin_searched_user_properties_table > li > span:last-child {
+    width: 20%;
+}
+
+
+.table#admin_searched_user_vehicles_table > li > span {
+    width: 25%;
+}
+
+.table#admin_searched_user_crimes_history_table > li > span:first-child,
+.table#admin_searched_user_medical_history_table > li > span:first-child {
+    width: 35%;
+}
+
+.table#admin_searched_user_crimes_history_table > li > span:nth-child(2),
+.table#admin_searched_user_crimes_history_table > li > span:nth-child(3),
+.table#admin_searched_user_medical_history_table > li > span:nth-child(2),
+.table#admin_searched_user_medical_history_table > li > span:nth-child(3) {
+        width: 15%;
+}
+
+.table#admin_searched_user_crimes_history_table > li > span:nth-child(4),
+.table#admin_searched_user_medical_history_table > li > span:nth-child(4) {
+    width: 25%;
+}
+
+.table#admin_searched_user_crimes_history_table > li > span:last-child,
+.table#admin_searched_user_medical_history_table > li > span:last-child {
+    width: 10%;
+}
+
+.table#admin_searched_user_notes_table > li > span:first-child {
+    width: 80%;
+}
+
+.table#admin_searched_user_notes_table > li > span:nth-child(2) {
+    width: 20%;
+}
+
+
+
+
+
+
+/* Correccion de colores y tabla para panel de items de Administración */
+.items_searcher_panel > .items_searcher_input {
+    border-color: rgb(196, 158, 24);
+}
+
+.table#admin_searched_items_table > li > span:nth-child(1) {
+    width: 10%;
+}
+
+.table#admin_searched_items_table > li > span:nth-child(2) {
+    width: 36%;
+}
+
+.table#admin_searched_items_table > li > span {
+    width: 18%;
+}
+
+#admin_searched_items_table .user_photo_frame {
+    width: 46%;
+}
+
+
+
+/* Selector de cantidad de los elementos */
+#admin_searched_items_table .item_amount_selector_container {
+    width: 10vh;
+    height: 3.5vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+
+    border-radius: 1vh;
+    overflow: hidden;
+
+
+    color: rgb(12, 12, 12);
+}
+
+.item_amount_selector_container > .item_amount_selector_button {
+    height: 100%;
+    width: 22.5%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: rgb(196, 158, 24);
+
+    transition: all ease-out .2s;
+}
+
+.item_amount_selector_container > .item_amount_selector_button:hover {
+    cursor: pointer;
+    background-color: rgb(231, 189, 38);
+
+}
+
+
+
+
+.item_amount_selector_container > .item_amount_number {
+    height: 100%;
+    width: 55%;
+    text-align: center;
+
+    font-weight: 500;
+    font-size: 1.5vh;
+    font-family: 'Roboto', sans-serif;
+    
+    color: rgb(12, 12, 12);
+    background-color: rgb(212, 212, 212);
+
+    border: .175vh solid rgb(12, 12, 12);
+    border-top: none;
+    border-bottom: none;
+
+    transition: all ease-out .2s;
+}
+
+.item_amount_selector_container > .item_amount_number::-webkit-inner-spin-button, 
+.item_amount_selector_container > .item_amount_number::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.item_amount_selector_container > .item_amount_number:focus {
+    outline: none;
+    background-color: rgb(230, 230, 230);
+}
+
+.item_amount_selector_container > .item_amount_number::selection {
+    background: rgb(231, 189, 38);
+}
+
+.item_amount_selector_container > .item_amount_number:hover {
+    cursor: pointer;
+    background-color: rgb(230, 230, 230);
+}
+
+
+
+
+/* Apartado de trabajos */
+.tablet_options_menu li.selected#jobs_button {
+    background-color: rgb(16, 116, 61);
+}
+
+.tablet_options_menu li#jobs_button:not(.selected):hover {
+    background-color: rgb(16, 116, 61);
+}
+
+.jobs_searcher_panel > .jobs_searcher_input {
+    border-color: rgb(16, 116, 61);
+}
+
+/* Esto es para corregir el tamño para los rangos */
+.table#searched_jobs_table > li {
+    height: fit-content;
+}
+
+.table#searched_jobs_table > li > span {
+    width: 20%;
+}
+
+.table#searched_jobs_table > li > span:nth-child(3) {
+    width: 50%;
+}
+
+.table#searched_jobs_table > li > span:last-child {
+    width: 10%;
+    
+}
+
+.table#searched_jobs_table > li > span.ranges_list {
+    flex-wrap: wrap;
+    gap: 1vh;
+    padding: 1.75vh 0;
+}
+
+.table#searched_jobs_table > li > span.ranges_list > span {
+    padding: .5vh .8vh;
+    border-radius: 1vh;
+
+    background-color: rgb(212, 212, 212);
+    color: rgb(12, 12, 12);
+
+    cursor: pointer;
+
+    transition: all ease-out .2s;
+}
+
+.table#searched_jobs_table > li > span.ranges_list > span:not(.selected):hover {
+    background-color: rgb(160, 160, 160);
+
+}
+
+
+.table#searched_jobs_table > li > span.ranges_list > span.selected {
+    background-color: rgb(16, 116, 61);
+    color: rgb(235, 235, 235);
+
+    pointer-events: none;
+}
+
+#assign_new_job_popup hr {
+    width: 75%;
+    height: .5vh;
+    margin: 2vh 0;
+
+    background-color: rgb(212, 212, 212);
+    border: none;
+    border-radius: 1vh;
+}
+
+#assign_new_job_popup input:focus {
+    outline: .5vh solid rgb(16, 116, 61);
+}
+
+#assign_new_job_popup input:disabled {
+    background-color: rgb(165, 165, 165);
+}
+
+
+
+
+
+
+
+/* Contenedores de imagenes circulares */
+.user_photo_frame {
+    width: 52.5%; /* Tamaño de la imagen controlado por aquí*/
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
+
+}
+
+.user_photo_frame:before {
+    content: "";
+    display: block;
+    padding-top: 100%;
+    /* Ratio of 1:1*/
+  }
+  
+
+.user_photo_content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+
+    border-radius: 50%;
+    border: .5vh solid black;
+    overflow: hidden;
+}
+
+
+.user_photo_content > img {
+    width: 100%;
+    height: 100%;
+
+    object-fit: cover;
+    object-position: center;
+}
+
+
+
+
+
+
+
+/* Fuentes y animaciones */
+@font-face {
+    font-family: Samsung_font;
+    src: url(./extra/SamsungSans-Bold.ttf);
+}
+
+
+
+
+@keyframes panelAnimation {
+    0%{
+        transform: scale(70%);
+        opacity: 0;
+    }
+    7% {
+        transform: scale(100%);
+        opacity: 1;
+    }
+
+    95% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+
+@keyframes iconAnimation {
+    4%{
+        transform: scale(70%);
+        opacity: 0;
+    }
+    9% {
+        transform: scale(115%);
+        opacity: 1;
+    }
+    13%{
+        transform: scale(100%)
+    }
+
+    99.9% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+/* La animacion del apartado de texto la hago con JavaScript ya que debo trabajar con width auto */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Responsive 4:3 */
+@media screen and (min-aspect-ratio: 3 / 3) and (max-aspect-ratio: 5 / 3) {
+    
+    /* Tamaño tablet regulado */
+    .main_page > .tablet_panel {
+        height: 73vh;
+        width: 98vw;
+    }
+
+    .tablet_panel > .tablet_name {
+        font-size: 1.3vh;
+        margin: .8% 0 .2% 0;
+    
+    }
+
+
+    /* Imagen y textos del contenedor de informacion personal */
+    .user_photo_container > .user_photo_frame {
+        width: 60%;  
+    }
+
+    .data_element > .data_name {
+        font-size: 1.5vh;
+    }
+
+    .data_element > .data_value {
+        font-size: 1.45vh;
+    }
+
+
+    /* Páginas de normativa */
+    .normativa_page > .normativa_document {
+        width: 90%;
+        
+    }
+
+
+
+    /* Centrado de selectores de tablas */
+    .tables_selector > .selector,
+    .normatives_selector > .selector {
+        text-align: center;
+    }
+
+    /* Boton de cambiar de imagen */
+    .user_photo_container > .searched_user_change_photo_button {
+        width: 80%;
+    }
+
+
+    /* Width de los popup */
+    .popups_panel > .popup_container {
+        width: 55%;
+    }
+
+    /* Height del popup de notas */
+    .popups_panel > .popup_container#add_sapd_note_popup {
+        height: 50%;
+    }
+
+    /* Tamño de imagenes para items de admin */
+    #admin_searched_items_table .user_photo_frame {
+        width: 60%;
+    }
+
+    /* Correccion del tamaño del select */
+    .penalties_selector_container > select,
+    .bills_selector_container > select {
+        height: 11.7vh;
+    }
+
+    /* Correccion de la imagen del buscador de administracion */
+    #admin_searched_users_table .user_photo_frame {
+        width: 55%;
+    }
+
+    #admin_user_searcher_panel .players_searcher_input > .placeholder {
+        font-size: 2vh;
+    }
+
+    #jobs_searcher_panel .jobs_searcher_input > .placeholder {
+        font-size: 2.1vh;
+    }
+
+
+
+    #admin_user_searcher_panel .players_searcher_input > input:focus ~ .placeholder,
+    #admin_user_searcher_panel .players_searcher_input > input:not(:focus):valid ~ .placeholder,
+    #jobs_searcher_panel .jobs_searcher_input > input:focus ~ .placeholder,
+    #jobs_searcher_panel .jobs_searcher_input > input:not(:focus):valid ~ .placeholder {
+        font-size: 1.75vh;
+    }
+}
+
+
+
+/* Responsive 21:9 */
+@media screen and (min-aspect-ratio: 20 / 9) and (max-aspect-ratio: 22 / 9) {
+    
+    /* Tamaño tablet regulado */
+    .main_page > .tablet_panel {
+        width: 70vw;
+    }
+    
+}
+
+
+

@@ -1,0 +1,148 @@
+@font-face {
+    font-family: boxed;
+    src: url('Assets/BOXEDROUND.TTF');
+}
+
+.main-wrapper {
+    position: absolute;
+    right: 1vw;
+    width: 14vw;
+    height: auto;
+    min-height: .5vw;
+    padding-top: 1vw;
+    bottom: 1vw;
+    background-color: #000000b1;
+    max-height: 15vw;
+    border-radius: .4vw;
+    padding-bottom: 2vw;
+    box-shadow: 0vw 0vw .5vw .05vw black;
+}
+
+.menu-title {
+    position: absolute;
+    width: 80%;
+    padding: 5px;
+    top: 1.5vw;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    font-family: boxed;
+    color: rgb(255, 255, 255);
+    font-size: .8vw;
+    text-align: center;
+    border-bottom: 2px solid #FBB040;
+	letter-spacing: 0.1vh;
+	text-transform: uppercase;
+}
+
+::-webkit-scrollbar {
+    width: .3vw;
+    margin-right: .2vw;
+}
+  
+  /* Track */
+::-webkit-scrollbar-track {
+    background-color: #FBB040;
+    border-radius: .2vw;
+    width: .1vw;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #FBB040;
+    width: .1vw;
+    border-radius: .2vw;
+}
+
+.part {
+    position: relative;
+    width: 100%;
+    display: flex;
+    top: 1.5vw;
+    align-items: center;
+    gap: .5vw;
+    margin-top: .5vw;
+    max-height: 0;
+    overflow-y: auto;
+    overflow-x: hidden;
+    flex-direction: column;
+    transition: max-height .7s; 
+}
+
+.img {
+	vertical-align:middle;
+	margin-right:0.5px;
+	max-width:30px;
+	max-height:30px;
+}
+
+.section {
+    padding: 5px;
+    display: flex;
+    width: 80%;
+    height: 1vw;
+    font-size: .75vw;
+    padding-left: .5vw;
+    padding-right: .5vw;
+    font-family: boxed;
+    color: white;
+    align-items: center;
+    min-height: 1vw;
+    animation: appear 1s forwards;
+}
+
+.image {
+    position: absolute;
+    width: 2.5vw;
+    z-index: 2;
+    top: -1.5vw;
+    right: -0.4vw;
+}
+
+.selected {
+    border-left: 2px solid #FBB040;
+}
+
+@keyframes appear {
+    0% {
+        opacity: 0;
+        transform: scale(0.8);
+    }
+    100% {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+.metadata-wrapper {
+    position: absolute;
+    min-height: 1.6vw;
+    height: auto;
+    width: 10vw;
+    bottom: 0vw;
+    max-height: 10vw;
+    left: -11vw;
+    display: none;
+    border-radius: .5vw;
+    background-color: #011a3fda;
+    box-shadow: 0vw 0vw .5vw .05vw black;
+}
+
+.flex-metadata {
+    display: flex;
+    flex-direction: column;
+    gap: .3vw;
+    margin-top: 0.4vw;
+    max-height: 10vw;
+    margin-left: 0.2vw;
+    overflow: none;
+}
+
+.item {
+    position: relative;
+}
+
+.item-name {
+    color: white;
+    font-family: boxed;
+    font-size: .65vw;
+}

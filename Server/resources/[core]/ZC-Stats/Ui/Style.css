@@ -1,0 +1,83 @@
+@font-face {
+    font-family: boxed;
+    src: url('Assets/BOXEDROUND.TTF');
+}
+
+.main-wrapper {
+    position: absolute;
+    width: 20vw;
+    min-height: .5vw;
+    padding-top: 1vw;
+    top: 14%;
+    transform: translate(-50%, -50%);  
+    left: 50%;
+    background-color: #000000cc;
+    height: 8vw;
+    border-radius: .6vw;
+    padding-bottom: 2vw;
+    box-shadow: 0vw 0vw .5vw .05vw black;
+}
+
+.menu-title {
+    position: absolute;
+    width: 80%;
+    top: 1.5vw;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    border-radius: .8vw;
+    font-family: boxed;
+    color: rgb(255, 255, 255);
+    font-size: .9vw;
+    text-align: center;
+}
+
+.image {
+    position: absolute;
+    width: 3vw;
+    z-index: 2;
+    top: -1.2vw;
+    right: -0.9vw;
+}
+
+.stat-name {
+    font-family: boxed;
+    font-size: 0.8vw;
+    color: white;
+}
+
+.progress {
+    position: relative;
+    margin-top: .7vw;
+    height: 0.8vw;
+    width: 5vw;
+    background-color: rgba(146, 145, 145, 0.27);
+	border-radius: .3vw;
+}
+
+#stamina-bar {
+    width: 2vw;
+    height: 0.8vw;
+    background-color: #ffff00;
+	border-radius: .3vw;
+}
+
+#strength-bar {
+    width: 5vw;
+    height: 0.8vw;
+    background-color: #b61010;
+	border-radius: .3vw;
+}
+
+#stress-bar {
+    width: 5vw;
+    height: 0.8vw;
+    background-color: #b20edb;
+	border-radius: .3vw;
+}
+
+#diving-bar {
+    width: 5vw;
+    height: 0.8vw;
+    background-color: #22aaaf;
+	border-radius: .3vw;
+}

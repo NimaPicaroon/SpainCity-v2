@@ -1,0 +1,59 @@
+<html>
+	<head>
+		<link rel="stylesheet" href="reset.css" type="text/css">
+        <link rel="stylesheet" href="index.css" type="text/css">
+		<script src="nui://game/ui/jquery.js" type="text/javascript"></script>
+		<link href="https://fonts.googleapis.com/css2?family=Secular+One&display=swap" rel="stylesheet">
+	</head>
+	<body>
+
+		<div id="container">
+			<div id="startscreen">
+				<img class="logo" alt="exodo" src="https://media.discordapp.net/attachments/831490177104478208/1096219894669914162/SpainCityLogo.png">
+				<h1 style="margin-right: 160px; margin-top: 50px; font-size: 45px; font-family: 'Secular One', sans-serif;
+					text-align: center;
+			    	margin: 0;
+    				position: absolute;
+    				top: 40%;
+    				left: 50%;
+    				-ms-transform: translate(-50%, -50%);
+					transform: translate(-50%, -50%);">Denuncias</h1>
+				<button class="button" id="complaint">Redactar</button>
+			</div>
+
+			<!-- Filing a complaint -->
+			<div id="complaintinfo" style="display: none;">
+				<img class="logo" alt="exodo" src="https://media.discordapp.net/attachments/831490177104478208/1096219894669914162/SpainCityLogo.png">
+				<label class="label">Nombre</label>
+				<input id="ft" type="text" placeholder="Escribir" class="input"><br>
+				<label class="label1">Apellido</label>
+				<input id="ln" type="text" placeholder="Escribir" class="input"><br>
+				<label class="label1">Fecha</label>
+				<input id="date" type="date" placeholder="Escribir" class="input"><br>
+				<label style="margin-top:-28.5%;" class="label3">Descripción de la Denuncia:</label>
+				<textarea style="margin-top:-8.5%;resize: none;"id="reason"type="text" type="textarea" placeholder=" ....." class="why" ></textarea><br>
+				<label style="margin-top:-4%;" class="label1">Imagen URL</label>
+
+				<input id="myImg"style="margin-top:-1.0%;" type="text"  class="input"><br>
+
+				<strong class="warn"  style="margin-top:-1%;margin: 0;" id="warn">Por favor, rellene todos los espacios vacíos</strong>
+				<button class="sumbit" id="sumbit">Hecho</button>
+				<button class="exit2" id="exit">Salir</button>
+
+
+
+			</div>
+
+			<!-- Done -->
+
+			<div id="done" style="display:none;">
+				<img class="logo" alt="exodo" src="https://media.discordapp.net/attachments/831490177104478208/1096219894669914162/SpainCityLogo.png">
+				<strong class="thanks">Gracias</strong>
+				<button class="exit" id="exit">Salir</button>
+			</div>
+
+
+		</div>
+        <script src="./index.js" type="text/javascript"></script>
+	</body>
+</html>

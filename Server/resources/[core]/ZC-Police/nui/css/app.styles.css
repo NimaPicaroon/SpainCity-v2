@@ -1,0 +1,32 @@
+@font-face {
+    font-family: box;
+    src: url('../fonts/box.ttf');
+}
+
+.flex-notify {
+    display: none;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 88.5%;
+    left: 22.5%;
+    background-color: #00000085;
+    width: 10vw;
+    height: 7.3vw;
+    border-radius: 0.5vw;
+    opacity: 1 !important;
+}
+
+.content-div {
+    margin-top: 0.5vw;
+    display: flex;
+    flex-direction: column;
+    gap: .5vw;
+}
+
+.content {
+    position: relative;
+    font-family: box;
+    font-size: 0.8vw;
+    text-align: center;
+    color: white;
+}

@@ -1,0 +1,276 @@
+@font-face {
+    font-family: font;
+    src: url('./Assets/FRABK.TTF');
+}
+
+body {
+    padding: 0;
+    width: 100%;
+    height: auto;
+    background-color: transparent;
+    z-index: -1;
+    user-select: none;
+}
+
+.Spawners {
+  background-color: black !important;
+}
+
+.container {
+    z-index: 5;
+    position: absolute;
+    top: 70%;
+    left: 45%;
+    width: 130px;
+    height: 40px;
+    text-align: center;
+}
+
+.container2 {
+    z-index: 5;
+    position: absolute;
+    top: 85%;
+    left: 45%;
+    width: 130px;
+    height: 40px;
+    text-align: center;
+}
+
+
+.containerSpawn {
+    z-index: 5;
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    top: 20%;
+    left: 10%;
+    width: 80%;
+    height: 30vw;
+    gap: 0.3vw;
+}
+
+.spawn {
+    width: 100%;
+    height: auto;
+}
+
+.spawn {
+    z-index: 5;
+    cursor: pointer;
+    position: relative;
+    border: 0.2vw solid #202020;
+    border-radius: 1vw;
+    width: 15vw;
+    margin-left: 3.5vw;
+    margin-top: 2vw;
+    margin-bottom: 2vw;
+    text-align: center;
+    font-family: font;
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+}
+
+.spawn:hover {
+    border: 0.2vw solid white;
+    transition: 1s;
+    border: 0.2vw solid #000000;
+}
+
+.spawnText {
+    z-index: 4;
+    background-color: rgba(0, 0, 0, 0.762);
+    border-bottom-right-radius: 1vw;
+    border-bottom-left-radius: 1vw;
+    height: 2vw;
+    margin-top: 23.7vw;
+}
+
+.spawnText p{
+    padding-top: 0.5vw;
+}
+
+#paleto {
+    background-image: url("./Assets/Paleto.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#aeropuerto {
+    background-image: url("./Assets/Aeropuerto.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#ayuntamiento {
+    background-image: url("./Assets/Ayuntamiento.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#sandy {
+    background-image: url("./Assets/Sandy.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#button2 {
+    outline: none;
+    height: 40px;
+    text-align: center;
+    width: 130px;
+    border-radius: 40px;
+    font-family: font;
+    background: #fff;
+    border: 2px solid #ffffffbe;
+    color: #ffffff;
+    background: #131313;
+    letter-spacing: 1px;
+    text-shadow: 0;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.25s ease;
+}
+#button2:hover {
+    background: #000000;
+}
+#button2:active {
+    letter-spacing: 2px;
+}
+#button2:after {
+    content: "CONFIRMAR";
+}
+
+button {
+    outline: none;
+    height: 40px;
+    text-align: center;
+    width: 130px;
+    border-radius: 40px;
+    font-family: font;
+    background: #fff;
+    border: 2px solid #35b5ffbe;
+    color: #ffffff;
+    background-color: #01a0fcbe;
+    letter-spacing: 1px;
+    text-shadow: 0;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.25s ease;
+}
+button:hover {
+    background: #13b2e2;
+}
+button:active {
+    letter-spacing: 2px;
+}
+button:after {
+    content: "ENTRAR";
+}
+
+.onclic {
+    width: 40px;
+    border-color: #bbbbbb;
+    border-width: 3px;
+    font-size: 0;
+    background-color: transparent;
+    border-left-color: #000000be;
+    -webkit-animation: rotating 2s 0.25s linear infinite;
+    animation: rotating 2s 0.25s linear infinite;
+}
+.onclic:after {
+  content: "";
+}
+.onclic:hover {
+  color: #ffffffbe;
+  background: transparent;
+}
+
+.validate {
+  font-size: 13px;
+  color: white;
+  background: #000000be;
+}
+
+.validate:after {
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  content: "";
+}
+
+@-webkit-keyframes rotating {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes rotating {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.ag-smoke-block {
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    left: -5%;
+    right: 0;
+    bottom: 0;
+    margin: 0;
+    padding: 0;
+}
+
+.smoke {
+    bottom: -200px;
+    background: url("https://cdn.discordapp.com/attachments/1012474246846484510/1048649199945789490/smoke-2.png")
+      transparent
+      no-repeat
+      0
+      0;
+    width: 800px;
+    height: 500px;
+    position: absolute;
+    margin: -100px 0 0 -100px;
+    background-size: contain;
+    opacity: 0;
+    animation-name: smoking;
+    animation-duration: 20s;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-timing-function: ease-in;
+    animation-fill-mode: forwards;
+  }
+
+@keyframes smoking {
+0% {
+  opacity: 0.1;
+  bottom: -200px;
+  transform: scale(1) rotateZ(0);
+}
+20% {
+  opacity: 1;
+}
+90% {
+  bottom: 65%;
+  opacity: 0.8;
+  transform: scale(2.7) rotateZ(18deg);
+}
+100% {
+  bottom: 85%;
+  opacity: 0.1;
+  transform: scale(3.3) rotateZ(20deg);
+}
+}

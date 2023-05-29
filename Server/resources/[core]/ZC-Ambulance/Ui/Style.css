@@ -1,0 +1,34 @@
+@font-face {
+    font-family: box;
+    src: url('Assets/box.ttf');
+}
+
+.flex-notify {
+    display: none;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 85%;
+    left: 50%;
+    background-color: #00000085;
+    width: 20vw;
+    height: 2.75vw;
+    border-radius: 0.5vw;
+    opacity: 1 !important;
+}
+
+.content-div {
+    margin-top: 0.5vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: .8vw;
+}
+
+.content {
+    position: relative;
+    font-family: box;
+    font-size: 1vw;
+    text-align: center;
+    color: white;
+}

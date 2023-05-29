@@ -1,0 +1,78 @@
+@font-face {
+    font-family: boxed;
+    src: url('Assets/BOXEDROUND.TTF');
+}
+
+@font-face {
+    font-family: justsignature;
+    src: url('./Assets/JustSignature.woff');
+}
+
+.idcard {
+    position: absolute;
+    top: 30%;  
+    right: 2%;
+    width: 20vw;
+    height: 15vw;
+    background-image: url('https://cdn.discordapp.com/attachments/662091435226431508/967769391204819025/idcard.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.driver {
+    position: absolute;
+    top: 30%;  
+    right: 2%;
+    width: 20vw;
+    height: 15vw;
+    background-image: url('https://cdn.discordapp.com/attachments/662091435226431508/967769390634369044/driverlicense.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+span {
+    font-family: boxed;
+    font-size: 0.6vw;
+    color: white;
+    text-align: center;
+}
+
+.mugshot {
+    position: absolute;
+    top: 11%;  
+    left: 2.2%; 
+    border-top-left-radius: 0.5vw;
+}
+
+.name {
+    position: absolute;
+    top: 30%;  
+    left: 32%; 
+}
+
+.birth {
+    position: absolute;
+    top: 44%;  
+    left: 32%; 
+}
+
+.gender {
+    position: absolute;
+    top: 44%;  
+    left: 55%; 
+}
+
+.nation {
+    position: absolute;
+    top: 44%;  
+    left: 65%; 
+}
+
+.signature {
+    font-family: justsignature;
+    position: absolute;
+    top: 58%;  
+    left: 32%; 
+}

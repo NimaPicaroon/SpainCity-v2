@@ -1,0 +1,71 @@
+# Ports
+endpoint_add_tcp "0.0.0.0:30120"
+endpoint_add_udp "0.0.0.0:30120"
+
+set sv_requestParanoia 3
+
+# Seguridad datos clientes
+sv_endpointprivacy true
+
+sv_authMinTrust 4 
+
+# Conexión MYSQL
+set mysql_connection_string "user=Main;password=roUp8T26#LyP;host=188.213.7.141;port=3306;database=server_main;charset=utf8mb4"
+set mysql_slow_query_warning 3000
+set mysql_ui true
+
+# Scripts
+exec data/resources.cfg
+
+# Scripthoock
+sv_scriptHookAllowed 0
+
+# Rcon password
+rcon_password "root"
+
+# Languaje
+sets locale "es-ES" 
+
+# Project Name
+sets sv_projectName "^6SPAINCITY RP V2🔥"
+# Project Name Description
+sets sv_projectDesc "● NO WHITELIST ● MASCOTAS ● COCHES REALES ● BANDAS GRATIS ● TINDER & INSTAGRAM ● discord.gg/spaincity"
+
+# Name
+sv_hostname "[^1E^3S^1P^7]^1 Spain^3City^1RP |💲 10K Iniciales ^6|🔪 BANDAS GRATIS DISPONIBLES ^5|🚓 CNP Y CRUZ ROJA^6 | 👷‍♂️ STAFF 24/7 ^3|🔫 NIVELES DE O.C. ^8| 🚁 COCHES REALES ^4| 👕 ROPA REAL ^5| 📡 discord.gg/spaincity | [LAT] [LATAM] [ARG]"
+
+sets Discord "discord.gg/spaincity"
+
+sets banner_detail "https://i.imgur.com/sB62FeA.png"
+sets banner_connecting "https://i.imgur.com/sB62FeA.png"
+
+# Lista
+# sv_master1 ""
+
+# Logo
+load_server_icon data/logo.png
+
+# Tags
+sets tags "esx, roleplay, spain, rp, esp, español, latam , jobs, lat, cars, ems, drugs, custom, reallife, serious, custom cars, cops, economy, españa, españoles, policia española, server español, guardia civil, cnp, cuerpo nacional de policia, gc, el mejor server, servidor en español, coches reales, mafias, drogas, dinero, mucho dinero, rol serio, servidor serio, serio, admins activos, administracion, mafias libres, mapeos, facilidad para cargos, cargos libres, garage central, comisaria real, helicopteros, barcos, aviones, españita, inventario, motos, motos reales, barcos reales, casas de lujo, casas, cosas baratas, puntos ocultos, drogas ocultas, buen server, espa, españ, server habla hispana, habla hispana, server hispano, latinoamerica, uruguay, argentina, gente española, ciudad española, la ciudad de españa, top españa, el mejor de españa, inaguracion, espana, youtubers, twitch, colombia, mexico, ciudad de lujo, drogas exclusivas, exclusivo, marihuana, cocaina, puntos de droga ocultos, rol serio, empresas, bolivia, costarica, cuba, brazil, brasil, cataluña, madrid, barcelona, coches personalizados, armas personalizadas, racing, armamento, muchas armas, carreras de coches, carreras de coches españolas, circuito, vida real española, vida real, londoneye, serio, economia, economia española, economia real, realista, bandas, auron, eye, auronplay, coches, peds, lspd, argentina, bolivia, colombia, venezuela, eeuu, canada, marruecos, uruguay, exodorp, project176, project 176, colombia, mexico"
+
+# Admin
+add_ace group.admin command allow
+add_ace group.admin command.quit deny
+add_principal identifier.license:9b7d895c323517a30f137d06d744caa565600912 group.admin # luischr7
+
+# Onesync
+set onesync_enableInfinity on
+
+# Puremode
+#sets sv_pureLevel 1
+
+# Mumble Voip
+set mumble_maxClientsPerIP 200
+
+# Max Players
+sv_maxclients 200
+
+# Fivem Key
+#Licencia principal  
+#sv_licenseKey cfxk_1DkSGHYYiXLOqZNzwgFmW_14J3Bv
+sv_licenseKey cfxk_15CzOW0y8KL8GSrAoK3QP_2eBYiJ

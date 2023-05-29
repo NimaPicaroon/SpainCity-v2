@@ -1,0 +1,29 @@
+@font-face {
+    font-family: box;
+    src: url('../fonts/box.ttf');
+}
+
+.main-frame {
+    position: absolute;
+    top: 50%;
+}
+
+.container {
+    padding: .3vw .5vw;
+    border-radius: .4vw;
+    background-color: #001f43d8;
+    border: 0.1vw solid #4985ff;
+    border-radius: 0.3vw;
+    box-shadow:  0 0 0.25em  rgba(67,71,85,0.27), 0 0.25vw 1vw 0 rgba(0, 89, 255, 0.25);
+}
+
+.text {
+    font-family: box;
+    font-size: .8vw;
+    color: #fff;
+    text-shadow:  0 0 .3vw #000;
+}
+
+strong {
+    color: #0068f0;
+}

@@ -1,0 +1,104 @@
+@font-face {
+    font-family: boxed;
+    src: url('Assets/BOXEDROUND.TTF');
+}
+
+body {
+    overflow: hidden;
+}
+
+.hud-wrapper {
+    display: none;
+    position: absolute;
+    bottom: 1.5vh;
+    left: 1.5vw;
+}
+
+.flex-hud {
+    display: flex;
+    flex-direction: row;
+    gap: .3vw;
+}
+
+.box {
+    position: relative;
+    /* margin-left: 0.3vw; */
+}
+
+.icon {
+    font-size: .65vw;
+    margin-right: -.05vw;
+    display: inline-block;
+}
+
+.bar {
+    position: relative;
+    display: inline-block;
+    width: 1.8vw;
+    height: 0.45vw;
+    background-color: rgba(20, 19, 19, .65);
+	border-radius: .3vw;
+    box-shadow: inset 0 0 .15vw white;
+}
+
+.bar div {
+    transition: 0.3s;
+    width: 100%;
+    height: 100%;
+    border-radius: 0.3vw;
+}
+
+#shield-bar .bar { box-shadow: inset 0 0 .15vw #0094E8; }
+#health-bar .bar { box-shadow: inset 0 0 .15vw #eb4646; }
+#hunger-bar .bar { box-shadow: inset 0 0 .15vw #FD9443; }
+#thirst-bar .bar { box-shadow: inset 0 0 .15vw #00C5BE; }
+#stress-bar .bar { box-shadow: inset 0 0 .15vw #FF00D7; }
+#water-bar  .bar { box-shadow: inset 0 0 .15vw #799FB4; }
+
+#shield {
+    background-color: #0094E8;
+    box-shadow: 0 0 .3vw #0094E8;
+}
+
+#health {
+    background-color: #eb4646;
+    box-shadow: 0 0 .3vw #eb4646;
+}
+
+#hunger {
+    background-color: #FD9443;
+    box-shadow: 0 0 .3vw #FD9443;
+}
+
+#thirst {
+    background-color: #00C5BE;
+    box-shadow: 0 0 .3vw #00C5BE;
+}
+
+#stress {
+    background-color: #FF00D7;
+    box-shadow: 0 0 .3vw #FF00D7;
+}
+
+#water {
+    background-color: #799FB4;
+    box-shadow: 0 0 .3vw #799FB4;
+}
+
+
+
+@keyframes pulse {
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: .5;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.pulse-animation {
+    animation: pulse .75s infinite;
+}

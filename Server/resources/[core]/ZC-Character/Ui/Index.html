@@ -1,0 +1,891 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Style.css" type="text/css">
+    <script src="Script.js"></script>
+    <title>ZC-Character</title>
+</head>
+    <body>
+        <div class="camera2-wrapper">
+            <div class="flex-camera2">
+                <div class="button2" id="head">
+                    <img class="image-camera" src="https://cdn.discordapp.com/attachments/662091435226431508/948643856117813398/face.png">
+                </div>
+                <div class="button2" id="shoes">
+                    <img class="image-camera" src="https://cdn.discordapp.com/attachments/662091435226431508/948643856327524362/footprint.png">
+                </div>
+                <div class="button2" id="body">
+                    <img class="image-camera" src="https://cdn.discordapp.com/attachments/662091435226431508/948643856537227284/personicon.png">
+                </div>
+            </div>
+        </div>
+        <div class="camera-wrapper" style="display: none;">
+            <div class="flex-camera">
+                <div class="button" id="cam">
+                    <img class="image-camera" src="https://cdn.discordapp.com/attachments/662091435226431508/948645415744581692/camera.png">
+                </div>
+                <div class="button" id="cam-1">
+                    <img class="image-camera" src="https://cdn.discordapp.com/attachments/662091435226431508/948609966099558500/rotatepj.png" id="cam-1">
+                </div>
+                <div class="button" id="cam-2">
+                    <img class="image-camera" src="https://cdn.discordapp.com/attachments/662091435226431508/948609965839499314/rotate1.png" id="cam-2">
+                </div>
+                <div class="button" id="cam-3">
+                    <img class="image-camera" src="https://cdn.discordapp.com/attachments/662091435226431508/948609965642371192/rotat2.png" id="cam-3">
+                </div>
+            </div>
+        </div>
+        <div class="main-wrapper" style="display: none;">
+            <img class="logo" src="Assets/wave.png">
+            <div class="left-bar">
+                <div class="flex-buttons">
+                    <div class="category1-button">
+                        <img class="image" style="left: 50%; top: 10%;" src="https://cdn.discordapp.com/attachments/662091435226431508/941829212191473674/fingerprint.png" id="category-1">
+                    </div>
+                    <hr style="width: 2.8vw; position: absolute; transform: translate(-50%, -50%); left: 50%; top: 14%;" id ="hr1">
+                    <div class="category2-button">
+                        <img class="image" style="left: 50%; top: 19.5%;" src="https://cdn.discordapp.com/attachments/662091435226431508/941829211960791090/Atributos.png" id="category-2">
+                    </div>
+                    <hr style="width: 2.8vw; position: absolute; transform: translate(-50%, -50%); left: 50%; top: 23%;" id ="hr2">
+                    <div class="category3-button">
+                        <img class="image" style="left: 50%; top: 28%;" src="https://cdn.discordapp.com/attachments/662091435226431508/942550396105289758/Ropa.png" id="category-3">
+                    </div>
+                    <hr style="width: 2.8vw; position: absolute; transform: translate(-50%, -50%); left: 50%; top: 32%;" id ="hr3">
+                    <div class="accept-button">
+                        <img class="image" style="width: 2.3vw; left: 50%; top: 90%;" src="https://cdn.discordapp.com/attachments/662091435226431508/948607387256893461/Save.png" id="accept">
+                    </div>
+                </div>
+            </div>
+
+            <div class="flex-identity">
+                <span class="text">Atributos Genéticos</span>
+                <hr style="width: 90%; position: absolute; transform: translate(-50%, -50%); left: 52.5%; top: 8%;">
+                <div class="picker">
+                    <span style="right: 26%; top:-3.5vw;" class="subtext">Sexo: <output id="sex_value">Sin determinar</output></span>
+                    <div class="flex-sex">
+                        <div style="margin-top: 0.5vw;">
+                            <img class="picker_image" id="male" style="left: 30%;" src="https://cdn.discordapp.com/attachments/662091435226431508/942502548345065563/Chico.png">
+                        </div>
+                        <div style="margin-top: 0.5vw;">
+                            <img class="picker_image" id="female" style="left: 20%;" src="https://cdn.discordapp.com/attachments/662091435226431508/942525183355400222/chica.png">
+                        </div>
+                    </div>
+                </div>
+
+                <div style="left: 52.5%;" class="bar">
+                    <hr style="width: 90%;">
+                </div>
+
+                <div class="ranger">
+                    <span class="subtext">Piel: <output name="skin" id="ranger_value">0</output></span>
+                    <input type="range" min="0" max="45" value="0" step="1" id="skin"/>
+                </div>
+
+                <div style="left: 52.5%;" class="bar">
+                    <hr style="width: 90%;">
+                </div>
+
+                <div class="ranger">
+                    <span class="subtext">Apertura de los ojos: <output name="eyeop" id="ranger_value">0</output></span>
+                    <input type="range" min="0" max="10" value="0" step="1" id="eyeop"/>
+                </div>
+
+                <div style="margin-top: 1vw;" class="color-picker">
+                    <span style="right: 26%;" class="subtext">Color de ojos:</span>
+
+                    <div style="position:absolute; right: 56%;" class="input">
+                        <div class="type-radio">
+                            <label for="eye1">
+                                <input type="radio" name="eyecolor" class="eyecolor" value="0" id="eye1" checked>
+                                <span class="color selectedColor" id="eye1" data-color="#525e37"></span>
+                            </label>
+                                <label for="eye2">
+                                <input type="radio" name="eyecolor" class="eyecolor" value="1" id="eye2">
+                                <span class="color" id="eye2" data-color="#263419"></span>
+                            </label>
+                                <label for="eye3">
+                                <input type="radio" name="eyecolor" class="eyecolor" value="2" id="eye3">
+                                <span class="color" id="eye3" data-color="#83b7d5"></span>
+                            </label>
+                                <label for="eye4">
+                                <input type="radio" name="eyecolor" class="eyecolor" value="3" id="eye4">
+                                <span class="color" id="eye4" data-color="#3e66a3"></span>
+                            </label>
+                            <label for="eye5">
+                                <input type="radio" name="eyecolor" class="eyecolor" value="4" id="eye5">
+                                <span class="color" id="eye5" data-color="#8d6833"></span>
+                            </label>
+                                <label for="eye6">
+                                <input type="radio" name="eyecolor" class="eyecolor" value="5" id="eye6">
+                                <span class="color" id="eye6"  data-color="#523711"></span>
+                            </label>
+                                <label for="eye7">
+                                <input type="radio" name="eyecolor" class="eyecolor" value="6" id="eye7">
+                                <span class="color" id="eye7" data-color="#d08418"></span>
+                            </label>
+                                <label for="eye9">
+                                <input type="radio" name="eyecolor" class="eyecolor" value="8" id="eye9">
+                                <span class="color" id="eye9" data-color="#bebebe"></span>
+                            </label>
+                                <label for="eye13">
+                                <input type="radio" name="eyecolor" class="eyecolor" value="12" id="eye13">
+                                <span class="color" id="eye13" data-color="#0d0d0c"></span>
+                            </label>
+                        </div>
+                    </div>
+                </div>
+
+                <div style="left: 52.5%;" class="bar">
+                    <hr style="width: 90%;">
+                </div>
+
+                <div class="ranger">
+                    <span class="subtext">Cara: <output name="face" id="ranger_value">0</output></span>
+                    <input type="range" min="0" max="45" value="0" step="1" id="face"/>
+                </div>
+
+                <div class="ranger">
+                    <span class="subtext">Cara 2: <output name="face_2" id="ranger_value">0</output></span>
+                    <input type="range" min="-1" max="45" value="-1" step="1" id="face_2"/>
+                </div>
+
+                <div style="left: 52.5%;" class="bar">
+                    <hr style="width: 90%;">
+                </div>
+
+                <div class="ranger">
+                    <span class="subtext">Ancho de la nariz: <output name="nosew" id="ranger_value">0</output></span>
+                    <input type="range" min=-10 max="10" value="0" step="1" id="nosew"/>
+                </div>
+                <div class="ranger">
+                    <span class="subtext">Altura de la nariz: <output name="noseh" id="ranger_value">0</output></span>
+                    <input type="range" min=-10 max="10" value="0" step="1" id="noseh"/>
+                </div>
+                <div class="ranger">
+                    <span class="subtext">Nariz puntiaguda: <output name="nosepl" id="ranger_value">0</output></span>
+                    <input type="range" min=-10 max="10" value="0" step="1" id="nosepl"/>
+                </div>
+                <div class="ranger">
+                    <span class="subtext">Dorso de la nariz: <output name="noset" id="ranger_value">0</output></span>
+                    <input type="range" min=-10 max="10" value="0" step="1" id="noset"/>
+                </div>
+                <div class="ranger">
+                    <span class="subtext">Puente de la nariz: <output name="nosebh" id="ranger_value">0</output></span>
+                    <input type="range" min=-10 max="10" value="0" step="1" id="nosebh"/>
+                </div>
+                <div class="ranger">
+                    <span class="subtext">Longitud de la nariz: <output name="nosel" id="ranger_value">0</output></span>
+                    <input type="range" min=-10 max="10" value="0" step="1" id="nosel"/>
+                </div>
+
+                <div class="bar">
+                    <hr style="width: 90%;">
+                </div>
+                <div class="ranger">
+                    <span class="subtext">Altura de las cejas: <output name="eyebh" id="ranger_value">0</output></span>
+                    <input type="range" min=-10 max="10" value="0" step="1" id="eyebh"/>
+                </div>
+                <div class="ranger">
+                    <span class="subtext">Alineamiento de las cejas: <output name="eyebf" id="ranger_value">0</output></span>
+                    <input type="range" min=-10 max="10" value="0" step="1" id="eyebf"/>
+                </div>
+
+                <div class="bar">
+                    <hr style="width: 90%;">
+                </div>
+
+                <div class="ranger">
+                    <span class="subtext">Altura del pómulo: <output name="cbh" id="ranger_value">0</output></span>
+                    <input type="range" min=-10 max="10" value="0" step="1" id="cbh"/>
+                </div>
+                <div class="ranger">
+                    <span class="subtext">Ancho del pómulo: <output name="cbw" id="ranger_value">0</output></span>
+                    <input type="range" min=-10 max="10" value="0" step="1" id="cbw"/>
+                </div>
+
+                <div class="ranger">
+                    <span class="subtext">Ancho de la mejilla: <output name="chw" id="ranger_value">0</output></span>
+                    <input type="range" min=-10 max="10" value="0" step="1" id="chw"/>
+                </div>
+
+                <div class="bar">
+                    <hr style="width: 90%;">
+                </div>
+
+                <div class="ranger">
+                    <span class="subtext">Grosor de los labios: <output name="lipst" id="ranger_value">0</output></span>
+                    <input type="range" min=-10 max="10" value="0" step="1" id="lipst"/>
+                </div>
+
+                <div class="bar">
+                    <hr style="width: 90%;">
+                </div>
+
+                <div class="ranger">
+                    <span class="subtext">Ancho de la mandíbula: <output name="jbw" id="ranger_value">0</output></span>
+                    <input type="range" min=-10 max="10" value="0" step="1" id="jbw"/>
+                </div>
+
+                <div class="ranger">
+                    <span class="subtext">Longitud de la mandíbula: <output name="jbbl" id="ranger_value">0</output></span>
+                    <input type="range" min=-10 max="10" value="0" step="1" id="jbbl"/>
+                </div>
+
+                <div class="ranger">
+                    <span class="subtext">Descenso de la mandíbula: <output name="chbbl" id="ranger_value">0</output></span>
+                    <input type="range" min=-10 max="10" value="0" step="1" id="chbbl"/>
+                </div>
+
+                <div class="bar">
+                    <hr style="width: 90%;">
+                </div>
+
+                <div class="ranger">
+                    <span class="subtext">Longitud de la barbilla: <output name="chbw" id="ranger_value">0</output></span>
+                    <input type="range" min=-10 max="10" value="0" step="1" id="chbw"/>
+                </div>
+
+                <div class="ranger">
+                    <span class="subtext">Ancho de la barbilla: <output name="chbble" id="ranger_value">0</output></span>
+                    <input type="range" min=-10 max="10" value="0" step="1" id="chbble"/>
+                </div>
+
+                <div class="ranger">
+                    <span class="subtext">Agujero de la barbilla: <output name="chho" id="ranger_value">0</output></span>
+                    <input type="range" min=-10 max="10" value="0" step="1" id="chho"/>
+                </div>
+
+                <div class="bar">
+                    <hr style="width: 90%;">
+                </div>
+
+                <div class="ranger">
+                    <span class="subtext">Ancho del cuello: <output name="neckt" id="ranger_value">0</output></span>
+                    <input type="range" min=-10 max="10" value="0" step="1" id="neckt"/>
+                </div>
+
+                <div class="bar">
+                    <hr style="width: 90%;">
+                </div>
+
+                <div class="ranger">
+                    <span class="subtext">Opacidad de manchas corporales: <output name="blemishes_2" id="ranger_value">0</output></span>
+                    <input type="range" min="0" max="10" value="0" step="1" id="blemishes_2"/>
+                </div>
+
+                <div class="ranger">
+                    <span class="subtext">Manchas corporales: <output name="blemishes_1" id="ranger_value">0</output></span>
+                    <input type="range" min="0" max="45" value="0" step="1" id="blemishes_1"/>
+                </div>
+
+                <div style="left: 52.5%;" class="bar">
+                    <hr style="width: 90%;">
+                </div>
+
+                <div class="ranger">
+                    <span class="subtext">Grosor de arrugas: <output name="age_2" id="ranger_value">0</output></span>
+                    <input type="range" min="0" max="10" value="0" step="1" id="age_2"/>
+                </div>
+
+                <div class="ranger">
+                    <span class="subtext">Arrugas: <output name="age_1" id="ranger_value">0</output></span>
+                    <input type="range" min="0" max="45" value="0" step="1" id="age_1"/>
+                </div>
+
+                <div style="left: 52.5%;" class="bar">
+                    <hr style="width: 90%;">
+                </div>
+
+                <div class="ranger">
+                    <span class="subtext">Nivel de bronceado: <output name="sun_2" id="ranger_value">0</output></span>
+                    <input type="range" min="0" max="10" value="0" step="1" id="sun_2"/>
+                </div>
+
+                <div class="ranger">
+                    <span class="subtext">Bronceado: <output name="sun_1" id="ranger_value">0</output></span>
+                    <input type="range" min="0" max="45" value="0" step="1" id="sun_1"/>
+                </div>
+
+                <div style="left: 52.5%;" class="bar">
+                    <hr style="width: 90%;">
+                </div>
+
+                <div class="ranger">
+                    <span class="subtext">Nivel de complexión: <output name="complexion_2" id="ranger_value">0</output></span>
+                    <input type="range" min="0" max="10" value="0" step="1" id="complexion_2"/>
+                </div>
+
+                <div class="ranger">
+                    <span class="subtext">Complexión: <output name="complexion_1" id="ranger_value">0</output></span>
+                    <input type="range" min="0" max="45" value="0" step="1" id="complexion_1"/>
+                </div>
+
+                <div class="bar">
+                    <hr style="width: 90%;">
+                </div>
+
+                <div class="ranger">
+                    <span class="subtext">Opacidad del rubor: <output name="blush_2" id="ranger_value">0</output></span>
+                    <input type="range" min="0" max="10" value="0" step="1" id="blush_2"/>
+                </div>
+                <div class="ranger">
+                    <span class="subtext">Rubor: <output name="blush_1" id="ranger_value">0</output></span>
+                    <input type="range" min="0" max="10" value="0" step="1" id="blush_1"/>
+                </div>
+                
+                <div class="ranger">
+                    <span class="subtext">Color del rubor: <output name="blush_3" id="ranger_value">0</output></span>
+                    <input type="range" min="0" max="10" value="0" step="1" id="blush_3"/>
+                </div>
+
+                <div class="bar">
+                    <hr style="width: 90%;">
+                </div>
+
+                <div class="ranger">
+                    <span class="subtext">Opacidad de pecas: <output name="moles_2" id="ranger_value">0</output></span>
+                    <input type="range" min="0" max="10" value="0" step="1" id="moles_2"/>
+                </div>
+                
+                <div class="ranger">
+                    <span class="subtext">Pecas: <output name="moles_1" id="ranger_value">0</output></span>
+                    <input type="range" min="0" max="10" value="0" step="1" id="moles_1"/>
+                </div>
+                
+            </div>
+
+            <div class="flex-face">
+                <span class="text">Atributos faciales</span>
+                <hr style="width: 90%; position: absolute; transform: translate(-50%, -50%); left: 52.5%; top: 8%;">
+
+                <div class="ranger">
+                    <span class="subtext">Tamaño de barba: <output name="beard_2" id="ranger_value">0</output></span>
+                    <input type="range" min="0" max="10" value="0" step="1" id="beard_2"/>
+                </div>
+                
+                <div class="ranger">
+                    <span class="subtext">Tipo de barba: <output name="beard_1" id="ranger_value">0</output></span>
+                    <input type="range" min="0" max="50" value="0" step="1" id="beard_1"/>
+                </div>
+
+                <div class="ranger">
+                    <span class="subtext">Color de la barba: <output name="beard_3" id="ranger_value">0</output></span>
+                    <input type="range" min="0" max="45" value="0" step="1" id="beard_3"/>
+                </div>
+
+                <div class="bar">
+                    <hr style="width: 90%;">
+                </div>
+
+                <div class="number">
+                    <span style="left: 48%;" class="style-text">Pelo:</span>
+                    <div class="numbers-input">
+                        <div class="container">
+                            <span data-name="hair_1" class="next"></span>
+                            <span data-name="hair_1" class="prev"></span>
+                            <div id="box">
+                                <label for="hair_1" class="style-label">Variante</label>
+                                <input type="number" id="hair_1" value="0" min="0" data-type="style" max="200">
+                            </div>
+                        </div>
+
+                        <div class="container">
+                            <span data-name="hair_2" class="next"></span>
+                            <span data-name="hair_2" class="prev"></span>
+                            <div id="box">
+                                <label for="hair_2" class="style-label">Textura</label>
+                                <input type="number" id="hair_2" value="0" min="0" data-type="style" max="200">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="ranger">
+                    <span class="subtext">Color de pelo: <output name="hair_color_1" id="ranger_value">0</output></span>
+                    <input type="range" min="0" max="10" value="0" step="1" id="hair_color_1"/>
+                </div>
+                
+                <div class="ranger">
+                    <span class="subtext">Mechas: <output name="hair_color_2" id="ranger_value">0</output></span>
+                    <input type="range" min="0" max="10" value="0" step="1" id="hair_color_2"/>
+                </div>
+
+                <div class="ranger">
+                    <span class="subtext">Degradado: <output name="fade" id="ranger_value">0</output></span>
+                    <input type="range" min="0" max="10" value="0" step="1" id="fade"/>
+                </div>
+
+                <div class="bar">
+                    <hr style="width: 90%;">
+                </div>
+
+                <div class="ranger">
+                    <span class="subtext">Tamaño de ceja: <output name="eyebrows_2" id="ranger_value">0</output></span>
+                    <input type="range" min="0" max="10" value="0" step="1" id="eyebrows_2"/>
+                </div>
+                
+                <div class="ranger">
+                    <span class="subtext">Tipo de ceja: <output name="eyebrows_1" id="ranger_value">0</output></span>
+                    <input type="range" min="0" max="10" value="0" step="1" id="eyebrows_1"/>
+                </div>
+
+                <div class="ranger">
+                    <span class="subtext">Color de las cejas: <output name="eyebrows_3" id="ranger_value">0</output></span>
+                    <input type="range" min="0" max="30" value="0" step="1" id="eyebrows_3"/>
+                </div>
+
+                <div class="bar">
+                    <hr style="width: 90%;">
+                </div>
+
+                <div class="ranger">
+                    <span class="subtext">Espesor de maquillaje: <output name="makeup_2" id="ranger_value">0</output></span>
+                    <input type="range" min="0" max="10" value="0" step="1" id="makeup_2"/>
+                </div>
+                
+                <div class="ranger">
+                    <span class="subtext">Tipo de maquillaje: <output name="makeup_1" id="ranger_value">0</output></span>
+                    <input type="range" min="0" max="10" value="0" step="1" id="makeup_1"/>
+                </div>
+
+                <div class="ranger">
+                    <span class="subtext">Potencia de maquillaje: <output name="makeup_3" id="ranger_value">0</output></span>
+                    <input type="range" min="0" max="10" value="0" step="1" id="makeup_3"/>
+                </div>
+
+                <div class="ranger">
+                    <span class="subtext">Sombra de maquillaje: <output name="makeup_4" id="ranger_value">0</output></span>
+                    <input type="range" min="0" max="10" value="0" step="1" id="makeup_4"/>
+                </div>
+
+                <div class="bar">
+                    <hr style="width: 90%;">
+                </div>
+
+                <div class="ranger">
+                    <span class="subtext">Espesor de pintalabios: <output name="lipstick_2" id="ranger_value">0</output></span>
+                    <input type="range" min="0" max="10" value="0" step="1" id="lipstick_2"/>
+                </div>
+                
+                <div class="ranger">
+                    <span class="subtext">Tipo de pintalabios: <output name="lipstick_1" id="ranger_value">0</output></span>
+                    <input type="range" min="0" max="10" value="0" step="1" id="lipstick_1"/>
+                </div>
+
+                <div class="ranger">
+                    <span class="subtext">Color de pintalabios: <output name="lipstick_3" id="ranger_value">0</output></span>
+                    <input type="range" min="0" max="10" value="0" step="1" id="lipstick_3"/>
+                </div>
+            </div>
+
+            <div class="flex-style">
+                <span class="text">Vestimenta</span>
+                <hr style="width: 90%; position: absolute; transform: translate(-50%, -50%); left: 52.5%; top: 8%;">
+                <div class="number">
+                    <span style="bottom: 0.3vw;" class="style-text">Camiseta:</span>
+                    <div class="numbers-input">
+                        <div class="container">
+                            <span data-name="tshirt_1" class="next"></span>
+                            <span data-name="tshirt_1" class="prev"></span>
+                            <div id="box">
+                                <label for="tshirt_1" class="style-label">Variante</label>
+                                <input type="number" id="tshirt_1" value="0" min="0" data-type="style" max="200">
+                            </div>
+                        </div>
+
+                        <div class="container">
+                            <span data-name="tshirt_2" class="next"></span>
+                            <span data-name="tshirt_2" class="prev"></span>
+                            <div id="box">
+                                <label for="tshirt_2" class="style-label">Textura</label>
+                                <input type="number" id="tshirt_2" value="0" min="0" data-type="style" max="200">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="bar">
+                    <hr style= "width: 90%;">
+                </div>
+
+                <div class="number">
+                    <span style="left: 46%;" class="style-text">Torso:</span>
+                    <div class="numbers-input">
+                        <div class="container">
+                            <span data-name="torso_1" class="next"></span>
+                            <span data-name="torso_1" class="prev"></span>
+                            <div id="box">
+                                <label for="torso_1" class="style-label">Variante</label>
+                                <input type="number" id="torso_1" value="0" min="0" data-type="style" max="200">
+                            </div>
+                        </div>
+
+                        <div class="container">
+                            <span data-name="torso_2" class="next"></span>
+                            <span data-name="torso_2" class="prev"></span>
+                            <div id="box">
+                                <label for="torso_2" class="style-label">Textura</label>
+                                <input type="number" id="torso_2" value="0" min="0" data-type="style" max="200">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="bar">
+                    <hr style="width: 90%;">
+                </div>
+
+                <div class="number">
+                    <span style="left: 45%;" class="style-text">Brazos:</span>
+                    <div class="numbers-input">
+                        <div class="container">
+                            <span data-name="arms" class="next"></span>
+                            <span data-name="arms" class="prev"></span>
+                            <div id="box">
+                                <label for="arms" class="style-label">Variante</label>
+                                <input type="number" id="arms" value="0" min="0" data-type="style" max="200">
+                            </div>
+                        </div>
+
+                        <div class="container">
+                            <span data-name="arms_2" class="next"></span>
+                            <span data-name="arms_2" class="prev"></span>
+                            <div id="box">
+                                <label for="arms_2" class="style-label">Textura</label>
+                                <input type="number" id="arms_2" value="0" min="0" data-type="style" max="200">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="bar">
+                    <hr style="width: 90%;">
+                </div>
+
+                <div class="number">
+                    <span style="left: 41%;" class="style-text">Pantalones:</span>
+                    <div class="numbers-input">
+                        <div class="container">
+                            <span data-name="pants_1" class="next"></span>
+                            <span data-name="pants_1" class="prev"></span>
+                            <div id="box">
+                                <label for="pants_1" class="style-label">Variante</label>
+                                <input type="number" id="pants_1" value="0" min="0" data-type="style" max="200">
+                            </div>
+                        </div>
+
+                        <div class="container">
+                            <span data-name="pants_2" class="next"></span>
+                            <span data-name="pants_2" class="prev"></span>
+                            <div id="box">
+                                <label for="pants_2" class="style-label">Textura</label>
+                                <input type="number" id="pants_2" value="0" min="0" data-type="style" max="200">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="bar">
+                    <hr style="width: 90%;">
+                </div>
+
+                <div class="number">
+                    <span style="left: 42%;" class="style-text">Zapatillas:</span>
+                    <div class="numbers-input">
+                        <div class="container">
+                            <span data-name="shoes_1" class="next"></span>
+                            <span data-name="shoes_1" class="prev"></span>
+                            <div id="box">
+                                <label for="shoes_1" class="style-label">Variante</label>
+                                <input type="number" id="shoes_1" value="0" min="0" data-type="style" max="200">
+                            </div>
+                        </div>
+
+                        <div class="container">
+                            <span data-name="shoes_2" class="next"></span>
+                            <span data-name="shoes_2" class="prev"></span>
+                            <div id="box">
+                                <label for="shoes_2" class="style-label">Textura</label>
+                                <input type="number" id="shoes_2" value="0" min="0" data-type="style" max="200">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="bar">
+                    <hr style="width: 90%;">
+                </div>
+
+                <div class="number">
+                    <span style="left: 45%;" class="style-text">Casco:</span>
+                    <div class="numbers-input">
+                        <div class="container">
+                            <span data-name="helmet_1" class="next"></span>
+                            <span data-name="helmet_1" class="prev"></span>
+                            <div id="box">
+                                <label for="helmet_1" class="style-label">Variante</label>
+                                <input type="number" id="helmet_1" value="-1" min="-1" data-type="style" max="200">
+                            </div>
+                        </div>
+
+                        <div class="container">
+                            <span data-name="helmet_2" class="next"></span>
+                            <span data-name="helmet_2" class="prev"></span>
+                            <div id="box">
+                                <label for="helmet_2" class="style-label">Textura</label>
+                                <input type="number" id="helmet_2" value="0" min="0" data-type="style" max="200">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="bar">
+                    <hr style="width: 90%;">
+                </div>
+
+                <div class="number">
+                    <span style="left: 44%;" class="style-text">Cadena:</span>
+                    <div class="numbers-input">
+                        <div class="container">
+                            <span data-name="chain_1" class="next"></span>
+                            <span data-name="chain_1" class="prev"></span>
+                            <div id="box">
+                                <label for="chain_1" class="style-label">Variante</label>
+                                <input type="number" id="chain_1" value="0" min="0" data-type="style" max="200">
+                            </div>
+                        </div>
+
+                        <div class="container">
+                            <span data-name="chain_2" class="next"></span>
+                            <span data-name="chain_2" class="prev"></span>
+                            <div id="box">
+                                <label for="chain_2" class="style-label">Textura</label>
+                                <input type="number" id="chain_2" value="0" data-type="style" min="0" max="200">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="bar">
+                    <hr style="width: 90%;">
+                </div>
+
+                <div class="number">
+                    <span style="left: 44%;" class="style-text">Chaleco:</span>
+                    <div class="numbers-input">
+                        <div class="container">
+                            <span data-name="bproof_1" class="next"></span>
+                            <span data-name="bproof_1" class="prev"></span>
+                            <div id="box">
+                                <label for="bproof_1" class="style-label">Variante</label>
+                                <input type="number" id="bproof_1" value="0" min="0" data-type="style" max="200">
+                            </div>
+                        </div>
+
+                        <div class="container">
+                            <span data-name="bproof_2" class="next"></span>
+                            <span data-name="bproof_2" class="prev"></span>
+                            <div id="box">
+                                <label for="bproof_2" class="style-label">Textura</label>
+                                <input type="number" id="bproof_2" value="0" min="0" data-type="style" max="200">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="bar">
+                    <hr style="width: 90%;">
+                </div>
+
+                <div class="number">
+                    <span style="left: 46%;" class="style-text">Bolsa:</span>
+                    <div class="numbers-input">
+                        <div class="container">
+                            <span data-name="bags_1" class="next"></span>
+                            <span data-name="bags_1" class="prev"></span>
+                            <div id="box">
+                                <label for="bags_1" class="style-label">Variante</label>
+                                <input type="number" id="bags_1" value="0" min="0" data-type="style" max="200">
+                            </div>
+                        </div>
+
+                        <div class="container">
+                            <span data-name="bags_2" class="next"></span>
+                            <span data-name="bags_2" class="prev"></span>
+                            <div id="box">
+                                <label for="bags_2" class="style-label">Textura</label>
+                                <input type="number" id="bags_2" value="0" min="0" data-type="style" max="200">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="bar">
+                    <hr style="width: 90%;">
+                </div>
+
+                <div class="number">
+                    <span style="left: 46%;" class="style-text">Gafas:</span>
+                    <div class="numbers-input">
+                        <div class="container">
+                            <span data-name="glasses_1" class="next"></span>
+                            <span data-name="glasses_1" class="prev"></span>
+                            <div id="box">
+                                <label for="glasses_1" class="style-label">Variante</label>
+                                <input type="number" id="glasses_1" value="-1" min="-1" data-type="style" max="200">
+                            </div>
+                        </div>
+
+                        <div class="container">
+                            <span data-name="glasses_2" class="next"></span>
+                            <span data-name="glasses_2" class="prev"></span>
+                            <div id="box">
+                                <label for="glasses_2" class="style-label">Textura</label>
+                                <input type="number" id="glasses_2" value="0" min="0" data-type="style" max="200">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="bar">
+                    <hr style="width: 90%;">
+                </div>
+
+                <div class="number">
+                    <span style="left: 46%;" class="style-text">Reloj:</span>
+                    <div class="numbers-input">
+                        <div class="container">
+                            <span data-name="watches_1" class="next"></span>
+                            <span data-name="watches_1" class="prev"></span>
+                            <div id="box">
+                                <label for="watches_1" class="style-label">Variante</label>
+                                <input type="number" id="watches_1" value="-1" min="-1" data-type="style" max="200">
+                            </div>
+                        </div>
+
+                        <div class="container">
+                            <span data-name="watches_2" class="next"></span>
+                            <span data-name="watches_2" class="prev"></span>
+                            <div id="box">
+                                <label for="watches_2" class="style-label">Textura</label>
+                                <input type="number" id="watches_2" value="0" min="0" data-type="style" max="200">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="bar">
+                    <hr style="width: 90%;">
+                </div>
+
+                <div class="number">
+                    <span class="style-text">Pulsera:</span>
+                    <div class="numbers-input">
+                        <div class="container">
+                            <span data-name="bracelets_1" class="next"></span>
+                            <span data-name="bracelets_1" class="prev"></span>
+                            <div id="box">
+                                <label for="bracelets_1" class="style-label">Variante</label>
+                                <input type="number" id="bracelets_1" value="-1" min="-1" data-type="style" max="200">
+                            </div>
+                        </div>
+
+                        <div class="container">
+                            <span data-name="bracelets_2" class="next"></span>
+                            <span data-name="bracelets_2" class="prev"></span>
+                            <div id="box">
+                                <label for="bracelets_2" class="style-label">Textura</label>
+                                <input type="number" id="bracelets_2" value="0" min="0" data-type="style" max="200">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="bar">
+                    <hr style="width: 90%;">
+                </div>
+
+                <div class="number">
+                    <span class="style-text">Máscara:</span>
+                    <div class="numbers-input">
+                        <div class="container">
+                            <span data-name="mask_1" class="next"></span>
+                            <span data-name="mask_1" class="prev"></span>
+                            <div id="box">
+                                <label for="mask_1" class="style-label">Variante</label>
+                                <input type="number" id="mask_1" value="0" data-type="style" min="0" max="200">
+                            </div>
+                        </div>
+
+                        <div class="container">
+                            <span data-name="mask_2" class="next"></span>
+                            <span data-name="mask_2" class="prev"></span>
+                            <div id="box">
+                                <label for="mask_2" class="style-label">Textura</label>
+                                <input type="number" id="mask_2" value="0" data-type="style" min="0" max="200">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="bar">
+                    <hr style="width: 90%;">
+                </div>
+
+                <div class="number">
+                    <span style="left: 40%;" class="style-text">Pendientes:</span>
+                    <div class="numbers-input">
+                        <div class="container">
+                            <span data-name="ears_1" class="next"></span>
+                            <span data-name="ears_1" class="prev"></span>
+                            <div id="box">
+                                <label for="ears_1" class="style-label">Variante</label>
+                                <input type="number" id="ears_1" value="-1" data-type="style" min="-1" max="200">
+                            </div>
+                        </div>
+
+                        <div class="container">
+                            <span data-name="ears_2" class="next"></span>
+                            <span data-name="ears_2" class="prev"></span>
+                            <div id="box">
+                                <label for="ears_2" class="style-label">Textura</label>
+                                <input type="number" id="ears_2" value="0" data-type="style" min="0" max="200">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="bar">
+                    <hr style="width: 90%;">
+                </div>
+
+                <div class="number">
+                    <span style="left: 44%;" class="style-text">Parches:</span>
+                    <div class="numbers-input">
+                        <div class="container">
+                            <span data-name="decals_1" class="next"></span>
+                            <span data-name="decals_1" class="prev"></span>
+                            <div id="box">
+                                <label for="decals_1" class="style-label">Variante</label>
+                                <input type="number" id="decals_1" value="0" data-type="style" min="0" max="200">
+                            </div>
+                        </div>
+
+                        <div class="container">
+                            <span data-name="decals_2" class="next"></span>
+                            <span data-name="decals_2" class="prev"></span>
+                            <div id="box">
+                                <label for="decals_2" class="style-label">Textura</label>
+                                <input type="number" id="decals_2" value="0" data-type="style" min="0" max="200">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
